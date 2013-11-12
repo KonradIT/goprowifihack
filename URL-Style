@@ -1,0 +1,7 @@
+URL structure:
+http://10.5.5.9/camera or bacpac/COMMAND?t=PASSWORD&p=%NUMBER
+
+PASSWORD: Replace by your camera's WiFi Password
+
+Example: http://10.5.5.9/bacpac/SH?t=PASSWORD&p=%01
+
