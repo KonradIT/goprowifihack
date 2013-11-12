@@ -1,0 +1,128 @@
+
+Basics:
+bacpac PW - 00 Turn GoPro OFF
+bacpac PW - 01 Turn GoPro ON
+bacpac SH - 01 Shutter
+bacpac SH - 00 Stop
+camera PV - 02 Preview ON
+camera PV - 00 Preview OFF
+Mode
+camera CM - 00 Video Mode
+camera CM - 01 Photo Mode
+camera CM - 02 Burst Mode
+camera CM - 03 Timelapse Mode
+camera CM - 04 Timer Mode (no longer exists)
+camera CM - 05 Play HDMI
+Orientation
+camera UP - 00 Orientation UP
+camera UP - 01 Orientation DOWN
+video resolutions HERO2 and HERO3 silver:
+camera VR - 00 WVGA 60
+camera VR - 01 WVGA 120
+camera VR - 02 720 30
+camera VR - 03 720 60
+camera VR - 04 960 30
+camera VR - 05 960 48
+camera VR - 06 1080 30
+video resolutions Black edition:
+NOTE: SOME BUTTONS LEAD DIFFERENT RESOLUTIONS!
+camera VR - 03 2.7kCin24
+camera VR - 05 1080 25
+camera VR - 03 720 60
+camera VR - 06 960 48
+Fov:
+camera FV - 00 wide
+camera FV - 01 medium
+camera FV - 02 narrow
+Photo resolution HERO2 and HERO3 silver:
+camera PR - 00 11mpW
+camera PR - 01 8mpM
+camera PR - 02 5mpW
+camera PR - 03 5mpM
+Timelapse Interval:
+camera TI - 00 0,5 sec
+camera TI - 01 1sec
+camera TI - 05 5sec
+camera TI - 0a 10sec
+camera TI - 1e 30sec
+camera TI - 3c 60sec
+Volume:
+camera BS - 00 no sound
+camera BS - 01 70%
+camera BS - 02 100%
+White Balance HERO3 "ONLY IF Protune ON"
+camera WB - 00 auto
+camera WB - 01 3000k
+camera WB - 02 5500k
+camera WB - 03 6500k
+camera WB - 04 CAMRAW
+Continuous Shot (HERO3):
+camera CS - 00 Single
+camera CS - 03 3SPS
+camera CS - 05 5SPS
+camera CS - 0a 10SPS
+Burst Rate HERO3:
+camera BU - 00 3/1s
+camera BU - 02 10/1s
+camera BU - 03 10/2s
+camera BU - 04 30/1s
+camera BU - 05 30/2s
+canera BU - 06 30/3s
+Loop Video HERO3:
+camera LO - 00 OFF
+camera LO - 01 5min
+camera LO - 02 20Min
+camera LO - 03 60Min
+camera LO - 05 Max
+Protune ON/OFF:
+camera PT - 01 ON
+camera PT - 00 OFF
+Delete:
+camera DL (no number) last
+camera DA (no number) all
+Photo resolution Black ed:
+camera PR - 05 12mpW
+camera PR - 04 7mpW
+camera PR - 06 7mpM
+camera PR - 03 5mpM
+Leds:
+bacpac LB - 00 no leds
+camera LB - 01 2 leds
+camera LB - 02 4 leds
+Spot Meter:
+camera EX - 00 OFF
+camera EX - 01 ON
+One Button Mode:
+camera OB - 00 OFF
+camera OB - 01 ON
+Protune Resolutions HERO2 and HERO3 silver:
+camera VR - 07 1080 30 Protune
+camera VR - 08 1080 24 Protune
+camera VR - 11 1080 25 Protune
+camera VR - 09 960 60 Protune
+Protune Resolutions HERO3 black ONLY IF PROTUNE IS ON:
+NOTE: SOME BUTTONS LEAD DIFFERENT RESOLUTIONS!
+camera VR - 02 4kCin12T
+camera VR - 03 2.7kCin24T
+camera VR - 06 720 60T
+camera VR - 07 960 100T
+camera VR - 08 1080 60T
+Auto Power Off:
+camera AO - 00 NEVER
+camera AO - 01 60s
+camera AO - 02 120s
+camera AO - 03 300s
+Default Mode:
+camera DM - 00 Video
+camera DM - 01 Photo
+camera DM - 02 Burst
+camera DM - 03 Timelapse
+OnScreen Display:
+camera OS - 00 OFF
+camera OS - 01 ON
+Locate:
+camera LL - 01 Start
+camera LL - 00 Stop
+Video Mode:
+camera VM - 00 NTSC
+camera VM - 01 PAL
