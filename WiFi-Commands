@@ -1,4 +1,3 @@
-
 Basics:
 bacpac PW - 00 Turn GoPro OFF
 bacpac PW - 01 Turn GoPro ON
@@ -25,11 +24,17 @@ camera VR - 04 960 30
 camera VR - 05 960 48
 camera VR - 06 1080 30
 video resolutions Black edition:
-NOTE: SOME BUTTONS LEAD DIFFERENT RESOLUTIONS!
-camera VR - 03 2.7kCin24
-camera VR - 05 1080 25
-camera VR - 03 720 60
-camera VR - 06 960 48
+camera VV 08 4kCin12
+camera VV 07 2.7kCin24
+camera VV 06 4k 15
+camera VV 05 2.7k 30
+camera VV 04 1440p 40
+camera VV 03 1080 60
+camera VR 05 1080 30
+camera VR 06 960 48
+camera VV 02 960 100
+camera VV 01 720 120
+camera VV 00 WVGA 240
 Fov:
 camera FV - 00 wide
 camera FV - 01 medium
@@ -67,7 +72,7 @@ camera BU - 02 10/1s
 camera BU - 03 10/2s
 camera BU - 04 30/1s
 camera BU - 05 30/2s
-canera BU - 06 30/3s
+camera BU - 06 30/3s
 Loop Video HERO3:
 camera LO - 00 OFF
 camera LO - 01 5min
@@ -101,12 +106,14 @@ camera VR - 08 1080 24 Protune
 camera VR - 11 1080 25 Protune
 camera VR - 09 960 60 Protune
 Protune Resolutions HERO3 black ONLY IF PROTUNE IS ON:
-NOTE: SOME BUTTONS LEAD DIFFERENT RESOLUTIONS!
-camera VR - 02 4kCin12T
-camera VR - 03 2.7kCin24T
-camera VR - 06 720 60T
-camera VR - 07 960 100T
-camera VR - 08 1080 60T
+camera VV 00 720 120T
+camera VV 02 960 100T
+camera VV 03 1080 60T
+camera VV 04 1440 48T
+camera VV 05 2.7k 30T
+camera VV 06 4k 15T
+camera VV 07 2.7KCin24T
+camera VV 08 4kCin12T
 Auto Power Off:
 camera AO - 00 NEVER
 camera AO - 01 60s
