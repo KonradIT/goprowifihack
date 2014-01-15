@@ -1,20 +1,37 @@
 Basics:
+
 bacpac PW - 00 Turn GoPro OFF
+
 bacpac PW - 01 Turn GoPro ON
+
 bacpac SH - 01 Shutter
+
 bacpac SH - 00 Stop
+
 camera PV - 02 Preview ON
+
 camera PV - 00 Preview OFF
+
 Mode
+
 camera CM - 00 Video Mode
+
 camera CM - 01 Photo Mode
+
 camera CM - 02 Burst Mode
+
 camera CM - 03 Timelapse Mode
+
 camera CM - 04 Timer Mode (no longer exists)
+
 camera CM - 05 Play HDMI
+
 Orientation
+
 camera UP - 00 Orientation UP
+
 camera UP - 01 Orientation DOWN
+
 video resolutions HERO2 and HERO3 silver:
 camera VR - 00 WVGA 60
 camera VR - 01 WVGA 120
@@ -46,9 +63,13 @@ camera PR - 02 5mpW
 camera PR - 03 5mpM
 Timelapse Interval:
 camera TI - 00 0,5 sec
+
 camera TI - 01 1sec
+
 camera TI - 05 5sec
+
 camera TI - 0a 10sec
+
 camera TI - 1e 30sec
 camera TI - 3c 60sec
 Volume:
