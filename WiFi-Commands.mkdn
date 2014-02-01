@@ -266,4 +266,5 @@ camera LL - 00 Stop
 Video Mode:
 
 camera VM - 00 NTSC
+
 camera VM - 01 PAL
