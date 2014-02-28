@@ -1,270 +1,301 @@
-Basics:
+###Basics:
 
-bacpac PW - 00 Turn GoPro OFF
+* bacpac PW - 00 Turn GoPro OFF
 
-bacpac PW - 01 Turn GoPro ON
+* bacpac PW - 01 Turn GoPro ON
 
-bacpac SH - 01 Shutter
+* bacpac SH - 01 Shutter
 
-bacpac SH - 00 Stop
+* bacpac SH - 00 Stop
 
-camera PV - 02 Preview ON
+* camera PV - 02 Preview ON
 
-camera PV - 00 Preview OFF
+* camera PV - 00 Preview OFF
 
-Mode
+###Mode:
 
-camera CM - 00 Video Mode
+* camera CM - 00 Video Mode
 
-camera CM - 01 Photo Mode
+* camera CM - 01 Photo Mode
 
-camera CM - 02 Burst Mode
+* camera CM - 02 Burst Mode
 
-camera CM - 03 Timelapse Mode
+* camera CM - 03 Timelapse Mode
 
-camera CM - 04 Timer Mode (hero2)
+* camera CM - 04 Timer Mode (hero2)
 
-camera CM - 05 Play HDMI
+* camera CM - 05 Play HDMI
 
-Orientation
+###Orientation
 
-camera UP - 00 Orientation UP
+* camera UP - 00 Orientation UP
 
-camera UP - 01 Orientation DOWN
+* camera UP - 01 Orientation DOWN
 
-video resolutions HERO2 and HERO3 silver:
+###Video resolutions HERO2 and HERO3 silver:
 
-camera VR - 00 WVGA 60
+* camera VR - 00 WVGA 60
 
-camera VR - 01 WVGA 120
+* camera VR - 01 WVGA 120
 
-camera VR - 02 720 30
+* camera VR - 02 720 30
 
-camera VR - 03 720 60
+* camera VR - 03 720 60
 
-camera VR - 04 960 30
+* camera VR - 04 960 30
 
-camera VR - 05 960 48
+* camera VR - 05 960 48
 
-camera VR - 06 1080 30
+* camera VR - 06 1080 30
 
-video resolutions Black edition:
+###Video resolutions Black edition:
 
-camera VV 08 4kCin12
+* camera VV 08 4kCin12
 
-camera VV 07 2.7kCin24
+* camera VV 07 2.7kCin24
 
-camera VV 06 4k 15
+* camera VV 06 4k 15
 
-camera VV 05 2.7k 30
+* camera VV 05 2.7k 30
 
-camera VV 04 1440p 40
+* camera VV 04 1440p 40
 
-camera VV 03 1080 60
+* camera VV 03 1080 60
 
-camera VR 05 1080 30
+* camera VR 05 1080 30
 
-camera VR 06 960 48
+* camera VR 06 960 48
 
+* camera VV 02 960 100
 
-camera VV 02 960 100
+* camera VV 01 720 120
 
-camera VV 01 720 120
+* camera VV 00 WVGA 240
 
-camera VV 00 WVGA 240
+###Video resolutions HERO3+Black:
 
-Fov:
+* camera VV 06 - 4K 
 
-camera FV - 00 wide
+* camera VV 08 - 4K 17:9 
 
-camera FV - 01 medium
+* camera FS 01 - 4K 15FPS 
 
-camera FV - 02 narrow
+* camera FS 00 - 4K 12FPS 
 
-Photo resolution HERO2 and HERO3 silver:
+* camera VV 07 - 2K 
 
-camera PR - 00 11mpW
+* camera VV 05 - 2.7k 
 
-camera PR - 01 8mpM
+* camera FS 02 - 2.7k 24FPS 
 
-camera PR - 02 5mpW
+* camera FS 04 - 2.7k 30FPS 
 
-camera PR - 03 5mpM
+* camera VV 04 - 1440p  
 
-Timelapse Interval:
+* camera FS 05 - 1440 48FPS 
 
-camera TI - 00 0,5 sec
+* camera VV 09 - 1080 SuperView   
 
-camera TI - 01 1sec
+* camera VV 03 - 1080  
 
-camera TI - 05 5sec
+* camera VV 02 -  960p   
 
-camera TI - 0a 10sec
+* camera VV 0a - 720 SuperView   
 
-camera TI - 1e 30sec
+* camera VV 01 - 720p
 
-camera TI - 3c 60sec
+###Fov:
 
-Volume:
+* camera FV - 00 wide
 
-camera BS - 00 no sound
+* camera FV - 01 medium
 
-camera BS - 01 70%
+* camera FV - 02 narrow
 
-camera BS - 02 100%
+###Photo resolution HERO2 and HERO3 silver:
 
-White Balance HERO3 "ONLY IF Protune ON"
+* camera PR - 00 11mpW
 
-camera WB - 00 auto
+* camera PR - 01 8mpM
 
-camera WB - 01 3000k
+* camera PR - 02 5mpW
 
-camera WB - 02 5500k
+* camera PR - 03 5mpM
 
-camera WB - 03 6500k
+###Timelapse Interval:
 
-camera WB - 04 CAMRAW
+* camera TI - 00 0,5 sec
 
-Continuous Shot (HERO3):
+* camera TI - 01 1sec
 
-camera CS - 00 Single
+* camera TI - 05 5sec
 
-camera CS - 03 3SPS
+* camera TI - 0a 10sec
 
-camera CS - 05 5SPS
+* camera TI - 1e 30sec
 
-camera CS - 0a 10SPS
+* camera TI - 3c 60sec
 
-Burst Rate HERO3:
+###Volume:
 
-camera BU - 00 3/1s
+* camera BS - 00 no sound
 
-camera BU - 02 10/1s
+* camera BS - 01 70%
 
-camera BU - 03 10/2s
+* camera BS - 02 100%
 
-camera BU - 04 30/1s
+###White Balance HERO3 "ONLY IF Protune ON"
 
-camera BU - 05 30/2s
+* camera WB - 00 auto
 
-camera BU - 06 30/3s
+* camera WB - 01 3000k
 
-Loop Video HERO3:
+* camera WB - 02 5500k
 
-camera LO - 00 OFF
+* camera WB - 03 6500k
 
-camera LO - 01 5min
+* camera WB - 04 CAMRAW
 
-camera LO - 02 20Min
+###Continuous Shot (HERO3):
 
-camera LO - 03 60Min
+* camera CS - 00 Single
 
-camera LO - 05 Max
+* camera CS - 03 3SPS
 
-Protune ON/OFF:
+* camera CS - 05 5SPS
 
-camera PT - 01 ON
+* camera CS - 0a 10SPS
 
-camera PT - 00 OFF
+###Burst Rate HERO3:
 
-Delete:
+* camera BU - 00 3/1s
 
-camera DL (no number) last
+* camera BU - 02 10/1s
 
-camera DA (no number) all
+* camera BU - 03 10/2s
 
-Photo resolution Black ed:
+* camera BU - 04 30/1s
 
-camera PR - 05 12mpW
+* camera BU - 05 30/2s
 
-camera PR - 04 7mpW
+* camera BU - 06 30/3s
 
-camera PR - 06 7mpM
+###Loop Video HERO3:
 
-camera PR - 03 5mpM
+* camera LO - 00 OFF
 
-Leds:
+* camera LO - 01 5min
 
-bacpac LB - 00 no leds
+* camera LO - 02 20Min
 
-camera LB - 01 2 leds
+* camera LO - 03 60Min
 
-camera LB - 02 4 leds
+* camera LO - 05 Max
 
-Spot Meter:
+###Protune ON/OFF:
 
-camera EX - 00 OFF
+* camera PT - 01 ON
 
-camera EX - 01 ON
+* camera PT - 00 OFF
 
-One Button Mode:
+###Delete:
 
-camera OB - 00 OFF
+* camera DL (no number) last
 
-camera OB - 01 ON
+* camera DA (no number) all
 
-Protune Resolutions HERO2 and HERO3 silver:
+###Photo resolution Black ed:
 
-camera VR - 07 1080 30 Protune
+* camera PR - 05 12mpW
 
-camera VR - 08 1080 24 Protune
+* camera PR - 04 7mpW
 
-camera VR - 11 1080 25 Protune
+* camera PR - 06 7mpM
 
-camera VR - 09 960 60 Protune
+* camera PR - 03 5mpM
 
-Protune Resolutions HERO3 black ONLY IF PROTUNE IS ON:
+###Leds:
 
-camera VV 00 720 120T
+* bacpac LB - 00 no leds
 
-camera VV 02 960 100T
+* camera LB - 01 2 leds
 
-camera VV 03 1080 60T
+* camera LB - 02 4 leds
 
-camera VV 04 1440 48T
+###Spot Meter:
 
-camera VV 05 2.7k 30T
+* camera EX - 00 OFF
 
-camera VV 06 4k 15T
+* camera EX - 01 ON
 
-camera VV 07 2.7KCin24T
+###One Button Mode:
 
-camera VV 08 4kCin12T
+* camera OB - 00 OFF
 
-Auto Power Off:
+* camera OB - 01 ON
 
-camera AO - 00 NEVER
+###Protune Resolutions HERO2 and HERO3 silver:
 
-camera AO - 01 60s
+* camera VR - 07 1080 30 Protune
 
-camera AO - 02 120s
+* camera VR - 08 1080 24 Protune
 
-camera AO - 03 300s
+* camera VR - 11 1080 25 Protune
 
-Default Mode:
+* camera VR - 09 960 60 Protune
 
-camera DM - 00 Video
+###Protune Resolutions HERO3 black ONLY IF PROTUNE IS ON:
 
-camera DM - 01 Photo
+* camera VV 00 720 120T
 
-camera DM - 02 Burst
+* camera VV 02 960 100T
 
-camera DM - 03 Timelapse
+* camera VV 03 1080 60T
 
-OnScreen Display:
+* camera VV 04 1440 48T
 
-camera OS - 00 OFF
+* camera VV 05 2.7k 30T
 
-camera OS - 01 ON
+* camera VV 06 4k 15T
 
-Locate:
+* camera VV 07 2.7KCin24T
 
-camera LL - 01 Start
+* camera VV 08 4kCin12T
 
-camera LL - 00 Stop
+###Auto Power Off:
 
-Video Mode:
+* camera AO - 00 NEVER
 
-camera VM - 00 NTSC
+* camera AO - 01 60s
 
-camera VM - 01 PAL
+* camera AO - 02 120s
+
+* camera AO - 03 300s
+
+###Default Mode:
+
+* camera DM - 00 Video
+
+* camera DM - 01 Photo
+
+* camera DM - 02 Burst
+
+* camera DM - 03 Timelapse
+
+###OnScreen Display:
+
+* camera OS - 00 OFF
+
+* camera OS - 01 ON
+
+###Locate:
+
+* camera LL - 01 Start
+
+* camera LL - 00 Stop
+
+###Video Mode:
+
+* camera VM - 00 NTSC
+
+* camera VM - 01 PAL
