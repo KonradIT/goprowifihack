@@ -104,6 +104,32 @@
 
 * camera VV 01 - 720p
 
+###Frame rate:
+
+* camera FS - 00 FPS12
+
+* camera FS - 01 FPS15
+
+* camera FS - 0b FPS12p5
+
+* camera FS - 02 FPS24
+
+* camera FS - 03 FPS25
+
+* camera FS - 04 FPS30
+
+* camera FS - 05 FPS4
+
+* camera FS - 06 FPS50
+
+* camera FS - 07 FPS60
+
+* camera FS - 08 FPS100
+
+* camera FS - 09 FPS120
+
+* camera FS - 0a FPS240
+
 ###Fov:
 
 * camera FV - 00 wide
