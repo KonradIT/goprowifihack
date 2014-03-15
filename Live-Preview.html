@@ -4,31 +4,30 @@
 
          name="goprolivestream"
 
-         autoplay="no" loop="yes" width="400" height="300"
+         autoplay="yes" loop="no" width="400" height="300"
 
          target="http://10.5.5.9:8080/live/amba.m3u8" />
 
 <br />
 
-  <a href="javascript:;" onclick='document.video1.play()'>Play video1</a>
+  <a href="javascript:;" onclick='document.goprolivestream.play()'>Play GoPro Live Stream</a>
 
-  <a href="javascript:;" onclick='document.video1.pause()'>Pause video1</a>
+  <a href="javascript:;" onclick='document.goprolivestream.pause()'>Pause GoPro Live Stream</a>
 
-  <a href="javascript:;" onclick='document.video1.stop()'>Stop video1</a>
+  <a href="javascript:;" onclick='document.goprolivestream.stop()'>Stop GoPro Live Stream</a>
 
-  <a href="javascript:;" onclick='document.video1.fullscreen()'>Fullscreen</a>
+  <a href="javascript:;" onclick='document.goprolivestream.fullscreen()'>Fullscreen the Live preview</a>
+
 <!---Alternatively, you can embed the preview using JW Player.--->
 
 <!---write this in your head tag:--->
-
-
 <script src="http://jwpsrv.com/library/9Xd9rv1IEeKDbSIACusDuQ.js"></script>
 
 <!---Customizable JW Player:--> 
 
-<div id='playernPcydqsAvglZ'></div>
+<div id='goproherolive'></div>
 <script type='text/javascript'>
-jwplayer('playernPcydqsAvglZ').setup({
+jwplayer('goproherolive').setup({
 file: 'http://10.5.5.9:8080/live/amba.m3u8',
 
 title: 'GoPro HERO Live Stream',
