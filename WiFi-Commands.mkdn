@@ -118,7 +118,7 @@
 
 * camera FS - 04 FPS30
 
-* camera FS - 05 FPS4
+* camera FS - 05 FPS48
 
 * camera FS - 06 FPS50
 
