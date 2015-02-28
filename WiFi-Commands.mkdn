@@ -4,6 +4,8 @@
 
 * bacpac PW - 01 Turn GoPro ON
 
+* bacpac RS - Reset bacpac
+
 * bacpac SH - 01 Shutter
 
 * bacpac SH - 00 Stop
@@ -11,6 +13,15 @@
 * camera PV - 02 Preview ON
 
 * camera PV - 00 Preview OFF
+
+* camera TM - Set time, requires a longer string, each field is a byte with a % before it:
+	
+	* Last 2 digits of the year
+	* Month (1 - January, 12 - December)
+	* Day of the month (1 - 31)
+	* Hour (24-hour format, starts from zero)
+	* Minute
+	* Second
 
 ###Mode:
 
@@ -226,9 +237,11 @@
 
 ###Delete:
 
-* camera DL (no number) last
+* camera DL - (no number) last
 
-* camera DA (no number) all
+* camera DA - (no number) all
+
+* camera DF - delete specific?
 
 ###Photo resolution Black ed:
 
