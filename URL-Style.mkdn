@@ -5,3 +5,10 @@ PASSWORD: Replace by your camera's WiFi Password
 
 Example: http://10.5.5.9/bacpac/SH?t=PASSWORD&p=%01
 
+HTTP Response Codes:
+
+| Response Code | Meaning  |
+| ------------- |:-------------:|
+| 200 | Successful |
+| 403 | Password Incorrect |
+| 410 | Command Failed |
