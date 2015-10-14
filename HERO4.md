@@ -7,21 +7,8 @@ Lots of people contributed to the HERO4 wifi reverse engineering, thank you!
 ###Protune
 #####Controls:
 
-* off: http://10.5.5.9/gp/gpControl/setting/9/0
-* on: http://10.5.5.9/gp/gpControl/setting/9/1
-
-#####EV:
-Value | URL
------|-------
-+2   |  http://10.5.5.9/gp/gpControl/setting/26/0
-+1.5 |  http://10.5.5.9/gp/gpControl/setting/26/1
-+1   |  http://10.5.5.9/gp/gpControl/setting/26/2
-+0.5 |  http://10.5.5.9/gp/gpControl/setting/26/3
-0    |  http://10.5.5.9/gp/gpControl/setting/26/4
--0.5 |  http://10.5.5.9/gp/gpControl/setting/26/5
--1   |  http://10.5.5.9/gp/gpControl/setting/26/6
--1.5 |  http://10.5.5.9/gp/gpControl/setting/26/7
--2   |  http://10.5.5.9/gp/gpControl/setting/26/8 
+* off: http://10.5.5.9/gp/gpControl/setting/10/0
+* on: http://10.5.5.9/gp/gpControl/setting/10/1
 
 #####White Balance:
 
@@ -36,17 +23,30 @@ Value | URL
 * GOPRO: http://10.5.5.9/gp/gpControl/setting/12/0
 * Flat: http://10.5.5.9/gp/gpControl/setting/12/1
 
+#####ISO:
+
+* 6400: http://10.5.5.9/gp/gpControl/setting/13/0
+* 1600: http://10.5.5.9/gp/gpControl/setting/13/1
+* 400: http://10.5.5.9/gp/gpControl/setting/13/2
+
 #####Sharpness:
 
 * High: http://10.5.5.9/gp/gpControl/setting/14/0
 * Med: http://10.5.5.9/gp/gpControl/setting/14/1
 * Low: http://10.5.5.9/gp/gpControl/setting/14/2
 
-#####ISO:
-
-* 6400: http://10.5.5.9/gp/gpControl/setting/13/0
-* 1600: http://10.5.5.9/gp/gpControl/setting/13/1
-* 400: http://10.5.5.9/gp/gpControl/setting/13/2
+#####EV:
+Value | URL
+-----|-------
++2   |  http://10.5.5.9/gp/gpControl/setting/15/0
++1.5 |  http://10.5.5.9/gp/gpControl/setting/15/1
++1   |  http://10.5.5.9/gp/gpControl/setting/15/2
++0.5 |  http://10.5.5.9/gp/gpControl/setting/15/3
+0    |  http://10.5.5.9/gp/gpControl/setting/15/4
+-0.5 |  http://10.5.5.9/gp/gpControl/setting/15/5
+-1   |  http://10.5.5.9/gp/gpControl/setting/15/6
+-1.5 |  http://10.5.5.9/gp/gpControl/setting/15/7
+-2   |  http://10.5.5.9/gp/gpControl/setting/15/8 
 
 ---
 
