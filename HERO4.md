@@ -183,3 +183,14 @@ Video can be streamed by using `aplay` or `ffplay` on `udp://:8554`, connection 
 
 http://10.5.5.9/gp/gpControl/command/storage/tag_moment
 
+####Delete file:
+
+http://10.5.5.9/gp/gpControl/command/storage/delete?p=file (eg. /100GOPRO/G0010124.JPG)
+
+####List files
+
+http://10.5.5.9:8080/gp/gpMediaList
+
+####Download thumbnail
+
+http://10.5.5.9/gp/gpMediaMetadata?p=file (eg. /100GOPRO/G0010126.JPG)
