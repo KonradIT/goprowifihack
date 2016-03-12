@@ -9,9 +9,9 @@
 
 * **[Live streaming](https://github.com/KonradIT/goprowifihack#live-streaming)**
 * **[HTTP Commands](https://github.com/KonradIT/goprowifihack#http-commands)**
-	* [GoPro HERO2/HERO3/HERO3+](https://github.com/KonradIT/goprowifihack#commands---HERO2-HERO3-HERO3+)
-	* [GoPro HERO4](https://github.com/KonradIT/goprowifihack#commands-hero4)
-	* [GoPro HERO+/HERO+ LCD](https://github.com/KonradIT/goprowifihack#commandsdiscontinuedcameras)
+	* [GoPro HERO2/HERO3/HERO3+](https://github.com/KonradIT/goprowifihack#commands---hero2hero3hero3)
+	* [GoPro HERO4](https://github.com/KonradIT/goprowifihack#commands---hero4)
+	* [GoPro HERO+/HERO+ LCD](https://github.com/KonradIT/goprowifihack#commands---discontinuedcameras)
 * **[Media Browsing](https://github.com/KonradIT/goprowifihack#mediabrowsing)**
 * **[Getting camera data](https://github.com/KonradIT/goprowifihack#gettingcameradata)**
 	* [GoPro HERO2/HERO3/HERO3+](https://github.com/KonradIT/goprowifihack#dataforprehero4)
@@ -402,6 +402,10 @@ HERO4 do not need any password in the URL
 * off: http://10.5.5.9/gp/gpControl/setting/21/0
 * on: http://10.5.5.9/gp/gpControl/setting/21/1
 
+**Multishot**
+* off: http://10.5.5.9/gp/gpControl/setting/34/0
+* on: http://10.5.5.9/gp/gpControl/setting/34/1
+
 #####White Balance:
 
 **Video**
@@ -420,6 +424,14 @@ HERO4 do not need any password in the URL
 * 6500k: http://10.5.5.9/gp/gpControl/setting/23/3
 * Native: http://10.5.5.9/gp/gpControl/setting/23/4
 
+**MultiShot**
+
+* Auto: http://10.5.5.9/gp/gpControl/setting/35/0
+* 3000k: http://10.5.5.9/gp/gpControl/setting/35/1
+* 5500k: http://10.5.5.9/gp/gpControl/setting/35/2
+* 6500k: http://10.5.5.9/gp/gpControl/setting/35/3
+* Native: http://10.5.5.9/gp/gpControl/setting/35/4
+
 #####Color:
 
 **Video**
@@ -431,6 +443,11 @@ HERO4 do not need any password in the URL
 
 * GOPRO: http://10.5.5.9/gp/gpControl/setting/23/0
 * Flat: http://10.5.5.9/gp/gpControl/setting/23/1
+
+**MultiShot**
+
+* GOPRO: http://10.5.5.9/gp/gpControl/setting/36/0
+* Flat: http://10.5.5.9/gp/gpControl/setting/36/1
 
 #####ISO:
 
@@ -447,6 +464,13 @@ HERO4 do not need any password in the URL
 * 200: http://10.5.5.9/gp/gpControl/setting/24/2
 * 100: http://10.5.5.9/gp/gpControl/setting/24/3
 
+**MultiShot**
+
+* 800: http://10.5.5.9/gp/gpControl/setting/37/0
+* 400: http://10.5.5.9/gp/gpControl/setting/37/1
+* 200: http://10.5.5.9/gp/gpControl/setting/37/2
+* 100: http://10.5.5.9/gp/gpControl/setting/37/3
+
 #####Sharpness:
 
 **Video**
@@ -461,6 +485,11 @@ HERO4 do not need any password in the URL
 * Med: http://10.5.5.9/gp/gpControl/setting/25/1
 * Low: http://10.5.5.9/gp/gpControl/setting/25/2
 
+**MultiShot**
+
+* High: http://10.5.5.9/gp/gpControl/setting/38/0
+* Med: http://10.5.5.9/gp/gpControl/setting/38/1
+* Low: http://10.5.5.9/gp/gpControl/setting/38/2
 
 #####EV:
 
@@ -491,6 +520,20 @@ Value | URL
 -1   |  http://10.5.5.9/gp/gpControl/setting/26/6
 -1.5 |  http://10.5.5.9/gp/gpControl/setting/26/7
 -2   |  http://10.5.5.9/gp/gpControl/setting/26/8 
+
+**MultiShot**
+
+Value | URL
+-----|-------
++2   |  http://10.5.5.9/gp/gpControl/setting/39/0
++1.5 |  http://10.5.5.9/gp/gpControl/setting/39/1
++1   |  http://10.5.5.9/gp/gpControl/setting/39/2
++0.5 |  http://10.5.5.9/gp/gpControl/setting/39/3
+0    |  http://10.5.5.9/gp/gpControl/setting/39/4
+-0.5 |  http://10.5.5.9/gp/gpControl/setting/39/5
+-1   |  http://10.5.5.9/gp/gpControl/setting/39/6
+-1.5 |  http://10.5.5.9/gp/gpControl/setting/39/7
+-2   |  http://10.5.5.9/gp/gpControl/setting/39/8 
 
 ---
 
@@ -635,6 +678,11 @@ Value | URL
 * off: http://10.5.5.9/gp/gpControl/setting/20/0
 * on: http://10.5.5.9/gp/gpControl/setting/20/1
 
+**MultiShot**
+
+* off: http://10.5.5.9/gp/gpControl/setting/33/0
+* on: http://10.5.5.9/gp/gpControl/setting/33/1
+
 ####Burst Rate:
 
 * 3/1: http://10.5.5.9/gp/gpControl/setting/29/0
@@ -651,6 +699,41 @@ Value | URL
 * Trigger: http://10.5.5.9/gp/gpControl/command/shutter?p=1
 * Stop (Video/Timelapse): http://10.5.5.9/gp/gpControl/command/shutter?p=0
 
+#####Orientation:
+
+* Up: http://10.5.5.9/gp/gpControl/setting/52/1
+* Down: http://10.5.5.9/gp/gpControl/setting/52/2
+* Gyro based: http://10.5.5.9/gp/gpControl/setting/52/0
+
+#####Quick Capture: 
+* On: http://10.5.5.9/gp/gpControl/setting/54/1
+* Off: http://10.5.5.9/gp/gpControl/setting/54/0
+
+#####LED Blink: 
+* 2: http://10.5.5.9/gp/gpControl/setting/55/1
+* 4: http://10.5.5.9/gp/gpControl/setting/55/2
+* Off: http://10.5.5.9/gp/gpControl/setting/55/0
+
+#####Beeps: 
+* Off: http://10.5.5.9/gp/gpControl/setting/56/0
+* 0.7: http://10.5.5.9/gp/gpControl/setting/56/1
+* Full: http://10.5.5.9/gp/gpControl/setting/56/2
+
+#####Video Format: 
+* NTSC: http://10.5.5.9/gp/gpControl/setting/57/0
+* PAL: http://10.5.5.9/gp/gpControl/setting/57/1
+
+#####On Screen Display: 
+* On: http://10.5.5.9/gp/gpControl/setting/58/0
+* Off: http://10.5.5.9/gp/gpControl/setting/58/1
+
+#####Auto Off: 
+* Never: http://10.5.5.9/gp/gpControl/setting/59/0
+* 1m: http://10.5.5.9/gp/gpControl/setting/59/1
+* 2m: http://10.5.5.9/gp/gpControl/setting/59/2
+* 3m: http://10.5.5.9/gp/gpControl/setting/59/3
+* 5m: http://10.5.5.9/gp/gpControl/setting/59/4
+
 #####Tag moment:
 
 http://10.5.5.9/gp/gpControl/command/storage/tag_moment
@@ -666,3 +749,8 @@ http://10.5.5.9:8080/gp/gpMediaList
 #####Download thumbnail
 
 http://10.5.5.9/gp/gpMediaMetadata?p=file (eg. /100GOPRO/G0010126.JPG)
+
+####Commands - Discontinued Cameras
+
+They use the HERO2/HERO3/HERO3+ AFAIK (not directly confirmed!)
+
