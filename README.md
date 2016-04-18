@@ -11,7 +11,7 @@
 |---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | [GoPro HERO2 w/ WiFi BacPac](https://github.com/KonradIT/goprowifihack/blob/master/HERO2/README.md)           | [GoPro HERO3/3+ Black, Silver and White](https://github.com/KonradIT/goprowifihack/blob/master/HERO3/README.md) |
 | [![](http://i.imgur.com/zpPN0Q2.png?1)](https://github.com/KonradIT/goprowifihack/blob/master/HERO/README.md) | [![](https://i.imgur.com/77h7uHe.jpg)](https://github.com/KonradIT/goprowifihack/blob/master/HERO4/README.md)  |
-| [GoPro HERO 2014, HERO+ and HERO+ LCD](https://github.com/KonradIT/goprowifihack/blob/master/HERO/README.md)  | [GoPro HERO4 Black, Silver and Session](https://github.com/KonradIT/goprowifihack/blob/master/HERO4/README.md)  |
+| [GoPro HERO+ and HERO+ LCD](https://github.com/KonradIT/goprowifihack/blob/master/HERO/README.md)  | [GoPro HERO4 Black, Silver and Session](https://github.com/KonradIT/goprowifihack/blob/master/HERO4/README.md)  |
 
 ---
 
@@ -32,7 +32,7 @@ The way GoPro interfaced with their cameras over WiFi has changed a lot since th
 If you got a new camera and its not covered here, [contact me](mailto:mail@chernowii.com), I always try to get the new GoPro cameras but my resources are limited.
 
 The API is divided into cameras which work differently from a API view. To ensure your product/service works with ALL WiFi enabled GoPro cameras make sure to use all the camera folders from the table above. The livestreaming page explains how to get a live feed from the GoPro, the WiFi commands page lists the HTTP-GET URLs to control most aspects of a GoPro camera.
-The Camera Status page shows how to get the current paramaters of the GoPro such as Photo resolution, battery left...
+The Camera Status page shows how to get the current parameters of the GoPro such as Photo resolution, battery left...
 
 ###Acknowledgements/credits
 
