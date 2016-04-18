@@ -2,7 +2,7 @@
 
 **The unofficial API for GoPro HERO cameras (The WiFi enabled models)**
 
-*Last updated: 04/15/16 by Konrad Iturbe*
+*Last updated: 04/18/16 by Konrad Iturbe*
 
 
 ##Choose the camera model:
@@ -10,7 +10,7 @@
 | [![](https://i.imgur.com/1vwqEIQ.png)](https://github.com/KonradIT/goprowifihack/blob/master/HERO2/README.md) | [![](https://i.imgur.com/9LGo43Z.png)](https://github.com/KonradIT/goprowifihack/blob/master/HERO3/README.md)   |
 |---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | [GoPro HERO2 w/ WiFi BacPac](https://github.com/KonradIT/goprowifihack/blob/master/HERO2/README.md)           | [GoPro HERO3/3+ Black, Silver and White](https://github.com/KonradIT/goprowifihack/blob/master/HERO3/README.md) |
-| [![](http://i.imgur.com/zpPN0Q2.png?1)](https://github.com/KonradIT/goprowifihack/blob/master/HERO/README.md) | [![](http://i.imgur.com/zpPN0Q2.png?1)](https://github.com/KonradIT/goprowifihack/blob/master/HERO4/README.md)  |
+| [![](http://i.imgur.com/zpPN0Q2.png?1)](https://github.com/KonradIT/goprowifihack/blob/master/HERO/README.md) | [![](https://i.imgur.com/77h7uHe.jpg)](https://github.com/KonradIT/goprowifihack/blob/master/HERO4/README.md)  |
 | [GoPro HERO 2014, HERO+ and HERO+ LCD](https://github.com/KonradIT/goprowifihack/blob/master/HERO/README.md)  | [GoPro HERO4 Black, Silver and Session](https://github.com/KonradIT/goprowifihack/blob/master/HERO4/README.md)  |
 
 ---
