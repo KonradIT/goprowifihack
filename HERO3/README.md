@@ -6,7 +6,7 @@ Cameras covered in this section: GoPro HERO3 Black, HERO3 Silver, HERO3 White, H
 
 ##Index
 
-* [Live Streaming](/Livestreaming.md)
-* [Media Browsing](/Mediabrowsing.md)
-* [Camera Status](/CameraStatus.md)
-* [Wifi Commands](/WifiCommands.md)
+* [Live Streaming](/HERO3/Livestreaming.md)
+* [Media Browsing](/HERO3/Mediabrowsing.md)
+* [Camera Status](/HERO3/CameraStatus.md)
+* [Wifi Commands](/HERO3/WifiCommands.md)

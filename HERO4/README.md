@@ -6,8 +6,8 @@ Cameras covered in this section: GoPro HERO4 Black, HERO4 Silver, HERO4 Session.
 
 ##Index
 
-* [Live Streaming](/Livestreaming.md)
-* [Media Browsing](/Mediabrowsing.md)
-* [Camera Status](/CameraStatus.md)
-* [Wifi Commands](/WifiCommands.md)
-* [HERO4 Session specific commands and notes](/HERO4-Session.md)
+* [Live Streaming](/HERO4/Livestreaming.md)
+* [Media Browsing](/HERO4/Mediabrowsing.md)
+* [Camera Status](/HERO4/CameraStatus.md)
+* [Wifi Commands](/HERO4/WifiCommands.md)
+* [HERO4 Session specific commands and notes](/HERO4/HERO4-Session.md)
