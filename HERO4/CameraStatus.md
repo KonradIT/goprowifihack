@@ -1,6 +1,6 @@
 ###Camera Status for HERO4
 
-This URL contains a JSON with the camera parameters: http://10.5.5.9/gp/gpContrl/status
+This URL contains a JSON with the camera parameters: http://10.5.5.9/gp/gpControl/status
 
 Here is a snippet of how the status JSON looks like: (GoPro HERO4 Black, FW 3.00)
 
@@ -15,17 +15,17 @@ As you can see, there are two objects, "status" and "settings".
 ###Status object:
 
 * 43 - Current Mode.
-  * 0 = Video Mode
-  * 1 = Photo mode
-  * 3 = MultiShot mode
+  * Video - 0
+  * Photo - 1
+  * MultiShot - 2
 
 ###Settings object:
 ####Video Mode based parameters:
-* 68 - Current SUB-Mode Video.
+* 68 - Current SUB-Mode Video:
   * Video - 0
   * TimeLapse Video - 1
-  * Video+Photo -2
-  * Looping -3
+  * Video+Photo - 2
+  * Looping - 3
 * 2 - Video Resolution:
   * 4K SuperView - 2
   * 4K - 1
@@ -78,11 +78,11 @@ As you can see, there are two objects, "status" and "settings".
   * 1 Photo / 30 Seconds - 3
   * 1 Photo / 60 Seconds - 4
 
-* 8 - Low Light			
+* 8 - Low Light:			
   * ON - 1
   * OFF - 0
 
-* 9 - Spot Meter			
+* 9 - Spot Meter:			
   * ON - 1
   * OFF - 0
 
@@ -90,30 +90,30 @@ As you can see, there are two objects, "status" and "settings".
   * ON - 1
   * OFF - 0
 
-* 11 - White Balance			
+* 11 - White Balance:			
     * Auto - 0
     * 3000K - 1
     * 5500K - 2
     * 6500K - 3
     * Native - 4
 
-* 12 - Color			
+* 12 - Color:			
     * GoPro Color - 0
     * Flat - 1
 
-* 13 - ISO Limit			
+* 13 - ISO Limit:			
     * 6400 - 0
     * 1600 - 1
     * 400 - 2
     * 3200 - 3
     * 800 - 4
 
-* 14 - Sharpness			
+* 14 - Sharpness:		
     * High - 0
     * Medium - 1
     * Low - 2
 
-* 15 - EV Comp			
+* 15 - EV Comp:		
     * -2.0 - 8
     * -1.5 - 7
     * -1.0 - 6
@@ -191,6 +191,7 @@ As you can see, there are two objects, "status" and "settings".
     * 400 - 1
     * 200 - 2
     * 100 - 3
+
 ####MultiShot Mode based parameters:
 
 * Default Multi-Shot Sub Mode - 27:
