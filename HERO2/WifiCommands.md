@@ -5,6 +5,15 @@ The URL scheme:  http://10.5.5.9/param1/PARAM2?t=PASSWORD&p=%OPTION
 * param1 = That defines if the action will be activated in the **camera** or **bacpac** (back in the HERO2 days the "bacpac" was the separate WiFi unit).
 * PARAM2 = A two character parameter which defines what the camera needs to do. Eg: SH for Shoot
 * OPTION: The arguments for PARAM2
+* If you see a URL which contains "PASSWORD" without the quotes, it means it needs the camera password, which you can obtain here:  http://10.5.5.9/camera/sd
+
+HTTP Response Codes:
+
+| Response Code | Meaning  |
+| ------------- |:-------------:|
+| 200 | Successful |
+| 403 | Password Incorrect |
+| 410 | Command Failed |
 
 #####Basics:
 
