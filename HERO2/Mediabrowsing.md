@@ -6,7 +6,7 @@
 
 * Main directory: http://10.5.5.9:8080/videos
 
-* Fotmats: Photo (JPG), HD video (MP4), Low resolution video (LRV), Video thumnail(THM).
+* Formats: Photo (JPG), HD video (MP4), Low resolution video (LRV), Video thumbnail(THM).
 
 ---
 

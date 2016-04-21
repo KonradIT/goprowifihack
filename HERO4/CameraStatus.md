@@ -14,10 +14,40 @@ As you can see, there are two objects, "status" and "settings".
 ##HERO4 BLACK/SILVER:
 ###Status object:
 
-* 43 - Current Mode.
+* 1 - Internal Battery is available:
+  * 0 = No Battery
+  * 1 = Battery is available
+* 2 - Internal Batter Level:
+  * 3 = Full
+  * 2 = Halfway
+  * 1 = Low
+  * 4 = Charging
+* 43 - Current Mode:
   * Video - 0
   * Photo - 1
   * MultiShot - 2
+* 44 - Current SubMode
+  * 0 = Video/Single Pic/Burst
+  * 1 = TL Videp/Continuous/TimeLapse
+  * 2 = Video+Photo/NightPhoto/NightLapse
+* 13 - Current Recording Video Duration
+* 39 - Number of MultiShot pictures taken
+* 31 - Number of clients connected to the camera [reference from HERO4 Session doc]
+* 32 - Streaming feed status:
+  * 0 = Not Streaming
+  * 1 = Streaming
+* 33 - SD card inserted:
+  * 0 = No
+  * 1 = Yes
+* 34 - Remaining Photos
+* 35 - Remaining Video Time
+* 36 - Number of Batch Photos taken (Example: TimeLapse batches, burst batches, continouous photo batches...)
+* 37 - Number of videos shot
+* 38 - Number of ALL photos taken
+* 39 - Number of ALL videos taken
+* 8 = Recording/Processing status:
+  * 0 = Not recording/Processing
+  * 1 = Recording/processing
 
 ###Settings object:
 ####Video Mode based parameters:
@@ -295,3 +325,37 @@ As you can see, there are two objects, "status" and "settings".
     * 100 - 3
 
 ####Other Settings:
+* LCD Display - 72:
+ * ON - 1
+ * OFF - 0
+* Orientation - 52:
+  * Auto - 0
+  * UP - 1
+  * DOWN - 2
+* Default Boot Mode - 53:
+  * Video - 0
+  * Photo - 1
+  * MultiShot - 2
+* Quick Capture: 54:
+  * OFF - 0
+  * ON - 1
+* LED status - 55:
+  * OFF - 0
+  * 2 LEDs (H4 Black/Silver) FULL LEDs (HERO4 Session) - 1
+  * 4 LEDs (H4 Black/Silver)- 2
+* Volume for beeps:
+  * Mute - 2
+  * 70% - 1
+  * 100% - 0
+* Video Format:
+  * NTSC - 0
+  * PAL - 1
+* On Screen data (HDMI/LCD BacPac/LCD):
+  * ON - 1
+  * OFF - 0
+* Auto Power Off:
+  * Never - 0
+  * 1 min - 1
+  * 2 mins - 2
+  * 3 mins - 3
+  * 5 mins - 4
