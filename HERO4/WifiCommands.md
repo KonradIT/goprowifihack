@@ -362,7 +362,8 @@ http://10.5.5.9/gp/gpControl/command/rc/pair
 
 #####Locate
 
-http://10.5.5.9/gp/gpControl/command/system/locate (trigger this to toggle the beeping sound)
+* On: http://10.5.5.9/gp/gpControl/command/system/locate?p=1 (trigger this to toggle the beeping sound)
+* Off: http://10.5.5.9/gp/gpControl/command/system/locate?p=0
 
 #####Delete file:
 
