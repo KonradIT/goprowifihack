@@ -2,7 +2,7 @@
 
 **The unofficial API for GoPro HERO cameras (The WiFi enabled models)**
 
-*Last updated: 04/18/16 by Konrad Iturbe*
+*Last updated: 04/22/16 by Konrad Iturbe*
 
 
 ##Choose the camera model:
