@@ -154,6 +154,11 @@ Value | URL
 
 ---
 
+#####Default Boot Mode:
+* Video: http://10.5.5.9/gp/gpControl/setting/53/0
+* Photo: http://10.5.5.9/gp/gpControl/setting/53/1
+* MultiShot: http://10.5.5.9/gp/gpControl/setting/53/2
+
 #####Primary modes:
 * Video: http://10.5.5.9/gp/gpControl/command/mode?p=0
 * Photo: http://10.5.5.9/gp/gpControl/command/mode?p=1
@@ -362,17 +367,21 @@ Value | URL
 * Off: http://10.5.5.9/gp/gpControl/setting/55/0
 
 #####Beeps:
-* Off: http://10.5.5.9/gp/gpControl/setting/56/0
+* Off: http://10.5.5.9/gp/gpControl/setting/56/2
 * 0.7: http://10.5.5.9/gp/gpControl/setting/56/1
-* Full: http://10.5.5.9/gp/gpControl/setting/56/2
+* Full: http://10.5.5.9/gp/gpControl/setting/56/0
 
 #####Video Format:
 * NTSC: http://10.5.5.9/gp/gpControl/setting/57/0
 * PAL: http://10.5.5.9/gp/gpControl/setting/57/1
 
+#####LCD Display:
+* On: http://10.5.5.9/gp/gpControl/setting/72/1
+* Off: http://10.5.5.9/gp/gpControl/setting/72/0
+
 #####On Screen Display:
-* On: http://10.5.5.9/gp/gpControl/setting/58/0
-* Off: http://10.5.5.9/gp/gpControl/setting/58/1
+* On: http://10.5.5.9/gp/gpControl/setting/58/1
+* Off: http://10.5.5.9/gp/gpControl/setting/58/0
 
 #####Auto Off:
 * Never: http://10.5.5.9/gp/gpControl/setting/59/0
