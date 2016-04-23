@@ -421,3 +421,11 @@ http://10.5.5.9/setting/63/2
 #####Delete file:
 
 http://10.5.5.9/gp/gpControl/command/storage/delete?p=file (eg. /100GOPRO/G0010124.JPG)
+
+#####Delete Last media taken:
+
+http://10.5.5.9/gp/gpControl/command/storage/delete/last
+
+#####Reformat SD Card (CAUTION!):
+
+http://10.5.5.9/gp/gpControl/command/storage/delete/all
