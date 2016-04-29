@@ -1,4 +1,4 @@
-###Resolution/Frame Rate table for HERO4 Black/Session/Silver
+###Resolution/Frame Rate compatibility table for HERO4 Black/Session/Silver
 
 #####HERO4 Black:
 

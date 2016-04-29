@@ -10,4 +10,5 @@ Cameras covered in this section: GoPro HERO4 Black, HERO4 Silver, HERO4 Session.
 * [Media Browsing](/HERO4/Mediabrowsing.md)
 * [Camera Status](/HERO4/CameraStatus.md)
 * [Wifi Commands](/HERO4/WifiCommands.md)
+* [Framerates/Resolution compatibility table for HERO4 cameras](/HERO4/Framerates-Resolutions.md)
 * [HERO4 Session specific commands and notes](/HERO4/HERO4-Session.md)
