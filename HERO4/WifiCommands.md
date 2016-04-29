@@ -199,6 +199,18 @@ Value | URL
 * 720p: http://10.5.5.9/gp/gpControl/setting/2/12
 * WVGA: http://10.5.5.9/gp/gpControl/setting/2/13
 
+#####Resolutions (HERO4 Silver):
+* 4K: http://10.5.5.9/gp/gpControl/setting/2/1
+* 2.7K: http://10.5.5.9/gp/gpControl/setting/2/4
+* 2.7K 4:3 (Time Lapse Video only): http://10.5.5.9/gp/gpControl/setting/2/6
+* 1440p: http://10.5.5.9/gp/gpControl/setting/2/7
+* 1080p SuperView: http://10.5.5.9/gp/gpControl/setting/2/8
+* 1080p: http://10.5.5.9/gp/gpControl/setting/2/9
+* 960p: http://10.5.5.9/gp/gpControl/setting/2/10
+* 720p SuperView: http://10.5.5.9/gp/gpControl/setting/2/11
+* 720p: http://10.5.5.9/gp/gpControl/setting/2/12
+* WVGA: http://10.5.5.9/gp/gpControl/setting/2/13
+
 #####Resolutions (HERO4 Session):
 * 1440p: http://10.5.5.9/gp/gpControl/setting/2/7
 * 1080p SuperView: http://10.5.5.9/gp/gpControl/setting/2/8
@@ -219,6 +231,19 @@ Value | URL
 * 48fps:	http://10.5.5.9/gp/gpControl/setting/3/7
 * 30fps:	http://10.5.5.9/gp/gpControl/setting/3/8
 * 25fps:	http://10.5.5.9/gp/gpControl/setting/3/9
+
+#####Frame Rate (HERO4 Silver):
+* 240fps (WVGA only):	http://10.5.5.9/gp/gpControl/setting/3/0
+* 120fps (720p only):	http://10.5.5.9/gp/gpControl/setting/3/1
+* 100fps:	http://10.5.5.9/gp/gpControl/setting/3/2
+* 60fps:	http://10.5.5.9/gp/gpControl/setting/3/5
+* 50fps:	http://10.5.5.9/gp/gpControl/setting/3/6
+* 48fps:	http://10.5.5.9/gp/gpControl/setting/3/7
+* 30fps:	http://10.5.5.9/gp/gpControl/setting/3/8
+* 25fps:	http://10.5.5.9/gp/gpControl/setting/3/9
+* 24fps:	http://10.5.5.9/gp/gpControl/setting/3/10
+* 15fps (4K only):	http://10.5.5.9/gp/gpControl/setting/3/11
+* 12.5fps (4k PAL only):	http://10.5.5.9/gp/gpControl/setting/3/12
 
 #####FOV
 
