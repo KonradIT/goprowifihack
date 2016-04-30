@@ -31,7 +31,7 @@ WVGA 	          |  120, 100 	                     | Ultra Wide 	               |
 
 #####HERO4 Silver:
 
-VideoResolution |	Frames Per Second (fps) NTSC/PAL 	Field of View (FOV) 	       |  Screen Resolution
+VideoResolution |	Frames Per Second (fps) NTSC/PAL | Field of View (FOV) 	       |  Screen Resolution
 ----------------|----------------------------------|-----------------------------|-------------------
 4K 	            | 15, 12.5 	                       | Ultra Wide 	               |    3840x2160
 2.7K 	          | 30, 25, 24 	                     | Ultra Wide, Medium 	       |    2704x1520
