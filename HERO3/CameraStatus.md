@@ -1,6 +1,7 @@
 ###Camera Status for HERO3
 
 ---- GP3 ----
+
 GET the contents of this: http://10.5.5.9/camera/sx
 
 Table for meaning of the contents:
