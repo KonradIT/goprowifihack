@@ -51,6 +51,14 @@ HTTP Response Codes:
 	Will be
 	
 	%10%05%0b%10%2f%31
+	
+	Base 10  -  Base 16<br />
+	16	-	10<br />
+	05	-	05<br />
+	11	-	0b<br />
+	16	-	10<br />
+	47	-	2f<br />
+	49	-	31<br />
 
 #####Mode:
 
