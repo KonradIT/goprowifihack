@@ -42,7 +42,7 @@ HTTP Response Codes:
 	* Minute
 	* Second
 
-	*Example:
+	*Example if you have Hero3+Black with FW v03.03 (They are using HEX now):
 	
 	Y  -M - D H : m : s
 
