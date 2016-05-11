@@ -42,6 +42,24 @@ HTTP Response Codes:
 	* Minute
 	* Second
 
+	*Example if you have Hero3+Black with FW v03.03 (They are using HEX now):
+	
+	Y  -M - D H : m : s
+
+	2016-05-11 16:47:49
+	
+	Will be
+	
+	%10%05%0b%10%2f%31
+	
+	Base 10  -  Base 16<br />
+	16	-	10<br />
+	05	-	05<br />
+	11	-	0b<br />
+	16	-	10<br />
+	47	-	2f<br />
+	49	-	31<br />
+
 #####Mode:
 
 * camera CM - 00 Video Mode
