@@ -42,6 +42,16 @@ HTTP Response Codes:
 	* Minute
 	* Second
 
+	*Example:
+	
+	Y  -M - D H : m : s
+
+	2016-05-11 16:47:49
+	
+	Will be
+	
+	%10%05%0b%10%2f%31
+
 #####Mode:
 
 * camera CM - 00 Video Mode
