@@ -48,7 +48,9 @@ HTTP Response Codes:
 
 	2016-05-11 16:47:49
 	
-	Will be
+	Would be: 
+	
+	(16 05 11 16 47 49 , Expressed in Base 10 (decimal), then converted to hexadecimal) 
 	
 	%10%05%0b%10%2f%31
 	
