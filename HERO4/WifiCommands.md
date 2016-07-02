@@ -35,11 +35,11 @@ HERO4 do not need any password in the URL
 
 **Photo**
 
-* Auto: http://10.5.5.9/gp/gpControl/setting/23/0
-* 3000k: http://10.5.5.9/gp/gpControl/setting/23/1
-* 5500k: http://10.5.5.9/gp/gpControl/setting/23/2
-* 6500k: http://10.5.5.9/gp/gpControl/setting/23/3
-* Native: http://10.5.5.9/gp/gpControl/setting/23/4
+* Auto: http://10.5.5.9/gp/gpControl/setting/22/0
+* 3000k: http://10.5.5.9/gp/gpControl/setting/22/1
+* 5500k: http://10.5.5.9/gp/gpControl/setting/22/2
+* 6500k: http://10.5.5.9/gp/gpControl/setting/22/3
+* Native: http://10.5.5.9/gp/gpControl/setting/22/4
 
 **MultiShot**
 
