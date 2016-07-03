@@ -35,11 +35,11 @@ HERO4 do not need any password in the URL
 
 **Photo**
 
-* Auto: http://10.5.5.9/gp/gpControl/setting/23/0
-* 3000k: http://10.5.5.9/gp/gpControl/setting/23/1
-* 5500k: http://10.5.5.9/gp/gpControl/setting/23/2
-* 6500k: http://10.5.5.9/gp/gpControl/setting/23/3
-* Native: http://10.5.5.9/gp/gpControl/setting/23/4
+* Auto: http://10.5.5.9/gp/gpControl/setting/22/0
+* 3000k: http://10.5.5.9/gp/gpControl/setting/22/1
+* 5500k: http://10.5.5.9/gp/gpControl/setting/22/2
+* 6500k: http://10.5.5.9/gp/gpControl/setting/22/3
+* Native: http://10.5.5.9/gp/gpControl/setting/22/4
 
 **MultiShot**
 
@@ -347,35 +347,35 @@ GOPROPASS = GoPro new WiFi password
 
 #####Interval for NightLapse
 
-* Continuous: http://10.5.5.9/gp/gpControl/setting/30/0
-* 4s: http://10.5.5.9/gp/gpControl/setting/30/1
-* 5s: http://10.5.5.9/gp/gpControl/setting/30/2
-* 10s: http://10.5.5.9/gp/gpControl/setting/30/3
-* 15s: http://10.5.5.9/gp/gpControl/setting/30/4
-* 20s: http://10.5.5.9/gp/gpControl/setting/30/5
-* 30s: http://10.5.5.9/gp/gpControl/setting/30/6
-* 1m: http://10.5.5.9/gp/gpControl/setting/30/7
-* 2m: http://10.5.5.9/gp/gpControl/setting/30/8
-* 5m: http://10.5.5.9/gp/gpControl/setting/30/9
-* 30m: http://10.5.5.9/gp/gpControl/setting/30/10
-* 60m: http://10.5.5.9/gp/gpControl/setting/30/11
+* Continuous: http://10.5.5.9/gp/gpControl/setting/32/0
+* 4s: http://10.5.5.9/gp/gpControl/setting/32/4
+* 5s: http://10.5.5.9/gp/gpControl/setting/32/5
+* 10s: http://10.5.5.9/gp/gpControl/setting/32/10
+* 15s: http://10.5.5.9/gp/gpControl/setting/32/15
+* 20s: http://10.5.5.9/gp/gpControl/setting/32/20
+* 30s: http://10.5.5.9/gp/gpControl/setting/32/30
+* 1m: http://10.5.5.9/gp/gpControl/setting/32/60
+* 2m: http://10.5.5.9/gp/gpControl/setting/32/120
+* 5m: http://10.5.5.9/gp/gpControl/setting/32/300
+* 30m: http://10.5.5.9/gp/gpControl/setting/32/1800
+* 60m: http://10.5.5.9/gp/gpControl/setting/32/3600
 
 #####Photo resolution for MultiShot Modes (incl. SubModes):
 
 * 12MP Wide: http://10.5.5.9/gp/gpControl/setting/28/0
 * 7MP Wide: http://10.5.5.9/gp/gpControl/setting/28/1
 * 7MP Medium: http://10.5.5.9/gp/gpControl/setting/28/2
-* 5MP Wide: http://10.5.5.9/gp/gpControl/setting/28/3
+* 5MP Medium: http://10.5.5.9/gp/gpControl/setting/28/3
 
 #####Timelapse Interval (TIMELAPSE MODE on MultiShot):
 
-* 0.5: http://10.5.5.9/gp/gpControl/setting/5/0
-* 1: http://10.5.5.9/gp/gpControl/setting/5/1
-* 2: http://10.5.5.9/gp/gpControl/setting/5/2
-* 5: http://10.5.5.9/gp/gpControl/setting/5/3
-* 10: http://10.5.5.9/gp/gpControl/setting/5/4
-* 30: http://10.5.5.9/gp/gpControl/setting/5/5
-* 60: http://10.5.5.9/gp/gpControl/setting/5/6
+* 0.5: http://10.5.5.9/gp/gpControl/setting/30/0
+* 1: http://10.5.5.9/gp/gpControl/setting/30/1
+* 2: http://10.5.5.9/gp/gpControl/setting/30/2
+* 5: http://10.5.5.9/gp/gpControl/setting/30/5
+* 10: http://10.5.5.9/gp/gpControl/setting/30/10
+* 30: http://10.5.5.9/gp/gpControl/setting/30/30
+* 60: http://10.5.5.9/gp/gpControl/setting/30/60
 
 #####Spot Meter:
 
