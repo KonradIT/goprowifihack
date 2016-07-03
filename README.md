@@ -34,6 +34,11 @@ If you got a new camera and its not covered here, [contact me](mailto:mail@chern
 The API is divided into cameras which work differently from a API view. To ensure your product/service works with ALL WiFi enabled GoPro cameras make sure to use all the camera folders from the table above. The livestreaming page explains how to get a live feed from the GoPro, the WiFi commands page lists the HTTP-GET URLs to control most aspects of a GoPro camera.
 The Camera Status page shows how to get the current parameters of the GoPro such as Photo resolution, battery left...
 
+###Libraries:
+
+[3rd Party Library/API wrappers 
+list](https://github.com/KonradIT/goprowifihack/blob/master/Libraries.md)
+
 ###Acknowledgements/credits
 
 * Konrad Iturbe - main developer
