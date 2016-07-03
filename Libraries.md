@@ -18,7 +18,9 @@ This API documents the HTTP calls from GoPro cameras, users have made libraries 
 
 ###C Sharp:
 
-* [r1pper/GoPro.Hero] - C# Library for HERO2/HERO3, development halted
+* [r1pper/GoPro.Hero](http://github.com/r1pper/GoPro.Hero) - C# Library 
+for 
+HERO2/HERO3, development halted
 
 ###C:
 
