@@ -341,7 +341,7 @@ Value | URL
 * 12MP Wide: http://10.5.5.9/gp/gpControl/setting/28/0
 * 7MP Wide: http://10.5.5.9/gp/gpControl/setting/28/1
 * 7MP Medium: http://10.5.5.9/gp/gpControl/setting/28/2
-* 5MP Wide: http://10.5.5.9/gp/gpControl/setting/28/3
+* 5MP Medium: http://10.5.5.9/gp/gpControl/setting/28/3
 
 #####Timelapse Interval (TIMELAPSE MODE on MultiShot):
 
