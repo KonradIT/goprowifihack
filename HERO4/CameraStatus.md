@@ -365,6 +365,15 @@ As you can see, there are two objects, "status" and "settings".
 * On Screen data (HDMI/LCD BacPac/LCD) - 58:
   * ON - 1
   * OFF - 0
+
+* LCD Brightness - 49:
+  * High - 0
+  * Medium - 1
+  * Low - 2
+
+* LCD Lock - 50:
+  * On - 1
+  * Off - 0
  
 * Auto Power Off - 59:
   * Never - 0

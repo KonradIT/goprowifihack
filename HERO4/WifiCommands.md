@@ -432,6 +432,15 @@ GOPROPASS = GoPro new WiFi password
 * On: http://10.5.5.9/gp/gpControl/setting/58/1
 * Off: http://10.5.5.9/gp/gpControl/setting/58/0
 
+#####LCD Brightness:
+* High: http://10.5.5.9/gp/gpControl/setting/49/0
+* Medium: http://10.5.5.9/gp/gpControl/setting/49/1
+* Low: http://10.5.5.9/gp/gpControl/setting/49/2
+
+#####LCD Lock:
+ * On: http://10.5.5.9/gp/gpControl/setting/50/1
+ * Off: http://10.5.5.9/gp/gpControl/setting/50/0
+
 #####Auto Off:
 * Never: http://10.5.5.9/gp/gpControl/setting/59/0
 * 1m: http://10.5.5.9/gp/gpControl/setting/59/1
