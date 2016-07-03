@@ -51,12 +51,13 @@ As you can see, there are two objects, "status" and "settings".
 
 ###Settings object:
 ####Video Mode based parameters:
-* 68 - Current SUB-Mode Video:
+* Current SUB-Mode Video - 68:
   * Video - 0
   * TimeLapse Video - 1
   * Video+Photo - 2
   * Looping - 3
-* 2 - Video Resolution:
+ 
+* Video Resolution - 2:
   * 4K SuperView - 2
   * 4K - 1
   * 2.7K SuperView - 5
@@ -69,7 +70,8 @@ As you can see, there are two objects, "status" and "settings".
   * 720 SuperView - 11
   * 720 - 12
   * WVGA - 13
-* 3 - Frame Rate:
+ 
+* Frame Rate - 3:
   * 240 - 0
   * 120 - 1
   * 100 - 2
@@ -83,11 +85,13 @@ As you can see, there are two objects, "status" and "settings".
   * 24 - 10
   * 15 - 11
   * 12.5 - 12
-* 4 - FOV video:
+  
+* FOV video - 4:
   * Wide - 2
   * Medium - 1
   * Narrow - 2
-* 5 - TimeLapse Video Interval:
+ 
+* TimeLapse Video Interval - 5:
   * 1/2 Seconds - 0
   * 1 Second - 1
   * 2 Seconds - 2
@@ -95,55 +99,56 @@ As you can see, there are two objects, "status" and "settings".
   * 10 Seconds - 4
   * 30 Seconds - 5
   * 60 Seconds - 6
-* 6 - Looping Video Interval:
+
+* Looping Video Interval - 6:
   * Max - 0
   * 5 Minutes - 1
   * 20 Minutes - 2
   * 60 Minutes - 3
   * 120 Minutes - 4
 
-* 7 - Photo+Vide Interval			
+* Photo+Video Interval - 7:	
   * 1 Photo / 5 Seconds - 1
   * 1 Photo / 10 Seconds - 2
   * 1 Photo / 30 Seconds - 3
   * 1 Photo / 60 Seconds - 4
 
-* 8 - Low Light:			
+* Low Light - 8:			
   * ON - 1
   * OFF - 0
 
-* 9 - Spot Meter:			
+* Spot Meter - 9:			
   * ON - 1
   * OFF - 0
 
-* 10 - Protune			
+* Protune - 10:
   * ON - 1
   * OFF - 0
 
-* 11 - White Balance:			
+* White Balance - 11:			
     * Auto - 0
     * 3000K - 1
     * 5500K - 2
     * 6500K - 3
     * Native - 4
 
-* 12 - Color:			
+* Color - 12:			
     * GoPro Color - 0
     * Flat - 1
 
-* 13 - ISO Limit:			
+* ISO Limit - 13:			
     * 6400 - 0
     * 1600 - 1
     * 400 - 2
     * 3200 - 3
     * 800 - 4
 
-* 14 - Sharpness:		
+* Sharpness - 14:		
     * High - 0
     * Medium - 1
     * Low - 2
 
-* 15 - EV Comp:		
+* EV Comp - 15:		
     * -2.0 - 8
     * -1.5 - 7
     * -1.0 - 6
@@ -328,32 +333,40 @@ As you can see, there are two objects, "status" and "settings".
 * LCD Display - 72:
  * ON - 1
  * OFF - 0
+
 * Orientation - 52:
   * Auto - 0
   * UP - 1
   * DOWN - 2
+  
 * Default Boot Mode - 53:
   * Video - 0
   * Photo - 1
   * MultiShot - 2
-* Quick Capture: 54:
+  
+* Quick Capture - 54:
   * OFF - 0
   * ON - 1
+  
 * LED status - 55:
   * OFF - 0
   * 2 LEDs (H4 Black/Silver) FULL LEDs (HERO4 Session) - 1
   * 4 LEDs (H4 Black/Silver)- 2
-* Volume for beeps:
+  
+* Volume for beeps - 56:
   * Mute - 2
   * 70% - 1
   * 100% - 0
-* Video Format:
+  
+* Video Format - 57:
   * NTSC - 0
   * PAL - 1
-* On Screen data (HDMI/LCD BacPac/LCD):
+ 
+* On Screen data (HDMI/LCD BacPac/LCD) - 58:
   * ON - 1
   * OFF - 0
-* Auto Power Off:
+ 
+* Auto Power Off - 59:
   * Never - 0
   * 1 min - 1
   * 2 mins - 2
