@@ -340,7 +340,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera DA - (no number) all
 
-* camera DF - delete specific?
+* camera DF - (replace %OPTION with /<folder name>/<file name>) delete a specific file
 
 
 #####Leds:
