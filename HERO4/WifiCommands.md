@@ -183,6 +183,30 @@ Value | URL
 * Power Off: http://10.5.5.9/gp/gpControl/command/system/sleep
 * Power On: To power ON a HERO4 Black/Silver camera, use WoL with these parameters: MAC ADDRESS OF THE CAMERA, 10.5.5.9 as IP ADDRESS, Subnet Mask 255.255.255.0, Port 9. For the Hero4 Session, this magic packet has to be sent when your project wants to operate with the camera.
 
+####Code Pairing:
+
+GoPro HERO4 cameras need a code authentication in order to connect to a 
+device for the first time, this is done in the GoPro app when you firt 
+connect your GoPro, a 6 digit PIN is displayed on the camera and that 
+PIN needs to be entered in the GoPro app. [Video explaining HERO4 
+pairing process](https://www.youtube.com/watch?v=4BH59qEeQUg)
+
+First make sure to connect go GOPRO-BP-(numbers) password: "goprohero" 
+and call this URL:
+
+http://10.5.5.9/gpPair?c=start&pin=XXXXXX&mode=0
+
+XXXXX is the 6 digit PIN on the GoPro front screen.
+
+####Set GoPro WiFi name/password:
+
+* GoPro Name: http://10.5.5.9gp/gpControl/command/wireless/ap/ssid?ssid=GOPRONAME
+* GoPro Name and Password: http://10.5.5.9gp/gpControl/command/wireless/ap/ssid?ssid=GOPRONAME&pw=GOPROPASS
+
+GOPRONAME = GoPro new WiFi name
+
+GOPROPASS = GoPro new WiFi password
+ 
 ####Video:
 
 #####Resolutions (HERO4 Black):
