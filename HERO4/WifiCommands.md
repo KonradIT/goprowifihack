@@ -323,18 +323,18 @@ Value | URL
 
 #####Interval for NightLapse
 
-* Continuous: http://10.5.5.9/gp/gpControl/setting/32/0
-* 4s: http://10.5.5.9/gp/gpControl/setting/32/4
-* 5s: http://10.5.5.9/gp/gpControl/setting/32/5
-* 10s: http://10.5.5.9/gp/gpControl/setting/32/10
-* 15s: http://10.5.5.9/gp/gpControl/setting/32/15
-* 20s: http://10.5.5.9/gp/gpControl/setting/32/20
-* 30s: http://10.5.5.9/gp/gpControl/setting/32/30
-* 1m: http://10.5.5.9/gp/gpControl/setting/32/60
-* 2m: http://10.5.5.9/gp/gpControl/setting/32/120
-* 5m: http://10.5.5.9/gp/gpControl/setting/32/300
-* 30m: http://10.5.5.9/gp/gpControl/setting/32/1800
-* 60m: http://10.5.5.9/gp/gpControl/setting/32/3600
+* Continuous: http://10.5.5.9/gp/gpControl/setting/30/0
+* 4s: http://10.5.5.9/gp/gpControl/setting/30/1
+* 5s: http://10.5.5.9/gp/gpControl/setting/30/2
+* 10s: http://10.5.5.9/gp/gpControl/setting/30/3
+* 15s: http://10.5.5.9/gp/gpControl/setting/30/4
+* 20s: http://10.5.5.9/gp/gpControl/setting/30/5
+* 30s: http://10.5.5.9/gp/gpControl/setting/30/6
+* 1m: http://10.5.5.9/gp/gpControl/setting/30/7
+* 2m: http://10.5.5.9/gp/gpControl/setting/30/8
+* 5m: http://10.5.5.9/gp/gpControl/setting/30/9
+* 30m: http://10.5.5.9/gp/gpControl/setting/30/10
+* 60m: http://10.5.5.9/gp/gpControl/setting/30/11
 
 #####Photo resolution for MultiShot Modes (incl. SubModes):
 
@@ -345,13 +345,13 @@ Value | URL
 
 #####Timelapse Interval (TIMELAPSE MODE on MultiShot):
 
-* 0.5: http://10.5.5.9/gp/gpControl/setting/30/0
-* 1: http://10.5.5.9/gp/gpControl/setting/30/1
-* 2: http://10.5.5.9/gp/gpControl/setting/30/2
-* 5: http://10.5.5.9/gp/gpControl/setting/30/5
-* 10: http://10.5.5.9/gp/gpControl/setting/30/10
-* 30: http://10.5.5.9/gp/gpControl/setting/30/30
-* 60: http://10.5.5.9/gp/gpControl/setting/30/60
+* 0.5: http://10.5.5.9/gp/gpControl/setting/5/0
+* 1: http://10.5.5.9/gp/gpControl/setting/5/1
+* 2: http://10.5.5.9/gp/gpControl/setting/5/2
+* 5: http://10.5.5.9/gp/gpControl/setting/5/3
+* 10: http://10.5.5.9/gp/gpControl/setting/5/4
+* 30: http://10.5.5.9/gp/gpControl/setting/5/5
+* 60: http://10.5.5.9/gp/gpControl/setting/5/6
 
 #####Spot Meter:
 
