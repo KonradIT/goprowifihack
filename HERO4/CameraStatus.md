@@ -87,7 +87,7 @@ As you can see, there are two objects, "status" and "settings".
   * 12.5 - 12
   
 * FOV video - 4:
-  * Wide - 2
+  * Wide - 0
   * Medium - 1
   * Narrow - 2
  
