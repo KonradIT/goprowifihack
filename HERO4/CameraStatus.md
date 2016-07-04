@@ -147,6 +147,8 @@ As you can see, there are two objects, "status" and "settings".
     * High - 0
     * Medium - 1
     * Low - 2
+    * ON (HERO4 Session) - 3
+    * OFF (HERO4 Session) - 4
 
 * EV Comp - 15:		
     * -2.0 - 8

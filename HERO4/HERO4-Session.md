@@ -6,7 +6,7 @@ And to check that you have access to the camera, GET the status 31 of the camera
 
 ###Protune on HERO4 Session
 
-As per 2.00 firmware version, the GoPro HERO4 Session allows Protune controls for Video mode. 
+As per 2.00 firmware version, the GoPro HERO4 Session allows Protune controls for Video mode, but some parameters vary from HERO4 Black/Silver cameras. 
 
 #####Controls:
 
