@@ -8,6 +8,8 @@ HERO4 do not need any password in the URL
 
 ####Protune
 
+**NOTE: These protune commands ARE FOR HERO4 BLACK/SILVER only!! For HERO4 Session Protune commands, [use the HERO4 Session doc](/HERO4/HERO4-Session.md)
+
 #####Controls:
 
 **Video**
