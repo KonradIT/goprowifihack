@@ -374,7 +374,12 @@ As you can see, there are two objects, "status" and "settings".
 * LCD Lock - 50:
   * On - 1
   * Off - 0
- 
+* LCD Timeout sleep - 51:
+  * Never sleep - 0
+  * 1min sleep - 1
+  * 2min sleep - 2
+  * 3min sleep - 3
+
 * Auto Power Off - 59:
   * Never - 0
   * 1 min - 1

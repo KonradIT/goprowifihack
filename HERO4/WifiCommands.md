@@ -441,6 +441,13 @@ GOPROPASS = GoPro new WiFi password
  * On: http://10.5.5.9/gp/gpControl/setting/50/1
  * Off: http://10.5.5.9/gp/gpControl/setting/50/0
 
+#####LCD Timeout sleep:
+
+* LCD Never sleep: http://10.5.5.9/gp/gpControl/setting/51/0
+* LCD 1min sleep timeout: http://10.5.5.9/gp/gpControl/setting/51/1
+* LCD 2min sleep timeout: http://10.5.5.9/gp/gpControl/setting/51/2
+* LCD 3min sleep timeout: http://10.5.5.9/gp/gpControl/setting/51/3
+
 #####Auto Off:
 * Never: http://10.5.5.9/gp/gpControl/setting/59/0
 * 1m: http://10.5.5.9/gp/gpControl/setting/59/1
