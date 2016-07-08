@@ -8,3 +8,7 @@ More info can be found here: https://www.reddit.com/r/gopro/comments/2md8hm/how_
 **NOTE**: This works in the HERO4 Silver and Black, for HERO4 Session you might want to read [HERO4-Session.md](https://github.com/KonradIT/goprowifihack/blob/master/HERO4/HERO4-Session.md) on how to wake it up and enter streaming mode.
 
 Since working with UDP protocols and system calls, I recommend using @SonOf8Bits' easy to use GoPro HERO4 Streaming client written in Python: https://github.com/Sonof8Bits/GoProStreaming
+
+###Advanced streaming parameters
+
+For changing the specs of the live stream such as Bitrate, go to [the livestreaming tweaks page](https://github.com/KonradIT/goprowifihack/blob/master/HERO4/WifiCommands.md#streaming-tweaks)

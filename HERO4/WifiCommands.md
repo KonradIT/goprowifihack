@@ -472,6 +472,16 @@ GOPROPASS = GoPro new WiFi password
 * 2 Mbps: http://10.5.5.9/gp/gpControl/setting/59/2000000
 * 2.4 Mbps: http://10.5.5.9/gp/gpControl/setting/59/2400000
 
+#####Stream Window Size:
+
+* Default: http://10.5.5.9/gp/gpControl/setting/64/0
+* 240: http://10.5.5.9/gp/gpControl/setting/64/1
+* 240, 3:4: http://10.5.5.9/gp/gpControl/setting/64/2
+* 240 1:2: http://10.5.5.9/gp/gpControl/setting/64/3
+* 480: http://10.5.5.9/gp/gpControl/setting/64/4
+* 480 3:4: http://10.5.5.9/gp/gpControl/setting/64/5
+* 480 1:2: http://10.5.5.9/gp/gpControl/setting/64/6
+
 #####Tag moment:
 
 http://10.5.5.9/gp/gpControl/command/storage/tag_moment
