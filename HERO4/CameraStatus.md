@@ -17,7 +17,7 @@ As you can see, there are two objects, "status" and "settings".
 * 1 - Internal Battery is available:
   * 0 = No Battery
   * 1 = Battery is available
-* 2 - Internal Batter Level:
+* 2 - Internal Battery Level:
   * 3 = Full
   * 2 = Halfway
   * 1 = Low
@@ -28,7 +28,7 @@ As you can see, there are two objects, "status" and "settings".
   * MultiShot - 2
 * 44 - Current SubMode
   * 0 = Video/Single Pic/Burst
-  * 1 = TL Videp/Continuous/TimeLapse
+  * 1 = TL Video/Continuous/TimeLapse
   * 2 = Video+Photo/NightPhoto/NightLapse
 * 13 - Current Recording Video Duration
 * 39 - Number of MultiShot pictures taken
