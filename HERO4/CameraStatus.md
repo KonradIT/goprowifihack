@@ -212,7 +212,10 @@ As you can see, there are two objects, "status" and "settings".
 * White Balance - 22:
     * Auto - 0
     * 3000K - 1
+	* 4000K - 5
+	* 4800K - 6
     * 5500K - 2
+	* 6000K - 7
     * 6500K - 3
     * Native - 4
 
@@ -236,7 +239,13 @@ As you can see, there are two objects, "status" and "settings".
     * 1.5 - 1
     * 2.0 - 0
 
-* ISO Limit - 24:
+* ISO Min (4.00FW) - 75:
+    * 800 - 0
+    * 400 - 1
+    * 200 - 2
+    * 100 - 3
+
+* ISO Limit (ISO Max in 4.00FW) - 24:
     * 800 - 0
     * 400 - 1
     * 200 - 2
@@ -314,7 +323,10 @@ As you can see, there are two objects, "status" and "settings".
 * White Balance - 35:
     * Auto - 0
     * 3000K - 1
+	* 4000K - 5
+	* 4800K - 6
     * 5500K - 2
+	* 6000K - 7
     * 6500K - 3
     * Native - 4
 
@@ -338,7 +350,13 @@ As you can see, there are two objects, "status" and "settings".
     * 1.5 - 1
     * 2.0 - 0
 
-* ISO Limit - 37:
+* ISO Min (4.00FW) - 76:
+    * 800 - 0
+    * 400 - 1
+    * 200 - 2
+    * 100 - 3
+
+* ISO Limit (ISO Max in 4.00FW) - 37:
     * 800 - 0
     * 400 - 1
     * 200 - 2
