@@ -31,7 +31,10 @@ HERO4 do not need any password in the URL
 
 * Auto: http://10.5.5.9/gp/gpControl/setting/11/0
 * 3000k: http://10.5.5.9/gp/gpControl/setting/11/1
+* 4000k: http://10.5.5.9/gp/gpControl/setting/11/5
+* 4800k: http://10.5.5.9/gp/gpControl/setting/11/6
 * 5500k: http://10.5.5.9/gp/gpControl/setting/11/2
+* 6000k: http://10.5.5.9/gp/gpControl/setting/11/7
 * 6500k: http://10.5.5.9/gp/gpControl/setting/11/3
 * Native: http://10.5.5.9/gp/gpControl/setting/11/4
 
@@ -39,7 +42,10 @@ HERO4 do not need any password in the URL
 
 * Auto: http://10.5.5.9/gp/gpControl/setting/22/0
 * 3000k: http://10.5.5.9/gp/gpControl/setting/22/1
+* 4000k: http://10.5.5.9/gp/gpControl/setting/22/5
+* 4800k: http://10.5.5.9/gp/gpControl/setting/22/6
 * 5500k: http://10.5.5.9/gp/gpControl/setting/22/2
+* 6000k: http://10.5.5.9/gp/gpControl/setting/22/7
 * 6500k: http://10.5.5.9/gp/gpControl/setting/22/3
 * Native: http://10.5.5.9/gp/gpControl/setting/22/4
 
@@ -47,7 +53,10 @@ HERO4 do not need any password in the URL
 
 * Auto: http://10.5.5.9/gp/gpControl/setting/35/0
 * 3000k: http://10.5.5.9/gp/gpControl/setting/35/1
+* 4000k: http://10.5.5.9/gp/gpControl/setting/35/5
+* 4800k: http://10.5.5.9/gp/gpControl/setting/35/6
 * 5500k: http://10.5.5.9/gp/gpControl/setting/35/2
+* 6000k: http://10.5.5.9/gp/gpControl/setting/35/7
 * 6500k: http://10.5.5.9/gp/gpControl/setting/35/3
 * Native: http://10.5.5.9/gp/gpControl/setting/35/4
 
@@ -68,13 +77,15 @@ HERO4 do not need any password in the URL
 * GOPRO: http://10.5.5.9/gp/gpControl/setting/36/0
 * Flat: http://10.5.5.9/gp/gpControl/setting/36/1
 
-#####ISO:
+#####ISO Limit:
 
 **Video**
 
 * 6400: http://10.5.5.9/gp/gpControl/setting/13/0
 * 1600: http://10.5.5.9/gp/gpControl/setting/13/1
 * 400: http://10.5.5.9/gp/gpControl/setting/13/2
+* 3200: http://10.5.5.9/gp/gpControl/setting/13/3
+* 800: http://10.5.5.9/gp/gpControl/setting/13/4
 
 **Photo**
 
@@ -89,6 +100,29 @@ HERO4 do not need any password in the URL
 * 400: http://10.5.5.9/gp/gpControl/setting/37/1
 * 200: http://10.5.5.9/gp/gpControl/setting/37/2
 * 100: http://10.5.5.9/gp/gpControl/setting/37/3
+
+#####ISO Mode:
+
+**Video**
+
+* Max: http://10.5.5.9/gp/gpControl/setting/74/0
+* Lock: http://10.5.5.9/gp/gpControl/setting/74/1
+
+#####ISO Min:
+
+**Photo**
+
+* 800: http://10.5.5.9/gp/gpControl/setting/75/0
+* 400: http://10.5.5.9/gp/gpControl/setting/75/1
+* 200: http://10.5.5.9/gp/gpControl/setting/75/2
+* 100: http://10.5.5.9/gp/gpControl/setting/75/3
+
+**MultiShot**
+
+* 800: http://10.5.5.9/gp/gpControl/setting/76/0
+* 400: http://10.5.5.9/gp/gpControl/setting/76/1
+* 200: http://10.5.5.9/gp/gpControl/setting/76/2
+* 100: http://10.5.5.9/gp/gpControl/setting/76/3
 
 #####Sharpness:
 
