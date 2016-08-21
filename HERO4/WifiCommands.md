@@ -267,7 +267,7 @@ pairing process](https://www.youtube.com/watch?v=4BH59qEeQUg)
 First make sure to connect go GOPRO-BP-(numbers) password: "goprohero" 
 and call this URL:
 
-http://10.5.5.9/gpPair?c=start&pin=XXXXXX&mode=0
+https://10.5.5.9/gpPair?c=start&pin=XXXXXX&mode=0
 
 XXXXX is the 6 digit PIN on the GoPro front screen.
 
