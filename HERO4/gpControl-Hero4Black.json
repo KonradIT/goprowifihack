@@ -1,6 +1,7 @@
-//JSON from H4 Black running 3.00 from July 2016
+//JSON extracted from /gp/gpControl on a H4 Black running 4.00 FW from August 2016
 {
-	"version": 2.0,
+	"version": 4.0,
+	"schema_version": 2,
 	"display_hints": [{
 		"key": "GPCAMERA_GROUP_VIDEO",
 		"display_name": "Video Settings",
@@ -49,7 +50,15 @@
 			"widget_type": "select",
 			"precedence": 1
 		}, {
+			"setting_id": 73,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
 			"setting_id": 13,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 74,
 			"widget_type": "select",
 			"precedence": 1
 		}, {
@@ -94,6 +103,10 @@
 			"precedence": 1
 		}, {
 			"setting_id": 23,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 75,
 			"widget_type": "select",
 			"precedence": 1
 		}, {
@@ -150,6 +163,10 @@
 			"precedence": 1
 		}, {
 			"setting_id": 36,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 76,
 			"widget_type": "select",
 			"precedence": 1
 		}, {
@@ -214,10 +231,6 @@
 			"precedence": 1
 		}, {
 			"setting_id": 59,
-			"widget_type": "select",
-			"precedence": 1
-		}, {
-			"setting_id": 63,
 			"widget_type": "select",
 			"precedence": 1
 		}],
@@ -517,8 +530,17 @@
 				"display_name": "3000K",
 				"value": 1
 			}, {
+				"display_name": "4000K",
+				"value": 5
+			}, {
+				"display_name": "4800K",
+				"value": 6
+			}, {
 				"display_name": "5500K",
 				"value": 2
+			}, {
+				"display_name": "6000K",
+				"value": 7
 			}, {
 				"display_name": "6500K",
 				"value": 3
@@ -584,6 +606,83 @@
 				"value": 0
 			}]
 		}, {
+			"path_segment": "exposure_time",
+			"display_name": "Manual Exposure",
+			"id": 73,
+			"options": [{
+				"display_name": "Auto",
+				"value": 0
+			}, {
+				"display_name": "1/12.5",
+				"value": 1
+			}, {
+				"display_name": "1/15",
+				"value": 2
+			}, {
+				"display_name": "1/24",
+				"value": 3
+			}, {
+				"display_name": "1/25",
+				"value": 4
+			}, {
+				"display_name": "1/30",
+				"value": 5
+			}, {
+				"display_name": "1/48",
+				"value": 6
+			}, {
+				"display_name": "1/50",
+				"value": 7
+			}, {
+				"display_name": "1/60",
+				"value": 8
+			}, {
+				"display_name": "1/80",
+				"value": 9
+			}, {
+				"display_name": "1/90",
+				"value": 10
+			}, {
+				"display_name": "1/96",
+				"value": 11
+			}, {
+				"display_name": "1/100",
+				"value": 12
+			}, {
+				"display_name": "1/120",
+				"value": 13
+			}, {
+				"display_name": "1/160",
+				"value": 14
+			}, {
+				"display_name": "1/180",
+				"value": 15
+			}, {
+				"display_name": "1/192",
+				"value": 16
+			}, {
+				"display_name": "1/200",
+				"value": 17
+			}, {
+				"display_name": "1/240",
+				"value": 18
+			}, {
+				"display_name": "1/320",
+				"value": 19
+			}, {
+				"display_name": "1/360",
+				"value": 20
+			}, {
+				"display_name": "1/400",
+				"value": 21
+			}, {
+				"display_name": "1/480",
+				"value": 22
+			}, {
+				"display_name": "1/960",
+				"value": 23
+			}]
+		}, {
 			"path_segment": "protune_iso",
 			"display_name": "ISO Limit",
 			"id": 13,
@@ -591,17 +690,45 @@
 				"display_name": "6400",
 				"value": 0
 			}, {
+				"display_name": "3200",
+				"value": 3
+			}, {
 				"display_name": "1600",
 				"value": 1
+			}, {
+				"display_name": "800",
+				"value": 4
 			}, {
 				"display_name": "400",
 				"value": 2
 			}, {
-				"display_name": "3200",
-				"value": 3
+				"display_name": "200",
+				"value": 7
 			}, {
-				"display_name": "800",
-				"value": 4
+				"display_name": "100",
+				"value": 8
+			}]
+		}, {
+			"path_segment": "protune_iso_mode",
+			"display_name": "ISO Mode",
+			"id": 74,
+			"options": [{
+				"display_name": "Max",
+				"value": 0
+			}, {
+				"display_name": "Lock",
+				"value": 1
+			}]
+		}, {
+			"path_segment": "eis",
+			"display_name": "EIS",
+			"id": 78,
+			"options": [{
+				"display_name": "ON",
+				"value": 1
+			}, {
+				"display_name": "OFF",
+				"value": 0
 			}]
 		}]
 	}, {
@@ -705,6 +832,28 @@
 				"value": 0
 			}]
 		}, {
+			"path_segment": "single_wdr",
+			"display_name": "WDR",
+			"id": 77,
+			"options": [{
+				"display_name": "ON",
+				"value": 1
+			}, {
+				"display_name": "OFF",
+				"value": 0
+			}]
+		}, {
+			"path_segment": "single_raw",
+			"display_name": "RAW",
+			"id": 82,
+			"options": [{
+				"display_name": "ON",
+				"value": 1
+			}, {
+				"display_name": "OFF",
+				"value": 0
+			}]
+		}, {
 			"path_segment": "protune",
 			"display_name": "Protune",
 			"id": 21,
@@ -726,8 +875,17 @@
 				"display_name": "3000K",
 				"value": 1
 			}, {
+				"display_name": "4000K",
+				"value": 5
+			}, {
+				"display_name": "4800K",
+				"value": 6
+			}, {
 				"display_name": "5500K",
 				"value": 2
+			}, {
+				"display_name": "6000K",
+				"value": 7
 			}, {
 				"display_name": "6500K",
 				"value": 3
@@ -793,8 +951,25 @@
 				"value": 0
 			}]
 		}, {
+			"path_segment": "protune_iso_min",
+			"display_name": "ISO Min",
+			"id": 75,
+			"options": [{
+				"display_name": "800",
+				"value": 0
+			}, {
+				"display_name": "400",
+				"value": 1
+			}, {
+				"display_name": "200",
+				"value": 2
+			}, {
+				"display_name": "100",
+				"value": 3
+			}]
+		}, {
 			"path_segment": "protune_iso",
-			"display_name": "ISO Limit",
+			"display_name": "ISO Max",
 			"id": 24,
 			"options": [{
 				"display_name": "800",
@@ -1017,8 +1192,17 @@
 				"display_name": "3000K",
 				"value": 1
 			}, {
+				"display_name": "4000K",
+				"value": 5
+			}, {
+				"display_name": "4800K",
+				"value": 6
+			}, {
 				"display_name": "5500K",
 				"value": 2
+			}, {
+				"display_name": "6000K",
+				"value": 7
 			}, {
 				"display_name": "6500K",
 				"value": 3
@@ -1084,8 +1268,25 @@
 				"value": 0
 			}]
 		}, {
+			"path_segment": "protune_iso_min",
+			"display_name": "ISO Min",
+			"id": 76,
+			"options": [{
+				"display_name": "800",
+				"value": 0
+			}, {
+				"display_name": "400",
+				"value": 1
+			}, {
+				"display_name": "200",
+				"value": 2
+			}, {
+				"display_name": "100",
+				"value": 3
+			}]
+		}, {
 			"path_segment": "protune_iso",
-			"display_name": "ISO Limit",
+			"display_name": "ISO Max",
 			"id": 37,
 			"options": [{
 				"display_name": "800",
@@ -1101,6 +1302,11 @@
 				"value": 3
 			}]
 		}]
+	}, {
+		"path_segment": "playback",
+		"display_name": "Playback",
+		"value": 4,
+		"settings": []
 	}, {
 		"path_segment": "setup",
 		"display_name": "Setup",
@@ -1384,6 +1590,50 @@
 			}, {
 				"display_name": "480 1:2 Subsample",
 				"value": 6
+			}]
+		}]
+	}, {
+		"path_segment": "audio",
+		"display_name": "Audio",
+		"value": 6,
+		"settings": [{
+			"path_segment": "option",
+			"display_name": "Auto Audio Mode",
+			"id": 80,
+			"options": [{
+				"display_name": "Stereo Only",
+				"value": 0
+			}, {
+				"display_name": "Wind Only",
+				"value": 1
+			}, {
+				"display_name": "Auto",
+				"value": 2
+			}]
+		}, {
+			"path_segment": "protune",
+			"display_name": "Audio Protune",
+			"id": 79,
+			"options": [{
+				"display_name": "ON",
+				"value": 1
+			}, {
+				"display_name": "OFF",
+				"value": 0
+			}]
+		}, {
+			"path_segment": "protune_option",
+			"display_name": "Raw Audio Track",
+			"id": 81,
+			"options": [{
+				"display_name": "Low",
+				"value": 0
+			}, {
+				"display_name": "Mid",
+				"value": 1
+			}, {
+				"display_name": "High",
+				"value": 2
 			}]
 		}]
 	}],
@@ -1682,7 +1932,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 4,
-			"values": [1, 2]
+			"values": [1, 2, 4]
 		}
 	}, {
 		"activated_by": [{
@@ -1691,7 +1941,43 @@
 		}],
 		"blacklist": {
 			"setting_id": 4,
-			"values": [1, 2]
+			"values": [1, 2, 4]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 2,
+			"setting_value": 4
+		}, {
+			"setting_id": 3,
+			"setting_value": 5
+		}],
+		"blacklist": {
+			"setting_id": 4,
+			"values": [2, 4]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 2,
+			"setting_value": 4
+		}, {
+			"setting_id": 3,
+			"setting_value": 6
+		}],
+		"blacklist": {
+			"setting_id": 4,
+			"values": [2, 4]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 2,
+			"setting_value": 4
+		}, {
+			"setting_id": 3,
+			"setting_value": 7
+		}],
+		"blacklist": {
+			"setting_id": 4,
+			"values": [2, 4]
 		}
 	}, {
 		"activated_by": [{
@@ -1709,7 +1995,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 4,
-			"values": [1, 2]
+			"values": [1, 2, 4]
 		}
 	}, {
 		"activated_by": [{
@@ -1718,7 +2004,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 4,
-			"values": [1, 2]
+			"values": [1, 2, 4]
 		}
 	}, {
 		"activated_by": [{
@@ -1727,7 +2013,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 4,
-			"values": [1, 2]
+			"values": [1, 2, 4]
 		}
 	}, {
 		"activated_by": [{
@@ -1739,7 +2025,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 4,
-			"values": [1]
+			"values": [1, 4]
 		}
 	}, {
 		"activated_by": [{
@@ -1751,7 +2037,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 4,
-			"values": [1]
+			"values": [1, 4]
 		}
 	}, {
 		"activated_by": [{
@@ -1760,7 +2046,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 4,
-			"values": [1, 2]
+			"values": [1, 2, 4]
 		}
 	}, {
 		"activated_by": [{
@@ -1769,7 +2055,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 4,
-			"values": [1, 2]
+			"values": [1, 2, 4]
 		}
 	}, {
 		"activated_by": [{
@@ -1781,7 +2067,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 4,
-			"values": [0, 1]
+			"values": [0, 1, 4]
 		}
 	}, {
 		"activated_by": [{
@@ -1790,7 +2076,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 4,
-			"values": [1, 2]
+			"values": [1, 2, 4]
 		}
 	}, {
 		"activated_by": [{
@@ -1799,7 +2085,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 4,
-			"values": [1, 2]
+			"values": [1, 2, 4]
 		}
 	}, {
 		"activated_by": [{
@@ -1923,6 +2209,282 @@
 		}
 	}, {
 		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 1
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 2
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 3
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 4
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 5
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 6
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 7
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 8
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 9
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 10
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 11
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 12
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 13
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 14
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 15
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 16
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 17
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 18
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 19
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 20
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 21
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 22
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 23
+		}],
+		"blacklist": {
+			"setting_id": 8,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
 			"setting_id": 68,
 			"setting_value": 1
 		}],
@@ -1991,7 +2553,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 11,
-			"values": [0, 1, 2, 3, 4]
+			"values": [0, 1, 2, 3, 4, 5, 6, 7]
 		}
 	}, {
 		"activated_by": [{
@@ -2018,7 +2580,16 @@
 		}],
 		"blacklist": {
 			"setting_id": 13,
-			"values": [0, 1, 2, 3, 4]
+			"values": [0, 1, 2, 3, 4, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 74,
+			"values": [0, 1]
 		}
 	}, {
 		"activated_by": [{
@@ -2028,6 +2599,15 @@
 		"blacklist": {
 			"setting_id": 15,
 			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
 		}
 	}, {
 		"activated_by": [{
@@ -2148,6 +2728,756 @@
 		}
 	}, {
 		"activated_by": [{
+			"setting_id": 3,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"setting_value": 1
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 23]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"setting_value": 2
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 18, 19, 20, 22, 23]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"setting_value": 3
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 16, 17, 18, 19, 21, 22, 23]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"setting_value": 4
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 15, 16, 17, 18, 20, 21, 22, 23]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"setting_value": 5
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 22, 23]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"setting_value": 6
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"setting_value": 7
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [1, 2, 3, 4, 5, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"setting_value": 8
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [1, 2, 3, 4, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"setting_value": 9
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [1, 2, 3, 5, 6, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"setting_value": 10
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [1, 2, 4, 5, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"setting_value": 11
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [1, 3, 4, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"setting_value": 12
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 1
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 2
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 3
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 4
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 5
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 6
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 7
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 8
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 9
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 10
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 11
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 12
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 13
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 14
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 15
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 16
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 17
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 18
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 19
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 20
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 21
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 22
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 23
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 1
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 2
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 3
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 4
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 5
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 6
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 7
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 8
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 9
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 10
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 11
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 12
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 13
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 14
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 15
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 16
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 17
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 18
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 19
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 20
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 21
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 22
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 23
+		}, {
+			"setting_id": 74,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 13,
+			"values": [7, 8]
+		}
+	}, {
+		"activated_by": [{
 			"setting_id": 69,
 			"setting_value": 0
 		}],
@@ -2189,7 +3519,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 22,
-			"values": [0, 1, 2, 3, 4]
+			"values": [0, 1, 2, 3, 4, 5, 6, 7]
 		}
 	}, {
 		"activated_by": [{
@@ -2208,6 +3538,15 @@
 		"blacklist": {
 			"setting_id": 25,
 			"values": [0, 1, 2]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 21,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 75,
+			"values": [0, 1, 2, 3]
 		}
 	}, {
 		"activated_by": [{
@@ -2370,6 +3709,60 @@
 		"blacklist": {
 			"setting_id": 26,
 			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 75,
+			"setting_value": 2
+		}],
+		"blacklist": {
+			"setting_id": 24,
+			"values": [3]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 75,
+			"setting_value": 1
+		}],
+		"blacklist": {
+			"setting_id": 24,
+			"values": [2, 3]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 75,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 24,
+			"values": [1, 2, 3]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 24,
+			"setting_value": 1
+		}],
+		"blacklist": {
+			"setting_id": 75,
+			"values": [0]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 24,
+			"setting_value": 2
+		}],
+		"blacklist": {
+			"setting_id": 75,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 24,
+			"setting_value": 3
+		}],
+		"blacklist": {
+			"setting_id": 75,
+			"values": [0, 1, 2]
 		}
 	}, {
 		"activated_by": [{
@@ -2582,7 +3975,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 35,
-			"values": [0, 1, 2, 3, 4]
+			"values": [0, 1, 2, 3, 4, 5, 6, 7]
 		}
 	}, {
 		"activated_by": [{
@@ -2601,6 +3994,15 @@
 		"blacklist": {
 			"setting_id": 38,
 			"values": [0, 1, 2]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 34,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 76,
+			"values": [0, 1, 2, 3]
 		}
 	}, {
 		"activated_by": [{
@@ -2694,6 +4096,84 @@
 		}
 	}, {
 		"activated_by": [{
+			"setting_id": 70,
+			"setting_value": 1
+		}, {
+			"setting_id": 30,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 37,
+			"values": [2, 3]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 70,
+			"setting_value": 1
+		}, {
+			"setting_id": 30,
+			"setting_value": 1
+		}],
+		"blacklist": {
+			"setting_id": 37,
+			"values": [2, 3]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 76,
+			"setting_value": 2
+		}],
+		"blacklist": {
+			"setting_id": 37,
+			"values": [3]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 76,
+			"setting_value": 1
+		}],
+		"blacklist": {
+			"setting_id": 37,
+			"values": [2, 3]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 76,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 37,
+			"values": [1, 2, 3]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 37,
+			"setting_value": 1
+		}],
+		"blacklist": {
+			"setting_id": 76,
+			"values": [0]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 37,
+			"setting_value": 2
+		}],
+		"blacklist": {
+			"setting_id": 76,
+			"values": [0, 1]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 37,
+			"setting_value": 3
+		}],
+		"blacklist": {
+			"setting_id": 76,
+			"values": [0, 1, 2]
+		}
+	}, {
+		"activated_by": [{
 			"setting_id": 68,
 			"setting_value": 1
 		}],
@@ -2708,7 +4188,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 11,
-			"values": [0, 1, 2, 3, 4]
+			"values": [0, 1, 2, 3, 4, 5, 6, 7]
 		}
 	}, {
 		"activated_by": [{
@@ -2735,7 +4215,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 13,
-			"values": [0, 1, 2, 3, 4]
+			"values": [0, 1, 2, 3, 4, 7, 8]
 		}
 	}, {
 		"activated_by": [{
@@ -2745,6 +4225,15 @@
 		"blacklist": {
 			"setting_id": 15,
 			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 68,
+			"setting_value": 1
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
 		}
 	}, {
 		"activated_by": [{
@@ -2777,7 +4266,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 11,
-			"values": [0, 1, 2, 3, 4]
+			"values": [0, 1, 2, 3, 4, 5, 6, 7]
 		}
 	}, {
 		"activated_by": [{
@@ -2804,7 +4293,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 13,
-			"values": [0, 1, 2, 3, 4]
+			"values": [0, 1, 2, 3, 4, 7, 8]
 		}
 	}, {
 		"activated_by": [{
@@ -2814,6 +4303,15 @@
 		"blacklist": {
 			"setting_id": 15,
 			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 68,
+			"setting_value": 2
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
 		}
 	}, {
 		"activated_by": [{
@@ -2831,7 +4329,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 11,
-			"values": [0, 1, 2, 3, 4]
+			"values": [0, 1, 2, 3, 4, 5, 6, 7]
 		}
 	}, {
 		"activated_by": [{
@@ -2858,7 +4356,7 @@
 		}],
 		"blacklist": {
 			"setting_id": 13,
-			"values": [0, 1, 2, 3, 4]
+			"values": [0, 1, 2, 3, 4, 7, 8]
 		}
 	}, {
 		"activated_by": [{
@@ -2868,6 +4366,36 @@
 		"blacklist": {
 			"setting_id": 15,
 			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 68,
+			"setting_value": 3
+		}],
+		"blacklist": {
+			"setting_id": 15,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 68,
+			"setting_value": 3
+		}],
+		"blacklist": {
+			"setting_id": 73,
+			"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+		}
+	}, {
+		"activated_by": [{
+			"setting_id": 10,
+			"setting_value": 1
+		}, {
+			"setting_id": 73,
+			"setting_value": 0
+		}],
+		"blacklist": {
+			"setting_id": 74,
+			"values": [0, 1]
 		}
 	}, {
 		"activated_by": [{
@@ -2928,171 +4456,390 @@
 		"key": "GPCAMERA_SHUTTER",
 		"display_name": "Start or stop capture",
 		"url": "/command/shutter",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_MODE",
 		"display_name": "Set Mode",
 		"url": "/command/mode",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_SUBMODE",
 		"display_name": "Set Mode and Sub-Mode",
 		"url": "/command/sub_mode",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_POWER_ID",
 		"display_name": "Power Off Camera",
 		"url": "/command/system/sleep",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_FWUPDATE_DOWNLOAD_FILE",
+		"display_name": "Perform FW Update File Download",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_FWUPDATE_DOWNLOAD_START",
 		"display_name": "Notify start FW Update File Download",
 		"url": "/command/fwupdate/download/start",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_FWUPDATE_DOWNLOAD_DONE",
 		"display_name": "Notify completion of FW Update File Download",
 		"url": "/command/fwupdate/download/done",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_FWUPDATE_DOWNLOAD_CANCEL",
 		"display_name": "Cancel FW Update File Download",
 		"url": "/command/fwupdate/download/cancel",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_FACTORY_RESET",
 		"display_name": "Reset to Factory Defaults",
 		"url": "/command/system/factory/reset",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_SLEEP",
 		"display_name": "Power Saving Sleep Mode",
 		"url": "/command/system/sleep",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_USE_CURRENT_WIRELESS_REMOTE_ID",
 		"display_name": "Use with Current Wi-Fi Remote",
 		"url": "/setting/63/2",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_USE_NEW_WIRELESS_REMOTE_ID",
 		"display_name": "Use with New Wi-Fi Remote",
 		"url": "/command/wireless/rc/pair",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_CANCEL_PAIR_WIRELESS_REMOTE_ID",
 		"display_name": "Cancel pairing of new Wi-Fi Remote",
 		"url": "/command/wireless/rc/pair/cancel",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_CANCEL_PAIR_WIRELESS_ID",
 		"display_name": "Cancel pairing if already paired",
 		"url": "/command/wireless/pair/cancel",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_VIDEO_PROTUNE_RESET_TO_DEFAULT",
 		"display_name": "Reset Protune",
 		"url": "/command/video/protune/reset",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_MULTISHOT_PROTUNE_RESET_TO_DEFAULT",
 		"display_name": "Reset Protune",
 		"url": "/command/multi_shot/protune/reset",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_PHOTO_PROTUNE_RESET_TO_DEFAULT",
 		"display_name": "Reset Protune",
 		"url": "/command/photo/protune/reset",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_SET_DATE_AND_TIME_ID",
 		"display_name": "Set Date and Time",
 		"url": "/command/setup/date_time",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_DELETE_LAST_FILE_ID",
 		"display_name": "Delete Last File",
 		"url": "/command/storage/delete/last",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_DELETE_ALL_FILES_ID",
 		"display_name": "Delete All Files from SD Card",
 		"url": "/command/storage/delete/all",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_DELETE_FILE_ID",
 		"display_name": "Delete File",
 		"url": "/command/storage/delete",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_DELETE_FILE_GROUP",
+		"display_name": "Delete File Group",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_DELETE_FILE_ID_V2",
+		"display_name": "Delete File",
+		"url": "/command/storage/delete",
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_LOCATE_ID",
 		"display_name": "Locate Camera",
 		"url": "/command/system/locate",
 		"widget_type": "toggle",
-		"status_field": "system/camera_locate_active"
+		"status_field": "system/camera_locate_active",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_NETWORK_NAME_ID",
 		"display_name": "Name",
 		"url": "/command/wireless/ap/ssid",
 		"widget_type": "text",
+		"network_types": ["wifi"],
 		"min_length": 8,
 		"max_length": 32,
 		"regex": "^((?!goprohero$)[A-Za-z0-9_\\-@]+)$"
 	}, {
-		"key": "GPCAMERA_AP_CONTROL",
-		"display_name": "Control Wi-Fi AP",
-		"url": "/command/wireless/ap/control",
-		"widget_type": "button"
-	}, {
 		"key": "GPCAMERA_INFO_VERSION_ID",
 		"display_name": "Version",
 		"url": "camera_version",
-		"widget_type": "readonly"
+		"widget_type": "readonly",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_NETWORK_VERSION_ID",
 		"display_name": "Version",
 		"url": "bacpac_version",
-		"widget_type": "readonly"
+		"widget_type": "readonly",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_BATTERY_LEVEL_ID",
 		"display_name": "Battery Level",
 		"url": "camera_battery",
-		"widget_type": "readonly"
+		"widget_type": "readonly",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_SDCARD_CAPACITY_ID",
 		"display_name": "SD Card Capacity",
 		"url": "sd_card",
-		"widget_type": "child"
+		"widget_type": "child",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_TAG_MOMENT",
 		"display_name": "Tag Moment",
 		"url": "/command/storage/tag_moment",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_RC_PAIR",
 		"display_name": "Pair with Known RC",
 		"url": "/command/rc/pair",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_SSID_SCAN",
 		"display_name": "Start Wi-Fi SSID Scan",
 		"url": "/command/wireless/ssid/scan",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_SSID_LIST",
 		"display_name": "Wi-Fi SSID Scan Results",
 		"url": "/command/wireless/ssid/list",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_SSID_SELECT",
 		"display_name": "Connect to Wi-Fi SSID",
 		"url": "/command/wireless/ssid/select",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}, {
 		"key": "GPCAMERA_SSID_DELETE",
 		"display_name": "Delete Wi-Fi SSID from Known List",
 		"url": "/command/wireless/ssid/delete",
-		"widget_type": "button"
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_SSID_SAVE",
+		"display_name": "Save Wi-Fi SSID to Known List",
+		"url": "/command/wireless/ssid/save",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_ANALYTICS_FILE_GET",
+		"display_name": "Acquire the analytics file as an octet-stream",
+		"url": "/gp/gpControl/analytics/get",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_ANALYTICS_FILE_CLEAR",
+		"display_name": "Remove analytics file and clear analytics log",
+		"url": "/gp/gpControl/analytics/clear",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_MEDIA_LIST",
+		"display_name": "Supports listing of media on SD card",
+		"url": "/gp/gpMediaList",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_MEDIA_METADATA",
+		"display_name": "Supports extraction of metadata from a particular media file",
+		"url": "/gp/gpMediaMetadata",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_HILIGHT_ADD_VIDEO_PLAYBACK_MOMENT",
+		"display_name": "HiLight moment during a video playback",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_HILIGHT_REMOVE_VIDEO_PLAYBACK_MOMENT",
+		"display_name": "Remove HiLight moment during a video playback",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_INFO",
+		"display_name": "Get the camera info",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_PREVIEW_ENABLED",
+		"display_name": "Camera preview feature",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_PREVIEW",
+		"display_name": "Camera preview",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_PREVIEW_V2",
+		"display_name": "Camera preview v2",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_PREVIEW_LEGACY",
+		"display_name": "Camera preview",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_SET_WIFI_CONFIG",
+		"display_name": "Change wifi configuration",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_GET_WIFI_CONFIG",
+		"display_name": "Get wifi configuration",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_CHANGE_SETTING",
+		"display_name": "Change a setting",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_SENSOR_PAIRING_AVAILABLE",
+		"display_name": "Get the pairing availability status",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_SENSOR_SET_PAIRING_PHASE",
+		"display_name": "Enter or exit pairing phase",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_SENSOR_SET_AUTOCONNECT",
+		"display_name": "Set the auto-connect state of the camera",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_SENSOR_GET_AUTOCONNECT",
+		"display_name": "Get the auto-connect state of the camera",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_SENSOR_SCAN",
+		"display_name": "Scan for sensors",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_SENSOR_GET_SCAN_RESULTS",
+		"display_name": "Get the scan result ",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_SENSOR_PAIR_START",
+		"display_name": "Pair the sensor",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_SENSOR_PAIR_STOP",
+		"display_name": "Stop pairing of the sensor",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_SENSOR_GET_PAIR_STATUS",
+		"display_name": "Get the sensor pairing status",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_SENSOR_WHITELIST",
+		"display_name": "Get the whitelist of sensors",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_SENSOR_WHITELIST_DEVICE_INFO",
+		"display_name": "Get the whitelist info for a single sensor",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_SENSOR_WHITELIST_CONFIGURE",
+		"display_name": "Configure a whitelisted sensor",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_SENSOR_WHITELIST_REMOVE",
+		"display_name": "Remove a sensor from the whitelist",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
+	}, {
+		"key": "GPCAMERA_GENERIC",
+		"display_name": "Generic command",
+		"url": "",
+		"widget_type": "button",
+		"network_types": ["wifi"]
 	}],
 	"status": {
 		"groups": [{
@@ -3298,6 +5045,18 @@
 				"id": 42,
 				"name": "download_cancel_request_pending"
 			}]
+		}, {
+			"group": "liveview",
+			"fields": [{
+				"id": 65,
+				"name": "exposure_select_type"
+			}, {
+				"id": 66,
+				"name": "exposure_select_x"
+			}, {
+				"id": 67,
+				"name": "exposure_select_y"
+			}]
 		}]
 	},
 	"services": {
@@ -3355,18 +5114,18 @@
 		"supports_app_clipping": {
 			"version": 1,
 			"description": "Supports mobile app clipping.",
-			"supported": "true"
+			"url": ""
 		}
 	},
 	"info": {
 		"model_number": 13,
 		"model_name": "HERO4 Black",
-		"firmware_version": "HD4.02.03.00.00",
-		"serial_number": "C3121124619039",
+		"firmware_version": "HD4.02.04.00.00",
+		"serial_number": "",
 		"board_type": "0x05",
-		"ap_mac": "d896855f32b3",
-		"ap_ssid": "GoProHERO4Black",
+		"ap_mac": "",
+		"ap_ssid": "KonradHERO4Black",
 		"ap_has_default_credentials": "0",
-		"git_sha1": "480d25aa8a4da595a73db393f1920adca5d02503"
+		"git_sha1": ""
 	}
 }

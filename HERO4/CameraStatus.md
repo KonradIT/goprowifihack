@@ -140,11 +140,28 @@ As you can see, there are two objects, "status" and "settings".
     * Flat - 1
 
 * Manual Exposure (v4.00FW) - 73:
-	* AUTO - 0
+	* 1/24 - 3
+	* 1/25 - 4
 	* 1/30 - 5
+	* 1/48 - 6
+	* 1/50 - 7
 	* 1/60 - 8
+	* 1/80 - 9
+	* 1/90 - 10
+	* 1/96 - 11
+	* 1/100 - 12
 	* 1/120 - 13
-
+	* 1/160 - 14
+	* 1/180 - 15
+	* 1/192 - 16
+	* 1/200 - 17
+	* 1/240 - 18
+	* 1/320 - 19
+	* 1/360 - 20
+	* 1/400 - 21
+	* 1/480 - 22
+	* 1/960 - 23
+			
 * ISO Mode (v4.00FW) - 74:
 	* Max - 0
 	* Lock - 1
@@ -155,6 +172,8 @@ As you can see, there are two objects, "status" and "settings".
     * 400 - 2
     * 3200 - 3
     * 800 - 4
+    * 200 - 7
+    * 100 - 8
 
 * Sharpness - 14:		
     * High - 0

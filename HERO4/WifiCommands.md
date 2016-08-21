@@ -86,6 +86,8 @@ HERO4 do not need any password in the URL
 * 400: http://10.5.5.9/gp/gpControl/setting/13/2
 * 3200: http://10.5.5.9/gp/gpControl/setting/13/3
 * 800: http://10.5.5.9/gp/gpControl/setting/13/4
+* 200: http://10.5.5.9/gp/gpControl/setting/13/7
+* 100: http://10.5.5.9/gp/gpControl/setting/13/8
 
 **Photo**
 
@@ -145,6 +147,41 @@ HERO4 do not need any password in the URL
 * Low: http://10.5.5.9/gp/gpControl/setting/38/2
 
 #####EV:
+#####Manual Video Exposure:
+
+**Video**
+* Auto Mode: http://10.5.5.9/gp/gpControl/setting/73/0
+
+EV compensation is enabled ONLY in Auto mode.
+
+* For 24FPS:
+	* 1/24: http://10.5.5.9/gp/gpControl/setting/73/3
+	* 1/48: http://10.5.5.9/gp/gpControl/setting/73/6
+	* 1/96: http://10.5.5.9/gp/gpControl/setting/73/11
+* For 30FPS:
+	* 1/30: http://10.5.5.9/gp/gpControl/setting/73/5
+	* 1/60: http://10.5.5.9/gp/gpControl/setting/73/8
+	* 1/120: http://10.5.5.9/gp/gpControl/setting/73/13
+* For 48FPS:
+	* 1/48: http://10.5.5.9/gp/gpControl/setting/73/6
+	* 1/96: http://10.5.5.9/gp/gpControl/setting/73/11
+	* 1/192: http://10.5.5.9/gp/gpControl/setting/73/16
+* For 60FPS:
+	* 1/60: http://10.5.5.9/gp/gpControl/setting/73/8
+	* 1/120: http://10.5.5.9/gp/gpControl/setting/73/13
+	* 1/240: http://10.5.5.9/gp/gpControl/setting/73/18
+* For 90FPS:
+	* 1/90: http://10.5.5.9/gp/gpControl/setting/73/10
+	* 1/180: http://10.5.5.9/gp/gpControl/setting/73/15
+	* 1/360: http://10.5.5.9/gp/gpControl/setting/73/20
+* For 120FPS:
+	* 1/120: http://10.5.5.9/gp/gpControl/setting/73/13
+	* 1/240: http://10.5.5.9/gp/gpControl/setting/73/18
+	* 1/480: http://10.5.5.9/gp/gpControl/setting/73/22
+* For 240FPS:
+	* 1/120: http://10.5.5.9/gp/gpControl/setting/73/18
+	* 1/240: http://10.5.5.9/gp/gpControl/setting/73/22
+	* 1/480: http://10.5.5.9/gp/gpControl/setting/73/23
 
 **Video**
 
