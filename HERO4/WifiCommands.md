@@ -146,7 +146,6 @@ HERO4 do not need any password in the URL
 * Med: http://10.5.5.9/gp/gpControl/setting/38/1
 * Low: http://10.5.5.9/gp/gpControl/setting/38/2
 
-#####EV:
 #####Manual Video Exposure:
 
 **Video**
@@ -182,6 +181,8 @@ EV compensation is enabled ONLY in Auto mode.
 	* 1/120: http://10.5.5.9/gp/gpControl/setting/73/18
 	* 1/240: http://10.5.5.9/gp/gpControl/setting/73/22
 	* 1/480: http://10.5.5.9/gp/gpControl/setting/73/23
+
+#####EV:
 
 **Video**
 
@@ -260,16 +261,20 @@ Value | URL
 
 GoPro HERO4 cameras need a code authentication in order to connect to a 
 device for the first time, this is done in the GoPro app when you firt 
-connect your GoPro, a 6 digit PIN is displayed on the camera and that 
+connect your GoPro, a 4 digit PIN is displayed on the camera and that 
 PIN needs to be entered in the GoPro app. [Video explaining HERO4 
 pairing process](https://www.youtube.com/watch?v=4BH59qEeQUg)
 
 First make sure to connect go GOPRO-BP-(numbers) password: "goprohero" 
 and call this URL:
 
-https://10.5.5.9/gpPair?c=start&pin=XXXXXX&mode=0
+https://10.5.5.9/gpPair?c=start&pin=XXXX&mode=0
 
-XXXXX is the 6 digit PIN on the GoPro front screen.
+XXXX is the 4 digit PIN on the GoPro front screen.
+
+And to finish pairing:
+
+https://10.5.5.9/gpPair?c=finish&pin=XXXX&mode=0
 
 ####Set GoPro WiFi name/password:
 
