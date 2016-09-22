@@ -1,17 +1,20 @@
+
 #GoPro Wifi Hack
 
-**The unofficial API for GoPro HERO cameras (The WiFi enabled models)**
+**The unofficial API for GoPro cameras/drones (The WiFi enabled models)**
 
-*Last updated: 04/22/16 by Konrad Iturbe*
+**Update:**
 
-
-##Choose the camera model:
+GoPro released the new HERO5 cameras and Karma system, I will not have a HERO5 or Karma anytime soon, first API release for HERO5 is underway!
+##Choose the GoPro:
 
 | [![](https://i.imgur.com/1vwqEIQ.png)](https://github.com/KonradIT/goprowifihack/blob/master/HERO2/README.md) | [![](https://i.imgur.com/9LGo43Z.png)](https://github.com/KonradIT/goprowifihack/blob/master/HERO3/README.md)   |
 |---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | [GoPro HERO2 w/ WiFi BacPac](https://github.com/KonradIT/goprowifihack/blob/master/HERO2/README.md)           | [GoPro HERO3/3+ Black, Silver and White](https://github.com/KonradIT/goprowifihack/blob/master/HERO3/README.md) |
-| [![](http://i.imgur.com/zpPN0Q2.png?1)](https://github.com/KonradIT/goprowifihack/blob/master/HERO/README.md) | [![](https://i.imgur.com/77h7uHe.jpg)](https://github.com/KonradIT/goprowifihack/blob/master/HERO4/README.md)  |
+| [![](http://i.imgur.com/zpPN0Q2.png?1)](https://github.com/KonradIT/goprowifihack/blob/master/HERO/README.md) | [![](http://i.imgur.com/tWbKoD1.jpg?2)](https://github.com/KonradIT/goprowifihack/blob/master/HERO4/README.md)  |
 | [GoPro HERO+ and HERO+ LCD](https://github.com/KonradIT/goprowifihack/blob/master/HERO/README.md)  | [GoPro HERO4 Black, Silver and Session](https://github.com/KonradIT/goprowifihack/blob/master/HERO4/README.md)  |
+| [![](https://d3rd8mpr9gp2n3.cloudfront.net/content/dam/homepage/ys/Hero5Lockup.png)](https://github.com/KonradIT/goprowifihack/blob/master/HERO5/README.md) | [![](https://d3rd8mpr9gp2n3.cloudfront.net/content/dam/homepage/ys/KarmaDrone.png)](https://github.com/KonradIT/goprowifihack/blob/master/Karma/README.md) |
+| [GoPro HERO5 Black/Session](https://github.com/KonradIT/goprowifihack/blob/master/HERO5/README.md) | [GoPro Karma System](https://github.com/KonradIT/goprowifihack/blob/master/Karma/README.md) |
 
 ---
 
@@ -36,7 +39,7 @@ The Camera Status page shows how to get the current parameters of the GoPro such
 
 ###Libraries:
 
-[3rd Party Library/API wrappers 
+[3rd Party Library/API wrappers
 list](https://github.com/KonradIT/goprowifihack/blob/master/Libraries.md)
 
 ###Acknowledgements/credits
