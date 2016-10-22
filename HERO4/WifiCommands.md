@@ -259,13 +259,13 @@ Value | URL
 
 ####Code Pairing:
 
-GoPro HERO4 cameras need a code authentication in order to connect to a 
-device for the first time, this is done in the GoPro app when you firt 
-connect your GoPro, a 4 digit PIN is displayed on the camera and that 
-PIN needs to be entered in the GoPro app. [Video explaining HERO4 
+GoPro HERO4 cameras need a code authentication in order to connect to a
+device for the first time, this is done in the GoPro app when you firt
+connect your GoPro, a 4 digit PIN is displayed on the camera and that
+PIN needs to be entered in the GoPro app. [Video explaining HERO4
 pairing process](https://www.youtube.com/watch?v=4BH59qEeQUg)
 
-First make sure to connect go GOPRO-BP-(numbers) password: "goprohero" 
+First make sure to connect go GOPRO-BP-(numbers) password: "goprohero"
 and call this URL:
 
 https://10.5.5.9/gpPair?c=start&pin=XXXX&mode=0
@@ -284,7 +284,7 @@ https://10.5.5.9/gpPair?c=finish&pin=XXXX&mode=0
 GOPRONAME = GoPro new WiFi name
 
 GOPROPASS = GoPro new WiFi password
- 
+
 ####Video:
 
 #####Resolutions (HERO4 Black):
@@ -352,6 +352,7 @@ GOPROPASS = GoPro new WiFi password
 * Wide: http://10.5.5.9/gp/gpControl/setting/4/0
 * Medium: http://10.5.5.9/gp/gpControl/setting/4/1
 * Narrow: http://10.5.5.9/gp/gpControl/setting/4/2
+* Linear (reduces barrel distorsion, only on 5.00 FW): http://10.5.5.9/gp/gpControl/setting/4/4
 
 #####Low Light:
 * ON: http://10.5.5.9/gp/gpControl/setting/8/1

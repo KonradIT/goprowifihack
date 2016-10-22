@@ -56,7 +56,7 @@ As you can see, there are two objects, "status" and "settings".
   * TimeLapse Video - 1
   * Video+Photo - 2
   * Looping - 3
- 
+
 * Video Resolution - 2:
   * 4K SuperView - 2
   * 4K - 1
@@ -70,7 +70,7 @@ As you can see, there are two objects, "status" and "settings".
   * 720 SuperView - 11
   * 720 - 12
   * WVGA - 13
- 
+
 * Frame Rate - 3:
   * 240 - 0
   * 120 - 1
@@ -85,12 +85,13 @@ As you can see, there are two objects, "status" and "settings".
   * 24 - 10
   * 15 - 11
   * 12.5 - 12
-  
+
 * FOV video - 4:
   * Wide - 0
   * Medium - 1
   * Narrow - 2
- 
+  * Linear - 4
+
 * TimeLapse Video Interval - 5:
   * 1/2 Seconds - 0
   * 1 Second - 1
@@ -107,7 +108,7 @@ As you can see, there are two objects, "status" and "settings".
   * 60 Minutes - 3
   * 120 Minutes - 4
 
-* Photo+Video Interval - 7:	
+* Photo+Video Interval - 7:
   * 1 Photo / 5 Seconds - 1
   * 1 Photo / 10 Seconds - 2
   * 1 Photo / 30 Seconds - 3
@@ -161,7 +162,7 @@ As you can see, there are two objects, "status" and "settings".
 	* 1/400 - 21
 	* 1/480 - 22
 	* 1/960 - 23
-			
+
 * ISO Mode (v4.00FW) - 74:
 	* Max - 0
 	* Lock - 1
@@ -390,30 +391,30 @@ As you can see, there are two objects, "status" and "settings".
   * Auto - 0
   * UP - 1
   * DOWN - 2
-  
+
 * Default Boot Mode - 53:
   * Video - 0
   * Photo - 1
   * MultiShot - 2
-  
+
 * Quick Capture - 54:
   * OFF - 0
   * ON - 1
-  
+
 * LED status - 55:
   * OFF - 0
   * 2 LEDs (H4 Black/Silver) FULL LEDs (HERO4 Session) - 1
   * 4 LEDs (H4 Black/Silver)- 2
-  
+
 * Volume for beeps - 56:
   * Mute - 2
   * 70% - 1
   * 100% - 0
-  
+
 * Video Format - 57:
   * NTSC - 0
   * PAL - 1
- 
+
 * On Screen data (HDMI/LCD BacPac/LCD) - 58:
   * ON - 1
   * OFF - 0
