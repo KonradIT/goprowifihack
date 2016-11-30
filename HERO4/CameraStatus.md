@@ -37,8 +37,8 @@ As you can see, there are two objects, "status" and "settings".
   * 0 = Not Streaming
   * 1 = Streaming
 * 33 - SD card inserted:
-  * 0 = No
-  * 2 = Yes
+  * 0 = SD card inserted
+  * 2 = No SD Card present
 * 34 - Remaining Photos
 * 35 - Remaining Video Time
 * 36 - Number of Batch Photos taken (Example: TimeLapse batches, burst batches, continouous photo batches...)
