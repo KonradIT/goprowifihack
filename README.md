@@ -20,7 +20,10 @@ GoPro released the new HERO5 cameras and Karma system, I will not have a HERO5 o
 
 ##Read this first:
 
-If you see a URL which contains "PASSWORD" without the quotes, it means it needs the camera password, which you can obtain here:  http://10.5.5.9/camera/sd (may only apply for HERO2/HERO3/HERO3+)
+If you see a URL which contains "PASSWORD" without the quotes, it means 
+it needs the camera password, which you can obtain here:  
+http://10.5.5.9/bacpac/sd (only applies to HERO2/HERO3/HERO3+ cameras. 
+HERO4,5 and HERO use a different URL system)
 
 ###But, GoPro already has an API!
 
