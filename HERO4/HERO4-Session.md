@@ -57,5 +57,4 @@ comes to streaming. You still use the same methods explained in [the
 Livestreaming doc](Livestreaming.md) but you need to HTTP GET the status 
 URL http://10.5.5.9/gp/gpControl/status until the status:31 (number of clients connected) is set to a value above 0 (>=1). 
 Then the feed will be live in UDP port 8554. Refer to [this python 
-script](https://gist.github.com/KonradIT/acc2ab5c89567037e3d0077982de2da5) 
-on a real world example.
+script](http://github.com/KonradIT/GoProStream) on a real world example.

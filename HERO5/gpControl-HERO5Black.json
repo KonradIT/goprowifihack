@@ -5746,11 +5746,11 @@
 	"info": {
 		"model_number": 19,
 		"model_name": "HERO5 Black",
-		"firmware_version": "HD5.02.01.50.00",
-		"serial_number": "C3161324784461",
+		"firmware_version": "HD5.02.01.55.00",
+		"serial_number": "REDACTED",
 		"board_type": "0x05",
-		"ap_mac": "f6dd9e49bae6",
-		"ap_ssid": "GP24784461",
+		"ap_mac": "REDACTED",
+		"ap_ssid": "GP25452098",
 		"ap_has_default_credentials": "0",
 		"git_sha1": "037dac83a4b093e641f3fcbcd8e64f9eaadefafe",
 		"capabilities": "16"

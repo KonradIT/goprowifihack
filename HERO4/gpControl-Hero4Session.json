@@ -1888,9 +1888,9 @@
 		"model_number": 16,
 		"model_name": "HERO4 Session",
 		"firmware_version": "HX1.01.02.00",
-		"serial_number": "C3141324517011",
+		"serial_number": "REDACTED",
 		"board_type": "0x07",
-		"ap_mac": "F4DD9E08B9DC",
+		"ap_mac": "REDACTED",
 		"ap_ssid": "GoProH4Session",
 		"ap_has_default_credentials": "0",
 		"git_sha1": "1f8812f42c9dfefd38360a02308f2992fb55fe77"
