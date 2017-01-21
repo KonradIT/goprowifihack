@@ -563,6 +563,19 @@ GOPROPASS = GoPro new WiFi password
 
 http://10.5.5.9/gp/gpControl/command/storage/tag_moment
 
+#####Tag moment in video file:
+
+http://10.5.5.9/gp/gpControl/command/storage/tag_moment/playback?p=XXXGOPRO/XXXXXX.MP4&tag=Miliseconds
+
+XXXGOPRO is the folder, XXXXXX.MP4 is the video and Miliseconds are the miliseconds offset from the start of the video.
+
+For example:
+
+http://10.5.5.9/gp/gpControl/command/storage/tag_moment/playback?p=103GOPRO/GOPR1359.MP4&tag=2000
+
+will make a HiLight Tag on 2 seconds of the video GOPR1359.MP4
+  
+
 #####Pair with used RC:
 
 http://10.5.5.9/setting/63/2
