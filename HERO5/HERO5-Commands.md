@@ -36,16 +36,16 @@ Sample /status
 * Low: http://10.5.5.9/gp/gpControl/setting/81/0
 * Mid: http://10.5.5.9/gp/gpControl/setting/81/1
 * High: http://10.5.5.9/gp/gpControl/setting/81/2
-* Off: http://10.5.5.9/gp/gpControl/setting/81/2
+* Off: http://10.5.5.9/gp/gpControl/setting/81/3
 
 #####FOV
 * Linear: http://10.5.5.9/gp/gpControl/setting/4/4
 
 #####Photo setting:
 * 12MP Wide: http://10.5.5.9/gp/gpControl/setting/17/0
-* 12MP Linear: http://10.5.5.9/gp/gpControl/setting/4/10
-* 12MP Medium: http://10.5.5.9/gp/gpControl/setting/4/8
-* 12MP Narrow: http://10.5.5.9/gp/gpControl/setting/4/9
+* 12MP Linear: http://10.5.5.9/gp/gpControl/setting/17/10
+* 12MP Medium: http://10.5.5.9/gp/gpControl/setting/17/8
+* 12MP Narrow: http://10.5.5.9/gp/gpControl/setting/17/9
 
 #####GPS Tag:
 

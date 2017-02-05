@@ -10,13 +10,13 @@
 * [GoPro HERO4 (Black/Silver/Session)](https://github.com/KonradIT/goprowifihack/blob/master/HERO4/README.md)
 * [GoPro HERO+ (HERO+/HERO+ LCD)](https://github.com/KonradIT/goprowifihack/blob/master/HERO/README.md)
 * [GoPro HERO5 (Black/Session)](https://github.com/KonradIT/goprowifihack/blob/master/HERO5/README.md)
-* [Karma: needs to be released first!](http://www.theverge.com/2016/11/11/13597902/gopro-karma-drone-recall-crash-battery-fail?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter)
+* [Karma Drone - Remote <> Passanger app](https://github.com/KonradIT/goprowifihack/blob/master/Karma/README.md)
 
 ---
 
 ##Read this first:
 
-If you see a URL which contains "PASSWORD" without the quotes, it means it needs the camera password, which you can obtain here:  
+If you see a URL which contains "PASSWORD" without the quotes, it means it needs the camera password, which you can obtain here:
 
 http://10.5.5.9/bacpac/sd (only applies to HERO2/HERO3/HERO3+ cameras. HERO4, 5 and HERO use a different URL system)
 
