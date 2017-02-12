@@ -15,11 +15,11 @@ Sample /status
 * On: http://10.5.5.9/gp/gpControl/setting/78/1
 * Off: http://10.5.5.9/gp/gpControl/setting/78/0
 
-#####RAW Image (Photo mode and submodes only)
+#####RAW Image (Photo mode only)
 * On: http://10.5.5.9/gp/gpControl/setting/82/1
 * Off: http://10.5.5.9/gp/gpControl/setting/82/0
 
-#####WDR Image (Wide Dynamic Range, photo mode and submodes only):
+#####WDR Image (Wide Dynamic Range, photo mode only):
 * On: http://10.5.5.9/gp/gpControl/setting/77/1
 * Off: http://10.5.5.9/gp/gpControl/setting/77/0
 
@@ -39,6 +39,7 @@ Sample /status
 * Off: http://10.5.5.9/gp/gpControl/setting/81/3
 
 #####FOV
+* SuperView: http://10.5.5.9/gp/gpControl/4/3
 * Linear: http://10.5.5.9/gp/gpControl/setting/4/4
 
 #####Photo setting:

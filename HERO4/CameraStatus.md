@@ -2,7 +2,7 @@
 
 This URL contains a JSON with the camera parameters: http://10.5.5.9/gp/gpControl/status
 
-Here is a snippet of how the status JSON looks like: (GoPro HERO4 Black, FW 4.00)
+Here is a snippet of how the status JSON looks like: (GoPro HERO4 Black, FW 5.00)
 
 ```
 {"status":{

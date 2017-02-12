@@ -5,7 +5,7 @@ First, HTTP Get this URL: http://10.5.5.9/gp/gpControl/execute?p1=gpStream&a1=pr
 **NOTE**: If using ffplay (ffMPEG), try using the `nobuffer` flag, for a low latency stream.
 More info can be found here: https://www.reddit.com/r/gopro/comments/2md8hm/how_to_livestream_from_a_gopro_hero4/cr1b193
 
-Since working with UDP protocols and system calls, I recommend using @SonOf8Bits' easy to use GoPro HERO4 Streaming client written in Python: https://github.com/Sonof8Bits/GoProStreaming
+Since working with UDP protocols and system calls, I recommend using this python streaming client: https://github.com/konradit/goprostream
 
 ###Advanced streaming parameters
 

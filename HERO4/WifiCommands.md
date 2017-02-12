@@ -1,6 +1,6 @@
 ###Wifi Commands for HERO4
 
-Cameras covered: GoPro HERO4 Black, Silver (Firmware HD4.02.03.00.00 July 2015) and Session (Firmware April 2016)
+Cameras covered: GoPro HERO4 Black, Silver (Firmware HD4.02.05.00.00 Oct 2016) and Session (Firmware April 2016)
 
 **The HERO2/3/3+ commands also work with HERO4 but its not recommended to use them!**
 
@@ -574,7 +574,7 @@ For example:
 http://10.5.5.9/gp/gpControl/command/storage/tag_moment/playback?p=103GOPRO/GOPR1359.MP4&tag=2000
 
 will make a HiLight Tag on 2 seconds of the video GOPR1359.MP4
-  
+
 
 #####WiFi AP Settings:
 
