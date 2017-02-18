@@ -578,10 +578,10 @@ will make a HiLight Tag on 2 seconds of the video GOPR1359.MP4
 
 #####WiFi AP Settings:
 
-* Turn WiFi OFF: http://10.5.5.9/setting/63/0
-* Switch WiFi to App/Smartphone mode: http://10.5.5.9/setting/63/1
-* Switch WiFi to GoPro RC: http://10.5.5.9/setting/63/2
-* Switch WiFi to GoPro Smart Remote RC: http://10.5.5.9/setting/63/4
+* Turn WiFi OFF: http://10.5.5.9/gp/gpControl/setting/63/0
+* Switch WiFi to App/Smartphone mode: http://10.5.5.9/gp/gpControl/setting/63/1
+* Switch WiFi to GoPro RC: http://10.5.5.9/gp/gpControl/setting/63/2
+* Switch WiFi to GoPro Smart Remote RC: http://10.5.5.9/gp/gpControl/setting/63/4
 
 #####Locate
 
