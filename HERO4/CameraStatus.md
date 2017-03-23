@@ -1,4 +1,4 @@
-###Camera Status for HERO4
+### Camera Status for HERO4
 
 This URL contains a JSON with the camera parameters: http://10.5.5.9/gp/gpControl/status
 
@@ -11,8 +11,8 @@ Here is a snippet of how the status JSON looks like: (GoPro HERO4 Black, FW 5.00
 ```
 
 As you can see, there are two objects, "status" and "settings".
-##HERO4 BLACK/SILVER:
-###Status object:
+## HERO4 BLACK/SILVER:
+### Status object:
 
 * 1 - Internal Battery is available:
   * 0 = No Battery
@@ -49,8 +49,8 @@ As you can see, there are two objects, "status" and "settings".
   * 0 = Not recording/Processing
   * 1 = Recording/processing
 
-###Settings object:
-####Video Mode based parameters:
+### Settings object:
+#### Video Mode based parameters:
 * Current SUB-Mode Video - 68:
   * Video - 0
   * TimeLapse Video - 1
@@ -194,7 +194,7 @@ As you can see, there are two objects, "status" and "settings".
     * 1.5 - 1
     * 2.0 - 0
 
-####Photo Mode based parameters:
+#### Photo Mode based parameters:
 
 * Photo Sub Mode - 69:
     * Single - 0
@@ -271,7 +271,7 @@ As you can see, there are two objects, "status" and "settings".
     * 200 - 2
     * 100 - 3
 
-####MultiShot Mode based parameters:
+#### MultiShot Mode based parameters:
 
 * Default Multi-Shot Sub Mode - 27:
     * Burst - 0
@@ -382,7 +382,7 @@ As you can see, there are two objects, "status" and "settings".
     * 200 - 2
     * 100 - 3
 
-####Other Settings:
+#### Other Settings:
 * LCD Display - 72:
  * ON - 1
  * OFF - 0

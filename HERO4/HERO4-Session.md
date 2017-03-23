@@ -1,19 +1,19 @@
-###HERO4 Session Specific Notes and Commands
+### HERO4 Session Specific Notes and Commands
 
 The GoPro HERO4 Session is a simplified version of the popular HERO camera. Because of this the camera only responds to GET requests when is in APP mode, to turn the camera to APP mode send a magic packet (WoL) with these parameters: MAC ADDRESS OF THE CAMERA, 10.5.5.9 as IP ADDRESS, Subnet Mask 255.255.255.0, Port 9. For the Hero4 Session, this magic packet has to be sent when your project wants to operate with the camera.
 
 And to check that you have access to the camera, GET the status 31 of the camera and make sure its not 0 (more info on CameraStatus.md)
 
-###Protune on HERO4 Session
+### Protune on HERO4 Session
 
 As per 2.00 firmware version, the GoPro HERO4 Session allows Protune controls for Video mode, but some parameters vary from HERO4 Black/Silver cameras. 
 
-#####Controls:
+##### Controls:
 
 * off: http://10.5.5.9/gp/gpControl/setting/10/0
 * on: http://10.5.5.9/gp/gpControl/setting/10/1
 
-#####White Balance:
+##### White Balance:
 
 * Auto: http://10.5.5.9/gp/gpControl/setting/11/0
 * 3000k: http://10.5.5.9/gp/gpControl/setting/11/1
@@ -21,22 +21,22 @@ As per 2.00 firmware version, the GoPro HERO4 Session allows Protune controls fo
 * 6500k: http://10.5.5.9/gp/gpControl/setting/11/3
 * Native: http://10.5.5.9/gp/gpControl/setting/11/4
 
-#####Color:
+##### Color:
 
 * GOPRO: http://10.5.5.9/gp/gpControl/setting/12/0
 * Flat: http://10.5.5.9/gp/gpControl/setting/12/1
 
-#####ISO:
+##### ISO:
 
 * 1600: http://10.5.5.9/gp/gpControl/setting/13/1
 * 400: http://10.5.5.9/gp/gpControl/setting/13/2
 
-#####Sharpness:
+##### Sharpness:
 
 * ON: http://10.5.5.9/gp/gpControl/setting/14/3
 * OFF: http://10.5.5.9/gp/gpControl/setting/14/4
 
-#####EV:
+##### EV:
 
 Value | URL
 -----|-------
@@ -50,7 +50,7 @@ Value | URL
 -1.5 |  http://10.5.5.9/gp/gpControl/setting/15/7
 -2   |  http://10.5.5.9/gp/gpControl/setting/15/8
 
-##Streaming
+## Streaming
 
 The GoPro HERO4 Session on Firmware 2.00 works a bit differently when it 
 comes to streaming. You still use the same methods explained in [the 

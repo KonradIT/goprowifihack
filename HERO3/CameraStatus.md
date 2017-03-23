@@ -1,6 +1,6 @@
-###Camera Status for HERO3
+### Camera Status for HERO3
 
-####GoPro HERO3/3+
+#### GoPro HERO3/3+
 
 GET the contents of this: http://10.5.5.9/camera/sx
 

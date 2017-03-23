@@ -1,6 +1,6 @@
-###Resolution/Frame Rate compatibility table for HERO4 Black/Session/Silver
+### Resolution/Frame Rate compatibility table for HERO4 Black/Session/Silver
 
-#####HERO4 Black:
+##### HERO4 Black:
 
 VideoResolution |	Frames Per Second (fps) NTSC/PAL |	Field of View (FOV)        | Screen Resolution
 ----------------|----------------------------------|-----------------------------|-------------------
@@ -17,7 +17,7 @@ VideoResolution |	Frames Per Second (fps) NTSC/PAL |	Field of View (FOV)        
 720p SuperView 	|  120, 60, 50 	                   |  Ultra Wide 	               |    1280x720
 WVGA 	          |  240 	                           |  Ultra Wide 	               |    848x480
 
-#####HERO4 Session:                                                                     
+##### HERO4 Session:                                                                     
 
 VideoResolution |	Frames per Second (fps) NTSC/PAL | Field of View (FOV) 	       |  Screen Resolution
 ----------------|----------------------------------|-----------------------------|-------------------
@@ -29,7 +29,7 @@ VideoResolution |	Frames per Second (fps) NTSC/PAL | Field of View (FOV) 	      
 720p SuperView 	|  60, 50, 30, 25 	               | Ultra Wide 	               |     1280 x 720
 WVGA 	          |  120, 100 	                     | Ultra Wide 	               |     848 x 480
 
-#####HERO4 Silver:
+##### HERO4 Silver:
 
 VideoResolution |	Frames Per Second (fps) NTSC/PAL | Field of View (FOV) 	       |  Screen Resolution
 ----------------|----------------------------------|-----------------------------|-------------------

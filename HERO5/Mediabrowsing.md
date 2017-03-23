@@ -1,4 +1,4 @@
-##Media files over WiFi for HERO5 Black/Session
+## Media files over WiFi for HERO5 Black/Session
 
 * File index: http://10.5.5.9:8080/videos/DCIM (human friendly, with hyperlinks)
 * JSON media list: http://10.5.5.9/gp/gpMediaList
@@ -7,7 +7,7 @@ http://10.5.5.9:8080/gp/gpMediaMetadata?p=/XXXGOPRO/GOPRXXXX.MP4
 	* XXXGOPRO = Directory inside DCIM
 	* GOPRXXXX.MP4 = Video to get Thumbnail from
 
-###Requirements:
+### Requirements:
 
 * WiFi on
 * Camera powered on

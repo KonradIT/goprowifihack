@@ -1,4 +1,4 @@
-###Camera Status for HERO2
+### Camera Status for HERO2
 
 GET the contents of this: http://10.5.5.9/camera/se
 

@@ -1,6 +1,6 @@
-###Resolution/Frame Rate compatibility table for HERO3 White/Silver/Black and HERO3+ Black/Silver
+### Resolution/Frame Rate compatibility table for HERO3 White/Silver/Black and HERO3+ Black/Silver
 
-#####HERO3 White:
+##### HERO3 White:
 
 | Video Resolution | Frames Per Second (fps) NTSC/PAL | Field of View (FOV)        | Screen Resolution | Aspect Ratio |
 |------------------|----------------------------------|----------------------------|-------------------|--------------|
@@ -9,7 +9,7 @@
 | 720p             | 60, 50, 30 , 25                  | Ultra Wide                 | 1280x720          | 16:9         |
 | WVGA             | 60, 50                           | Ultra Wide                 | 848x480           | 16:9         |
 
-#####HERO3 Silver:
+##### HERO3 Silver:
 
 | Video Resolution | Frames Per Second (fps) NTSC/PAL | Field of View (FOV)        | Screen Resolution | Aspect Ratio |
 |------------------|----------------------------------|----------------------------|-------------------|--------------|
@@ -18,7 +18,7 @@
 | 720p             | 60, 50, 30, 25                   | Ultra Wide                 | 1280x720          | 16:9         |
 | WVGA             | 120                              | Ultra Wide                 | 848x480           | 16:9         |
 
-#####HERO3 Black:
+##### HERO3 Black:
 
 | Video Resolution| Frames Per Second (fps) NTSC/PAL | Field of View (FOV)        | Screen Resolution | Aspect Ratio |
 |-----------------|----------------------------------|----------------------------|-------------------|--------------|
@@ -32,7 +32,7 @@
 | 720p            | 120, 100, 60, 50                 | Ultra Wide, Narrow         | 1280x720          | 16:9         |
 | WVGA            | 240                              | Ultra Wide                 | 848x480           | 16:9         |
 
-#####HERO3+ Silver:
+##### HERO3+ Silver:
 
 | Video Resolution | Frames Per Second (fps) NTSC/PAL | Field of View (FOV)        | Screen Resolution | Aspect Ratio |
 |------------------|----------------------------------|----------------------------|-------------------|--------------|
@@ -41,7 +41,7 @@
 | 720p             | 120, 100, 60, 50, 30 , 25        | Ultra Wide, Medium, Narrow | 1280x720          | 16:9         |
 | WVGA             | 120, 100, 60, 50, 30, 25         | Ultra Wide                 | 848x480           | 16:9         |
 
-#####HERO3+ Black:
+##### HERO3+ Black:
 
 | Video Resolution| Frames Per Second (fps) NTSC/PAL | Field of View (FOV)        | Screen Resolution | Aspect Ratio |
 |-----------------|----------------------------------|----------------------------|-------------------|--------------|

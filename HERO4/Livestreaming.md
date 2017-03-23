@@ -1,4 +1,4 @@
-###Livestreaming for HERO4
+### Livestreaming for HERO4
 
 First, HTTP Get this URL: http://10.5.5.9/gp/gpControl/execute?p1=gpStream&a1=proto_v2&c1=restart and then you can get a UDP stream by using this URL: udp://10.5.5.9:8554 (you might have a hard time using this in your work...)
 
@@ -9,6 +9,6 @@ More info can be found here: https://www.reddit.com/r/gopro/comments/2md8hm/how_
 
 Since working with UDP protocols and system calls, I recommend using GoProStream tool, which is a easy to use GoPro Streaming client written in Python: https://github.com/KonradIT/GoProStream
 
-###Advanced streaming parameters
+### Advanced streaming parameters
 
 For changing the specs of the live stream such as Bitrate, go to [the livestreaming tweaks page](https://github.com/KonradIT/goprowifihack/blob/master/HERO4/WifiCommands.md#streaming-tweaks)

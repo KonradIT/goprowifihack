@@ -1,10 +1,10 @@
-#GoPro HERO4
+# GoPro HERO4
 
 Release date: Late 2014 (HERO4 Black/Silver), July 2015 (HERO4 Session)
 
 Cameras covered in this section: GoPro HERO4 Black, HERO4 Silver, HERO4 Session.
 
-##Index
+## Index
 
 * [Live Streaming](/HERO4/Livestreaming.md)
 * [Media Browsing](/HERO4/Mediabrowsing.md)

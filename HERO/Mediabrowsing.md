@@ -1,4 +1,4 @@
-###Media Browsing on HERO+/HERO+ LCD
+### Media Browsing on HERO+/HERO+ LCD
 
 **The same things for all cameras**
 

@@ -1,4 +1,4 @@
-###Wifi Commands for HERO2
+### Wifi Commands for HERO2
 
 The URL scheme:  http://10.5.5.9/param1/PARAM2?t=PASSWORD&p=%OPTION
 
@@ -15,7 +15,7 @@ HTTP Response Codes:
 | 403 | Password Incorrect |
 | 410 | Command Failed |
 
-#####Basics:
+##### Basics:
 
 * bacpac PW - 00 Turn GoPro OFF
 
@@ -40,7 +40,7 @@ HTTP Response Codes:
 	* Minute
 	* Second
 
-#####Mode:
+##### Mode:
 
 * camera CM - 00 Video Mode
 
@@ -54,13 +54,13 @@ HTTP Response Codes:
 
 * camera CM - 05 Play HDMI
 
-#####Orientation
+##### Orientation
 
 * camera UP - 00 Orientation UP
 
 * camera UP - 01 Orientation DOWN
 
-#####Video resolutions:
+##### Video resolutions:
 
 * camera VR - 00 WVGA 60
 
@@ -76,7 +76,7 @@ HTTP Response Codes:
 
 * camera VR - 06 1080 30
 
-#####Frame rate:
+##### Frame rate:
 
 * camera FS - 00 FPS12
 
@@ -102,7 +102,7 @@ HTTP Response Codes:
 
 * camera FS - 0a FPS240
 
-#####Fov:
+##### Fov:
 
 * camera FV - 00 wide
 
@@ -110,7 +110,7 @@ HTTP Response Codes:
 
 * camera FV - 02 narrow
 
-#####Photo resolutions:
+##### Photo resolutions:
 
 * camera PR - 00 11mpW
 
@@ -120,7 +120,7 @@ HTTP Response Codes:
 
 * camera PR - 03 5mpM
 
-#####Timelapse Interval:
+##### Timelapse Interval:
 
 * camera TI - 00 0,5 sec
 
@@ -134,7 +134,7 @@ HTTP Response Codes:
 
 * camera TI - 3c 60sec
 
-#####Volume:
+##### Volume:
 
 * camera BS - 00 no sound
 
@@ -142,13 +142,13 @@ HTTP Response Codes:
 
 * camera BS - 02 100%
 
-#####Protune ON/OFF:
+##### Protune ON/OFF:
 
 * camera PT - 01 ON
 
 * camera PT - 00 OFF
 
-#####Delete:
+##### Delete:
 
 * camera DL - (no number) last
 
@@ -156,7 +156,7 @@ HTTP Response Codes:
 
 * camera DF - delete specific?
 
-#####Leds:
+##### Leds:
 
 * bacpac LB - 00 no leds
 
@@ -164,19 +164,19 @@ HTTP Response Codes:
 
 * camera LB - 02 4 leds
 
-#####Spot Meter:
+##### Spot Meter:
 
 * camera EX - 00 OFF
 
 * camera EX - 01 ON
 
-#####One Button Mode:
+##### One Button Mode:
 
 * camera OB - 00 OFF
 
 * camera OB - 01 ON
 
-#####Protune Resolutions :
+##### Protune Resolutions :
 
 * camera VR - 07 1080 30 Protune
 
@@ -186,7 +186,7 @@ HTTP Response Codes:
 
 * camera VR - 09 960 60 Protune
 
-#####Auto Power Off:
+##### Auto Power Off:
 
 * camera AO - 00 NEVER
 
@@ -196,7 +196,7 @@ HTTP Response Codes:
 
 * camera AO - 03 300s
 
-#####Default Mode:
+##### Default Mode:
 
 * camera DM - 00 Video
 
@@ -206,19 +206,19 @@ HTTP Response Codes:
 
 * camera DM - 03 Timelapse
 
-#####OnScreen Display:
+##### OnScreen Display:
 
 * camera OS - 00 OFF
 
 * camera OS - 01 ON
 
-#####Locate:
+##### Locate:
 
 * camera LL - 01 Start
 
 * camera LL - 00 Stop
 
-#####Video Mode:
+##### Video Mode:
 
 * camera VM - 00 NTSC
 

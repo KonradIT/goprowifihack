@@ -1,4 +1,4 @@
-###Media Browsing on HERO4
+### Media Browsing on HERO4
 
 **The same things for all cameras**
 
@@ -10,7 +10,7 @@
 
 ---
 
-#####Comments:
+##### Comments:
 
 4k, 2.7k and 1440p CANNOT BE DOWNLOADED OR/AND PLAYED.
 

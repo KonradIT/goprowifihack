@@ -1,4 +1,4 @@
-#GoPro HERO5
+# GoPro HERO5
 
 Announcement date: 09/19 (HERO5 Black/Session)
 

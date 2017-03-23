@@ -1,4 +1,4 @@
-###Camera Status for HERO+ / HERO+ LCD
+### Camera Status for HERO+ / HERO+ LCD
 
 This URL contains a JSON with the camera parameters: http://10.5.5.9/gp/gpControl/status
 
@@ -11,7 +11,7 @@ Here is a snippet of how the status JSON looks like: (GoPro HERO+, FW 1.50)
 ```
 
 As you can see, there are two objects, "status" and "settings".
-###Status object:
+### Status object:
 
 * 1 - Internal Battery is available:
   * 0 = No Battery
@@ -48,8 +48,8 @@ As you can see, there are two objects, "status" and "settings".
   * 0 = Not recording/Processing
   * 1 = Recording/processing
 
-###Settings object:
-####Video Mode based parameters:
+### Settings object:
+#### Video Mode based parameters:
 * Current SUB-Mode Video - 68:
   * Video - 0
   * Looping - 3
@@ -83,7 +83,7 @@ As you can see, there are two objects, "status" and "settings".
   * ON - 1
   * OFF - 0
 
-####Photo Mode based parameters:
+#### Photo Mode based parameters:
 
 * Photo Sub Mode - 69:
     * Single - 0
@@ -96,7 +96,7 @@ As you can see, there are two objects, "status" and "settings".
     * ON - 1
     * OFF - 0
 
-####MultiShot Mode based parameters:
+#### MultiShot Mode based parameters:
 
 * Default Multi-Shot Sub Mode - 27:
     * Burst - 0
@@ -125,7 +125,7 @@ As you can see, there are two objects, "status" and "settings".
     * ON - 1
     * OFF - 0
 
-####Other Settings:
+#### Other Settings:
 
 * Orientation - 52:
   * Auto - 0

@@ -1,4 +1,4 @@
-###Wifi Commands for HERO3/3+
+### Wifi Commands for HERO3/3+
 
 Tested on: HERO3 Black, V3.00
 
@@ -20,7 +20,7 @@ HTTP Response Codes:
 | 403 | Password Incorrect |
 | 410 | Command Failed |
 
-#####Basics:
+##### Basics:
 
 * bacpac PW - 00 Turn GoPro OFF
 
@@ -68,7 +68,7 @@ HTTP Response Codes:
 
 A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-table.md)
 
-#####Mode:
+##### Mode:
 
 * camera CM - 00 Video Mode
 
@@ -82,13 +82,13 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera CM - 05 Play HDMI
 
-#####Orientation
+##### Orientation
 
 * camera UP - 00 Orientation UP
 
 * camera UP - 01 Orientation DOWN
 
-#####Video resolutions HERO2 and HERO3 silver:
+##### Video resolutions HERO2 and HERO3 silver:
 
 * camera VR - 00 WVGA 60
 
@@ -104,7 +104,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera VR - 06 1080 30
 
-#####Video resolutions Black edition:
+##### Video resolutions Black edition:
 
 * camera VV 08 4kCin12
 
@@ -128,7 +128,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera VV 00 WVGA 240
 
-#####Video resolutions HERO3+Black:
+##### Video resolutions HERO3+Black:
 
 * camera VV 06 - 4K
 
@@ -160,7 +160,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera VV 01 - 720p
 
-#####Frame rate:
+##### Frame rate:
 
 * camera FS - 00 FPS12
 
@@ -186,7 +186,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera FS - 0a FPS240
 
-#####Fov:
+##### Fov:
 
 * camera FV - 00 wide
 
@@ -194,7 +194,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera FV - 02 narrow
 
-#####Photo resolution HERO3 silver/white:
+##### Photo resolution HERO3 silver/white:
 
 * camera PR - 00 11mpW
 
@@ -204,7 +204,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera PR - 03 5mpM
 
-#####Photo resolution HERO3 Black ed:
+##### Photo resolution HERO3 Black ed:
 
 * camera PR - 05 12mpW
 
@@ -214,7 +214,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera PR - 03 5mpM
 
-#####Timelapse Interval:
+##### Timelapse Interval:
 
 * camera TI - 00 0,5 sec
 
@@ -228,7 +228,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera TI - 3c 60sec
 
-#####Photo+Video Setting:
+##### Photo+Video Setting:
 
 * camera PN - 00 OFF
 * camera PN - 01 5sec
@@ -237,7 +237,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 * camera PN - 04 1min
 
 
-#####Volume:
+##### Volume:
 
 * camera BS - 00 no sound
 
@@ -245,7 +245,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera BS - 02 100%
 
-#####Continuous Shot (HERO3):
+##### Continuous Shot (HERO3):
 
 * camera CS - 00 Single
 
@@ -255,7 +255,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera CS - 0a 10SPS
 
-#####Burst Rate HERO3:
+##### Burst Rate HERO3:
 
 * camera BU - 00 3/1s
 
@@ -269,7 +269,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera BU - 06 30/3s
 
-#####Loop Video HERO3:
+##### Loop Video HERO3:
 
 * camera LO - 00 OFF
 
@@ -285,13 +285,13 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 ####Protune Settings:
 
-#####Protune ON/OFF:
+##### Protune ON/OFF:
 
 * camera PT - 01 ON
 
 * camera PT - 00 OFF
 
-#####White Balance HERO3 Black/+Black ONLY IF Protune is ON:
+##### White Balance HERO3 Black/+Black ONLY IF Protune is ON:
 
 * camera WB - 00 auto
 
@@ -303,24 +303,24 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera WB - 04 CAMRAW
 
-#####Color Profile for HERO3+ Black ONLY IF Protune is ON:
+##### Color Profile for HERO3+ Black ONLY IF Protune is ON:
 
 * camera CO - 00 GoPro Color
 * camera CO - 01 Flat
 
-#####ISO for HERO3+ Black ONLY IF Protune is ON:
+##### ISO for HERO3+ Black ONLY IF Protune is ON:
 
 * camera GA - 00 6400
 * camera GA - 01 1600
 * camera GA - 02 400
 
-#####Sharpness for HERO3+ Black ONLY IF Protune is ON:
+##### Sharpness for HERO3+ Black ONLY IF Protune is ON:
 
 * camera SP - 00 HIGH
 * camera SP - 01 MEDIUM
 * camera SP - 02 LOW
 
-#####Exposure Compensation for HERO3+ Black ONLY IF Protune is ON:
+##### Exposure Compensation for HERO3+ Black ONLY IF Protune is ON:
 
 * camera EV - 06 "-2.0
 * camera EV - 07 -1.5
@@ -332,12 +332,12 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 * camera EV - 13 +1.5
 * camera EV - 14 +2.0
 
-#####Low Light for 60+ FPS:
+##### Low Light for 60+ FPS:
 
 * camera LW - 01 ON
 * camera LW - 00 OFF
 
-#####Delete:
+##### Delete:
 
 * camera DL - (no number) last
 
@@ -346,7 +346,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 * camera DF - (replace %OPTION with /<folder name>/<file name>) delete a specific file
 
 
-#####Leds:
+##### Leds:
 
 * bacpac LB - 00 no leds
 
@@ -354,19 +354,19 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera LB - 02 4 leds
 
-#####Spot Meter:
+##### Spot Meter:
 
 * camera EX - 00 OFF
 
 * camera EX - 01 ON
 
-#####One Button Mode:
+##### One Button Mode:
 
 * camera OB - 00 OFF
 
 * camera OB - 01 ON
 
-#####Protune Resolutions HERO3 silver DEPRECATED:
+##### Protune Resolutions HERO3 silver DEPRECATED:
 
 * camera VR - 07 1080 30 Protune
 
@@ -376,7 +376,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera VR - 09 960 60 Protune
 
-#####Protune Resolutions HERO3 black ONLY IF PROTUNE IS ON:
+##### Protune Resolutions HERO3 black ONLY IF PROTUNE IS ON:
 
 * camera VV 00 720 120T
 
@@ -394,7 +394,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera VV 08 4kCin12T
 
-#####Auto Power Off:
+##### Auto Power Off:
 
 * camera AO - 00 NEVER
 
@@ -404,7 +404,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera AO - 03 300s
 
-#####Default Mode:
+##### Default Mode:
 
 * camera DM - 00 Video
 
@@ -414,19 +414,19 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 * camera DM - 03 Timelapse
 
-#####OnScreen Display:
+##### OnScreen Display:
 
 * camera OS - 00 OFF
 
 * camera OS - 01 ON
 
-#####Locate:
+##### Locate:
 
 * camera LL - 01 Start
 
 * camera LL - 00 Stop
 
-#####Video Mode:
+##### Video Mode:
 
 * camera VM - 00 NTSC
 
