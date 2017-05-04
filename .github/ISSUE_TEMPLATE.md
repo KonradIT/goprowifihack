@@ -1,6 +1,6 @@
-####Problem:
+#### Problem:
 
-####Details:
+#### Details:
 
 * GoPro Camera(s):
 * Firmware Version:
