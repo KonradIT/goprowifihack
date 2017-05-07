@@ -48,6 +48,7 @@ As you can see, there are two objects, "status" and "settings".
 * 8 = Recording/Processing status:
   * 0 = Not recording/Processing
   * 1 = Recording/processing
+* 54 - Remaning free space on memorycard
 
 ### Settings object:
 #### Video Mode based parameters:
