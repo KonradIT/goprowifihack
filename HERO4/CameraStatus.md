@@ -18,10 +18,11 @@ As you can see, there are two objects, "status" and "settings".
   * 0 = No Battery
   * 1 = Battery is available
 * 2 - Internal Battery Level:
+  * 4 = Charging
   * 3 = Full
   * 2 = Halfway
   * 1 = Low
-  * 4 = Charging
+  * 0 = Empty
 * 43 - Current Mode:
   * Video - 0
   * Photo - 1
