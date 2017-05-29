@@ -536,7 +536,9 @@ GOPROPASS = GoPro new WiFi password
 
 #### Streaming tweaks:
 
-##### Stream BitRate:
+##### Stream BitRate :
+Supports any number ( like 7000000), but limited by wifi throughput, packet loss and video glitches may appear.
+**Correct parameter ID is 62!**
 
 * 250 Kbps: http://10.5.5.9/gp/gpControl/setting/62/250000
 * 400 Kbps: http://10.5.5.9/gp/gpControl/setting/62/400000
@@ -544,12 +546,13 @@ GOPROPASS = GoPro new WiFi password
 * 700 Kbps: http://10.5.5.9/gp/gpControl/setting/62/700000
 * 800 Kbps: http://10.5.5.9/gp/gpControl/setting/62/800000
 * 1 Mbps: http://10.5.5.9/gp/gpControl/setting/62/1000000
-* 1.2 Mbps: http://10.5.5.9/gp/gpControl/setting/59/1200000
-* 1.6 Mbps: http://10.5.5.9/gp/gpControl/setting/59/1600000
-* 2 Mbps: http://10.5.5.9/gp/gpControl/setting/59/2000000
-* 2.4 Mbps: http://10.5.5.9/gp/gpControl/setting/59/2400000
+* 1.2 Mbps: http://10.5.5.9/gp/gpControl/setting/62/1200000
+* 1.6 Mbps: http://10.5.5.9/gp/gpControl/setting/62/1600000
+* 2 Mbps: http://10.5.5.9/gp/gpControl/setting/62/2000000
+* 2.4 Mbps: http://10.5.5.9/gp/gpControl/setting/62/2400000
 
 ##### Stream Window Size:
+Sizes with 720 height are tested on Hero 5 Black.
 
 * Default: http://10.5.5.9/gp/gpControl/setting/64/0
 * 240: http://10.5.5.9/gp/gpControl/setting/64/1
@@ -558,6 +561,10 @@ GOPROPASS = GoPro new WiFi password
 * 480: http://10.5.5.9/gp/gpControl/setting/64/4
 * 480 3:4: http://10.5.5.9/gp/gpControl/setting/64/5
 * 480 1:2: http://10.5.5.9/gp/gpControl/setting/64/6
+* **720 (1280x720)** : http://10.5.5.9/gp/gpControl/setting/64/7
+* **720 3:4 (960x720)** http://10.5.5.9/gp/gpControl/setting/64/8
+* **720 1:2 (640x720)** http://10.5.5.9/gp/gpControl/setting/64/9
+
 
 ##### Tag moment:
 
