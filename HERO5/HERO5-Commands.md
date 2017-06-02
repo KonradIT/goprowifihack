@@ -1,6 +1,6 @@
 ### GoPro HERO5 Commands, Status and Notes
 
-Firmware revision: HD5.02.01.50.00
+Firmware revision: HD5.02.02.00.00
 
 Sample /status
 
@@ -15,13 +15,49 @@ Sample /status
 * On: http://10.5.5.9/gp/gpControl/setting/78/1
 * Off: http://10.5.5.9/gp/gpControl/setting/78/0
 
-##### RAW Image (Photo mode only)
+##### RAW (.GPR RAW PHOTO)
+
+###### Photo (Photo Mode)
 * On: http://10.5.5.9/gp/gpControl/setting/82/1
 * Off: http://10.5.5.9/gp/gpControl/setting/82/0
 
-##### WDR Image (Wide Dynamic Range, photo mode only):
+###### NightPhoto (Photo Mode)
+* On: http://10.5.5.9/gp/gpControl/setting/98/1
+* Off: http://10.5.5.9/gp/gpControl/setting/98/0
+
+###### TimeLapse (MultiShot Mode):
+* On: http://10.5.5.9/gp/gpControl/setting/94/1
+* Off: http://10.5.5.9/gp/gpControl/setting/94/0
+
+###### NightLapse (MultiShot Mode):
+* On: http://10.5.5.9/gp/gpControl/setting/99/1
+* Off: http://10.5.5.9/gp/gpControl/setting/99/0
+
+##### WDR (Wide Dynamic Range):
+
+###### Photo (Photo Mode):
+
 * On: http://10.5.5.9/gp/gpControl/setting/77/1
 * Off: http://10.5.5.9/gp/gpControl/setting/77/0
+
+###### TimeLapse (MultiShot Mode):
+
+* On: http://10.5.5.9/gp/gpControl/setting/93/1
+* Off: http://10.5.5.9/gp/gpControl/setting/93/0
+
+##### Protune Shutter for Photo Mode:
+
+* Auto: http://10.5.5.9/gp/gpControl/setting/97/0
+* 1/125: http://10.5.5.9/gp/gpControl/setting/97/1
+* 1/250: http://10.5.5.9/gp/gpControl/setting/97/2
+* 1/500: http://10.5.5.9/gp/gpControl/setting/97/3
+* 1/1000: http://10.5.5.9/gp/gpControl/setting/97/4
+* 1/2000: http://10.5.5.9/gp/gpControl/setting/97/5
+
+##### Audio on Video:
+
+* On: http://10.5.5.9/gp/gpControl/setting/96/1
+* Off: http://10.5.5.9/gp/gpControl/setting/96/0
 
 ##### Audio mode:
 * Stereo only: http://10.5.5.9/gp/gpControl/setting/80/0
@@ -37,6 +73,14 @@ Sample /status
 * Mid: http://10.5.5.9/gp/gpControl/setting/81/1
 * High: http://10.5.5.9/gp/gpControl/setting/81/2
 * Off: http://10.5.5.9/gp/gpControl/setting/81/3
+
+##### Audio Input:
+* None: http://10.5.5.9/gp/gpControl/setting/95/0
+* Standard Mic: http://10.5.5.9/gp/gpControl/setting/95/1
+* Standard Mic+: http://10.5.5.9/gp/gpControl/setting/95/2
+* Powered Mic: http://10.5.5.9/gp/gpControl/setting/95/3
+* Powered Mic+: http://10.5.5.9/gp/gpControl/setting/95/4
+* Line In: http://10.5.5.9/gp/gpControl/setting/95/5
 
 ##### FOV
 * SuperView: http://10.5.5.9/gp/gpControl/4/3
@@ -66,7 +110,6 @@ Sample /status
 
 ##### Camera system language:
 
-
 * English: http://10.5.5.9/gp/gpControl/setting/84/0
 * Chinese: http://10.5.5.9/gp/gpControl/setting/84/1
 * German: http://10.5.5.9/gp/gpControl/setting/84/2
@@ -76,7 +119,6 @@ Sample /status
 * French: http://10.5.5.9/gp/gpControl/setting/84/6
 
 ##### Voice control language:
-
 
 * English - US: http://10.5.5.9/gp/gpControl/setting/85/0
 * English - UK: http://10.5.5.9/gp/gpControl/setting/85/1
@@ -88,3 +130,16 @@ Sample /status
 * Spanish - NA: http://10.5.5.9/gp/gpControl/setting/85/7
 * Chinese: http://10.5.5.9/gp/gpControl/setting/85/8
 * Japanese: http://10.5.5.9/gp/gpControl/setting/85/9
+
+##### Streaming settings:
+
+###### Bit rate:
+
+* 2.5 Mbps: http://10.5.5.9/gp/gpControl/setting/62/2500000
+* 4 Mbps: http://10.5.5.9/gp/gpControl/setting/62/4000000
+
+##### Resolution:
+
+* 720: http://10.5.5.9/gp/gpControl/setting/64/7
+* 720 3:4 Subsample: http://10.5.5.9/gp/gpControl/setting/64/8
+* 720 1:2 Subsample: http://10.5.5.9/gp/gpControl/setting/64/9
