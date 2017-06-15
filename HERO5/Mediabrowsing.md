@@ -30,7 +30,12 @@ This returns:
           "s": "99545292"
         },
 ```
+
 * To get information about a video: http://10.5.5.9:8080/gp/gpMediaMetadata?p=XXXGOPRO/GOPRXXXX.MP4&t=videoinfo
+
+	* dur = video duration
+	* tag_count = number of hilight tags
+	* tags = array of tags in milliseconds
 
 Returns:
 
@@ -38,10 +43,6 @@ Returns:
 {"dur":"20","avc_profile":"100","profile":"50","tag_count":4,"tags":[1200,4330,5000,7400]}
 
 ```
-
-* dur = video duration
-* tag_count = number of hilight tags
-* tags = array of tags in milliseconds
 
 * To get the thumbnail of a video: http://10.5.5.9:8080/gp/gpMediaMetadata?p=XXXGOPRO/GOPRXXXX.MP4
 
