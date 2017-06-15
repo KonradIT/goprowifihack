@@ -74,14 +74,6 @@ Sample /status
 * High: http://10.5.5.9/gp/gpControl/setting/81/2
 * Off: http://10.5.5.9/gp/gpControl/setting/81/3
 
-##### Audio Input:
-* None: http://10.5.5.9/gp/gpControl/setting/95/0
-* Standard Mic: http://10.5.5.9/gp/gpControl/setting/95/1
-* Standard Mic+: http://10.5.5.9/gp/gpControl/setting/95/2
-* Powered Mic: http://10.5.5.9/gp/gpControl/setting/95/3
-* Powered Mic+: http://10.5.5.9/gp/gpControl/setting/95/4
-* Line In: http://10.5.5.9/gp/gpControl/setting/95/5
-
 ##### FOV
 * SuperView: http://10.5.5.9/gp/gpControl/4/3
 * Linear: http://10.5.5.9/gp/gpControl/setting/4/4
@@ -143,3 +135,45 @@ Sample /status
 * 720: http://10.5.5.9/gp/gpControl/setting/64/7
 * 720 3:4 Subsample: http://10.5.5.9/gp/gpControl/setting/64/8
 * 720 1:2 Subsample: http://10.5.5.9/gp/gpControl/setting/64/9
+
+#### Connecting to a WiFi network:
+
+* Scan for available networks: http://10.5.5.9/gp/gpControl/command/wireless/ssid/scan?p=1
+* Return JSON of available networks: http://10.5.5.9/gp/gpControl/command/wireless/ssid/list
+
+the JSON structure is:
+
+```
+{
+  "scan_id": 1,
+  "total": 5,
+  "index": 0,
+  "index_count": 5,
+  "ssid_array": [
+    {
+      "ssid": "MyHomeNetwork",
+      "auth_type": 1,
+      "bars": 0
+    },
+    ...
+  ]
+}
+```
+
+* Save the network: http://10.5.5.9/gp/gpControl/command/wireless/ssid/save?ssid=WIFI_SSID&auth_type=AUTH_TYPE&pw=SSID_PASSWORD
+	* WIFI_SSID = ssid
+	* AUTH_TYPE = auth_type from the /list JSON, an integer (1 in the example)
+	* SSID_PASSWORD = SSID password
+* Connect to network: http://10.5.5.9/gp/gpControl/command/wireless/ssid/select?ssid=WIFI_SSID&auth_type=AUTH_TYPE&pw=SSID_PASSWORD
+
+### Beta / Unreleased:
+
+Future commands that are not yet on the official GoPro smartphone app. Some work, some don't.
+
+##### Audio Input: (does not work as of 02.02.00.00)
+* None: http://10.5.5.9/gp/gpControl/setting/95/0
+* Standard Mic: http://10.5.5.9/gp/gpControl/setting/95/1
+* Standard Mic+: http://10.5.5.9/gp/gpControl/setting/95/2
+* Powered Mic: http://10.5.5.9/gp/gpControl/setting/95/3
+* Powered Mic+: http://10.5.5.9/gp/gpControl/setting/95/4
+* Line In: http://10.5.5.9/gp/gpControl/setting/95/5

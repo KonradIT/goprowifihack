@@ -607,7 +607,7 @@ http://10.5.5.9/gp/gpControl/command/storage/delete/last
 
 http://10.5.5.9/gp/gpControl/command/storage/delete/all
 
-##### Extracting a clip from a video (GoPro Clips):
+##### Extracting a clip from a video (GoPro Clips): (Works on HERO4 and HERO5)
 
 **To start a video conversion:** 
 
@@ -669,3 +669,48 @@ You can now download the output url, add http://10.5.5.9/videos/ to it.
 **To cancel a conversion:**
 
 http://10.5.5.9/gp/gpControl/command/transcode/cancel?id=STATUS_ID
+
+### Bluetooth:
+
+**Allows the camera to be paired to a GoPro Bluetooth metadata device**
+
+* List whitelisted (paired) devices: http://10.5.5.9/gp/gpControl/command/ble/whitelist/list
+* Scan for devices: http://10.5.5.9/gp/gpControl/command/ble/scan?p=1
+* List scanned devices: http://10.5.5.9/gp/gpControl/command/ble/scan/list
+
+Returns (example):
+
+```
+{
+  "list_id": 1,
+  "total": 1,
+  "index": 0,
+  "index_count": 1,
+  "device_array": [
+    {
+      "address": "device_address",
+      "address_type": 0,
+      "rssi": -92,
+      "name": "",
+      "profile_uuid16": [
+        "9ffe"
+      ]
+    },
+    ...
+  ]
+}
+```
+* Start pairing process: http://10.5.5.9/gp/gpControl/command/ble/pairing_available and http://10.5.5.9/gp/gpControl/command/ble/pairing_phase?p=1
+* Get pairing status: http://10.5.5.9/gp/gpControl/command/ble/pair/status
+
+Returns:
+
+```
+
+{"pairing_status":0}
+```
+* Pair with device: http://10.5.5.9/gp/gpControl/command/ble/pair/start?device=DEVICE_ID&address_type=ADDRESS_TYPE
+
+	* DEVICE_ID = "address" from "device_array" in list
+	* ADDRESS_TYPE = "address_type" from "device_array" in list
+
