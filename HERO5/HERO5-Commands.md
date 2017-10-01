@@ -1,5 +1,7 @@
 ### GoPro HERO5 Commands, Status and Notes
 
+## Specific commands, for the rest of the commands go [here](/HERO4/WifiCommands.md)
+
 Firmware revision: HD5.02.02.00.00
 
 Sample /status
@@ -165,10 +167,6 @@ the JSON structure is:
 	* AUTH_TYPE = auth_type from the /list JSON, an integer (1 in the example)
 	* SSID_PASSWORD = SSID password
 * Connect to network: http://10.5.5.9/gp/gpControl/command/wireless/ssid/select?ssid=WIFI_SSID&auth_type=AUTH_TYPE&pw=SSID_PASSWORD
-
-### Beta / Unreleased:
-
-Future commands that are not yet on the official GoPro smartphone app. Some work, some don't.
 
 ##### Audio Input: (does not work as of 02.02.00.00)
 * None: http://10.5.5.9/gp/gpControl/setting/95/0

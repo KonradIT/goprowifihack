@@ -10,11 +10,12 @@
 * [GoPro HERO4 (Black/Silver/Session)](https://github.com/KonradIT/goprowifihack/blob/master/HERO4/README.md)
 * [GoPro HERO+ (HERO+/HERO+ LCD)](https://github.com/KonradIT/goprowifihack/blob/master/HERO/README.md)
 * [GoPro HERO5 (Black/Session)](https://github.com/KonradIT/goprowifihack/blob/master/HERO5/README.md)
+* [GoPro HERO6 Black](https://github.com/KonradIT/goprowifihack/blob/master/HERO6/README.md)
 * [Karma Drone - Remote <> Passanger app](https://github.com/KonradIT/goprowifihack/blob/master/Karma/README.md)
 
 ---
 
-This is a community effort to document the API calls betweenGoPro cameras and GoPro's Smartphone App via WiFi. It has 4 sections for each camera model:
+This is a community effort to document the API calls between GoPro cameras and GoPro's Smartphone App via WiFi. It has 4 sections for each camera model:
 - WiFi commands: a list of WiFi commands you can use for the camera.
 - Livestreaming: methods of getting a live video feed off the camera.
 - Media Browsing: Instructions on getting media off the SD card via wifi.
