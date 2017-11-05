@@ -138,6 +138,44 @@ Sample /status
 * 720 3:4 Subsample: http://10.5.5.9/gp/gpControl/setting/64/8
 * 720 1:2 Subsample: http://10.5.5.9/gp/gpControl/setting/64/9
 
+#### Pairing:
+
+GoPro HERO5 cameras (Black version under 2.60 firmware at least) have to receive two "GET" requests in order to accept a
+new device (for the first time ?).
+
+Once connected to the WiFi of the GoPro you have to call those two URL :
+https://10.5.5.9/bacpac/cv
+https://10.5.5.9/gp/gpControl/command/wireless/pair/complete?success=1&deviceName=FIXME_DEVICE_NAME
+
+##### Example (from Windows 10 simulating GoPro App)
+
+GET /bacpac/cv HTTP/1.1
+Host: 10.5.5.9
+Connection: Keep-Alive
+
+Response :
+HTTP/1.1 200 OK
+Allow: GET 
+Accept-Ranges: bytes
+Cache-Control: no-cache
+Cache-Control: no-store
+Connection: Keep-Alive
+Server: GoPro Web Server v1.1
+Content-Type: application/octet-stream
+Content-Length: 29
+
+[binarycodereplaced]
+GP11111111
+
+GET /gp/gpControl/command/wireless/pair/complete?success=1&deviceName=WIN10 HTTP/1.1
+Host: 10.5.5.9
+Connection: Keep-Alive
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{}
+
 #### Connecting to a WiFi network:
 
 * Scan for available networks: http://10.5.5.9/gp/gpControl/command/wireless/ssid/scan?p=1
