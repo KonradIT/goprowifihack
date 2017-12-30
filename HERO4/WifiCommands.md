@@ -714,3 +714,9 @@ Returns:
 	* DEVICE_ID = "address" from "device_array" in list
 	* ADDRESS_TYPE = "address_type" from "device_array" in list
 
+##### Set date and time
+
+* http://10.5.5.9/gp/gpControl/command/setup/date_time?p=%11%0b%10%11%29%2c
+
+The hex string at the end is the same as for [HERO3](https://github.com/KonradIT/goprowifihack/blob/master/HERO3/WifiCommands.md#basics), so in the example: 11 = (20)17, 0b = 11 (November), 10 = 16, 11 = 17, 29 = 41, 2c = 44.
+Example bash code for date string, see https://github.com/ztzhang/GoProWifiCommand/issues/3.
