@@ -46,8 +46,8 @@ https://10.5.5.9/gpPair?c=finish&pin=XXXX&mode=0
 
 #### Set GoPro WiFi name/password:
 
-* GoPro Name: http://10.5.5.9gp/gpControl/command/wireless/ap/ssid?ssid=GOPRONAME
-* GoPro Name and Password: http://10.5.5.9gp/gpControl/command/wireless/ap/ssid?ssid=GOPRONAME&pw=GOPROPASS
+* GoPro Name: http://10.5.5.9/gp/gpControl/command/wireless/ap/ssid?ssid=GOPRONAME
+* GoPro Name and Password: http://10.5.5.9/gp/gpControl/command/wireless/ap/ssid?ssid=GOPRONAME&pw=GOPROPASS
 
 GOPRONAME = GoPro new WiFi name
 
