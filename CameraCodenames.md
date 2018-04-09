@@ -52,15 +52,3 @@
 	* id: 19
 	* Codename: Streaky
 	* FW ID: HD5.02
-* Karma Drone:
-        * id: 0
-        * Codename: Sentinel
-        * FW ID: SEN.01
-* Karma Remote:
-        * id: 0
-        * Codename: Secure Buckhorn
-        * FW ID: BCK.01
-* Karma Grip:
-        * id: 0
-        * Codename: Coyote
-        * FW ID: CYT.01

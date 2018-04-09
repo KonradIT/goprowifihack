@@ -50,6 +50,13 @@ Sample /status
 * 1/3200: http://10.5.5.9/gp/gpControl/setting/73/30
 * 1/3840: http://10.5.5.9/gp/gpControl/setting/73/31
 
+#### Protune WB Video:
+
+* 2300K: http://10.5.5.9/gp/gpControl/setting/11/8
+* 2800K: http://10.5.5.9/gp/gpControl/setting/11/9
+* 3200K: http://10.5.5.9/gp/gpControl/setting/11/10
+* 4500K: http://10.5.5.9/gp/gpControl/setting/11/11
+
 ##### HDR Photo:
 
 * ON: http://10.5.5.9/gp/gpControl/setting/100/1

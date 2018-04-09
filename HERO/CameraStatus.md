@@ -1,4 +1,4 @@
-### Camera Status for HERO+ / HERO+ LCD
+### Camera Status for HERO+ / HERO+ LCD / HERO 2018
 
 This URL contains a JSON with the camera parameters: http://10.5.5.9/gp/gpControl/status
 
