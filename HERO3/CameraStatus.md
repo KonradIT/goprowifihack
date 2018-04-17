@@ -28,7 +28,7 @@ byte | value
   15 |
   16 | VOLUME: 0 = OFF, 1 = 70%, 2 = 100%
   17 | LED: 0 = OFF, 1 = LED2, 2 = LED4
-  18 | (bit 2) ORIENTATION: 0 = up, 1 = down, (bit 5) VIDEOREGION: 0 = NTSF, 1 = PAL
+  18 | (bit 2) ORIENTATION: 0 = up, 1 = down, (bit 5) VIDEOREGION: 0 = NTSC, 1 = PAL
   19 |
   20 |
   21 | Photo remaining (hi byte)
