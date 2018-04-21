@@ -55,6 +55,7 @@ As you can see, there are two objects, "status" and "settings".
   * Looping - 3
 
 * Video Resolution - 2:
+  * 1440p - 7
   * 1080 - 9
   * 720 SuperView - 11
   * 720 - 12

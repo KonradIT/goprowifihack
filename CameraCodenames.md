@@ -52,3 +52,11 @@
 	* id: 19
 	* Codename: Streaky
 	* FW ID: HD5.02
+* HERO6 Black:
+	* id: 24
+	* Codename: Chopes
+	* FW ID: HD6.01
+* HERO 2018:
+	* id: 34
+	* Codename: Smoky
+	* FW ID: H18.01

@@ -373,6 +373,16 @@ GOPROPASS = GoPro new WiFi password
 * 30: http://10.5.5.9/gp/gpControl/setting/7/3
 * 60Min: http://10.5.5.9/gp/gpControl/setting/7/4
 
+##### Video Timelapse Interval:
+
+* 0.5: http://10.5.5.9/gp/gpControl/setting/5/0
+* 1: http://10.5.5.9/gp/gpControl/setting/5/1
+* 2: http://10.5.5.9/gp/gpControl/setting/5/2
+* 5: http://10.5.5.9/gp/gpControl/setting/5/3
+* 10: http://10.5.5.9/gp/gpControl/setting/5/4
+* 30: http://10.5.5.9/gp/gpControl/setting/5/5
+* 60: http://10.5.5.9/gp/gpControl/setting/5/6
+
 ##### Spot Meter:
 
 * off: http://10.5.5.9/gp/gpControl/setting/9/0

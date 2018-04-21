@@ -1,6 +1,6 @@
-###Wifi Commands for HERO4
+###Wifi Commands for HERO+ LCD, HERO+, HERO 2018
 
-Cameras covered: GoPro HERO+, HERO+ LCD
+Cameras covered: GoPro HERO+, HERO+ LCD, HERO 2018
 
 #####  Default Boot Mode:
 * Video: http://10.5.5.9/gp/gpControl/setting/53/0
@@ -26,36 +26,10 @@ Cameras covered: GoPro HERO+, HERO+ LCD
 * Power Off: http://10.5.5.9/gp/gpControl/command/system/sleep
 * Power On: To power ON use WoL with these parameters: MAC ADDRESS OF THE CAMERA, 10.5.5.9 as IP ADDRESS, Subnet Mask 255.255.255.0, Port 9.
 
-#### Code Pairing:
-
-GoPro HERO+ cameras need a code authentication in order to connect to a
-device for the first time, this is done in the GoPro app when you firt
-connect your GoPro, a 4 digit PIN is displayed on the camera and that
-PIN needs to be entered in the GoPro app. [Video explaining GoPro pairing process with a HERO4](https://www.youtube.com/watch?v=4BH59qEeQUg)
-
-First make sure to connect go GOPRO-BP-(numbers) password: "goprohero"
-and call this URL:
-
-https://10.5.5.9/gpPair?c=start&pin=XXXX&mode=0
-
-XXXX is the 4 digit PIN on the GoPro front screen.
-
-And to finish pairing:
-
-https://10.5.5.9/gpPair?c=finish&pin=XXXX&mode=0
-
-#### Set GoPro WiFi name/password:
-
-* GoPro Name: http://10.5.5.9/gp/gpControl/command/wireless/ap/ssid?ssid=GOPRONAME
-* GoPro Name and Password: http://10.5.5.9/gp/gpControl/command/wireless/ap/ssid?ssid=GOPRONAME&pw=GOPROPASS
-
-GOPRONAME = GoPro new WiFi name
-
-GOPROPASS = GoPro new WiFi password
-
 #### Video:
 
 #####  Resolutions:
+* 1440p: http://10.5.5.9/gp/gpControl/setting/2/7
 * 1080p: http://10.5.5.9/gp/gpControl/setting/2/9
 * 720p SuperView: http://10.5.5.9/gp/gpControl/setting/2/11
 * 720p: http://10.5.5.9/gp/gpControl/setting/2/12
@@ -94,6 +68,7 @@ GOPROPASS = GoPro new WiFi password
 #####  Photo resolution for Photo Modes (incl. SubModes):
 
 * 8MP Wide: http://10.5.5.9/gp/gpControl/setting/17/0
+* 10MP Wide: http://10.5.5.9/gp/gpControl/setting/17/4
 
 
 #####  Spot Meter:
