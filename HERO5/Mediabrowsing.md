@@ -46,7 +46,7 @@ Returns:
 
 * To get the thumbnail of a video: http://10.5.5.9:8080/gp/gpMediaMetadata?p=XXXGOPRO/GOPRXXXX.MP4
 
-* GoPro offers a cherokee html frontend: http://10.5.5.9:8080/videos
+* GoPro offers a cherokee html frontend: http://10.5.5.9:8080/videos/DCIM
 * Formats: Photo (JPG), HD video (MP4), Low resolution video (LRV), Video thumbnail(THM).
 
 ### Requirements:
