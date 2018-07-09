@@ -30,6 +30,10 @@ They did offer a mobile library - [but they shut it down](https://news.ycombinat
 
 [3rd Party Library/API wrappers list](https://github.com/KonradIT/goprowifihack/blob/master/Libraries.md)
 
+### Bluetooth:
+
+Bluetooth is used to turn camera on after WiFi AP is disabled in deep sleep, as well as for turning on/off wifi.
+
 ### Acknowledgements/credits
 
 * Konrad Iturbe - main developer
@@ -39,5 +43,7 @@ They did offer a mobile library - [but they shut it down](https://news.ycombinat
 * Maelstrom Napalm - HERO4 research
 * fraannk - HERO4 research
 * Sonof8Bits - Python script
+* krystof-k - Bluetooth API and wake up commands
+* [Mark Kirschenbaum](https://gethypoxic.com/blogs/technical/gopro-hero5-interfaces) - Bluetooth commands info
 * [GitHub contributors](https://github.com/KonradIT/goprowifihack/graphs/contributors)
 * and finally GoPro for allowing us to tinker with their cameras and not shutting down this unofficial API like instagram or snapchat, that means a lot.
