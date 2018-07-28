@@ -203,6 +203,14 @@ http://10.5.5.9/setting/63/2
 * On: http://10.5.5.9/gp/gpControl/command/system/locate?p=1
 * Off: http://10.5.5.9/gp/gpControl/command/system/locate?p=0
 
+#### Pairing:
+
+For Hero 2018 (Hero5):
+
+Initiate pairing in Connections > New > GoPro App
+
+http://10.5.5.9/gp/gpControl/command/wireless/pair/complete?success=1&deviceName=DESKTOP
+
 #####  Delete file:
 
 http://10.5.5.9/gp/gpControl/command/storage/delete?p=file (eg. /100GOPRO/G0010124.JPG)

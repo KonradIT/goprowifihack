@@ -138,6 +138,14 @@ Sample /status
 * 720 3:4 Subsample: http://10.5.5.9/gp/gpControl/setting/64/8
 * 720 1:2 Subsample: http://10.5.5.9/gp/gpControl/setting/64/9
 
+#### Pairing:
+
+For Hero 5 Black/Session:
+
+Initiate pairing in Connections > New > GoPro App
+
+http://10.5.5.9/gp/gpControl/command/wireless/pair/complete?success=1&deviceName=DESKTOP
+
 #### Connecting to a WiFi network:
 
 * Scan for available networks: http://10.5.5.9/gp/gpControl/command/wireless/ssid/scan?p=1

@@ -90,6 +90,14 @@ Sample /status
 * ON: http://10.5.5.9/gp/gpControl/setting/104/1
 * OFF: http://10.5.5.9/gp/gpControl/setting/104/0
 
+#### Pairing:
+
+For Hero 6:
+
+Initiate pairing in Connections > New > GoPro App
+
+http://10.5.5.9/gp/gpControl/command/wireless/pair/complete?success=1&deviceName=DESKTOP
+
 ##### Digital Zoom (coming soon):
 
 http://10.5.5.9/gp/gpControl/command/digital_zoom
