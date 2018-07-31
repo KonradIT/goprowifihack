@@ -1,6 +1,6 @@
 ### GoPro HERO5 Commands, Status and Notes
 
-## Specific commands, for the rest of the commands go [here](/HERO4/WifiCommands.md)
+## Specific commands for Hero5 and newer cameras, for the rest of the commands go [here](/HERO4/WifiCommands.md)
 
 Firmware revision: HD5.02.02.00.00
 
@@ -125,6 +125,7 @@ Sample /status
 * Chinese: http://10.5.5.9/gp/gpControl/setting/85/8
 * Japanese: http://10.5.5.9/gp/gpControl/setting/85/9
 
+
 ##### Streaming settings:
 
 ###### Bit rate:
@@ -145,6 +146,69 @@ For Hero 5 Black/Session:
 Initiate pairing in Connections > New > GoPro App
 
 http://10.5.5.9/gp/gpControl/command/wireless/pair/complete?success=1&deviceName=DESKTOP
+
+#### Extracting/converting clips:
+
+**To start a video conversion:** 
+
+http://10.5.5.9/gp/gpControl/command/transcode/video_to_video?source=DCIM/[XXXGOPRO]/GOPRXXXX.MP4&res=VIDEO_RESOLUTION&fps_divisor=FPS&in_ms=In_MS&out_ms=Out_MS
+
+Parameters:
+
+* VIDEO_RESOLUTION:
+	* 1080 = 0
+	* 960 = 1
+	* 720 = 2
+	* WVGA = 3
+	* 640p = 4
+	* 432x240 (live preview resolution) = 5
+	* 320x240 = 6
+* FPS: (Divide FPS by)
+	* 1/1 = 0 (Leave it as is)
+	* 1/2 = 1
+	* 1/3 = 2
+	* 1/4 = 3
+	* 1/8 = 4
+
+Output:
+
+```
+{"status":{"id":STATUS_ID,"source":"DCIM\XXXGOPRO\GOPRXXXX.MP4","status":0,"failure_reason":0,"estimate":1,"completion":0,"output":""}}
+```
+
+If you did it right.
+
+```status``` values:
+
+* 0 = Started
+* 1 = In Progress
+* 2 = Finished
+* 3 = Cancelled
+* 4 = Conversion failed
+	
+```failure_reason``` values:
+
+* 0 = No fail
+* 1 = Bad file
+* 2 = Bad parameters
+* 3 = No space left on the device
+* 4 = Camera is busy converting something else
+
+**To get the status of a conversion:**
+
+http://10.5.5.9/gp/gpControl/command/transcode/status?id=STATUS_ID (from the previous command)
+
+Output:
+
+```
+{"status":{"id":STATUS_ID,"source":"DCIM\XXXGOPRO\GOPRXXXX.MP4","status":2,"failure_reason":0,"estimate":1,"completion":0,"output":"DCIM/XXXGOPRO/GOPRXXXX.MP4"}}
+```
+
+You can now download the output url, add http://10.5.5.9/videos/ to it.
+
+**To cancel a conversion:**
+
+http://10.5.5.9/gp/gpControl/command/transcode/cancel?id=STATUS_ID
 
 #### Connecting to a WiFi network:
 

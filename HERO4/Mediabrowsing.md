@@ -1,6 +1,6 @@
-### Media Browsing on HERO4
+## Media files over WiFi for HERO4 Cameras and onwards (Hero5, Hero6, etc...)
 
-**The same things for all cameras**
+### Media List:
 
 * A JSON list of the contents of the SD card: http://10.5.5.9:8080/gp/gpMediaList
 
@@ -33,6 +33,10 @@ This returns:
         },
 ```
 
+### Media Information:
+
+#### Video:
+
 * To get information about a video: http://10.5.5.9:8080/gp/gpMediaMetadata?p=XXXGOPRO/GOPRXXXX.MP4&t=videoinfo
 
 	* dur = video duration
@@ -46,9 +50,44 @@ Returns:
 
 ```
 
-* To get the thumbnail of a video: http://10.5.5.9:8080/gp/gpMediaMetadata?p=XXXGOPRO/GOPRXXXX.MP4
+* To get even more information about a video: http://10.5.5.9/gp/gpMediaMetadata?p=/XXXGOPRO/GOPRXXXX.MP4&t=v4info
+	* w = width
+	* h = height
+	* eis = EIS enabled
+	
+Returns:
 
-* GoPro offers a cherokee html frontend: http://10.5.5.9:8080/videos
+```
+
+{"cre":"1532960473","s":"77722399","us":"0","eis":"1","pta":"0","ao":"auto","tr":"0","mp":"0","gumi":"626e8c5bcde3c8ba1aa1c7220f811b5e","ls":"4601641","cl":"0","hc":"1","hi":[66],"dur":"14","w":"1920","h":"1080","fps":"90000","fps_denom":"3003","prog":"1","subsample":"0"}
+
+```
+#### Photo:
+
+* To get information about a photo: http://10.5.5.9/gp/gpMediaMetadata?p=XXXGOPRO/GOPRXXXX.JPG&t=v4info
+	* w = width
+	* h = height
+	* eis = EIS enabled
+	* wdr = WDR enabled
+	* raw = RAW enabled
+	
+Returns:
+
+```
+
+{"cre":"1532735778","s":"2036141","hc":"0","us":"0","eis":"0","wdr":"0","raw":"0","tr":"0","gumi":"30029ffca2fb9f9a005f4cf424e6c662","w":"4000","h":"3000"}
+
+```
+* To get EXIF information of a photo: http://10.5.5.9/gp/gpMediaMetadata?p=/XXXGOPRO/GOPRXXXX.JPG&t=exif
+
+### Media Thumbnail:
+
+* To get the thumbnail of a video: http://10.5.5.9/gp/gpMediaMetadata?p=XXXGOPRO/GOPRXXXX.MP4
+* To get the thumbnail of a photo: http://10.5.5.9/gp/gpMediaMetadata?p=XXXGOPRO/GOPRXXXX.JPG
+
+### Other info:
+
+* GoPro offers a cherokee html frontend: http://10.5.5.9:8080/videos/DCIM
 * Formats: Photo (JPG), HD video (MP4), Low resolution video (LRV), Video thumbnail(THM).
 
 ### Requirements:
@@ -58,3 +97,5 @@ Returns:
 * Session cameras: must be in App mode, that is, powered via WoL command
 * SD card must be inserted
 
+More here: 
+https://github.com/KonradIT/goprowifihack/issues/57#issuecomment-265921001

@@ -2,231 +2,18 @@
 
 Cameras covered: GoPro HERO4 Black, Silver (Firmware HD4.02.05.00.00 Oct 2016) and Session (Firmware April 2016)
 
-**The HERO2/3/3+ commands also work with HERO4 but its not recommended to use them!**
+**Important notes:**
 
-HERO4 do not need any password in the URL
+- The HERO2/3/3+ commands also work with HERO4 but its not recommended to use them!**
+- HERO4 do not need any password in the URL
+- These protune commands ARE FOR HERO4 BLACK/SILVER only!! For HERO4 Session Protune commands, [use the HERO4 Session doc](/HERO4/HERO4-Session.md)
 
-#### Protune
 
-**NOTE: These protune commands ARE FOR HERO4 BLACK/SILVER only!! For HERO4 Session Protune commands, [use the HERO4 Session doc](/HERO4/HERO4-Session.md)**
+## Basic controls:
 
-##### Controls:
-
-**Video**
-
-* off: http://10.5.5.9/gp/gpControl/setting/10/0
-* on: http://10.5.5.9/gp/gpControl/setting/10/1
-
-**Photo**
-* off: http://10.5.5.9/gp/gpControl/setting/21/0
-* on: http://10.5.5.9/gp/gpControl/setting/21/1
-
-**Multishot**
-* off: http://10.5.5.9/gp/gpControl/setting/34/0
-* on: http://10.5.5.9/gp/gpControl/setting/34/1
-
-##### White Balance:
-
-**Video**
-
-* Auto: http://10.5.5.9/gp/gpControl/setting/11/0
-* 3000k: http://10.5.5.9/gp/gpControl/setting/11/1
-* 4000k: http://10.5.5.9/gp/gpControl/setting/11/5
-* 4800k: http://10.5.5.9/gp/gpControl/setting/11/6
-* 5500k: http://10.5.5.9/gp/gpControl/setting/11/2
-* 6000k: http://10.5.5.9/gp/gpControl/setting/11/7
-* 6500k: http://10.5.5.9/gp/gpControl/setting/11/3
-* Native: http://10.5.5.9/gp/gpControl/setting/11/4
-
-**Photo**
-
-* Auto: http://10.5.5.9/gp/gpControl/setting/22/0
-* 3000k: http://10.5.5.9/gp/gpControl/setting/22/1
-* 4000k: http://10.5.5.9/gp/gpControl/setting/22/5
-* 4800k: http://10.5.5.9/gp/gpControl/setting/22/6
-* 5500k: http://10.5.5.9/gp/gpControl/setting/22/2
-* 6000k: http://10.5.5.9/gp/gpControl/setting/22/7
-* 6500k: http://10.5.5.9/gp/gpControl/setting/22/3
-* Native: http://10.5.5.9/gp/gpControl/setting/22/4
-
-**MultiShot**
-
-* Auto: http://10.5.5.9/gp/gpControl/setting/35/0
-* 3000k: http://10.5.5.9/gp/gpControl/setting/35/1
-* 4000k: http://10.5.5.9/gp/gpControl/setting/35/5
-* 4800k: http://10.5.5.9/gp/gpControl/setting/35/6
-* 5500k: http://10.5.5.9/gp/gpControl/setting/35/2
-* 6000k: http://10.5.5.9/gp/gpControl/setting/35/7
-* 6500k: http://10.5.5.9/gp/gpControl/setting/35/3
-* Native: http://10.5.5.9/gp/gpControl/setting/35/4
-
-##### Color:
-
-**Video**
-
-* GOPRO: http://10.5.5.9/gp/gpControl/setting/12/0
-* Flat: http://10.5.5.9/gp/gpControl/setting/12/1
-
-**Photo**
-
-* GOPRO: http://10.5.5.9/gp/gpControl/setting/23/0
-* Flat: http://10.5.5.9/gp/gpControl/setting/23/1
-
-**MultiShot**
-
-* GOPRO: http://10.5.5.9/gp/gpControl/setting/36/0
-* Flat: http://10.5.5.9/gp/gpControl/setting/36/1
-
-##### ISO Limit:
-
-**Video**
-
-* 6400: http://10.5.5.9/gp/gpControl/setting/13/0
-* 1600: http://10.5.5.9/gp/gpControl/setting/13/1
-* 400: http://10.5.5.9/gp/gpControl/setting/13/2
-* 3200: http://10.5.5.9/gp/gpControl/setting/13/3
-* 800: http://10.5.5.9/gp/gpControl/setting/13/4
-* 200: http://10.5.5.9/gp/gpControl/setting/13/7
-* 100: http://10.5.5.9/gp/gpControl/setting/13/8
-
-**Photo**
-
-* 800: http://10.5.5.9/gp/gpControl/setting/24/0
-* 400: http://10.5.5.9/gp/gpControl/setting/24/1
-* 200: http://10.5.5.9/gp/gpControl/setting/24/2
-* 100: http://10.5.5.9/gp/gpControl/setting/24/3
-
-**MultiShot**
-
-* 800: http://10.5.5.9/gp/gpControl/setting/37/0
-* 400: http://10.5.5.9/gp/gpControl/setting/37/1
-* 200: http://10.5.5.9/gp/gpControl/setting/37/2
-* 100: http://10.5.5.9/gp/gpControl/setting/37/3
-
-##### ISO Mode:
-
-**Video**
-
-* Max: http://10.5.5.9/gp/gpControl/setting/74/0
-* Lock: http://10.5.5.9/gp/gpControl/setting/74/1
-
-##### ISO Min:
-
-**Photo**
-
-* 800: http://10.5.5.9/gp/gpControl/setting/75/0
-* 400: http://10.5.5.9/gp/gpControl/setting/75/1
-* 200: http://10.5.5.9/gp/gpControl/setting/75/2
-* 100: http://10.5.5.9/gp/gpControl/setting/75/3
-
-**MultiShot**
-
-* 800: http://10.5.5.9/gp/gpControl/setting/76/0
-* 400: http://10.5.5.9/gp/gpControl/setting/76/1
-* 200: http://10.5.5.9/gp/gpControl/setting/76/2
-* 100: http://10.5.5.9/gp/gpControl/setting/76/3
-
-##### Sharpness:
-
-**Video**
-
-* High: http://10.5.5.9/gp/gpControl/setting/14/0
-* Med: http://10.5.5.9/gp/gpControl/setting/14/1
-* Low: http://10.5.5.9/gp/gpControl/setting/14/2
-
-**Photo**
-
-* High: http://10.5.5.9/gp/gpControl/setting/25/0
-* Med: http://10.5.5.9/gp/gpControl/setting/25/1
-* Low: http://10.5.5.9/gp/gpControl/setting/25/2
-
-**MultiShot**
-
-* High: http://10.5.5.9/gp/gpControl/setting/38/0
-* Med: http://10.5.5.9/gp/gpControl/setting/38/1
-* Low: http://10.5.5.9/gp/gpControl/setting/38/2
-
-##### Manual Video Exposure:
-
-**Video**
-* Auto Mode: http://10.5.5.9/gp/gpControl/setting/73/0
-
-EV compensation is enabled ONLY in Auto mode.
-
-* For 24FPS:
-	* 1/24: http://10.5.5.9/gp/gpControl/setting/73/3
-	* 1/48: http://10.5.5.9/gp/gpControl/setting/73/6
-	* 1/96: http://10.5.5.9/gp/gpControl/setting/73/11
-* For 30FPS:
-	* 1/30: http://10.5.5.9/gp/gpControl/setting/73/5
-	* 1/60: http://10.5.5.9/gp/gpControl/setting/73/8
-	* 1/120: http://10.5.5.9/gp/gpControl/setting/73/13
-* For 48FPS:
-	* 1/48: http://10.5.5.9/gp/gpControl/setting/73/6
-	* 1/96: http://10.5.5.9/gp/gpControl/setting/73/11
-	* 1/192: http://10.5.5.9/gp/gpControl/setting/73/16
-* For 60FPS:
-	* 1/60: http://10.5.5.9/gp/gpControl/setting/73/8
-	* 1/120: http://10.5.5.9/gp/gpControl/setting/73/13
-	* 1/240: http://10.5.5.9/gp/gpControl/setting/73/18
-* For 90FPS:
-	* 1/90: http://10.5.5.9/gp/gpControl/setting/73/10
-	* 1/180: http://10.5.5.9/gp/gpControl/setting/73/15
-	* 1/360: http://10.5.5.9/gp/gpControl/setting/73/20
-* For 120FPS:
-	* 1/120: http://10.5.5.9/gp/gpControl/setting/73/13
-	* 1/240: http://10.5.5.9/gp/gpControl/setting/73/18
-	* 1/480: http://10.5.5.9/gp/gpControl/setting/73/22
-* For 240FPS:
-	* 1/120: http://10.5.5.9/gp/gpControl/setting/73/18
-	* 1/240: http://10.5.5.9/gp/gpControl/setting/73/22
-	* 1/480: http://10.5.5.9/gp/gpControl/setting/73/23
-
-##### EV:
-
-**Video**
-
-Value | URL
------|-------
-+2   |  http://10.5.5.9/gp/gpControl/setting/15/0
-+1.5 |  http://10.5.5.9/gp/gpControl/setting/15/1
-+1   |  http://10.5.5.9/gp/gpControl/setting/15/2
-+0.5 |  http://10.5.5.9/gp/gpControl/setting/15/3
-0    |  http://10.5.5.9/gp/gpControl/setting/15/4
--0.5 |  http://10.5.5.9/gp/gpControl/setting/15/5
--1   |  http://10.5.5.9/gp/gpControl/setting/15/6
--1.5 |  http://10.5.5.9/gp/gpControl/setting/15/7
--2   |  http://10.5.5.9/gp/gpControl/setting/15/8
-
-**Photo**
-
-Value | URL
------|-------
-+2   |  http://10.5.5.9/gp/gpControl/setting/26/0
-+1.5 |  http://10.5.5.9/gp/gpControl/setting/26/1
-+1   |  http://10.5.5.9/gp/gpControl/setting/26/2
-+0.5 |  http://10.5.5.9/gp/gpControl/setting/26/3
-0    |  http://10.5.5.9/gp/gpControl/setting/26/4
--0.5 |  http://10.5.5.9/gp/gpControl/setting/26/5
--1   |  http://10.5.5.9/gp/gpControl/setting/26/6
--1.5 |  http://10.5.5.9/gp/gpControl/setting/26/7
--2   |  http://10.5.5.9/gp/gpControl/setting/26/8
-
-**MultiShot**
-
-Value | URL
------|-------
-+2   |  http://10.5.5.9/gp/gpControl/setting/39/0
-+1.5 |  http://10.5.5.9/gp/gpControl/setting/39/1
-+1   |  http://10.5.5.9/gp/gpControl/setting/39/2
-+0.5 |  http://10.5.5.9/gp/gpControl/setting/39/3
-0    |  http://10.5.5.9/gp/gpControl/setting/39/4
--0.5 |  http://10.5.5.9/gp/gpControl/setting/39/5
--1   |  http://10.5.5.9/gp/gpControl/setting/39/6
--1.5 |  http://10.5.5.9/gp/gpControl/setting/39/7
--2   |  http://10.5.5.9/gp/gpControl/setting/39/8
-
----
+##### Shutter
+* Trigger: http://10.5.5.9/gp/gpControl/command/shutter?p=1
+* Stop (Video/Timelapse): http://10.5.5.9/gp/gpControl/command/shutter?p=0
 
 ##### Default Boot Mode:
 * Video: http://10.5.5.9/gp/gpControl/setting/53/0
@@ -251,13 +38,21 @@ Value | URL
 * Timelapse (MultiShot): http://10.5.5.9/gp/gpControl/command/sub_mode?mode=2&sub_mode=1
 * NightLapse (MultiShot): http://10.5.5.9/gp/gpControl/command/sub_mode?mode=2&sub_mode=2
 
+##### Tag moment:
+
+* Sends tag command: http://10.5.5.9/gp/gpControl/command/storage/tag_moment
+
+##### Locate:
+
+* On: http://10.5.5.9/gp/gpControl/command/system/locate?p=1
+* Off: http://10.5.5.9/gp/gpControl/command/system/locate?p=0
 
 ##### Power:
 
 * Power Off: http://10.5.5.9/gp/gpControl/command/system/sleep
 * Power On: To power ON a HERO4 Black/Silver camera, use WoL with these parameters: MAC ADDRESS OF THE CAMERA, 10.5.5.9 as IP ADDRESS, Subnet Mask 255.255.255.0, Port 9. For the Hero4 Session, this magic packet has to be sent when your project wants to operate with the camera.
 
-#### Code Pairing:
+##### Code Pairing:
 
 GoPro HERO4 cameras need a code authentication in order to connect to a
 device for the first time, this is done in the GoPro app when you firt
@@ -276,7 +71,7 @@ And to finish pairing:
 
 https://10.5.5.9/gpPair?c=finish&pin=XXXX&mode=0
 
-#### Set GoPro WiFi name/password:
+##### Set GoPro WiFi name/password:
 
 * GoPro Name: http://10.5.5.9/gp/gpControl/command/wireless/ap/ssid?ssid=GOPRONAME
 * GoPro Name and Password: http://10.5.5.9/gp/gpControl/command/wireless/ap/ssid?ssid=GOPRONAME&pw=GOPROPASS
@@ -284,6 +79,8 @@ https://10.5.5.9/gpPair?c=finish&pin=XXXX&mode=0
 GOPRONAME = GoPro new WiFi name
 
 GOPROPASS = GoPro new WiFi password
+
+## Capture Mode settings:
 
 #### Video:
 
@@ -388,6 +185,96 @@ GOPROPASS = GoPro new WiFi password
 * off: http://10.5.5.9/gp/gpControl/setting/9/0
 * on: http://10.5.5.9/gp/gpControl/setting/9/1
 
+##### ProTune:
+* off: http://10.5.5.9/gp/gpControl/setting/10/0
+* on: http://10.5.5.9/gp/gpControl/setting/10/1
+
+##### White Balance:
+
+* Auto: http://10.5.5.9/gp/gpControl/setting/11/0
+* 3000k: http://10.5.5.9/gp/gpControl/setting/11/1
+* 4000k: http://10.5.5.9/gp/gpControl/setting/11/5
+* 4800k: http://10.5.5.9/gp/gpControl/setting/11/6
+* 5500k: http://10.5.5.9/gp/gpControl/setting/11/2
+* 6000k: http://10.5.5.9/gp/gpControl/setting/11/7
+* 6500k: http://10.5.5.9/gp/gpControl/setting/11/3
+* Native: http://10.5.5.9/gp/gpControl/setting/11/4
+
+##### Color:
+
+* GOPRO: http://10.5.5.9/gp/gpControl/setting/12/0
+* Flat: http://10.5.5.9/gp/gpControl/setting/12/1
+
+##### ISO Limit:
+
+* 6400: http://10.5.5.9/gp/gpControl/setting/13/0
+* 1600: http://10.5.5.9/gp/gpControl/setting/13/1
+* 400: http://10.5.5.9/gp/gpControl/setting/13/2
+* 3200: http://10.5.5.9/gp/gpControl/setting/13/3
+* 800: http://10.5.5.9/gp/gpControl/setting/13/4
+* 200: http://10.5.5.9/gp/gpControl/setting/13/7
+* 100: http://10.5.5.9/gp/gpControl/setting/13/8
+
+##### ISO Mode/Lock:
+
+* Max: http://10.5.5.9/gp/gpControl/setting/74/0
+* Lock: http://10.5.5.9/gp/gpControl/setting/74/1
+
+##### Sharpness:
+
+* High: http://10.5.5.9/gp/gpControl/setting/14/0
+* Med: http://10.5.5.9/gp/gpControl/setting/14/1
+* Low: http://10.5.5.9/gp/gpControl/setting/14/2
+
+##### Manual Video Exposure:
+
+* Auto Mode: http://10.5.5.9/gp/gpControl/setting/73/0
+
+EV compensation is enabled ONLY in Auto mode.
+
+* For 24FPS:
+	* 1/24: http://10.5.5.9/gp/gpControl/setting/73/3
+	* 1/48: http://10.5.5.9/gp/gpControl/setting/73/6
+	* 1/96: http://10.5.5.9/gp/gpControl/setting/73/11
+* For 30FPS:
+	* 1/30: http://10.5.5.9/gp/gpControl/setting/73/5
+	* 1/60: http://10.5.5.9/gp/gpControl/setting/73/8
+	* 1/120: http://10.5.5.9/gp/gpControl/setting/73/13
+* For 48FPS:
+	* 1/48: http://10.5.5.9/gp/gpControl/setting/73/6
+	* 1/96: http://10.5.5.9/gp/gpControl/setting/73/11
+	* 1/192: http://10.5.5.9/gp/gpControl/setting/73/16
+* For 60FPS:
+	* 1/60: http://10.5.5.9/gp/gpControl/setting/73/8
+	* 1/120: http://10.5.5.9/gp/gpControl/setting/73/13
+	* 1/240: http://10.5.5.9/gp/gpControl/setting/73/18
+* For 90FPS:
+	* 1/90: http://10.5.5.9/gp/gpControl/setting/73/10
+	* 1/180: http://10.5.5.9/gp/gpControl/setting/73/15
+	* 1/360: http://10.5.5.9/gp/gpControl/setting/73/20
+* For 120FPS:
+	* 1/120: http://10.5.5.9/gp/gpControl/setting/73/13
+	* 1/240: http://10.5.5.9/gp/gpControl/setting/73/18
+	* 1/480: http://10.5.5.9/gp/gpControl/setting/73/22
+* For 240FPS:
+	* 1/120: http://10.5.5.9/gp/gpControl/setting/73/18
+	* 1/240: http://10.5.5.9/gp/gpControl/setting/73/22
+	* 1/480: http://10.5.5.9/gp/gpControl/setting/73/23
+
+##### EV Steps:
+
+Value | URL
+-----|-------
++2   |  http://10.5.5.9/gp/gpControl/setting/15/0
++1.5 |  http://10.5.5.9/gp/gpControl/setting/15/1
++1   |  http://10.5.5.9/gp/gpControl/setting/15/2
++0.5 |  http://10.5.5.9/gp/gpControl/setting/15/3
+0    |  http://10.5.5.9/gp/gpControl/setting/15/4
+-0.5 |  http://10.5.5.9/gp/gpControl/setting/15/5
+-1   |  http://10.5.5.9/gp/gpControl/setting/15/6
+-1.5 |  http://10.5.5.9/gp/gpControl/setting/15/7
+-2   |  http://10.5.5.9/gp/gpControl/setting/15/8
+
 ---
 
 #### Photo:
@@ -419,6 +306,61 @@ GOPROPASS = GoPro new WiFi password
 * 3: http://10.5.5.9/gp/gpControl/setting/18/0
 * 5: http://10.5.5.9/gp/gpControl/setting/18/1
 * 10: http://10.5.5.9/gp/gpControl/setting/18/2
+
+##### ProTune:
+
+* off: http://10.5.5.9/gp/gpControl/setting/21/0
+* on: http://10.5.5.9/gp/gpControl/setting/21/1
+
+##### White Balance:
+
+* Auto: http://10.5.5.9/gp/gpControl/setting/22/0
+* 3000k: http://10.5.5.9/gp/gpControl/setting/22/1
+* 4000k: http://10.5.5.9/gp/gpControl/setting/22/5
+* 4800k: http://10.5.5.9/gp/gpControl/setting/22/6
+* 5500k: http://10.5.5.9/gp/gpControl/setting/22/2
+* 6000k: http://10.5.5.9/gp/gpControl/setting/22/7
+* 6500k: http://10.5.5.9/gp/gpControl/setting/22/3
+* Native: http://10.5.5.9/gp/gpControl/setting/22/4
+
+##### Color:
+
+* GOPRO: http://10.5.5.9/gp/gpControl/setting/23/0
+* Flat: http://10.5.5.9/gp/gpControl/setting/23/1
+
+##### ISO Limit:
+
+* 800: http://10.5.5.9/gp/gpControl/setting/24/0
+* 400: http://10.5.5.9/gp/gpControl/setting/24/1
+* 200: http://10.5.5.9/gp/gpControl/setting/24/2
+* 100: http://10.5.5.9/gp/gpControl/setting/24/3
+
+##### ISO Min:
+
+* 800: http://10.5.5.9/gp/gpControl/setting/75/0
+* 400: http://10.5.5.9/gp/gpControl/setting/75/1
+* 200: http://10.5.5.9/gp/gpControl/setting/75/2
+* 100: http://10.5.5.9/gp/gpControl/setting/75/3
+
+##### Sharpness:
+
+* High: http://10.5.5.9/gp/gpControl/setting/25/0
+* Med: http://10.5.5.9/gp/gpControl/setting/25/1
+* Low: http://10.5.5.9/gp/gpControl/setting/25/2
+
+##### EV Steps:
+
+Value | URL
+-----|-------
++2   |  http://10.5.5.9/gp/gpControl/setting/26/0
++1.5 |  http://10.5.5.9/gp/gpControl/setting/26/1
++1   |  http://10.5.5.9/gp/gpControl/setting/26/2
++0.5 |  http://10.5.5.9/gp/gpControl/setting/26/3
+0    |  http://10.5.5.9/gp/gpControl/setting/26/4
+-0.5 |  http://10.5.5.9/gp/gpControl/setting/26/5
+-1   |  http://10.5.5.9/gp/gpControl/setting/26/6
+-1.5 |  http://10.5.5.9/gp/gpControl/setting/26/7
+-2   |  http://10.5.5.9/gp/gpControl/setting/26/8
 
 ---
 
@@ -471,7 +413,7 @@ GOPROPASS = GoPro new WiFi password
 * off: http://10.5.5.9/gp/gpControl/setting/33/0
 * on: http://10.5.5.9/gp/gpControl/setting/33/1
 
-#### Burst Rate:
+##### Burst Rate:
 
 * 3/1: http://10.5.5.9/gp/gpControl/setting/29/0
 * 5/1: http://10.5.5.9/gp/gpControl/setting/29/1
@@ -483,11 +425,63 @@ GOPROPASS = GoPro new WiFi password
 * 30/3: http://10.5.5.9/gp/gpControl/setting/29/7
 * 30/6: http://10.5.5.9/gp/gpControl/setting/29/8
 
+##### ProTune:
+
+* off: http://10.5.5.9/gp/gpControl/setting/34/0
+* on: http://10.5.5.9/gp/gpControl/setting/34/1
+
+##### White Balance:
+
+* Auto: http://10.5.5.9/gp/gpControl/setting/35/0
+* 3000k: http://10.5.5.9/gp/gpControl/setting/35/1
+* 4000k: http://10.5.5.9/gp/gpControl/setting/35/5
+* 4800k: http://10.5.5.9/gp/gpControl/setting/35/6
+* 5500k: http://10.5.5.9/gp/gpControl/setting/35/2
+* 6000k: http://10.5.5.9/gp/gpControl/setting/35/7
+* 6500k: http://10.5.5.9/gp/gpControl/setting/35/3
+* Native: http://10.5.5.9/gp/gpControl/setting/35/4
+
+##### Color:
+
+* GOPRO: http://10.5.5.9/gp/gpControl/setting/36/0
+* Flat: http://10.5.5.9/gp/gpControl/setting/36/1
+
+##### ISO Limit:
+
+* 800: http://10.5.5.9/gp/gpControl/setting/37/0
+* 400: http://10.5.5.9/gp/gpControl/setting/37/1
+* 200: http://10.5.5.9/gp/gpControl/setting/37/2
+* 100: http://10.5.5.9/gp/gpControl/setting/37/3
+
+##### ISO Min:
+
+* 800: http://10.5.5.9/gp/gpControl/setting/76/0
+* 400: http://10.5.5.9/gp/gpControl/setting/76/1
+* 200: http://10.5.5.9/gp/gpControl/setting/76/2
+* 100: http://10.5.5.9/gp/gpControl/setting/76/3
+
+##### Sharpness:
+
+* High: http://10.5.5.9/gp/gpControl/setting/38/0
+* Med: http://10.5.5.9/gp/gpControl/setting/38/1
+* Low: http://10.5.5.9/gp/gpControl/setting/38/2
+
+##### EV Steps:
+
+Value | URL
+-----|-------
++2   |  http://10.5.5.9/gp/gpControl/setting/39/0
++1.5 |  http://10.5.5.9/gp/gpControl/setting/39/1
++1   |  http://10.5.5.9/gp/gpControl/setting/39/2
++0.5 |  http://10.5.5.9/gp/gpControl/setting/39/3
+0    |  http://10.5.5.9/gp/gpControl/setting/39/4
+-0.5 |  http://10.5.5.9/gp/gpControl/setting/39/5
+-1   |  http://10.5.5.9/gp/gpControl/setting/39/6
+-1.5 |  http://10.5.5.9/gp/gpControl/setting/39/7
+-2   |  http://10.5.5.9/gp/gpControl/setting/39/8
 ---
 
-##### Shutter
-* Trigger: http://10.5.5.9/gp/gpControl/command/shutter?p=1
-* Stop (Video/Timelapse): http://10.5.5.9/gp/gpControl/command/shutter?p=0
+## General Camera Settings:
 
 ##### Orientation:
 
@@ -544,6 +538,13 @@ GOPROPASS = GoPro new WiFi password
 * 3m: http://10.5.5.9/gp/gpControl/setting/59/3
 * 5m: http://10.5.5.9/gp/gpControl/setting/59/4
 
+##### Set date and time
+
+* http://10.5.5.9/gp/gpControl/command/setup/date_time?p=%11%0b%10%11%29%2c
+
+The hex string at the end is the same as for [HERO3](https://github.com/KonradIT/goprowifihack/blob/master/HERO3/WifiCommands.md#basics), so in the example: 11 = (20)17, 0b = 11 (November), 10 = 16, 11 = 17, 29 = 41, 2c = 44.
+Example bash code for date string, see https://github.com/ztzhang/GoProWifiCommand/issues/3.
+
 #### Streaming tweaks:
 
 ##### Stream BitRate :
@@ -576,22 +577,6 @@ Sizes with 720 height are tested on Hero 5 Black.
 * **720 1:2 (640x720)** http://10.5.5.9/gp/gpControl/setting/64/9
 
 
-##### Tag moment:
-
-http://10.5.5.9/gp/gpControl/command/storage/tag_moment
-
-##### Tag moment in video file:
-
-http://10.5.5.9/gp/gpControl/command/storage/tag_moment/playback?p=XXXGOPRO/XXXXXX.MP4&tag=Miliseconds
-
-XXXGOPRO is the folder, XXXXXX.MP4 is the video and Miliseconds are the miliseconds offset from the start of the video.
-
-For example:
-
-http://10.5.5.9/gp/gpControl/command/storage/tag_moment/playback?p=103GOPRO/GOPR1359.MP4&tag=2000
-
-will make a HiLight Tag on 2 seconds of the video GOPR1359.MP4
-
 
 ##### WiFi AP Settings:
 
@@ -600,10 +585,7 @@ will make a HiLight Tag on 2 seconds of the video GOPR1359.MP4
 * Switch WiFi to GoPro RC: http://10.5.5.9/gp/gpControl/setting/63/2
 * Switch WiFi to GoPro Smart Remote RC: http://10.5.5.9/gp/gpControl/setting/63/4
 
-##### Locate
-
-* On: http://10.5.5.9/gp/gpControl/command/system/locate?p=1
-* Off: http://10.5.5.9/gp/gpControl/command/system/locate?p=0
+## Media Commands:
 
 ##### Delete file:
 
@@ -617,7 +599,19 @@ http://10.5.5.9/gp/gpControl/command/storage/delete/last
 
 http://10.5.5.9/gp/gpControl/command/storage/delete/all
 
-##### Extracting a clip from a video (GoPro Clips): (Works on HERO4 and HERO5)
+##### Tag moment in video file:
+
+http://10.5.5.9/gp/gpControl/command/storage/tag_moment/playback?p=XXXGOPRO/XXXXXX.MP4&tag=Miliseconds
+
+XXXGOPRO is the folder, XXXXXX.MP4 is the video and Miliseconds are the miliseconds offset from the start of the video.
+
+For example:
+
+http://10.5.5.9/gp/gpControl/command/storage/tag_moment/playback?p=103GOPRO/GOPR1359.MP4&tag=2000
+
+will make a HiLight Tag on 2 seconds of the video GOPR1359.MP4
+
+##### Extracting a clip from a video (GoPro Clips): (Works on HERO4)
 
 **To start a video conversion:** 
 
@@ -680,7 +674,7 @@ You can now download the output url, add http://10.5.5.9/videos/ to it.
 
 http://10.5.5.9/gp/gpControl/command/transcode/cancel?id=STATUS_ID
 
-### Bluetooth:
+### Bluetooth Pairing:
 
 **Allows the camera to be paired to a GoPro Bluetooth metadata device**
 
@@ -723,10 +717,3 @@ Returns:
 
 	* DEVICE_ID = "address" from "device_array" in list
 	* ADDRESS_TYPE = "address_type" from "device_array" in list
-
-##### Set date and time
-
-* http://10.5.5.9/gp/gpControl/command/setup/date_time?p=%11%0b%10%11%29%2c
-
-The hex string at the end is the same as for [HERO3](https://github.com/KonradIT/goprowifihack/blob/master/HERO3/WifiCommands.md#basics), so in the example: 11 = (20)17, 0b = 11 (November), 10 = 16, 11 = 17, 29 = 41, 2c = 44.
-Example bash code for date string, see https://github.com/ztzhang/GoProWifiCommand/issues/3.
