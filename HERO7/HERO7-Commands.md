@@ -1,6 +1,4 @@
-### GoPro HERO6 Commands, Status and Notes
-
-Firmware revision: HD6.01.01.51.00
+### GoPro HERO7 Commands, Status and Notes
 
 Sample /status
 
