@@ -1,11 +1,13 @@
-# GoPro HERO6 Black
+# GoPro HERO7
 
-Announcement date: 09/28 (HERO6 Black)
+Cameras covered: HERO7 Black, HERO7 Silver, HERO7 White
 
-Release date: 10/02
+Announcement date: 09/20
+
+Release date: 09/28
 
 * [Live Streaming](/HERO4/Livestreaming.md)
-* [Media Browsing](/HERO6/Mediabrowsing.md)
+* [Media Browsing](/HERO7/Mediabrowsing.md)
 * [Camera Status (HERO5-only status messages not included)](/HERO4/CameraStatus.md)
-* [Wifi Commands](/HERO6/WifiCommands.md)
+* [Wifi Commands](/HERO7/WifiCommands.md)
 * [Framerates/Resolution compatibility table for HERO5 cameras](/HERO4/Framerates-Resolutions.md)

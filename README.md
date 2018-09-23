@@ -11,6 +11,7 @@
 * [GoPro HERO+ (HERO+/HERO+ LCD) and GoPro HERO (2018)](https://github.com/KonradIT/goprowifihack/blob/master/HERO/README.md)
 * [GoPro HERO5 (Black/Session)](https://github.com/KonradIT/goprowifihack/blob/master/HERO5/README.md)
 * [GoPro HERO6 Black](https://github.com/KonradIT/goprowifihack/blob/master/HERO6/README.md)
+* [GoPro HERO7 (Black/Silver/White)](https://github.com/KonradIT/goprowifihack/blob/master/HERO7/README.md)
 
 ---
 
