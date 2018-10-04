@@ -533,9 +533,10 @@ Value | URL
 * Japanese: http://10.5.5.9/gp/gpControl/setting/85/9
 
 ##### Beeps:
-* Off: http://10.5.5.9/gp/gpControl/setting/56/2
-* 0.7: http://10.5.5.9/gp/gpControl/setting/56/1
-* Full: http://10.5.5.9/gp/gpControl/setting/56/0
+* Off: http://10.5.5.9/gp/gpControl/setting/87/0
+* 50%: http://10.5.5.9/gp/gpControl/setting/87/50
+* XY%: http://10.5.5.9/gp/gpControl/setting/87/XY
+* Full: http://10.5.5.9/gp/gpControl/setting/87/100
 
 ##### Video Format:
 * NTSC: http://10.5.5.9/gp/gpControl/setting/57/0
