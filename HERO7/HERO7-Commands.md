@@ -503,7 +503,7 @@ Value | URL
 * On: http://10.5.5.9/gp/gpControl/setting/86/1
 * Off: http://10.5.5.9/gp/gpControl/setting/86/0
 
-##### LEDs on HERO6 Black:
+##### LEDs on HERO6 Black: 
 
 * Off: http://10.5.5.9/gp/gpControl/setting/91/0
 * On: http://10.5.5.9/gp/gpControl/setting/91/2
@@ -533,32 +533,26 @@ Value | URL
 * Japanese: http://10.5.5.9/gp/gpControl/setting/85/9
 
 ##### Beeps:
-* Off: http://10.5.5.9/gp/gpControl/setting/56/2
-* 0.7: http://10.5.5.9/gp/gpControl/setting/56/1
-* Full: http://10.5.5.9/gp/gpControl/setting/56/0
+* Off: http://10.5.5.9/gp/gpControl/setting/87/0
+* 50%: http://10.5.5.9/gp/gpControl/setting/87/50
+* XY%: http://10.5.5.9/gp/gpControl/setting/87/XY
+* Full: http://10.5.5.9/gp/gpControl/setting/87/100
 
 ##### Video Format:
 * NTSC: http://10.5.5.9/gp/gpControl/setting/57/0
 * PAL: http://10.5.5.9/gp/gpControl/setting/57/1
 
-##### LCD Display:
-* On: http://10.5.5.9/gp/gpControl/setting/72/1
-* Off: http://10.5.5.9/gp/gpControl/setting/72/0
-
 ##### On Screen Display:
 * On: http://10.5.5.9/gp/gpControl/setting/58/1
 * Off: http://10.5.5.9/gp/gpControl/setting/58/0
 
-##### LCD Brightness:
-* High: http://10.5.5.9/gp/gpControl/setting/49/0
-* Medium: http://10.5.5.9/gp/gpControl/setting/49/1
-* Low: http://10.5.5.9/gp/gpControl/setting/49/2
+##### LCD Brightness:    
+* Low: http://10.5.5.9/gp/gpControl/setting/88/10
+* 50%: http://10.5.5.9/gp/gpControl/setting/88/50
+* XY%: http://10.5.5.9/gp/gpControl/setting/88/XY
+* Full: http://10.5.5.9/gp/gpControl/setting/88/100
 
-##### LCD Lock:
- * On: http://10.5.5.9/gp/gpControl/setting/50/1
- * Off: http://10.5.5.9/gp/gpControl/setting/50/0
-
-##### LCD Timeout sleep:
+##### LCD Timeout sleep: 
 
 * LCD Never sleep: http://10.5.5.9/gp/gpControl/setting/51/0
 * LCD 1min sleep timeout: http://10.5.5.9/gp/gpControl/setting/51/1
