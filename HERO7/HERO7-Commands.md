@@ -503,7 +503,7 @@ Value | URL
 * On: http://10.5.5.9/gp/gpControl/setting/86/1
 * Off: http://10.5.5.9/gp/gpControl/setting/86/0
 
-##### LEDs on HERO6 Black:  WORKS (tested on H7)
+##### LEDs on HERO6 Black: 
 
 * Off: http://10.5.5.9/gp/gpControl/setting/91/0
 * On: http://10.5.5.9/gp/gpControl/setting/91/2
@@ -550,7 +550,7 @@ Value | URL
 * On: http://10.5.5.9/gp/gpControl/setting/58/1
 * Off: http://10.5.5.9/gp/gpControl/setting/58/0
 
-##### LCD Brightness:    Adapted and Tested on H7
+##### LCD Brightness:    
 * Low: http://10.5.5.9/gp/gpControl/setting/88/10
 * 50%: http://10.5.5.9/gp/gpControl/setting/88/50
 * XY%: http://10.5.5.9/gp/gpControl/setting/88/XY
@@ -560,7 +560,7 @@ Value | URL
  * On: http://10.5.5.9/gp/gpControl/setting/50/1
  * Off: http://10.5.5.9/gp/gpControl/setting/50/0
 
-##### LCD Timeout sleep:  -> WORKS (TESTED on H7)
+##### LCD Timeout sleep: 
 
 * LCD Never sleep: http://10.5.5.9/gp/gpControl/setting/51/0
 * LCD 1min sleep timeout: http://10.5.5.9/gp/gpControl/setting/51/1
