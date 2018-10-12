@@ -542,10 +542,6 @@ Value | URL
 * NTSC: http://10.5.5.9/gp/gpControl/setting/57/0
 * PAL: http://10.5.5.9/gp/gpControl/setting/57/1
 
-##### LCD Display: DOES NOT WORK
-* On: http://10.5.5.9/gp/gpControl/setting/72/1
-* Off: http://10.5.5.9/gp/gpControl/setting/72/0
-
 ##### On Screen Display:
 * On: http://10.5.5.9/gp/gpControl/setting/58/1
 * Off: http://10.5.5.9/gp/gpControl/setting/58/0
@@ -555,10 +551,6 @@ Value | URL
 * 50%: http://10.5.5.9/gp/gpControl/setting/88/50
 * XY%: http://10.5.5.9/gp/gpControl/setting/88/XY
 * Full: http://10.5.5.9/gp/gpControl/setting/88/100
-
-##### LCD Lock:   DOES NOT WORK
- * On: http://10.5.5.9/gp/gpControl/setting/50/1
- * Off: http://10.5.5.9/gp/gpControl/setting/50/0
 
 ##### LCD Timeout sleep: 
 
