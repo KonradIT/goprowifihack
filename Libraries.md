@@ -20,7 +20,6 @@ This API documents the HTTP calls from GoPro cameras, users have made libraries 
 ### Java:
 
 * [topiltzin-butron/gopro](https://github.com/topiltzin-butron/gopro) - Java API for GoPro HERO3+
-* [konradit/gpApi](https://github.com/KonradIT/CamControl/tree/master/mobile/src/main/java/com/chernowii/camcontrol/gpApi) - Java API for HERO3/3+/4/5
 
 ### C Sharp:
 
@@ -28,4 +27,4 @@ This API documents the HTTP calls from GoPro cameras, users have made libraries 
 
 ### GoLang:
 
-*coming soon*
+* [chrisjoyce911/goprowifi](https://github.com/chrisjoyce911/goprowifi) - GoLang API for GoPro HERO5 (work in progress)
