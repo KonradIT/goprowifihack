@@ -1,0 +1,5662 @@
+{
+  "version": 3,
+  "schema_version": 5,
+  "modes": [
+    {
+      "id": 12,
+      "display_name": "Video"
+    },
+    {
+      "id": 17,
+      "display_name": "Photo"
+    },
+    {
+      "id": 20,
+      "display_name": "Time Lapse Photo"
+    },
+    {
+      "id": 13,
+      "display_name": "Time Lapse Video"
+    },
+    {
+      "id": 24,
+      "display_name": "Time Warp Video"
+    },
+    {
+      "id": 4,
+      "display_name": "Playback"
+    },
+    {
+      "id": 5,
+      "display_name": "Setup"
+    },
+    {
+      "id": 22,
+      "display_name": "Broadcast Record"
+    },
+    {
+      "id": 23,
+      "display_name": "Broadcast"
+    }
+  ],
+  "ui_mode_groups": [
+    {
+      "display_name": "VIDEO",
+      "id": 1000,
+      "modes": [
+        12
+      ]
+    },
+    {
+      "display_name": "PHOTO",
+      "id": 1001,
+      "modes": [
+        17
+      ]
+    },
+    {
+      "display_name": "TIME LAPSE",
+      "id": 1002,
+      "modes": [
+        24,
+        13,
+        20
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "display_name": "Default Video Sub Mode",
+      "id": 1,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Video",
+          "value": 0
+        },
+        {
+          "id": 4,
+          "display_name": "Time Warp Video",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "display_name": "Resolution",
+      "id": 2,
+      "options": [
+        {
+          "id": 21,
+          "display_name": "5.6K",
+          "value": 21
+        },
+        {
+          "id": 7,
+          "display_name": "1440",
+          "value": 7
+        },
+        {
+          "id": 9,
+          "display_name": "1080",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "display_name": "Frames Per Second",
+      "id": 3,
+      "options": [
+        {
+          "id": 5,
+          "display_name": "60",
+          "value": 5
+        },
+        {
+          "id": 6,
+          "display_name": "50",
+          "value": 6
+        },
+        {
+          "id": 8,
+          "display_name": "30",
+          "value": 8
+        },
+        {
+          "id": 9,
+          "display_name": "25",
+          "value": 9
+        },
+        {
+          "id": 10,
+          "display_name": "24",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "display_name": "Interval",
+      "id": 5,
+      "options": [
+        {
+          "id": 6,
+          "display_name": "60 Seconds",
+          "value": 6
+        },
+        {
+          "id": 5,
+          "display_name": "30 Seconds",
+          "value": 5
+        },
+        {
+          "id": 4,
+          "display_name": "10 Seconds",
+          "value": 4
+        },
+        {
+          "id": 3,
+          "display_name": "5 Seconds",
+          "value": 3
+        },
+        {
+          "id": 2,
+          "display_name": "2 Seconds",
+          "value": 2
+        },
+        {
+          "id": 1,
+          "display_name": "1 Second",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "0.5 Seconds",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Low Light",
+      "id": 8,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "ON",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "OFF",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Spot Meter",
+      "id": 9,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "ON",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "OFF",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "ISO Max",
+      "id": 13,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "6400",
+          "value": 0
+        },
+        {
+          "id": 3,
+          "display_name": "3200",
+          "value": 3
+        },
+        {
+          "id": 1,
+          "display_name": "1600",
+          "value": 1
+        },
+        {
+          "id": 5,
+          "display_name": "1200",
+          "value": 5
+        },
+        {
+          "id": 6,
+          "display_name": "1000",
+          "value": 6
+        },
+        {
+          "id": 4,
+          "display_name": "800",
+          "value": 4
+        },
+        {
+          "id": 2,
+          "display_name": "400",
+          "value": 2
+        },
+        {
+          "id": 7,
+          "display_name": "200",
+          "value": 7
+        },
+        {
+          "id": 8,
+          "display_name": "100",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "display_name": "Default Photo Sub Mode",
+      "id": 16,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Single",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "Continuous",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "Night",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "display_name": "Spot Meter",
+      "id": 20,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "ON",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "OFF",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "ISO Max",
+      "id": 24,
+      "options": [
+        {
+          "id": 5,
+          "display_name": "3200",
+          "value": 5
+        },
+        {
+          "id": 4,
+          "display_name": "1600",
+          "value": 4
+        },
+        {
+          "id": 0,
+          "display_name": "800",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "400",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "200",
+          "value": 2
+        },
+        {
+          "id": 3,
+          "display_name": "100",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "display_name": "Interval",
+      "id": 30,
+      "options": [
+        {
+          "id": 104,
+          "display_name": "60 Seconds",
+          "value": 60
+        },
+        {
+          "id": 105,
+          "display_name": "30 Seconds",
+          "value": 30
+        },
+        {
+          "id": 106,
+          "display_name": "10 Seconds",
+          "value": 10
+        },
+        {
+          "id": 107,
+          "display_name": "5 Seconds",
+          "value": 5
+        },
+        {
+          "id": 108,
+          "display_name": "2 Seconds",
+          "value": 2
+        },
+        {
+          "id": 109,
+          "display_name": "1 Second",
+          "value": 1
+        },
+        {
+          "id": 110,
+          "display_name": "0.5 Seconds",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Multi-shot Spot Meter",
+      "id": 33,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "ON",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "OFF",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "ISO Max",
+      "id": 37,
+      "options": [
+        {
+          "id": 5,
+          "display_name": "3200",
+          "value": 5
+        },
+        {
+          "id": 4,
+          "display_name": "1600",
+          "value": 4
+        },
+        {
+          "id": 0,
+          "display_name": "800",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "400",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "200",
+          "value": 2
+        },
+        {
+          "id": 3,
+          "display_name": "100",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "display_name": "Default Broadcast Sub Mode",
+      "id": 40,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Record + Broadcast",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "Broadcast",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "display_name": "Resolution",
+      "id": 41,
+      "options": [
+        {
+          "id": 9,
+          "display_name": "1080",
+          "value": 9
+        },
+        {
+          "id": 12,
+          "display_name": "720",
+          "value": 12
+        },
+        {
+          "id": 17,
+          "display_name": "480",
+          "value": 17
+        }
+      ]
+    },
+    {
+      "display_name": "Frame Per Second",
+      "id": 42,
+      "options": [
+        {
+          "id": 8,
+          "display_name": "30",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "display_name": "BNR Resolution",
+      "id": 44,
+      "options": [
+        {
+          "id": 9,
+          "display_name": "1080",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "display_name": "BNR Frame Per Second",
+      "id": 45,
+      "options": [
+        {
+          "id": 8,
+          "display_name": "30",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "display_name": "Window Size",
+      "id": 47,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Default",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "240",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "240 3:4 Subsample",
+          "value": 2
+        },
+        {
+          "id": 3,
+          "display_name": "240 1:2 Subsample",
+          "value": 3
+        },
+        {
+          "id": 4,
+          "display_name": "480",
+          "value": 4
+        },
+        {
+          "id": 5,
+          "display_name": "480 3:4 Subsample",
+          "value": 5
+        },
+        {
+          "id": 6,
+          "display_name": "480 1:2 Subsample",
+          "value": 6
+        },
+        {
+          "id": 7,
+          "display_name": "720",
+          "value": 7
+        },
+        {
+          "id": 8,
+          "display_name": "720 3:4 Subsample",
+          "value": 8
+        },
+        {
+          "id": 9,
+          "display_name": "720 1:2 Subsample",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "display_name": "Privacy",
+      "id": 48,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Ask",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "Public",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "Hidden",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "display_name": "Screensaver",
+      "id": 51,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "1 MIN",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "2 MIN",
+          "value": 2
+        },
+        {
+          "id": 3,
+          "display_name": "3 MIN",
+          "value": 3
+        },
+        {
+          "id": 0,
+          "display_name": "NEVER",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Quick Capture",
+      "id": 54,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "ON",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "OFF",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Auto Off",
+      "id": 59,
+      "options": [
+        {
+          "id": 4,
+          "display_name": "5 MIN",
+          "value": 4
+        },
+        {
+          "id": 6,
+          "display_name": "15 MIN",
+          "value": 6
+        },
+        {
+          "id": 7,
+          "display_name": "30 MIN",
+          "value": 7
+        },
+        {
+          "id": 0,
+          "display_name": "NEVER",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Secondary Stream GOP Size",
+      "id": 60,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Default",
+          "value": 0
+        },
+        {
+          "id": 3,
+          "display_name": "3",
+          "value": 3
+        },
+        {
+          "id": 4,
+          "display_name": "4",
+          "value": 4
+        },
+        {
+          "id": 8,
+          "display_name": "8",
+          "value": 8
+        },
+        {
+          "id": 15,
+          "display_name": "15",
+          "value": 15
+        },
+        {
+          "id": 30,
+          "display_name": "30",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "display_name": "Secondary Stream IDR Interval",
+      "id": 61,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Default",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "1",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "2",
+          "value": 2
+        },
+        {
+          "id": 4,
+          "display_name": "4",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "display_name": "Secondary Stream Bit Rate",
+      "id": 62,
+      "options": [
+        {
+          "id": 250000,
+          "display_name": "250 Kbps",
+          "value": 250000
+        },
+        {
+          "id": 400000,
+          "display_name": "400 Kbps",
+          "value": 400000
+        },
+        {
+          "id": 600000,
+          "display_name": "600 Kbps",
+          "value": 600000
+        },
+        {
+          "id": 700000,
+          "display_name": "700 Kbps",
+          "value": 700000
+        },
+        {
+          "id": 800000,
+          "display_name": "800 Kbps",
+          "value": 800000
+        },
+        {
+          "id": 1000000,
+          "display_name": "1 Mbps",
+          "value": 1000000
+        },
+        {
+          "id": 1200000,
+          "display_name": "1.2 Mbps",
+          "value": 1200000
+        },
+        {
+          "id": 1600000,
+          "display_name": "1.6 Mbps",
+          "value": 1600000
+        },
+        {
+          "id": 2000000,
+          "display_name": "2 Mbps",
+          "value": 2000000
+        },
+        {
+          "id": 2400000,
+          "display_name": "2.4 Mbps",
+          "value": 2400000
+        },
+        {
+          "id": 2500000,
+          "display_name": "2.5 Mbps",
+          "value": 2500000
+        },
+        {
+          "id": 4000000,
+          "display_name": "4 Mbps",
+          "value": 4000000
+        }
+      ]
+    },
+    {
+      "display_name": "Secondary Stream Window Size",
+      "id": 64,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Default",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "240",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "240 3:4 Subsample",
+          "value": 2
+        },
+        {
+          "id": 3,
+          "display_name": "240 1:2 Subsample",
+          "value": 3
+        },
+        {
+          "id": 4,
+          "display_name": "480",
+          "value": 4
+        },
+        {
+          "id": 5,
+          "display_name": "480 3:4 Subsample",
+          "value": 5
+        },
+        {
+          "id": 6,
+          "display_name": "480 1:2 Subsample",
+          "value": 6
+        },
+        {
+          "id": 7,
+          "display_name": "720",
+          "value": 7
+        },
+        {
+          "id": 8,
+          "display_name": "720 3:4 Subsample",
+          "value": 8
+        },
+        {
+          "id": 9,
+          "display_name": "720 1:2 Subsample",
+          "value": 9
+        },
+        {
+          "id": 10,
+          "display_name": "720 Square",
+          "value": 10
+        },
+        {
+          "id": 11,
+          "display_name": "480 Square",
+          "value": 11
+        },
+        {
+          "id": 12,
+          "display_name": "1080",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "display_name": "GOP Size",
+      "id": 65,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Default",
+          "value": 0
+        },
+        {
+          "id": 3,
+          "display_name": "3",
+          "value": 3
+        },
+        {
+          "id": 4,
+          "display_name": "4",
+          "value": 4
+        },
+        {
+          "id": 8,
+          "display_name": "8",
+          "value": 8
+        },
+        {
+          "id": 15,
+          "display_name": "15",
+          "value": 15
+        },
+        {
+          "id": 30,
+          "display_name": "30",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "display_name": "IDR Interval",
+      "id": 66,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Default",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "1",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "2",
+          "value": 2
+        },
+        {
+          "id": 4,
+          "display_name": "4",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "display_name": "Bit Rate",
+      "id": 67,
+      "options": [
+        {
+          "id": 250000,
+          "display_name": "250 Kbps",
+          "value": 250000
+        },
+        {
+          "id": 400000,
+          "display_name": "400 Kbps",
+          "value": 400000
+        },
+        {
+          "id": 600000,
+          "display_name": "600 Kbps",
+          "value": 600000
+        },
+        {
+          "id": 700000,
+          "display_name": "700 Kbps",
+          "value": 700000
+        },
+        {
+          "id": 800000,
+          "display_name": "800 Kbps",
+          "value": 800000
+        },
+        {
+          "id": 1000000,
+          "display_name": "1 Mbps",
+          "value": 1000000
+        },
+        {
+          "id": 1200000,
+          "display_name": "1.2 Mbps",
+          "value": 1200000
+        },
+        {
+          "id": 1600000,
+          "display_name": "1.6 Mbps",
+          "value": 1600000
+        },
+        {
+          "id": 2000000,
+          "display_name": "2 Mbps",
+          "value": 2000000
+        },
+        {
+          "id": 2400000,
+          "display_name": "2.4 Mbps",
+          "value": 2400000
+        },
+        {
+          "id": 2500000,
+          "display_name": "2.5 Mbps",
+          "value": 2500000
+        },
+        {
+          "id": 4000000,
+          "display_name": "4 Mbps",
+          "value": 4000000
+        }
+      ]
+    },
+    {
+      "display_name": "Video Sub Mode",
+      "id": 68,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Video",
+          "value": 0
+        },
+        {
+          "id": 4,
+          "display_name": "Time Warp Video",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "display_name": "Photo Sub Mode",
+      "id": 69,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Single",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "Continuous",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "Night",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "display_name": "Sub Mode",
+      "id": 71,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Record + Broadcast",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "Broadcast",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "display_name": "ISO Min",
+      "id": 75,
+      "options": [
+        {
+          "id": 5,
+          "display_name": "3200",
+          "value": 5
+        },
+        {
+          "id": 4,
+          "display_name": "1600",
+          "value": 4
+        },
+        {
+          "id": 0,
+          "display_name": "800",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "400",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "200",
+          "value": 2
+        },
+        {
+          "id": 3,
+          "display_name": "100",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "display_name": "ISO Min",
+      "id": 76,
+      "options": [
+        {
+          "id": 3,
+          "display_name": "100",
+          "value": 3
+        },
+        {
+          "id": 2,
+          "display_name": "200",
+          "value": 2
+        },
+        {
+          "id": 1,
+          "display_name": "400",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "800",
+          "value": 0
+        },
+        {
+          "id": 4,
+          "display_name": "1600",
+          "value": 4
+        },
+        {
+          "id": 5,
+          "display_name": "3200",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "display_name": "Audio Protune",
+      "id": 79,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "On",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "Off",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "GPS",
+      "id": 83,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "ON",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "OFF",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Language",
+      "id": 84,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "English",
+          "value": 0
+        },
+        {
+          "id": 6,
+          "display_name": "French",
+          "value": 6
+        },
+        {
+          "id": 2,
+          "display_name": "German",
+          "value": 2
+        },
+        {
+          "id": 3,
+          "display_name": "Italian",
+          "value": 3
+        },
+        {
+          "id": 4,
+          "display_name": "Spanish",
+          "value": 4
+        },
+        {
+          "id": 1,
+          "display_name": "Chinese",
+          "value": 1
+        },
+        {
+          "id": 5,
+          "display_name": "Japanese",
+          "value": 5
+        },
+        {
+          "id": 7,
+          "display_name": "Korean",
+          "value": 7
+        },
+        {
+          "id": 8,
+          "display_name": "Portuguese",
+          "value": 8
+        },
+        {
+          "id": 9,
+          "display_name": "Russian",
+          "value": 9
+        },
+        {
+          "id": 10,
+          "display_name": "Swedish",
+          "value": 10
+        },
+        {
+          "id": 11,
+          "display_name": "Chinese(Traditional)",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "display_name": "Voice Control Language",
+      "id": 85,
+      "options": [
+        {
+          "id": 8,
+          "display_name": "Chinese",
+          "value": 8
+        },
+        {
+          "id": 2,
+          "display_name": "English - AUS",
+          "value": 2
+        },
+        {
+          "id": 13,
+          "display_name": "English - IND",
+          "value": 13
+        },
+        {
+          "id": 1,
+          "display_name": "English - UK",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "English - US",
+          "value": 0
+        },
+        {
+          "id": 4,
+          "display_name": "French",
+          "value": 4
+        },
+        {
+          "id": 3,
+          "display_name": "German",
+          "value": 3
+        },
+        {
+          "id": 5,
+          "display_name": "Italian",
+          "value": 5
+        },
+        {
+          "id": 9,
+          "display_name": "Japanese",
+          "value": 9
+        },
+        {
+          "id": 10,
+          "display_name": "Korean",
+          "value": 10
+        },
+        {
+          "id": 11,
+          "display_name": "Portuguese",
+          "value": 11
+        },
+        {
+          "id": 12,
+          "display_name": "Russian",
+          "value": 12
+        },
+        {
+          "id": 6,
+          "display_name": "Spanish",
+          "value": 6
+        },
+        {
+          "id": 7,
+          "display_name": "Spanish - NA",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "display_name": "Voice Control Enable",
+      "id": 86,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "ON",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "OFF",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Beeps",
+      "id": 87,
+      "options": [
+        {
+          "id": 100,
+          "display_name": "High",
+          "value": 100
+        },
+        {
+          "id": 70,
+          "display_name": "Medium",
+          "value": 70
+        },
+        {
+          "id": 40,
+          "display_name": "Low",
+          "value": 40
+        },
+        {
+          "id": 0,
+          "display_name": "Mute",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "LCD Brightness",
+      "id": 88,
+      "options": [
+        {
+          "id": 10,
+          "display_name": "10%",
+          "value": 10
+        },
+        {
+          "id": 20,
+          "display_name": "20%",
+          "value": 20
+        },
+        {
+          "id": 30,
+          "display_name": "30%",
+          "value": 30
+        },
+        {
+          "id": 40,
+          "display_name": "40%",
+          "value": 40
+        },
+        {
+          "id": 50,
+          "display_name": "50%",
+          "value": 50
+        },
+        {
+          "id": 60,
+          "display_name": "60%",
+          "value": 60
+        },
+        {
+          "id": 70,
+          "display_name": "70%",
+          "value": 70
+        },
+        {
+          "id": 80,
+          "display_name": "80%",
+          "value": 80
+        },
+        {
+          "id": 90,
+          "display_name": "90%",
+          "value": 90
+        },
+        {
+          "id": 100,
+          "display_name": "100%",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "display_name": "LED",
+      "id": 91,
+      "options": [
+        {
+          "id": 3,
+          "display_name": "All On",
+          "value": 2
+        },
+        {
+          "id": 4,
+          "display_name": "All Off",
+          "value": 0
+        },
+        {
+          "id": 5,
+          "display_name": "Front Off Only",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "display_name": "Audio Input",
+      "id": 95,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "None",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "Standard Mic",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "Standard Mic+",
+          "value": 2
+        },
+        {
+          "id": 3,
+          "display_name": "Powered Mic",
+          "value": 3
+        },
+        {
+          "id": 4,
+          "display_name": "Powered Mic+",
+          "value": 4
+        },
+        {
+          "id": 5,
+          "display_name": "Line In",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "display_name": "No Audio Track",
+      "id": 96,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "ON",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "OFF",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "ISO Min",
+      "id": 102,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "6400",
+          "value": 0
+        },
+        {
+          "id": 3,
+          "display_name": "3200",
+          "value": 3
+        },
+        {
+          "id": 1,
+          "display_name": "1600",
+          "value": 1
+        },
+        {
+          "id": 4,
+          "display_name": "800",
+          "value": 4
+        },
+        {
+          "id": 2,
+          "display_name": "400",
+          "value": 2
+        },
+        {
+          "id": 7,
+          "display_name": "200",
+          "value": 7
+        },
+        {
+          "id": 8,
+          "display_name": "100",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "display_name": "Wake On Voice",
+      "id": 104,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "ON",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "OFF",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Timer",
+      "id": 105,
+      "options": [
+        {
+          "id": 2,
+          "display_name": "10 Seconds",
+          "value": 2
+        },
+        {
+          "id": 1,
+          "display_name": "3 Seconds",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "Off",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Video Compression",
+      "id": 106,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "HEVC",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "H.264 + HEVC",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Clips",
+      "id": 107,
+      "options": [
+        {
+          "id": 2,
+          "display_name": "30 Seconds",
+          "value": 2
+        },
+        {
+          "id": 1,
+          "display_name": "15 Seconds",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "Off",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Speed",
+      "id": 111,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "30X",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "15X",
+          "value": 0
+        },
+        {
+          "id": 9,
+          "display_name": "10X",
+          "value": 9
+        },
+        {
+          "id": 8,
+          "display_name": "5X",
+          "value": 8
+        },
+        {
+          "id": 7,
+          "display_name": "2X",
+          "value": 7
+        },
+        {
+          "id": 10,
+          "display_name": "Auto",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "display_name": "Landscape Lock",
+      "id": 112,
+      "options": [
+        {
+          "id": 100,
+          "display_name": "All",
+          "value": 0
+        },
+        {
+          "id": 5,
+          "display_name": "Landscape",
+          "value": 5
+        },
+        {
+          "id": 255,
+          "display_name": "Locked",
+          "value": 255
+        }
+      ]
+    },
+    {
+      "display_name": "Protune",
+      "id": 114,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "ON",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "OFF",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "White Balance",
+      "id": 115,
+      "options": [
+        {
+          "id": 3,
+          "display_name": "6500K",
+          "value": 3
+        },
+        {
+          "id": 7,
+          "display_name": "6000K",
+          "value": 7
+        },
+        {
+          "id": 2,
+          "display_name": "5500K",
+          "value": 2
+        },
+        {
+          "id": 12,
+          "display_name": "5000K",
+          "value": 12
+        },
+        {
+          "id": 11,
+          "display_name": "4500K",
+          "value": 11
+        },
+        {
+          "id": 0,
+          "display_name": "Auto",
+          "value": 0
+        },
+        {
+          "id": 4,
+          "display_name": "Native",
+          "value": 4
+        },
+        {
+          "id": 5,
+          "display_name": "4000K",
+          "value": 5
+        },
+        {
+          "id": 10,
+          "display_name": "3200K",
+          "value": 10
+        },
+        {
+          "id": 9,
+          "display_name": "2800K",
+          "value": 9
+        },
+        {
+          "id": 8,
+          "display_name": "2300K",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "display_name": "Color",
+      "id": 116,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "Flat",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "GoPro",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Sharpness",
+      "id": 117,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "High",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "Medium",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "Low",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "display_name": "EV Comp",
+      "id": 118,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "2.0",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "1.5",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "1.0",
+          "value": 2
+        },
+        {
+          "id": 3,
+          "display_name": "0.5",
+          "value": 3
+        },
+        {
+          "id": 4,
+          "display_name": "0.0",
+          "value": 4
+        },
+        {
+          "id": 5,
+          "display_name": "-0.5",
+          "value": 5
+        },
+        {
+          "id": 6,
+          "display_name": "-1.0",
+          "value": 6
+        },
+        {
+          "id": 7,
+          "display_name": "-1.5",
+          "value": 7
+        },
+        {
+          "id": 8,
+          "display_name": "-2.0",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "display_name": "Lens",
+      "id": 121,
+      "options": [
+        {
+          "id": 7,
+          "display_name": "Max SuperView",
+          "value": 7
+        },
+        {
+          "id": 0,
+          "display_name": "Wide",
+          "value": 0
+        },
+        {
+          "id": 4,
+          "display_name": "Linear",
+          "value": 4
+        },
+        {
+          "id": 2,
+          "display_name": "Narrow",
+          "value": 6
+        },
+        {
+          "id": 5,
+          "display_name": "Dual 360",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "display_name": "Lens",
+      "id": 122,
+      "options": [
+        {
+          "id": 100,
+          "display_name": "Max SuperView",
+          "value": 18
+        },
+        {
+          "id": 101,
+          "display_name": "Wide",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "display_name": "Lens",
+      "id": 123,
+      "options": [
+        {
+          "id": 100,
+          "display_name": "Max SuperView",
+          "value": 18
+        },
+        {
+          "id": 101,
+          "display_name": "Wide",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "display_name": "Bit Rate",
+      "id": 124,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Low",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "High",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "display_name": "Default Preset",
+      "id": 127,
+      "options": [
+        {
+          "id": 15,
+          "display_name": "Last Used",
+          "value": 65535
+        },
+        {
+          "id": 16,
+          "display_name": "HERO Video",
+          "value": 0
+        },
+        {
+          "id": 12,
+          "display_name": "360 Video",
+          "value": 196608
+        },
+        {
+          "id": 17,
+          "display_name": "HERO Photo",
+          "value": 65536
+        },
+        {
+          "id": 18,
+          "display_name": "HERO PowerPano",
+          "value": 65537
+        },
+        {
+          "id": 13,
+          "display_name": "360 Photo",
+          "value": 262144
+        },
+        {
+          "id": 19,
+          "display_name": "HERO TimeWarp",
+          "value": 131072
+        },
+        {
+          "id": 21,
+          "display_name": "HERO TimeLapse",
+          "value": 131073
+        },
+        {
+          "id": 22,
+          "display_name": "360 TimeWarp",
+          "value": 327680
+        }
+      ]
+    },
+    {
+      "display_name": "Format",
+      "id": 128,
+      "options": [
+        {
+          "id": 13,
+          "display_name": "Video",
+          "value": 13
+        },
+        {
+          "id": 20,
+          "display_name": "Photo",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "display_name": "Upper Left",
+      "id": 131,
+      "options": [
+        {
+          "id": 100,
+          "display_name": "Wind",
+          "value": 23
+        },
+        {
+          "id": 16,
+          "display_name": "Mics",
+          "value": 16
+        },
+        {
+          "id": 10,
+          "display_name": "Color",
+          "value": 10
+        },
+        {
+          "id": 19,
+          "display_name": "Sharpness",
+          "value": 19
+        },
+        {
+          "id": 15,
+          "display_name": "ISO Max",
+          "value": 15
+        },
+        {
+          "id": 14,
+          "display_name": "ISO Min",
+          "value": 14
+        },
+        {
+          "id": 5,
+          "display_name": "White Balance",
+          "value": 5
+        },
+        {
+          "id": 11,
+          "display_name": "EV Comp",
+          "value": 11
+        },
+        {
+          "id": 24,
+          "display_name": "Horizon Leveling",
+          "value": 24
+        },
+        {
+          "id": 6,
+          "display_name": "Shutter",
+          "value": 6
+        },
+        {
+          "id": 9,
+          "display_name": "Clips",
+          "value": 9
+        },
+        {
+          "id": 20,
+          "display_name": "Timer",
+          "value": 20
+        },
+        {
+          "id": 13,
+          "display_name": "Interval",
+          "value": 13
+        },
+        {
+          "id": 21,
+          "display_name": "Speed",
+          "value": 21
+        },
+        {
+          "id": 2,
+          "display_name": "Lens",
+          "value": 2
+        },
+        {
+          "id": 0,
+          "display_name": "Off",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Upper Right",
+      "id": 132,
+      "options": [
+        {
+          "id": 100,
+          "display_name": "Wind",
+          "value": 23
+        },
+        {
+          "id": 16,
+          "display_name": "Mics",
+          "value": 16
+        },
+        {
+          "id": 10,
+          "display_name": "Color",
+          "value": 10
+        },
+        {
+          "id": 19,
+          "display_name": "Sharpness",
+          "value": 19
+        },
+        {
+          "id": 15,
+          "display_name": "ISO Max",
+          "value": 15
+        },
+        {
+          "id": 14,
+          "display_name": "ISO Min",
+          "value": 14
+        },
+        {
+          "id": 5,
+          "display_name": "White Balance",
+          "value": 5
+        },
+        {
+          "id": 11,
+          "display_name": "EV Comp",
+          "value": 11
+        },
+        {
+          "id": 24,
+          "display_name": "Horizon Leveling",
+          "value": 24
+        },
+        {
+          "id": 6,
+          "display_name": "Shutter",
+          "value": 6
+        },
+        {
+          "id": 9,
+          "display_name": "Clips",
+          "value": 9
+        },
+        {
+          "id": 20,
+          "display_name": "Timer",
+          "value": 20
+        },
+        {
+          "id": 13,
+          "display_name": "Interval",
+          "value": 13
+        },
+        {
+          "id": 21,
+          "display_name": "Speed",
+          "value": 21
+        },
+        {
+          "id": 2,
+          "display_name": "Lens",
+          "value": 2
+        },
+        {
+          "id": 0,
+          "display_name": "Off",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Anti-Flicker",
+      "id": 134,
+      "options": [
+        {
+          "id": 2,
+          "display_name": "60Hz",
+          "value": 0
+        },
+        {
+          "id": 3,
+          "display_name": "50Hz",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "display_name": "Audio",
+      "id": 137,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Stereo",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "Front",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "Back",
+          "value": 2
+        },
+        {
+          "id": 3,
+          "display_name": "Match Lens",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "display_name": "360 AUDIO",
+      "id": 138,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Stereo",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "360 + Stereo",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "display_name": "RAW Audio",
+      "id": 139,
+      "options": [
+        {
+          "id": 2,
+          "display_name": "High",
+          "value": 2
+        },
+        {
+          "id": 1,
+          "display_name": "Medium",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "Low",
+          "value": 0
+        },
+        {
+          "id": 3,
+          "display_name": "Off",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "display_name": "QuikCapture Default Mode",
+      "id": 141,
+      "options": [
+        {
+          "id": 2,
+          "display_name": "Last Used",
+          "value": 2
+        },
+        {
+          "id": 0,
+          "display_name": "HERO",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "360",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "display_name": "Lens Mode",
+      "id": 142,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Single",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "Dual",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "display_name": "Lens",
+      "id": 143,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Front",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "Rear",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "display_name": "Shutter",
+      "id": 145,
+      "options": [
+        {
+          "id": 23,
+          "display_name": "1/960",
+          "value": 23
+        },
+        {
+          "id": 28,
+          "display_name": "1/800",
+          "value": 28
+        },
+        {
+          "id": 22,
+          "display_name": "1/480",
+          "value": 22
+        },
+        {
+          "id": 21,
+          "display_name": "1/400",
+          "value": 21
+        },
+        {
+          "id": 25,
+          "display_name": "1/384",
+          "value": 25
+        },
+        {
+          "id": 18,
+          "display_name": "1/240",
+          "value": 18
+        },
+        {
+          "id": 17,
+          "display_name": "1/200",
+          "value": 17
+        },
+        {
+          "id": 16,
+          "display_name": "1/192",
+          "value": 16
+        },
+        {
+          "id": 13,
+          "display_name": "1/120",
+          "value": 13
+        },
+        {
+          "id": 12,
+          "display_name": "1/100",
+          "value": 12
+        },
+        {
+          "id": 11,
+          "display_name": "1/96",
+          "value": 11
+        },
+        {
+          "id": 8,
+          "display_name": "1/60",
+          "value": 8
+        },
+        {
+          "id": 7,
+          "display_name": "1/50",
+          "value": 7
+        },
+        {
+          "id": 6,
+          "display_name": "1/48",
+          "value": 6
+        },
+        {
+          "id": 5,
+          "display_name": "1/30",
+          "value": 5
+        },
+        {
+          "id": 4,
+          "display_name": "1/25",
+          "value": 4
+        },
+        {
+          "id": 3,
+          "display_name": "1/24",
+          "value": 3
+        },
+        {
+          "id": 0,
+          "display_name": "Auto",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Shutter",
+      "id": 146,
+      "options": [
+        {
+          "id": 0,
+          "display_name": "Auto",
+          "value": 0
+        },
+        {
+          "id": 1,
+          "display_name": "1/125",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "display_name": "1/250",
+          "value": 2
+        },
+        {
+          "id": 3,
+          "display_name": "1/500",
+          "value": 3
+        },
+        {
+          "id": 4,
+          "display_name": "1/1000",
+          "value": 4
+        },
+        {
+          "id": 5,
+          "display_name": "1/2000",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "display_name": "Max HyperSmooth",
+      "id": 148,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "ON",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "OFF",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Wind",
+      "id": 149,
+      "options": [
+        {
+          "id": 2,
+          "display_name": "Auto",
+          "value": 2
+        },
+        {
+          "id": 4,
+          "display_name": "On",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "Off",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Horizon Leveling",
+      "id": 150,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "On",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "Off",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "display_name": "Horizon Leveling",
+      "id": 151,
+      "options": [
+        {
+          "id": 1,
+          "display_name": "On",
+          "value": 1
+        },
+        {
+          "id": 0,
+          "display_name": "Off",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            16,
+            17,
+            18,
+            19,
+            21,
+            20
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 121,
+          "values": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            16,
+            17,
+            18,
+            19,
+            21,
+            20,
+            25
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 2,
+          "values": [
+            7,
+            9,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "setting_id": 3,
+          "values": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 8,
+          "values": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            12,
+            15,
+            13,
+            24,
+            16,
+            17,
+            18,
+            19,
+            21,
+            25,
+            26,
+            27
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 30,
+          "values": [
+            0,
+            1,
+            2,
+            5,
+            10,
+            30,
+            60
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            12,
+            15,
+            24,
+            16,
+            17,
+            18,
+            19,
+            21,
+            20,
+            25,
+            26,
+            27
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 5,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            12,
+            15,
+            13,
+            24,
+            19,
+            21,
+            20,
+            25,
+            26,
+            27
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 122,
+          "values": [
+            15,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            12,
+            15,
+            13,
+            24,
+            16,
+            17,
+            18,
+            25,
+            26,
+            27
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 123,
+          "values": [
+            15,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            12,
+            13,
+            15,
+            24,
+            16,
+            17,
+            18,
+            25,
+            27
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 76,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "setting_id": 37,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 74,
+          "values": [
+            0
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 95,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 74,
+          "values": [
+            2,
+            3
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 95,
+          "values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            15,
+            25
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 114,
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "setting_id": 116,
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "setting_id": 118,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "setting_id": 117,
+          "values": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "setting_id": 115,
+          "values": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "setting_id": 131,
+          "values": [
+            5,
+            10,
+            11,
+            19
+          ]
+        },
+        {
+          "setting_id": 132,
+          "values": [
+            5,
+            10,
+            11,
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            12,
+            15,
+            24,
+            16,
+            17,
+            18,
+            19,
+            25,
+            27
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 131,
+          "values": [
+            13
+          ]
+        },
+        {
+          "setting_id": 132,
+          "values": [
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            15,
+            13,
+            24,
+            19,
+            20,
+            25
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 131,
+          "values": [
+            6
+          ]
+        },
+        {
+          "setting_id": 132,
+          "values": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            12,
+            15,
+            13,
+            16,
+            17,
+            18,
+            19,
+            21,
+            20,
+            25,
+            26,
+            27
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 111,
+          "values": [
+            0,
+            1,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "setting_id": 131,
+          "values": [
+            21
+          ]
+        },
+        {
+          "setting_id": 132,
+          "values": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            20,
+            25,
+            26
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 13,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "setting_id": 102,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            24,
+            16,
+            17,
+            20,
+            13
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 148,
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "setting_id": 3,
+          "values": [
+            5,
+            6,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "setting_id": 138,
+          "values": [
+            0,
+            5
+          ]
+        },
+        {
+          "setting_id": 137,
+          "values": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "setting_id": 139,
+          "values": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "setting_id": 149,
+          "values": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "setting_id": 8,
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "setting_id": 150,
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "setting_id": 107,
+          "values": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "setting_id": 145,
+          "values": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            28
+          ]
+        },
+        {
+          "setting_id": 96,
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "setting_id": 124,
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "setting_id": 131,
+          "values": [
+            9,
+            16,
+            23
+          ]
+        },
+        {
+          "setting_id": 132,
+          "values": [
+            9,
+            16,
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "setting_id": 142,
+          "values": [
+            1
+          ]
+        },
+        {
+          "status_id": 89,
+          "values": [
+            12,
+            24
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 2,
+          "values": [
+            7,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "setting_id": 142,
+          "values": [
+            1
+          ]
+        },
+        {
+          "status_id": 89,
+          "values": [
+            12
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 3,
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "setting_id": 121,
+          "values": [
+            0,
+            4,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "setting_id": 142,
+          "values": [
+            0
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 2,
+          "values": [
+            21
+          ]
+        },
+        {
+          "setting_id": 138,
+          "values": [
+            0,
+            5
+          ]
+        },
+        {
+          "setting_id": 121,
+          "values": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "setting_id": 142,
+          "values": [
+            1
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 121,
+          "values": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "setting_id": 150,
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "setting_id": 139,
+          "values": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "setting_id": 124,
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "setting_id": 148,
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "setting_id": 137,
+          "values": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "setting_id": 131,
+          "values": [
+            2,
+            24
+          ]
+        },
+        {
+          "setting_id": 132,
+          "values": [
+            2,
+            24
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "setting_id": 145,
+          "values": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            28
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 118,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "setting_id": 3,
+          "values": [
+            5
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 145,
+          "values": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            11,
+            12,
+            16,
+            17,
+            21,
+            25,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "setting_id": 3,
+          "values": [
+            6
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 145,
+          "values": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            11,
+            13,
+            16,
+            18,
+            22,
+            23,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "setting_id": 3,
+          "values": [
+            8
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 145,
+          "values": [
+            3,
+            4,
+            6,
+            7,
+            11,
+            12,
+            16,
+            17,
+            21,
+            23,
+            25,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "setting_id": 3,
+          "values": [
+            9
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 145,
+          "values": [
+            3,
+            5,
+            6,
+            8,
+            11,
+            13,
+            16,
+            18,
+            22,
+            23,
+            25,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "setting_id": 3,
+          "values": [
+            10
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 145,
+          "values": [
+            4,
+            5,
+            7,
+            8,
+            12,
+            13,
+            17,
+            18,
+            21,
+            22,
+            23,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "setting_id": 134,
+          "values": [
+            0
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 3,
+          "values": [
+            6,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "setting_id": 134,
+          "values": [
+            1
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 3,
+          "values": [
+            5,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "setting_id": 142,
+          "values": [
+            1
+          ]
+        },
+        {
+          "status_id": 89,
+          "values": [
+            16,
+            17
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 122,
+          "values": [
+            15,
+            18
+          ]
+        },
+        {
+          "setting_id": 151,
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "setting_id": 131,
+          "values": [
+            2
+          ]
+        },
+        {
+          "setting_id": 132,
+          "values": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 97,
+          "values": [
+            65537,
+            262144
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 122,
+          "values": [
+            15,
+            18
+          ]
+        },
+        {
+          "setting_id": 131,
+          "values": [
+            2
+          ]
+        },
+        {
+          "setting_id": 132,
+          "values": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 97,
+          "values": [
+            65536,
+            65535,
+            0,
+            262144,
+            65538,
+            131072,
+            131073,
+            327680,
+            196608
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 151,
+          "values": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 97,
+          "values": [
+            65536,
+            65535,
+            262144,
+            65538,
+            131072,
+            131073,
+            327680,
+            196608
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 131,
+          "values": [
+            24
+          ]
+        },
+        {
+          "setting_id": 132,
+          "values": [
+            24
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            12,
+            15,
+            13,
+            24,
+            19,
+            21,
+            20,
+            25,
+            26,
+            27
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 75,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "setting_id": 24,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "setting_id": 146,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            12,
+            15,
+            13,
+            24,
+            21,
+            20,
+            26,
+            27
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 105,
+          "values": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "setting_id": 131,
+          "values": [
+            20
+          ]
+        },
+        {
+          "setting_id": 132,
+          "values": [
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            24
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 3,
+          "values": [
+            5,
+            6,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 97,
+          "values": [
+            327680
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 111,
+          "values": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 89,
+          "values": [
+            12,
+            24,
+            16,
+            17
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 128,
+          "values": [
+            13,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "setting_id": 86,
+          "values": [
+            0
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 104,
+          "values": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 65,
+          "values": [
+            1
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 145,
+          "values": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            28
+          ]
+        },
+        {
+          "setting_id": 146,
+          "values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "activated_by": [
+        {
+          "status_id": 65,
+          "values": [
+            2
+          ]
+        }
+      ],
+      "blacklist": [
+        {
+          "setting_id": 13,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "setting_id": 102,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            8
+          ]
+        },
+        {
+          "setting_id": 145,
+          "values": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            28
+          ]
+        },
+        {
+          "setting_id": 118,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "setting_id": 24,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "setting_id": 75,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "setting_id": 146,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "setting_id": 37,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "setting_id": 76,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    }
+  ],
+  "commands": [
+    {
+      "key": "GPCAMERA_SHUTTER",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MODE",
+      "deprecated": true,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SUBMODE",
+      "deprecated": true,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_POWER_ID",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_FWUPDATE_DOWNLOAD_FILE",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_FWUPDATE_DOWNLOAD_START",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_FWUPDATE_DOWNLOAD_DONE",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_FWUPDATE_DOWNLOAD_CANCEL",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_FACTORY_RESET",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SLEEP",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_USE_CURRENT_WIRELESS_REMOTE_ID",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_USE_NEW_WIRELESS_REMOTE_ID",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_CANCEL_PAIR_WIRELESS_REMOTE_ID",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_CANCEL_PAIR_WIRELESS_ID",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_VIDEO_PROTUNE_RESET_TO_DEFAULT",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MULTISHOT_PROTUNE_RESET_TO_DEFAULT",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_PHOTO_PROTUNE_RESET_TO_DEFAULT",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SET_DATE_AND_TIME_ID",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_DELETE_LAST_FILE_ID",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_DELETE_ALL_FILES_ID",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_DELETE_FILE_ID",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_DELETE_FILE_GROUP",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_LOCATE_ID",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_NETWORK_NAME_ID",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_AP_CONTROL",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_INFO_VERSION_ID",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_NETWORK_VERSION_ID",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_BATTERY_LEVEL_ID",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SDCARD_CAPACITY_ID",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_TAG_MOMENT",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_RC_PAIR",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SSID_SCAN",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SSID_LIST",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SSID_SELECT",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SSID_DELETE",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SSID_SAVE",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_ANALYTICS_FILE_GET",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_ANALYTICS_FILE_CLEAR",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MEDIA_METADATA",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_INFO",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_PREVIEW_ENABLED",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_PREVIEW",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_PREVIEW_V2",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_PREVIEW_LEGACY",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_CHANGE_SETTING",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_GENERIC",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MEDIA_LIST",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_GET_WIFI_CONFIG",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SET_WIFI_CONFIG_V2",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MEDIA_LIST_V4",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_DELETE_FILE_ID_V3",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SESSION_LIST",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MEDIA_METADATA_V4",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MEDIA_METADATA_V5",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MEDIA_GET_GLOBAL_GPMF",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_EXPOSURE_SELECT_SET",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_EXPOSURE_SELECT_RESET",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_PREVIEW_V3",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_HILIGHT_ADD_VIDEO_PLAYBACK_MOMENT",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_HILIGHT_REMOVE_VIDEO_PLAYBACK_MOMENT",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_HILIGHT_ADD_PHOTO_MOMENT",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_HILIGHT_REMOVE_PHOTO_MOMENT",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_WIRELESS_PAIRING_COMPLETE",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_WIRELESS_SELECT_BAND",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SENSOR_PAIRING_AVAILABLE",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SENSOR_SET_PAIRING_PHASE",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SENSOR_SET_AUTOCONNECT",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SENSOR_GET_AUTOCONNECT",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SENSOR_SCAN",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SENSOR_GET_SCAN_RESULTS",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SENSOR_PAIR_START",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SENSOR_PAIR_STOP",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SENSOR_GET_PAIR_STATUS",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SENSOR_WHITELIST",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SENSOR_WHITELIST_DEVICE_INFO",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SENSOR_WHITELIST_CONFIGURE",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SENSOR_WHITELIST_REMOVE",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_NETWORK_GET_CAPABILITIES",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_NETWORK_START_AP_SCAN",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_NETWORK_GET_AP_LIST",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_NETWORK_CONNECT_EXISTING_AP",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_NETWORK_CONNECT_NEW_AP",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_NETWORK_DELETE_AP",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_CROSS_CLIENT_GET_CLIENT_ID",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_CROSS_CLIENT_SET_AUTH_CODE",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_CROSS_CLIENT_GET_ASSOCIATION_STATE",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_CROSS_CLIENT_SET_ASSOCIATION_STATE",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MEDIA_OFFLOAD_ENABLE",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MEDIA_OFFLOAD_GET_STATUS",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MEDIA_SELECTIVE_OFFLOAD",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_ANALYTICS_SET_CLIENT_INFO",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SDCARD_GET_ID",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MOBILE_OFFLOAD_NEW_MEDIA_FLAG_CLEAR",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MOBILE_OFFLOAD_GET_STATE",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MOBILE_OFFLOAD_START",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MOBILE_OFFLOAD_POWER_ON_START",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MOBILE_OFFLOAD_STOP",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_APP_POWER_ON_START",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_DIGITAL_ZOOM_SET",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MEDIA_GET_AUDIO_TRACK",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_MEDIA_GET_TELEMETRY_TRACK",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_LIVE_STREAM_SETUP",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SECURE_LIVE_STREAM_SETUP",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_TURBO_MODE_ENABLE",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SET_MODE",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SYSTEM_LOG_CLEAR",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SYSTEM_LOG_PREPARE",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SYSTEM_LOG_LIST",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_SET_PRESET",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_ONSCREEN_SHORTCUTS_RESET",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_FIRMWARE_UPDATE_V2",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_NETWORK_RELEASE",
+      "deprecated": false,
+      "network_types": [
+        "ble"
+      ]
+    },
+    {
+      "key": "GPCAMERA_PROTUNE_RESET_TO_DEFAULT",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_TIMEWARP_SPEED_1X",
+      "deprecated": false,
+      "network_types": [
+        "ble",
+        "wifi"
+      ]
+    },
+    {
+      "key": "GPCAMERA_GEO_CALIBRATION_GET",
+      "deprecated": false,
+      "network_types": [
+        "wifi"
+      ]
+    }
+  ],
+  "status": {
+    "groups": [
+      {
+        "group": "app",
+        "fields": [
+          {
+            "id": 71,
+            "name": "video_selected_flatmode"
+          },
+          {
+            "id": 72,
+            "name": "photo_selected_flatmode"
+          },
+          {
+            "id": 73,
+            "name": "timelapse_selected_flatmode"
+          },
+          {
+            "id": 75,
+            "name": "digital_zoom"
+          },
+          {
+            "id": 89,
+            "name": "current_mode"
+          },
+          {
+            "id": 90,
+            "name": "protune_default"
+          },
+          {
+            "id": 93,
+            "name": "active_video_presets"
+          },
+          {
+            "id": 94,
+            "name": "active_photo_presets"
+          },
+          {
+            "id": 95,
+            "name": "active_timelapse_presets"
+          },
+          {
+            "id": 96,
+            "name": "active_presets_group"
+          },
+          {
+            "id": 97,
+            "name": "active_preset"
+          },
+          {
+            "id": 98,
+            "name": "preset_modified"
+          },
+          {
+            "id": 101,
+            "name": "capture_delay_active"
+          }
+        ]
+      },
+      {
+        "group": "broadcast",
+        "fields": [
+          {
+            "id": 14,
+            "name": "broadcast_progress_counter"
+          },
+          {
+            "id": 15,
+            "name": "broadcast_viewers_count"
+          },
+          {
+            "id": 16,
+            "name": "broadcast_bstatus"
+          }
+        ]
+      },
+      {
+        "group": "fwupdate",
+        "fields": [
+          {
+            "id": 41,
+            "name": "ota_status"
+          },
+          {
+            "id": 42,
+            "name": "download_cancel_request_pending"
+          }
+        ]
+      },
+      {
+        "group": "liveview",
+        "fields": [
+          {
+            "id": 65,
+            "name": "exposure_select_type"
+          },
+          {
+            "id": 66,
+            "name": "exposure_select_x"
+          },
+          {
+            "id": 67,
+            "name": "exposure_select_y"
+          }
+        ]
+      },
+      {
+        "group": "multi_shot",
+        "fields": [
+          {
+            "id": 49,
+            "name": "multi_shot_count_down"
+          }
+        ]
+      },
+      {
+        "group": "photo",
+        "fields": []
+      },
+      {
+        "group": "setup",
+        "fields": [
+          {
+            "id": 40,
+            "name": "date_time"
+          }
+        ]
+      },
+      {
+        "group": "storage",
+        "fields": [
+          {
+            "id": 33,
+            "name": "sd_status"
+          },
+          {
+            "id": 34,
+            "name": "remaining_photos"
+          },
+          {
+            "id": 35,
+            "name": "remaining_video_time"
+          },
+          {
+            "id": 36,
+            "name": "num_group_photos"
+          },
+          {
+            "id": 37,
+            "name": "num_group_videos"
+          },
+          {
+            "id": 38,
+            "name": "num_total_photos"
+          },
+          {
+            "id": 39,
+            "name": "num_total_videos"
+          },
+          {
+            "id": 54,
+            "name": "remaining_space"
+          },
+          {
+            "id": 58,
+            "name": "num_hilights"
+          },
+          {
+            "id": 59,
+            "name": "last_hilight_time_msec"
+          },
+          {
+            "id": 64,
+            "name": "remaining_timelapse_time"
+          }
+        ]
+      },
+      {
+        "group": "stream",
+        "fields": [
+          {
+            "id": 32,
+            "name": "enable"
+          },
+          {
+            "id": 55,
+            "name": "supported"
+          }
+        ]
+      },
+      {
+        "group": "system",
+        "fields": [
+          {
+            "id": 1,
+            "name": "internal_battery_present"
+          },
+          {
+            "id": 2,
+            "name": "internal_battery_level"
+          },
+          {
+            "id": 3,
+            "name": "external_battery_present"
+          },
+          {
+            "id": 4,
+            "name": "external_battery_level"
+          },
+          {
+            "id": 6,
+            "name": "system_hot"
+          },
+          {
+            "id": 8,
+            "name": "system_busy"
+          },
+          {
+            "id": 9,
+            "name": "quick_capture_active"
+          },
+          {
+            "id": 10,
+            "name": "encoding_active"
+          },
+          {
+            "id": 11,
+            "name": "lcd_lock_active"
+          },
+          {
+            "id": 45,
+            "name": "camera_locate_active"
+          },
+          {
+            "id": 57,
+            "name": "current_time_msec"
+          },
+          {
+            "id": 60,
+            "name": "next_poll_msec"
+          },
+          {
+            "id": 61,
+            "name": "analytics_ready"
+          },
+          {
+            "id": 62,
+            "name": "analytics_size"
+          },
+          {
+            "id": 63,
+            "name": "in_contextual_menu"
+          },
+          {
+            "id": 68,
+            "name": "gps_status"
+          },
+          {
+            "id": 70,
+            "name": "internal_battery_percentage"
+          },
+          {
+            "id": 74,
+            "name": "acc_mic_status"
+          },
+          {
+            "id": 77,
+            "name": "digital_zoom_active"
+          },
+          {
+            "id": 78,
+            "name": "mobile_friendly_video"
+          },
+          {
+            "id": 79,
+            "name": "first_time_use"
+          },
+          {
+            "id": 82,
+            "name": "system_ready"
+          },
+          {
+            "id": 83,
+            "name": "batt_okay_for_ota"
+          },
+          {
+            "id": 85,
+            "name": "video_low_temp_alert"
+          },
+          {
+            "id": 86,
+            "name": "actual_orientation"
+          },
+          {
+            "id": 91,
+            "name": "logs_ready"
+          },
+          {
+            "id": 92,
+            "name": "timewarp_1x_active"
+          }
+        ]
+      },
+      {
+        "group": "video",
+        "fields": [
+          {
+            "id": 13,
+            "name": "video_progress_counter"
+          },
+          {
+            "id": 88,
+            "name": "zoom_while_encoding"
+          }
+        ]
+      },
+      {
+        "group": "wireless",
+        "fields": [
+          {
+            "id": 17,
+            "name": "enable"
+          },
+          {
+            "id": 19,
+            "levels": [
+              "pair_status"
+            ],
+            "name": "state"
+          },
+          {
+            "id": 20,
+            "levels": [
+              "pair_status"
+            ],
+            "name": "type"
+          },
+          {
+            "id": 21,
+            "levels": [
+              "pair_status"
+            ],
+            "name": "pair_time"
+          },
+          {
+            "id": 22,
+            "levels": [
+              "scan_status"
+            ],
+            "name": "state"
+          },
+          {
+            "id": 23,
+            "levels": [
+              "scan_status"
+            ],
+            "name": "scan_time_msec"
+          },
+          {
+            "id": 24,
+            "name": "provision_status"
+          },
+          {
+            "id": 26,
+            "name": "remote_control_version"
+          },
+          {
+            "id": 27,
+            "name": "remote_control_connected"
+          },
+          {
+            "id": 28,
+            "name": "pairing"
+          },
+          {
+            "id": 29,
+            "name": "wlan_ssid"
+          },
+          {
+            "id": 30,
+            "name": "ap_ssid"
+          },
+          {
+            "id": 31,
+            "name": "app_count"
+          },
+          {
+            "id": 56,
+            "name": "wifi_bars"
+          },
+          {
+            "id": 69,
+            "name": "ap_state"
+          },
+          {
+            "id": 76,
+            "name": "wireless_band"
+          },
+          {
+            "id": 81,
+            "name": "band_5GHz_avail"
+          }
+        ]
+      }
+    ]
+  },
+  "display_hints_categories": [
+    {
+      "key": "GPCAMERA_CATEGORY_MODE",
+      "groups": [
+        "GPCAMERA_GROUP_MODE",
+        "GPCAMERA_GROUP_PROTUNE",
+        "GPCAMERA_GROUP_ONSCREEN_SHORTCUTS",
+        "GPCAMERA_GROUP_MANAGE_PRESET"
+      ]
+    },
+    {
+      "key": "GPCAMERA_CATEGORY_GENERAL",
+      "groups": [
+        "GPCAMERA_GROUP_SETUP",
+        "GPCAMERA_GROUP_DELETE_ID",
+        "GPCAMERA_GROUP_CAMERA_INFO",
+        "GPCAMERA_GROUP_CONNECTIONS",
+        "GPCAMERA_GROUP_CAMERA_STATUS"
+      ]
+    },
+    {
+      "key": "GPCAMERA_CATEGORY_PRESET_CREATION",
+      "groups": [
+        "GPCAMERA_GROUP_PRESET_MODE_SELECTION",
+        "GPCAMERA_GROUP_MODE",
+        "GPCAMERA_GROUP_PROTUNE",
+        "GPCAMERA_GROUP_ONSCREEN_SHORTCUTS"
+      ]
+    }
+  ],
+  "display_hints": [
+    {
+      "key": "GPCAMERA_GROUP_MODE",
+      "display_name": "Mode Settings",
+      "settings": [
+        {
+          "setting_id": 108,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 2,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 3,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 121,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 122,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 123,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 30,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 5,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 111,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 148,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 107,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 105,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 128,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 150,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 151,
+          "widget_type": "select",
+          "precedence": 1
+        }
+      ],
+      "commands": []
+    },
+    {
+      "key": "GPCAMERA_GROUP_PROTUNE",
+      "display_name": "Protune",
+      "settings": [
+        {
+          "setting_id": 146,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 124,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 145,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 118,
+          "widget_type": "slider",
+          "precedence": 1
+        },
+        {
+          "setting_id": 102,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 13,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 75,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 24,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 76,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 37,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 115,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 117,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 116,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 139,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 137,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 138,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 149,
+          "widget_type": "select",
+          "precedence": 1
+        }
+      ],
+      "commands": [
+        {
+          "command_key": "GPCAMERA_PROTUNE_RESET_TO_DEFAULT",
+          "display_name": "Reset Protune",
+          "widget_type": "button",
+          "precedence": 1
+        }
+      ]
+    },
+    {
+      "key": "GPCAMERA_GROUP_ONSCREEN_SHORTCUTS",
+      "display_name": "Onscreen Shortcuts",
+      "settings": [
+        {
+          "setting_id": 131,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 132,
+          "widget_type": "select",
+          "precedence": 1
+        }
+      ],
+      "commands": [
+        {
+          "command_key": "GPCAMERA_ONSCREEN_SHORTCUTS_RESET",
+          "display_name": "Shortcuts Reset",
+          "widget_type": "button",
+          "precedence": 1
+        }
+      ]
+    },
+    {
+      "key": "GPCAMERA_GROUP_MANAGE_PRESET",
+      "display_name": "Manage Preset",
+      "settings": [],
+      "commands": []
+    },
+    {
+      "key": "GPCAMERA_GROUP_SETUP",
+      "display_name": "Setup",
+      "settings": [
+        {
+          "setting_id": 86,
+          "widget_type": "toggle",
+          "precedence": 1
+        },
+        {
+          "setting_id": 85,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 104,
+          "widget_type": "toggle",
+          "precedence": 1
+        },
+        {
+          "setting_id": 87,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 91,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 54,
+          "widget_type": "toggle",
+          "precedence": 1
+        },
+        {
+          "setting_id": 141,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 127,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 59,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 51,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 88,
+          "widget_type": "slider",
+          "precedence": 1
+        },
+        {
+          "setting_id": 112,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 83,
+          "widget_type": "toggle",
+          "precedence": 1
+        },
+        {
+          "setting_id": 84,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 134,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 106,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 95,
+          "widget_type": "select",
+          "precedence": 1
+        },
+        {
+          "setting_id": 58,
+          "widget_type": "toggle",
+          "precedence": 1
+        },
+        {
+          "setting_id": 63,
+          "widget_type": "select",
+          "precedence": 1
+        }
+      ],
+      "commands": [
+        {
+          "command_key": "GPCAMERA_SET_DATE_AND_TIME_ID",
+          "display_name": "Set Date and Time",
+          "widget_type": "button",
+          "precedence": 1
+        }
+      ]
+    },
+    {
+      "key": "GPCAMERA_GROUP_DELETE_ID",
+      "display_name": "Delete",
+      "settings": [],
+      "commands": [
+        {
+          "command_key": "GPCAMERA_DELETE_LAST_FILE_ID",
+          "display_name": "Delete Last File",
+          "widget_type": "button",
+          "precedence": 1
+        },
+        {
+          "command_key": "GPCAMERA_DELETE_ALL_FILES_ID",
+          "display_name": "Delete All Files from SD Card",
+          "widget_type": "button",
+          "precedence": 1
+        }
+      ]
+    },
+    {
+      "key": "GPCAMERA_GROUP_CAMERA_INFO",
+      "display_name": "Camera Info",
+      "settings": [],
+      "commands": [
+        {
+          "command_key": "GPCAMERA_INFO_VERSION_ID",
+          "display_name": "Version",
+          "widget_type": "readonly",
+          "precedence": 1
+        },
+        {
+          "command_key": "GPCAMERA_LOCATE_ID",
+          "display_name": "Locate Camera",
+          "widget_type": "toggle",
+          "precedence": 1
+        }
+      ]
+    },
+    {
+      "key": "GPCAMERA_GROUP_CONNECTIONS",
+      "display_name": "Connections",
+      "settings": [],
+      "commands": [
+        {
+          "command_key": "GPCAMERA_USE_CURRENT_WIRELESS_REMOTE_ID",
+          "display_name": "Use with Current Wi-Fi Remote",
+          "widget_type": "button",
+          "precedence": 1
+        },
+        {
+          "command_key": "GPCAMERA_USE_NEW_WIRELESS_REMOTE_ID",
+          "display_name": "Use with New Wi-Fi Remote",
+          "widget_type": "button",
+          "precedence": 1
+        }
+      ]
+    },
+    {
+      "key": "GPCAMERA_GROUP_CAMERA_STATUS",
+      "display_name": "Camera Status",
+      "settings": [],
+      "commands": [
+        {
+          "command_key": "GPCAMERA_BATTERY_LEVEL_ID",
+          "display_name": "Battery Level",
+          "widget_type": "readonly",
+          "precedence": 1
+        },
+        {
+          "command_key": "GPCAMERA_SDCARD_CAPACITY_ID",
+          "display_name": "SD Card Capacity",
+          "widget_type": "child",
+          "precedence": 1
+        }
+      ]
+    },
+    {
+      "key": "GPCAMERA_GROUP_PRESET_MODE_SELECTION",
+      "display_name": "MODE",
+      "settings": [],
+      "commands": []
+    }
+  ],
+  "info": {
+    "model_number": 51,
+    "model_name": "GoPro Max",
+    "firmware_version": "H19.03.01.30.00",
+    "serial_number": "redacted",
+    "board_type": "0x05",
+    "ap_mac": "redacted",
+    "ap_ssid": "redacted",
+    "ap_has_default_credentials": "0",
+    "git_sha1": "cb4d7462022d85775d2a2bb1c088108c42000097",
+    "capabilities": "16",
+    "lens_count": "2",
+    "update_required": "0"
+  }
+}

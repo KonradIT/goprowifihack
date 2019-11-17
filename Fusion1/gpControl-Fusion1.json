@@ -1,5 +1,5 @@
 {
-  "version": 1.1,
+  "version": 1.6,
   "schema_version": 4,
   "modes": [
     {
@@ -4565,13 +4565,13 @@
   "info": {
     "model_number": 22,
     "model_name": "FUSION",
-    "firmware_version": "FS1.04.01.51.00",
+    "firmware_version": "FS1.04.01.80.00",
     "serial_number": "REDACTED",
     "board_type": "0x05",
-    "ap_mac": "f6dd9edebfcc",
-    "ap_ssid": "REDACTED",
+    "ap_mac": "f6dd9ee46305",
+    "ap_ssid": "Konrad Fusion",
     "ap_has_default_credentials": "0",
-    "git_sha1": "f590db78138eb8b730904365d9d8ac895149093a",
+    "git_sha1": "1540750c6d6851628d346d134ddb7033648b08d2",
     "capabilities": "16",
     "lens_count": "2"
   }
