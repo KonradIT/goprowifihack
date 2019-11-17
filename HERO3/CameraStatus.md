@@ -2,7 +2,7 @@
 
 #### GoPro HERO3/3+
 
-GET the contents of this: http://10.5.5.9/camera/sx
+GET the contents of this: http://10.5.5.9/camera/sx?t=PASSWORD
 
 See the available framerates for each resolution [here](/HERO3/Framerates-Resolutions.md)
 
