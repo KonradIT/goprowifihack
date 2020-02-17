@@ -93,7 +93,7 @@ http://10.5.5.9/gp/gpControl/command/wireless/pair/complete?success=1&deviceName
 ##### FOV
 
 * Wide: http://10.5.5.9/gp/gpControl/setting/4/0
-* SuperView: http://10.5.5.9/gp/gpControl/4/3
+* SuperView: http://10.5.5.9/gp/gpControl/setting/4/3
 * Linear: http://10.5.5.9/gp/gpControl/setting/4/4
 
 ##### Aspect Ratio:
