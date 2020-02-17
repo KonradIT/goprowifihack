@@ -1,4 +1,4 @@
-## Media files over WiFi for HERO5 Black/Session
+## Media files over WiFi for HERO7
 
 ### Media List:
 
@@ -15,23 +15,35 @@ This returns:
       "fs": [
         {
           "n": "GOPR8204.MP4",
+	  "cre": "1495712610",
           "mod": "1495712610",
+	  "glrv": "612380",
           "ls": "-1",
           "s": "54447740"
         },
         {
-          "n": "GOPR8205.MP4",
-          "mod": "1495729970",
-          "ls": "-1",
+          "n": "GOPR0004.JPG",
+	  "cre": "1495729970",
+          "mod": "1495729970",      
           "s": "146317687"
         },
         {
           "n": "GOPR8206.MP4",
+	  "cre": "1495730200",
           "mod": "1495730200",
+	  "glrv": "343647",
           "ls": "-1",
           "s": "99545292"
         },
 ```
+
+	* d is the directory name
+	* n is the filename
+	* cre is the creation timestamp (Unix timestamp, i.e. number of seconds since January 1, 1970)
+	* mod is the modified timestamp (Unix timestamp, i.e. number of seconds since January 1, 1970)
+	* glrv ????
+	* ls ???? (but always seems to be -1)
+	* s is the size (in bytes), e.g. 54447740 = 54,447,740 bytes = 51.9 MB 
 
 ### Media Information:
 
