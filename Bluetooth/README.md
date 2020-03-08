@@ -5,3 +5,4 @@
 ## Platforms
 
 - [Raspberry Pi](Platforms/RaspberryPi.md)
+- [Arch Linux](Platforms/ArchLinux.md)
