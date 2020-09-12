@@ -28,3 +28,7 @@ This API documents the HTTP calls from GoPro cameras, users have made libraries 
 ### GoLang:
 
 - [chrisjoyce911/goprowifi](https://github.com/chrisjoyce911/goprowifi) - GoLang API for GoPro HERO5 (work in progress)
+
+### C/C++/Arduino:
+
+- [aster94/GoProControl](https://github.com/aster94/GoProControl) - Arduino library for GoPro cameras

@@ -152,6 +152,16 @@ http://10.5.5.9/gp/gpControl/command/wireless/pair/complete?success=1&deviceName
 * GOPRO: http://10.5.5.9/gp/gpControl/setting/12/0
 * Flat: http://10.5.5.9/gp/gpControl/setting/12/1
 
+##### Min ISO:
+
+* 6400: http://10.5.5.9/gp/gpControl/setting/102/0
+* 1600: http://10.5.5.9/gp/gpControl/setting/102/1
+* 400: http://10.5.5.9/gp/gpControl/setting/102/2
+* 3200: http://10.5.5.9/gp/gpControl/setting/102/3
+* 800: http://10.5.5.9/gp/gpControl/setting/102/4
+* 200: http://10.5.5.9/gp/gpControl/setting/102/7
+* 100: http://10.5.5.9/gp/gpControl/setting/102/8
+
 ##### ISO Limit:
 
 * 6400: http://10.5.5.9/gp/gpControl/setting/13/0
