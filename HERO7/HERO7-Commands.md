@@ -282,6 +282,11 @@ Value | URL
 * 3 seconds: http://10.5.5.9/gp/gpControl/setting/105/1
 * 10 seconds: http://10.5.5.9/gp/gpControl/setting/105/2
 
+##### Landscape lock:
+* OFF: http://10.5.5.9/gp/gpControl/setting/112/0
+* Up: http://10.5.5.9/gp/gpControl/setting/112/1
+* Down: http://10.5.5.9/gp/gpControl/setting/112/2
+
 ##### ProTune:
 
 * off: http://10.5.5.9/gp/gpControl/setting/21/0
