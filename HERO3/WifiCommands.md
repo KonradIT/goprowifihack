@@ -348,7 +348,7 @@ A more in depth table cane be found [here](/HERO3/Numeral-systems-conversion-tab
 
 ##### Leds:
 
-* bacpac LB - 00 no leds
+* camera LB - 00 no leds
 
 * camera LB - 01 2 leds
 
