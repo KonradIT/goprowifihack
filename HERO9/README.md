@@ -10,4 +10,5 @@ This camera does not implement all the requests that GoPro usually baked into th
 * [Media Browsing](/HERO9/Mediabrowsing.md)
 * [Camera Status](/HERO9/CameraStatus.md)
 * [Wifi Commands](/HERO9/HERO9-Commands.md)
+* [GoPro Connect (Webcam mode)](/HERO9/GoPro-Connect.md)
 * [Framerates/Resolution compatibility table for HERO9](/HERO9/Framerates-Resolutions.md)
