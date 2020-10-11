@@ -13,7 +13,9 @@
 - [GoPro HERO7 (Black/Silver/White)](https://github.com/KonradIT/goprowifihack/blob/master/HERO7/README.md)
 - [GoPro Fusion](https://github.com/KonradIT/goprowifihack/blob/master/Fusion1/README.md)
 - [GoPro MAX](https://github.com/KonradIT/goprowifihack/blob/master/MAX/README.md)
-- _GoPro HERO8 Black coming soon_
+- [GoPro HERO9](https://github.com/KonradIT/goprowifihack/blob/master/HERO9/README.md)
+
+_A note on HERO8:_ use Hero7 commands.
 
 ---
 
@@ -37,6 +39,8 @@ They did offer a mobile library - [but they shut it down](https://news.ycombinat
 ### Bluetooth:
 
 Bluetooth is used to turn camera on after WiFi AP is disabled in deep sleep, as well as for turning on/off wifi.
+
+But on Hero9, it's used for status retrieval, all commands and changing settings, turning on, 
 
 ### Acknowledgements/credits
 
