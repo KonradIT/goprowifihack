@@ -35,4 +35,4 @@ This API documents the HTTP calls from GoPro cameras, users have made libraries 
 
 ### Rust:
 
-- [fschaupp/goprowifihack](https://github.com/fschaupp/goprowifihack) - Rust-API for GoPro HERO5 (work in progress)
+- [fschaupp/goprowifi-rust](https://github.com/fschaupp/goprowifi-rust) - Rust-API for GoPro HERO5 (work in progress)
