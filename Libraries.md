@@ -32,3 +32,7 @@ This API documents the HTTP calls from GoPro cameras, users have made libraries 
 ### C/C++/Arduino:
 
 - [aster94/GoProControl](https://github.com/aster94/GoProControl) - Arduino library for GoPro cameras
+
+### Rust:
+
+- [fschaupp/goprowifi-rust](https://github.com/fschaupp/goprowifi-rust) - Rust-API for GoPro HERO5 (work in progress)
