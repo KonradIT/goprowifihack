@@ -1,8 +1,9 @@
 # Controlling GoPro over Bluetooth Low Energy
 
-*This is work in progress. For now you can just try turning on the WiFi on your GoPro from Raspberry Pi. Or try to come up with your own tutorial: contributions welcomed!*
+Beginning from the Hero9 Black, GoPro has deprecated some essential commands that were sent over WiFi. Use the documentation here to control most aspects of your camera via BLE as well as query the camera status and settings.
 
 ## Platforms
 
-- [Raspberry Pi](Platforms/RaspberryPi.md)
-- [Arch Linux](Platforms/ArchLinux.md)
+-   [Raspberry Pi](Platforms/RaspberryPi.md)
+-   [Arch Linux](Platforms/ArchLinux.md)
+-   [Windows 10](Platforms/Windows.md)
