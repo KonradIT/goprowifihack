@@ -386,8 +386,8 @@ As you can see, there are two objects, "status" and "settings".
 
 #### Other Settings:
 * LCD Display - 72:
- * ON - 1
- * OFF - 0
+  * ON - 1
+  * OFF - 0
 
 * Orientation - 52:
   * Auto - 0
