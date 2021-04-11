@@ -28,7 +28,6 @@ Thumbail endpoint works as well.
 
 After Webcam mode START, a live stream will be started and streamed out on UDP port 8554.
 
-
 VLC command: ```vlc -vvv --network-caching=300 --sout-x264-preset=ultrafast --sout-x264-tune=zerolatency --sout-x264-vbv-bufsize 0 --sout-transcode-threads 4 --no-audio udp://@:8554```
 
 Many thanks to Daryl Stimm from GoPro for making most of the info here public. 
