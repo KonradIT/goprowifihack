@@ -18,6 +18,14 @@ Start recording/taking a photo works (see: https://twitter.com/konrad_it/status/
 - Linear FOV: http://172.XX.XXX.51/gp/gpWebcam/SETTINGS?fov=4
 - Narrow FOV: http://172.XX.XXX.51/gp/gpWebcam/SETTINGS?fov=6
 
+### For Wifi
+
+**NOTE**: The UDP streaming is directed to the IP who sent the API by HTTP GET, instead of broadcasting. And you need to constantly GET (every 25s or so) to keep the streaming alive.
+
+- Webcam mode START: http://10.5.5.9/gp/gpControl/execute?p1=gpStream&c1=start
+- Webcam mode STOP: http://10.5.5.9/gp/gpControl/execute?p1=gpStream&c1=stop
+- Webcam mode RESTART: http://10.5.5.9/gp/gpControl/execute?p1=gpStream&c1=restart
+
 ## Media browsing:
 
 JSON media list exposed under http://172.XX.XXX.51/gp/gpMediaList 
