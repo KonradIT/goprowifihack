@@ -1,0 +1,4946 @@
+{
+	"version": 2,
+	"schema_version": 6,
+	"modes": [{
+		"id": 12,
+		"display_name": "Video"
+	}, {
+		"id": 15,
+		"display_name": "Looping"
+	}, {
+		"id": 16,
+		"display_name": "Single Photo"
+	}, {
+		"id": 18,
+		"display_name": "Night Photo"
+	}, {
+		"id": 19,
+		"display_name": "Burst Photo"
+	}, {
+		"id": 13,
+		"display_name": "Time Lapse Video"
+	}, {
+		"id": 20,
+		"display_name": "Time Lapse Photo"
+	}, {
+		"id": 21,
+		"display_name": "Night Lapse Photo"
+	}, {
+		"id": 24,
+		"display_name": "Time Warp Video"
+	}, {
+		"id": 25,
+		"display_name": "Live Burst"
+	}, {
+		"id": 26,
+		"display_name": "Night Lapse Video"
+	}, {
+		"id": 4,
+		"display_name": "Playback"
+	}, {
+		"id": 5,
+		"display_name": "Setup"
+	}, {
+		"id": 22,
+		"display_name": "Broadcast Record"
+	}, {
+		"id": 23,
+		"display_name": "Broadcast"
+	}],
+	"ui_mode_groups": [{
+		"display_name": "VIDEO",
+		"id": 1000,
+		"modes": [12, 15]
+	}, {
+		"display_name": "PHOTO",
+		"id": 1001,
+		"modes": [16, 18, 19, 25]
+	}, {
+		"display_name": "TIME LAPSE",
+		"id": 1002,
+		"modes": [24, 13, 20, 21, 26]
+	}],
+	"settings": [{
+		"display_name": "Resolution",
+		"id": 2,
+		"options": [{
+			"id": 100,
+			"display_name": "5.3K"
+		}, {
+			"id": 25,
+			"display_name": "5K 4:3"
+		}, {
+			"id": 1,
+			"display_name": "4K"
+		}, {
+			"id": 18,
+			"display_name": "4K 4:3"
+		}, {
+			"id": 4,
+			"display_name": "2.7K"
+		}, {
+			"id": 6,
+			"display_name": "2.7K 4:3"
+		}, {
+			"id": 9,
+			"display_name": "1080"
+		}]
+	}, {
+		"display_name": "Frames Per Second",
+		"id": 3,
+		"options": [{
+			"id": 0,
+			"display_name": "240"
+		}, {
+			"id": 13,
+			"display_name": "200"
+		}, {
+			"id": 1,
+			"display_name": "120"
+		}, {
+			"id": 2,
+			"display_name": "100"
+		}, {
+			"id": 5,
+			"display_name": "60"
+		}, {
+			"id": 6,
+			"display_name": "50"
+		}, {
+			"id": 8,
+			"display_name": "30"
+		}, {
+			"id": 9,
+			"display_name": "25"
+		}, {
+			"id": 10,
+			"display_name": "24"
+		}]
+	}, {
+		"display_name": "Interval",
+		"id": 5,
+		"options": [{
+			"id": 10,
+			"display_name": "60 Minutes"
+		}, {
+			"id": 9,
+			"display_name": "30 Minutes"
+		}, {
+			"id": 8,
+			"display_name": "5 Minutes"
+		}, {
+			"id": 7,
+			"display_name": "2 Minutes"
+		}, {
+			"id": 6,
+			"display_name": "60 Seconds"
+		}, {
+			"id": 5,
+			"display_name": "30 Seconds"
+		}, {
+			"id": 4,
+			"display_name": "10 Seconds"
+		}, {
+			"id": 3,
+			"display_name": "5 Seconds"
+		}, {
+			"id": 2,
+			"display_name": "2 Seconds"
+		}, {
+			"id": 1,
+			"display_name": "1 Second"
+		}, {
+			"id": 0,
+			"display_name": "0.5 Seconds"
+		}]
+	}, {
+		"display_name": "Interval",
+		"id": 6,
+		"options": [{
+			"id": 0,
+			"display_name": "Max"
+		}, {
+			"id": 4,
+			"display_name": "120 Minutes"
+		}, {
+			"id": 3,
+			"display_name": "60 Minutes"
+		}, {
+			"id": 2,
+			"display_name": "20 Minutes"
+		}, {
+			"id": 1,
+			"display_name": "5 Minutes"
+		}]
+	}, {
+		"display_name": "ISO Max",
+		"id": 13,
+		"options": [{
+			"id": 0,
+			"display_name": "6400"
+		}, {
+			"id": 3,
+			"display_name": "3200"
+		}, {
+			"id": 1,
+			"display_name": "1600"
+		}, {
+			"id": 4,
+			"display_name": "800"
+		}, {
+			"id": 2,
+			"display_name": "400"
+		}, {
+			"id": 7,
+			"display_name": "200"
+		}, {
+			"id": 8,
+			"display_name": "100"
+		}]
+	}, {
+		"display_name": "Shutter",
+		"id": 19,
+		"options": [{
+			"id": 6,
+			"display_name": "30 Seconds"
+		}, {
+			"id": 5,
+			"display_name": "20 Seconds"
+		}, {
+			"id": 4,
+			"display_name": "15 Seconds"
+		}, {
+			"id": 3,
+			"display_name": "10 Seconds"
+		}, {
+			"id": 2,
+			"display_name": "5 Seconds"
+		}, {
+			"id": 1,
+			"display_name": "2 Seconds"
+		}, {
+			"id": 0,
+			"display_name": "Auto"
+		}]
+	}, {
+		"display_name": "ISO Max",
+		"id": 24,
+		"options": [{
+			"id": 5,
+			"display_name": "3200"
+		}, {
+			"id": 4,
+			"display_name": "1600"
+		}, {
+			"id": 0,
+			"display_name": "800"
+		}, {
+			"id": 1,
+			"display_name": "400"
+		}, {
+			"id": 2,
+			"display_name": "200"
+		}, {
+			"id": 3,
+			"display_name": "100"
+		}]
+	}, {
+		"display_name": "Interval",
+		"id": 30,
+		"options": [{
+			"id": 100,
+			"display_name": "60 Minutes"
+		}, {
+			"id": 101,
+			"display_name": "30 Minutes"
+		}, {
+			"id": 102,
+			"display_name": "5 Minutes"
+		}, {
+			"id": 103,
+			"display_name": "2 Minutes"
+		}, {
+			"id": 104,
+			"display_name": "60 Seconds"
+		}, {
+			"id": 105,
+			"display_name": "30 Seconds"
+		}, {
+			"id": 106,
+			"display_name": "10 Seconds"
+		}, {
+			"id": 107,
+			"display_name": "5 Seconds"
+		}, {
+			"id": 108,
+			"display_name": "2 Seconds"
+		}, {
+			"id": 109,
+			"display_name": "1 Second"
+		}, {
+			"id": 110,
+			"display_name": "0.5 Seconds"
+		}]
+	}, {
+		"display_name": "Shutter",
+		"id": 31,
+		"options": [{
+			"id": 6,
+			"display_name": "30 Seconds"
+		}, {
+			"id": 5,
+			"display_name": "20 Seconds"
+		}, {
+			"id": 4,
+			"display_name": "15 Seconds"
+		}, {
+			"id": 3,
+			"display_name": "10 Seconds"
+		}, {
+			"id": 2,
+			"display_name": "5 Seconds"
+		}, {
+			"id": 1,
+			"display_name": "2 Seconds"
+		}, {
+			"id": 0,
+			"display_name": "Auto"
+		}]
+	}, {
+		"display_name": "Interval",
+		"id": 32,
+		"options": [{
+			"id": 3600,
+			"display_name": "60 Minutes"
+		}, {
+			"id": 1800,
+			"display_name": "30 Minutes"
+		}, {
+			"id": 300,
+			"display_name": "5 Minutes"
+		}, {
+			"id": 120,
+			"display_name": "2 Minutes"
+		}, {
+			"id": 100,
+			"display_name": "60 Seconds"
+		}, {
+			"id": 30,
+			"display_name": "30 Seconds"
+		}, {
+			"id": 20,
+			"display_name": "20 Seconds"
+		}, {
+			"id": 15,
+			"display_name": "15 Seconds"
+		}, {
+			"id": 10,
+			"display_name": "10 Seconds"
+		}, {
+			"id": 5,
+			"display_name": "5 Seconds"
+		}, {
+			"id": 4,
+			"display_name": "4 Seconds"
+		}, {
+			"id": 3601,
+			"display_name": "Auto"
+		}]
+	}, {
+		"display_name": "ISO Max",
+		"id": 37,
+		"options": [{
+			"id": 5,
+			"display_name": "3200"
+		}, {
+			"id": 4,
+			"display_name": "1600"
+		}, {
+			"id": 0,
+			"display_name": "800"
+		}, {
+			"id": 1,
+			"display_name": "400"
+		}, {
+			"id": 2,
+			"display_name": "200"
+		}, {
+			"id": 3,
+			"display_name": "100"
+		}]
+	}, {
+		"display_name": "Resolution",
+		"id": 41,
+		"options": [{
+			"id": 9,
+			"display_name": "1080"
+		}, {
+			"id": 12,
+			"display_name": "720"
+		}, {
+			"id": 17,
+			"display_name": "480"
+		}]
+	}, {
+		"display_name": "Frame Per Second",
+		"id": 42,
+		"options": [{
+			"id": 8,
+			"display_name": "30"
+		}]
+	}, {
+		"display_name": "Field of View",
+		"id": 43,
+		"options": [{
+			"id": 3,
+			"display_name": "Superview"
+		}, {
+			"id": 0,
+			"display_name": "Wide"
+		}, {
+			"id": 4,
+			"display_name": "Linear"
+		}, {
+			"id": 2,
+			"display_name": "Narrow"
+		}]
+	}, {
+		"display_name": "BNR Resolution",
+		"id": 44,
+		"options": [{
+			"id": 9,
+			"display_name": "1080"
+		}]
+	}, {
+		"display_name": "BNR Frame Per Second",
+		"id": 45,
+		"options": [{
+			"id": 8,
+			"display_name": "30"
+		}]
+	}, {
+		"display_name": "Window Size",
+		"id": 47,
+		"options": [{
+			"id": 4,
+			"display_name": "480"
+		}, {
+			"id": 7,
+			"display_name": "720"
+		}, {
+			"id": 12,
+			"display_name": "1080"
+		}]
+	}, {
+		"display_name": "Privacy",
+		"id": 48,
+		"options": [{
+			"id": 0,
+			"display_name": "Ask"
+		}, {
+			"id": 1,
+			"display_name": "Public"
+		}, {
+			"id": 2,
+			"display_name": "Hidden"
+		}]
+	}, {
+		"display_name": "Quick Capture",
+		"id": 54,
+		"options": [{
+			"id": 1,
+			"display_name": "ON"
+		}, {
+			"id": 0,
+			"display_name": "OFF"
+		}]
+	}, {
+		"display_name": "Auto Off",
+		"id": 59,
+		"options": [{
+			"id": 4,
+			"display_name": "5 Min"
+		}, {
+			"id": 6,
+			"display_name": "15 Min"
+		}, {
+			"id": 7,
+			"display_name": "30 Min"
+		}, {
+			"id": 0,
+			"display_name": "Never"
+		}]
+	}, {
+		"display_name": "Secondary Stream GOP Size",
+		"id": 60,
+		"options": [{
+			"id": 0,
+			"display_name": "Default"
+		}, {
+			"id": 3,
+			"display_name": "3"
+		}, {
+			"id": 4,
+			"display_name": "4"
+		}, {
+			"id": 8,
+			"display_name": "8"
+		}, {
+			"id": 15,
+			"display_name": "15"
+		}, {
+			"id": 30,
+			"display_name": "30"
+		}]
+	}, {
+		"display_name": "Secondary Stream IDR Interval",
+		"id": 61,
+		"options": [{
+			"id": 0,
+			"display_name": "Default"
+		}, {
+			"id": 1,
+			"display_name": "1"
+		}, {
+			"id": 2,
+			"display_name": "2"
+		}, {
+			"id": 4,
+			"display_name": "4"
+		}]
+	}, {
+		"display_name": "Secondary Stream Bit Rate",
+		"id": 62,
+		"options": [{
+			"id": 250000,
+			"display_name": "250 Kbps"
+		}, {
+			"id": 400000,
+			"display_name": "400 Kbps"
+		}, {
+			"id": 600000,
+			"display_name": "600 Kbps"
+		}, {
+			"id": 700000,
+			"display_name": "700 Kbps"
+		}, {
+			"id": 800000,
+			"display_name": "800 Kbps"
+		}, {
+			"id": 1000000,
+			"display_name": "1 Mbps"
+		}, {
+			"id": 1200000,
+			"display_name": "1.2 Mbps"
+		}, {
+			"id": 1600000,
+			"display_name": "1.6 Mbps"
+		}, {
+			"id": 2000000,
+			"display_name": "2 Mbps"
+		}, {
+			"id": 2400000,
+			"display_name": "2.4 Mbps"
+		}, {
+			"id": 2500000,
+			"display_name": "2.5 Mbps"
+		}, {
+			"id": 4000000,
+			"display_name": "4 Mbps"
+		}]
+	}, {
+		"display_name": "Secondary Stream Window Size",
+		"id": 64,
+		"options": [{
+			"id": 0,
+			"display_name": "Default"
+		}, {
+			"id": 1,
+			"display_name": "240"
+		}, {
+			"id": 2,
+			"display_name": "240 3:4 Subsample"
+		}, {
+			"id": 3,
+			"display_name": "240 1:2 Subsample"
+		}, {
+			"id": 4,
+			"display_name": "480"
+		}, {
+			"id": 5,
+			"display_name": "480 3:4 Subsample"
+		}, {
+			"id": 6,
+			"display_name": "480 1:2 Subsample"
+		}, {
+			"id": 7,
+			"display_name": "720"
+		}, {
+			"id": 8,
+			"display_name": "720 3:4 Subsample"
+		}, {
+			"id": 9,
+			"display_name": "720 1:2 Subsample"
+		}, {
+			"id": 10,
+			"display_name": "720 Square"
+		}, {
+			"id": 11,
+			"display_name": "480 Square"
+		}, {
+			"id": 12,
+			"display_name": "1080"
+		}]
+	}, {
+		"display_name": "GOP Size",
+		"id": 65,
+		"options": [{
+			"id": 0,
+			"display_name": "Default"
+		}, {
+			"id": 3,
+			"display_name": "3"
+		}, {
+			"id": 4,
+			"display_name": "4"
+		}, {
+			"id": 8,
+			"display_name": "8"
+		}, {
+			"id": 15,
+			"display_name": "15"
+		}, {
+			"id": 30,
+			"display_name": "30"
+		}]
+	}, {
+		"display_name": "IDR Interval",
+		"id": 66,
+		"options": [{
+			"id": 0,
+			"display_name": "Default"
+		}, {
+			"id": 1,
+			"display_name": "1"
+		}, {
+			"id": 2,
+			"display_name": "2"
+		}, {
+			"id": 4,
+			"display_name": "4"
+		}]
+	}, {
+		"display_name": "Bit Rate",
+		"id": 67,
+		"options": [{
+			"id": 250000,
+			"display_name": "250 Kbps"
+		}, {
+			"id": 400000,
+			"display_name": "400 Kbps"
+		}, {
+			"id": 600000,
+			"display_name": "600 Kbps"
+		}, {
+			"id": 700000,
+			"display_name": "700 Kbps"
+		}, {
+			"id": 800000,
+			"display_name": "800 Kbps"
+		}, {
+			"id": 1000000,
+			"display_name": "1 Mbps"
+		}, {
+			"id": 1200000,
+			"display_name": "1.2 Mbps"
+		}, {
+			"id": 1600000,
+			"display_name": "1.6 Mbps"
+		}, {
+			"id": 2000000,
+			"display_name": "2 Mbps"
+		}, {
+			"id": 2400000,
+			"display_name": "2.4 Mbps"
+		}, {
+			"id": 2500000,
+			"display_name": "2.5 Mbps"
+		}, {
+			"id": 4000000,
+			"display_name": "4 Mbps"
+		}]
+	}, {
+		"display_name": "ISO Min",
+		"id": 75,
+		"options": [{
+			"id": 5,
+			"display_name": "3200"
+		}, {
+			"id": 4,
+			"display_name": "1600"
+		}, {
+			"id": 0,
+			"display_name": "800"
+		}, {
+			"id": 1,
+			"display_name": "400"
+		}, {
+			"id": 2,
+			"display_name": "200"
+		}, {
+			"id": 3,
+			"display_name": "100"
+		}]
+	}, {
+		"display_name": "ISO Min",
+		"id": 76,
+		"options": [{
+			"id": 5,
+			"display_name": "3200"
+		}, {
+			"id": 4,
+			"display_name": "1600"
+		}, {
+			"id": 0,
+			"display_name": "800"
+		}, {
+			"id": 1,
+			"display_name": "400"
+		}, {
+			"id": 2,
+			"display_name": "200"
+		}, {
+			"id": 3,
+			"display_name": "100"
+		}]
+	}, {
+		"display_name": "Audio Protune",
+		"id": 79,
+		"options": [{
+			"id": 1,
+			"display_name": "ON"
+		}, {
+			"id": 0,
+			"display_name": "OFF"
+		}]
+	}, {
+		"display_name": "GPS",
+		"id": 83,
+		"options": [{
+			"id": 1,
+			"display_name": "ON"
+		}, {
+			"id": 0,
+			"display_name": "OFF"
+		}]
+	}, {
+		"display_name": "Language",
+		"id": 84,
+		"options": [{
+			"id": 0,
+			"display_name": "English"
+		}, {
+			"id": 6,
+			"display_name": "French"
+		}, {
+			"id": 2,
+			"display_name": "German"
+		}, {
+			"id": 3,
+			"display_name": "Italian"
+		}, {
+			"id": 4,
+			"display_name": "Spanish"
+		}, {
+			"id": 1,
+			"display_name": "Chinese"
+		}, {
+			"id": 5,
+			"display_name": "Japanese"
+		}, {
+			"id": 7,
+			"display_name": "Korean"
+		}, {
+			"id": 8,
+			"display_name": "Portuguese"
+		}, {
+			"id": 9,
+			"display_name": "Russian"
+		}, {
+			"id": 10,
+			"display_name": "Swedish"
+		}, {
+			"id": 11,
+			"display_name": "Chinese(Traditional)"
+		}]
+	}, {
+		"display_name": "Voice Control Language",
+		"id": 85,
+		"options": [{
+			"id": 8,
+			"display_name": "Chinese"
+		}, {
+			"id": 2,
+			"display_name": "English - AUS"
+		}, {
+			"id": 13,
+			"display_name": "English - IND"
+		}, {
+			"id": 1,
+			"display_name": "English - UK"
+		}, {
+			"id": 0,
+			"display_name": "English - US"
+		}, {
+			"id": 4,
+			"display_name": "French"
+		}, {
+			"id": 3,
+			"display_name": "German"
+		}, {
+			"id": 5,
+			"display_name": "Italian"
+		}, {
+			"id": 9,
+			"display_name": "Japanese"
+		}, {
+			"id": 10,
+			"display_name": "Korean"
+		}, {
+			"id": 11,
+			"display_name": "Portuguese"
+		}, {
+			"id": 12,
+			"display_name": "Russian"
+		}, {
+			"id": 6,
+			"display_name": "Spanish"
+		}, {
+			"id": 7,
+			"display_name": "Spanish - NA"
+		}, {
+			"id": 14,
+			"display_name": "Swedish"
+		}]
+	}, {
+		"display_name": "Voice Control Enable",
+		"id": 86,
+		"options": [{
+			"id": 1,
+			"display_name": "ON"
+		}, {
+			"id": 0,
+			"display_name": "OFF"
+		}]
+	}, {
+		"display_name": "Beeps",
+		"id": 87,
+		"options": [{
+			"id": 100,
+			"display_name": "High"
+		}, {
+			"id": 70,
+			"display_name": "Medium"
+		}, {
+			"id": 40,
+			"display_name": "Low"
+		}, {
+			"id": 0,
+			"display_name": "Mute"
+		}]
+	}, {
+		"display_name": "LCD Brightness",
+		"id": 88,
+		"options": [{
+			"id": 10,
+			"display_name": "10%"
+		}, {
+			"id": 20,
+			"display_name": "20%"
+		}, {
+			"id": 30,
+			"display_name": "30%"
+		}, {
+			"id": 40,
+			"display_name": "40%"
+		}, {
+			"id": 50,
+			"display_name": "50%"
+		}, {
+			"id": 60,
+			"display_name": "60%"
+		}, {
+			"id": 70,
+			"display_name": "70%"
+		}, {
+			"id": 80,
+			"display_name": "80%"
+		}, {
+			"id": 90,
+			"display_name": "90%"
+		}, {
+			"id": 100,
+			"display_name": "100%"
+		}]
+	}, {
+		"display_name": "LED",
+		"id": 91,
+		"options": [{
+			"id": 3,
+			"display_name": "All On"
+		}, {
+			"id": 4,
+			"display_name": "All Off"
+		}, {
+			"id": 5,
+			"display_name": "Front Off Only"
+		}]
+	}, {
+		"display_name": "ISO Min",
+		"id": 102,
+		"options": [{
+			"id": 0,
+			"display_name": "6400"
+		}, {
+			"id": 3,
+			"display_name": "3200"
+		}, {
+			"id": 1,
+			"display_name": "1600"
+		}, {
+			"id": 4,
+			"display_name": "800"
+		}, {
+			"id": 2,
+			"display_name": "400"
+		}, {
+			"id": 7,
+			"display_name": "200"
+		}, {
+			"id": 8,
+			"display_name": "100"
+		}]
+	}, {
+		"display_name": "Auto Lock",
+		"id": 103,
+		"options": [{
+			"id": 3,
+			"display_name": "Off"
+		}, {
+			"id": 100,
+			"display_name": "On"
+		}]
+	}, {
+		"display_name": "Timer",
+		"id": 105,
+		"options": [{
+			"id": 2,
+			"display_name": "10 Seconds"
+		}, {
+			"id": 1,
+			"display_name": "3 Seconds"
+		}, {
+			"id": 0,
+			"display_name": "Off"
+		}]
+	}, {
+		"display_name": "Video Compression",
+		"id": 106,
+		"options": [{
+			"id": 1,
+			"display_name": "HEVC"
+		}, {
+			"id": 2,
+			"display_name": "H.264 + HEVC"
+		}]
+	}, {
+		"display_name": "Speed",
+		"id": 111,
+		"options": [{
+			"id": 1,
+			"display_name": "30X"
+		}, {
+			"id": 0,
+			"display_name": "15X"
+		}, {
+			"id": 9,
+			"display_name": "10X"
+		}, {
+			"id": 8,
+			"display_name": "5X"
+		}, {
+			"id": 7,
+			"display_name": "2X"
+		}, {
+			"id": 10,
+			"display_name": "Auto"
+		}]
+	}, {
+		"display_name": "Landscape Lock",
+		"id": 112,
+		"options": [{
+			"id": 100,
+			"display_name": "All"
+		}, {
+			"id": 5,
+			"display_name": "Landscape"
+		}, {
+			"id": 255,
+			"display_name": "Locked"
+		}]
+	}, {
+		"display_name": "Protune",
+		"id": 114,
+		"options": [{
+			"id": 1,
+			"display_name": "ON"
+		}, {
+			"id": 0,
+			"display_name": "OFF"
+		}]
+	}, {
+		"display_name": "White Balance",
+		"id": 115,
+		"options": [{
+			"id": 3,
+			"display_name": "6500K"
+		}, {
+			"id": 7,
+			"display_name": "6000K"
+		}, {
+			"id": 2,
+			"display_name": "5500K"
+		}, {
+			"id": 12,
+			"display_name": "5000K"
+		}, {
+			"id": 11,
+			"display_name": "4500K"
+		}, {
+			"id": 0,
+			"display_name": "Auto"
+		}, {
+			"id": 4,
+			"display_name": "Native"
+		}, {
+			"id": 5,
+			"display_name": "4000K"
+		}, {
+			"id": 10,
+			"display_name": "3200K"
+		}, {
+			"id": 9,
+			"display_name": "2800K"
+		}, {
+			"id": 8,
+			"display_name": "2300K"
+		}]
+	}, {
+		"display_name": "Color",
+		"id": 116,
+		"options": [{
+			"id": 2,
+			"display_name": "Natural"
+		}, {
+			"id": 0,
+			"display_name": "GoPro"
+		}, {
+			"id": 1,
+			"display_name": "Flat"
+		}]
+	}, {
+		"display_name": "Sharpness",
+		"id": 117,
+		"options": [{
+			"id": 0,
+			"display_name": "High"
+		}, {
+			"id": 1,
+			"display_name": "Medium"
+		}, {
+			"id": 2,
+			"display_name": "Low"
+		}]
+	}, {
+		"display_name": "EV Comp",
+		"id": 118,
+		"options": [{
+			"id": 8,
+			"display_name": "-2.0"
+		}, {
+			"id": 7,
+			"display_name": "-1.5"
+		}, {
+			"id": 6,
+			"display_name": "-1.0"
+		}, {
+			"id": 5,
+			"display_name": "-0.5"
+		}, {
+			"id": 4,
+			"display_name": "0.0"
+		}, {
+			"id": 3,
+			"display_name": "0.5"
+		}, {
+			"id": 2,
+			"display_name": "1.0"
+		}, {
+			"id": 1,
+			"display_name": "1.5"
+		}, {
+			"id": 0,
+			"display_name": "2.0"
+		}]
+	}, {
+		"display_name": "Lens",
+		"id": 121,
+		"options": [{
+			"id": 7,
+			"display_name": "Max SuperView"
+		}, {
+			"id": 3,
+			"display_name": "Superview"
+		}, {
+			"id": 0,
+			"display_name": "Wide"
+		}, {
+			"id": 4,
+			"display_name": "Linear"
+		}, {
+			"id": 8,
+			"display_name": "Linear + Horizon Leveling"
+		}, {
+			"id": 2,
+			"display_name": "Narrow"
+		}]
+	}, {
+		"display_name": "Lens",
+		"id": 122,
+		"options": [{
+			"id": 100,
+			"display_name": "Max SuperView"
+		}, {
+			"id": 101,
+			"display_name": "Wide"
+		}, {
+			"id": 102,
+			"display_name": "Linear"
+		}, {
+			"id": 19,
+			"display_name": "Narrow"
+		}]
+	}, {
+		"display_name": "Lens",
+		"id": 123,
+		"options": [{
+			"id": 100,
+			"display_name": "Max SuperView"
+		}, {
+			"id": 101,
+			"display_name": "Wide"
+		}, {
+			"id": 102,
+			"display_name": "Linear"
+		}, {
+			"id": 19,
+			"display_name": "Narrow"
+		}]
+	}, {
+		"display_name": "Bit Rate",
+		"id": 124,
+		"options": [{
+			"id": 1,
+			"display_name": "High"
+		}, {
+			"id": 100,
+			"display_name": "Standard"
+		}]
+	}, {
+		"display_name": "Output",
+		"id": 125,
+		"options": [{
+			"id": 3,
+			"display_name": "SuperPhoto"
+		}, {
+			"id": 2,
+			"display_name": "HDR"
+		}, {
+			"id": 0,
+			"display_name": "Standard"
+		}, {
+			"id": 1,
+			"display_name": "Raw"
+		}]
+	}, {
+		"display_name": "Output",
+		"id": 126,
+		"options": [{
+			"id": 0,
+			"display_name": "Standard"
+		}, {
+			"id": 1,
+			"display_name": "Raw"
+		}]
+	}, {
+		"display_name": "Format",
+		"id": 128,
+		"options": [{
+			"id": 13,
+			"display_name": "Video"
+		}, {
+			"id": 20,
+			"display_name": "Photo"
+		}, {
+			"id": 21,
+			"display_name": "Photo"
+		}, {
+			"id": 26,
+			"display_name": "Video"
+		}]
+	}, {
+		"display_name": "Lower Left",
+		"id": 129,
+		"options": [{
+			"id": 0,
+			"display_name": "Off"
+		}, {
+			"id": 3,
+			"display_name": "Slo-Mo"
+		}, {
+			"id": 2,
+			"display_name": "Lens"
+		}, {
+			"id": 109,
+			"display_name": "Looping Interval"
+		}, {
+			"id": 13,
+			"display_name": "Interval"
+		}, {
+			"id": 17,
+			"display_name": "Output"
+		}, {
+			"id": 21,
+			"display_name": "Speed"
+		}, {
+			"id": 103,
+			"display_name": "Speed Ramp"
+		}, {
+			"id": 12,
+			"display_name": "HyperSmooth"
+		}, {
+			"id": 104,
+			"display_name": "Scheduled Capture"
+		}, {
+			"id": 102,
+			"display_name": "Duration"
+		}, {
+			"id": 105,
+			"display_name": "HindSight"
+		}, {
+			"id": 8,
+			"display_name": "Burst Rate"
+		}, {
+			"id": 20,
+			"display_name": "Timer"
+		}, {
+			"id": 1,
+			"display_name": "Zoom"
+		}, {
+			"id": 7,
+			"display_name": "Bit Rate"
+		}, {
+			"id": 6,
+			"display_name": "Shutter"
+		}, {
+			"id": 11,
+			"display_name": "EV Comp"
+		}, {
+			"id": 5,
+			"display_name": "White Balance"
+		}, {
+			"id": 14,
+			"display_name": "ISO Min"
+		}, {
+			"id": 15,
+			"display_name": "ISO Max"
+		}, {
+			"id": 19,
+			"display_name": "Sharpness"
+		}, {
+			"id": 10,
+			"display_name": "Color"
+		}, {
+			"id": 18,
+			"display_name": "Raw Audio"
+		}, {
+			"id": 106,
+			"display_name": "Media Mod"
+		}, {
+			"id": 100,
+			"display_name": "Wind"
+		}, {
+			"id": 107,
+			"display_name": "Horizon Lock"
+		}]
+	}, {
+		"display_name": "Lower Right",
+		"id": 130,
+		"options": [{
+			"id": 0,
+			"display_name": "Off"
+		}, {
+			"id": 3,
+			"display_name": "Slo-Mo"
+		}, {
+			"id": 2,
+			"display_name": "Lens"
+		}, {
+			"id": 109,
+			"display_name": "Looping Interval"
+		}, {
+			"id": 13,
+			"display_name": "Interval"
+		}, {
+			"id": 17,
+			"display_name": "Output"
+		}, {
+			"id": 21,
+			"display_name": "Speed"
+		}, {
+			"id": 103,
+			"display_name": "Speed Ramp"
+		}, {
+			"id": 12,
+			"display_name": "HyperSmooth"
+		}, {
+			"id": 104,
+			"display_name": "Scheduled Capture"
+		}, {
+			"id": 102,
+			"display_name": "Duration"
+		}, {
+			"id": 105,
+			"display_name": "HindSight"
+		}, {
+			"id": 8,
+			"display_name": "Burst Rate"
+		}, {
+			"id": 20,
+			"display_name": "Timer"
+		}, {
+			"id": 1,
+			"display_name": "Zoom"
+		}, {
+			"id": 7,
+			"display_name": "Bit Rate"
+		}, {
+			"id": 6,
+			"display_name": "Shutter"
+		}, {
+			"id": 11,
+			"display_name": "EV Comp"
+		}, {
+			"id": 5,
+			"display_name": "White Balance"
+		}, {
+			"id": 14,
+			"display_name": "ISO Min"
+		}, {
+			"id": 15,
+			"display_name": "ISO Max"
+		}, {
+			"id": 19,
+			"display_name": "Sharpness"
+		}, {
+			"id": 10,
+			"display_name": "Color"
+		}, {
+			"id": 18,
+			"display_name": "Raw Audio"
+		}, {
+			"id": 106,
+			"display_name": "Media Mod"
+		}, {
+			"id": 100,
+			"display_name": "Wind"
+		}, {
+			"id": 107,
+			"display_name": "Horizon Lock"
+		}]
+	}, {
+		"display_name": "Upper Left",
+		"id": 131,
+		"options": [{
+			"id": 0,
+			"display_name": "Off"
+		}, {
+			"id": 3,
+			"display_name": "Slo-Mo"
+		}, {
+			"id": 2,
+			"display_name": "Lens"
+		}, {
+			"id": 109,
+			"display_name": "Looping Interval"
+		}, {
+			"id": 13,
+			"display_name": "Interval"
+		}, {
+			"id": 17,
+			"display_name": "Output"
+		}, {
+			"id": 21,
+			"display_name": "Speed"
+		}, {
+			"id": 103,
+			"display_name": "Speed Ramp"
+		}, {
+			"id": 12,
+			"display_name": "HyperSmooth"
+		}, {
+			"id": 104,
+			"display_name": "Scheduled Capture"
+		}, {
+			"id": 102,
+			"display_name": "Duration"
+		}, {
+			"id": 105,
+			"display_name": "HindSight"
+		}, {
+			"id": 8,
+			"display_name": "Burst Rate"
+		}, {
+			"id": 20,
+			"display_name": "Timer"
+		}, {
+			"id": 1,
+			"display_name": "Zoom"
+		}, {
+			"id": 7,
+			"display_name": "Bit Rate"
+		}, {
+			"id": 6,
+			"display_name": "Shutter"
+		}, {
+			"id": 11,
+			"display_name": "EV Comp"
+		}, {
+			"id": 5,
+			"display_name": "White Balance"
+		}, {
+			"id": 14,
+			"display_name": "ISO Min"
+		}, {
+			"id": 15,
+			"display_name": "ISO Max"
+		}, {
+			"id": 19,
+			"display_name": "Sharpness"
+		}, {
+			"id": 10,
+			"display_name": "Color"
+		}, {
+			"id": 18,
+			"display_name": "Raw Audio"
+		}, {
+			"id": 106,
+			"display_name": "Media Mod"
+		}, {
+			"id": 100,
+			"display_name": "Wind"
+		}, {
+			"id": 107,
+			"display_name": "Horizon Lock"
+		}]
+	}, {
+		"display_name": "Upper Right",
+		"id": 132,
+		"options": [{
+			"id": 0,
+			"display_name": "Off"
+		}, {
+			"id": 3,
+			"display_name": "Slo-Mo"
+		}, {
+			"id": 2,
+			"display_name": "Lens"
+		}, {
+			"id": 109,
+			"display_name": "Looping Interval"
+		}, {
+			"id": 13,
+			"display_name": "Interval"
+		}, {
+			"id": 17,
+			"display_name": "Output"
+		}, {
+			"id": 21,
+			"display_name": "Speed"
+		}, {
+			"id": 103,
+			"display_name": "Speed Ramp"
+		}, {
+			"id": 12,
+			"display_name": "HyperSmooth"
+		}, {
+			"id": 104,
+			"display_name": "Scheduled Capture"
+		}, {
+			"id": 102,
+			"display_name": "Duration"
+		}, {
+			"id": 105,
+			"display_name": "HindSight"
+		}, {
+			"id": 8,
+			"display_name": "Burst Rate"
+		}, {
+			"id": 20,
+			"display_name": "Timer"
+		}, {
+			"id": 1,
+			"display_name": "Zoom"
+		}, {
+			"id": 7,
+			"display_name": "Bit Rate"
+		}, {
+			"id": 6,
+			"display_name": "Shutter"
+		}, {
+			"id": 11,
+			"display_name": "EV Comp"
+		}, {
+			"id": 5,
+			"display_name": "White Balance"
+		}, {
+			"id": 14,
+			"display_name": "ISO Min"
+		}, {
+			"id": 15,
+			"display_name": "ISO Max"
+		}, {
+			"id": 19,
+			"display_name": "Sharpness"
+		}, {
+			"id": 10,
+			"display_name": "Color"
+		}, {
+			"id": 18,
+			"display_name": "Raw Audio"
+		}, {
+			"id": 106,
+			"display_name": "Media Mod"
+		}, {
+			"id": 100,
+			"display_name": "Wind"
+		}, {
+			"id": 107,
+			"display_name": "Horizon Lock"
+		}]
+	}, {
+		"display_name": "Anti-Flicker",
+		"id": 134,
+		"options": [{
+			"id": 2,
+			"display_name": "60Hz"
+		}, {
+			"id": 3,
+			"display_name": "50Hz"
+		}]
+	}, {
+		"display_name": "Hypersmooth",
+		"id": 135,
+		"options": [{
+			"id": 3,
+			"display_name": "Boost"
+		}, {
+			"id": 2,
+			"display_name": "High"
+		}, {
+			"id": 100,
+			"display_name": "Standard"
+		}, {
+			"id": 0,
+			"display_name": "Off"
+		}]
+	}, {
+		"display_name": "RAW Audio",
+		"id": 139,
+		"options": [{
+			"id": 2,
+			"display_name": "High"
+		}, {
+			"id": 1,
+			"display_name": "Medium"
+		}, {
+			"id": 0,
+			"display_name": "Low"
+		}, {
+			"id": 3,
+			"display_name": "Off"
+		}]
+	}, {
+		"display_name": "Mode",
+		"id": 144,
+		"options": [{
+			"id": 12,
+			"display_name": "Video"
+		}, {
+			"id": 15,
+			"display_name": "Looping"
+		}, {
+			"id": 16,
+			"display_name": "Single Photo"
+		}, {
+			"id": 18,
+			"display_name": "Night Photo"
+		}, {
+			"id": 19,
+			"display_name": "Burst Photo"
+		}, {
+			"id": 13,
+			"display_name": "Time Lapse Video"
+		}, {
+			"id": 20,
+			"display_name": "Time Lapse Photo"
+		}, {
+			"id": 21,
+			"display_name": "Night Lapse Photo"
+		}, {
+			"id": 24,
+			"display_name": "Time Warp Video"
+		}, {
+			"id": 25,
+			"display_name": "Live Burst"
+		}, {
+			"id": 26,
+			"display_name": "Night Lapse Video"
+		}]
+	}, {
+		"display_name": "Shutter",
+		"id": 145,
+		"options": [{
+			"id": 31,
+			"display_name": "1/3840"
+		}, {
+			"id": 30,
+			"display_name": "1/3200"
+		}, {
+			"id": 24,
+			"display_name": "1/1920"
+		}, {
+			"id": 29,
+			"display_name": "1/1600"
+		}, {
+			"id": 23,
+			"display_name": "1/960"
+		}, {
+			"id": 28,
+			"display_name": "1/800"
+		}, {
+			"id": 22,
+			"display_name": "1/480"
+		}, {
+			"id": 21,
+			"display_name": "1/400"
+		}, {
+			"id": 25,
+			"display_name": "1/384"
+		}, {
+			"id": 18,
+			"display_name": "1/240"
+		}, {
+			"id": 17,
+			"display_name": "1/200"
+		}, {
+			"id": 16,
+			"display_name": "1/192"
+		}, {
+			"id": 13,
+			"display_name": "1/120"
+		}, {
+			"id": 12,
+			"display_name": "1/100"
+		}, {
+			"id": 11,
+			"display_name": "1/96"
+		}, {
+			"id": 8,
+			"display_name": "1/60"
+		}, {
+			"id": 7,
+			"display_name": "1/50"
+		}, {
+			"id": 6,
+			"display_name": "1/48"
+		}, {
+			"id": 5,
+			"display_name": "1/30"
+		}, {
+			"id": 4,
+			"display_name": "1/25"
+		}, {
+			"id": 3,
+			"display_name": "1/24"
+		}, {
+			"id": 0,
+			"display_name": "Auto"
+		}]
+	}, {
+		"display_name": "Shutter",
+		"id": 146,
+		"options": [{
+			"id": 0,
+			"display_name": "Auto"
+		}, {
+			"id": 1,
+			"display_name": "1/125"
+		}, {
+			"id": 2,
+			"display_name": "1/250"
+		}, {
+			"id": 3,
+			"display_name": "1/500"
+		}, {
+			"id": 4,
+			"display_name": "1/1000"
+		}, {
+			"id": 5,
+			"display_name": "1/2000"
+		}]
+	}, {
+		"display_name": "Burst Rate",
+		"id": 147,
+		"options": [{
+			"id": 100,
+			"display_name": "30 Photos / 10 Seconds"
+		}, {
+			"id": 8,
+			"display_name": "30 Photos / 6 Seconds"
+		}, {
+			"id": 7,
+			"display_name": "30 Photos / 3 Seconds"
+		}, {
+			"id": 4,
+			"display_name": "10 Photos / 3 Seconds"
+		}, {
+			"id": 14,
+			"display_name": "25 Photos / 1 Second"
+		}, {
+			"id": 2,
+			"display_name": "10 Photos / 1 Second"
+		}, {
+			"id": 1,
+			"display_name": "5 Photos / 1 Second"
+		}, {
+			"id": 0,
+			"display_name": "3 Photos / 1 Second"
+		}, {
+			"id": 9,
+			"display_name": "Auto"
+		}]
+	}, {
+		"display_name": "Max HyperSmooth",
+		"id": 148,
+		"options": [{
+			"id": 1,
+			"display_name": "On"
+		}, {
+			"id": 0,
+			"display_name": "Off"
+		}]
+	}, {
+		"display_name": "Wind",
+		"id": 149,
+		"options": [{
+			"id": 2,
+			"display_name": "Auto"
+		}, {
+			"id": 4,
+			"display_name": "On"
+		}, {
+			"id": 0,
+			"display_name": "Off"
+		}]
+	}, {
+		"display_name": "Mode Button",
+		"id": 153,
+		"options": [{
+			"id": 100,
+			"display_name": "Speed Ramp"
+		}, {
+			"id": 1,
+			"display_name": "HiLight"
+		}]
+	}, {
+		"display_name": "Front LCD Mode",
+		"id": 154,
+		"options": [{
+			"id": 0,
+			"display_name": "Screen Off"
+		}, {
+			"id": 1,
+			"display_name": "Status Only"
+		}, {
+			"id": 2,
+			"display_name": "Actual View"
+		}, {
+			"id": 3,
+			"display_name": "Full Screen"
+		}]
+	}, {
+		"display_name": "Speed Ramp",
+		"id": 155,
+		"options": [{
+			"id": 100,
+			"display_name": "Real Speed"
+		}, {
+			"id": 101,
+			"display_name": "Half Speed"
+		}]
+	}, {
+		"display_name": "Duration",
+		"id": 156,
+		"options": [{
+			"id": 9,
+			"display_name": "3 Hours"
+		}, {
+			"id": 8,
+			"display_name": "2 Hours"
+		}, {
+			"id": 7,
+			"display_name": "1 Hour"
+		}, {
+			"id": 6,
+			"display_name": "30 Minutes"
+		}, {
+			"id": 5,
+			"display_name": "15 Minutes"
+		}, {
+			"id": 4,
+			"display_name": "5 Minutes"
+		}, {
+			"id": 3,
+			"display_name": "1 Minute"
+		}, {
+			"id": 2,
+			"display_name": "30 Seconds"
+		}, {
+			"id": 1,
+			"display_name": "15 Seconds"
+		}, {
+			"id": 100,
+			"display_name": "No Limit"
+		}]
+	}, {
+		"display_name": "Duration",
+		"id": 157,
+		"options": [{
+			"id": 9,
+			"display_name": "3 Hours"
+		}, {
+			"id": 8,
+			"display_name": "2 Hours"
+		}, {
+			"id": 7,
+			"display_name": "1 Hour"
+		}, {
+			"id": 6,
+			"display_name": "30 Minutes"
+		}, {
+			"id": 5,
+			"display_name": "15 Minutes"
+		}, {
+			"id": 4,
+			"display_name": "5 Minutes"
+		}, {
+			"id": 3,
+			"display_name": "1 Minute"
+		}, {
+			"id": 2,
+			"display_name": "30 Seconds"
+		}, {
+			"id": 1,
+			"display_name": "15 Seconds"
+		}, {
+			"id": 100,
+			"display_name": "No Limit"
+		}]
+	}, {
+		"display_name": "Screen Saver Front",
+		"id": 158,
+		"options": [{
+			"id": 0,
+			"display_name": "Never"
+		}, {
+			"id": 1,
+			"display_name": "Match Rear Screen"
+		}, {
+			"id": 2,
+			"display_name": "1 Min"
+		}, {
+			"id": 3,
+			"display_name": "2 Min"
+		}, {
+			"id": 4,
+			"display_name": "3 Min"
+		}, {
+			"id": 5,
+			"display_name": "5 Min"
+		}]
+	}, {
+		"display_name": "Screen Saver Rear",
+		"id": 159,
+		"options": [{
+			"id": 1,
+			"display_name": "1 Min"
+		}, {
+			"id": 2,
+			"display_name": "2 Min"
+		}, {
+			"id": 3,
+			"display_name": "3 Min"
+		}, {
+			"id": 4,
+			"display_name": "5 Min"
+		}, {
+			"id": 0,
+			"display_name": "Never"
+		}]
+	}, {
+		"display_name": "Bit Rate",
+		"id": 160,
+		"options": [{
+			"id": 1,
+			"display_name": "High"
+		}, {
+			"id": 0,
+			"display_name": "Standard"
+		}]
+	}, {
+		"display_name": "Default Preset",
+		"id": 161,
+		"options": [{
+			"id": 200,
+			"display_name": "Last Used"
+		}, {
+			"id": 100,
+			"display_name": "Last Used Video"
+		}, {
+			"id": 101,
+			"display_name": "Last Used Photo"
+		}, {
+			"id": 102,
+			"display_name": "Last Used Time Lapse"
+		}]
+	}, {
+		"display_name": "Media Mod",
+		"id": 164,
+		"options": [{
+			"id": 100,
+			"display_name": "Camera Mics"
+		}, {
+			"id": 2,
+			"display_name": "Back"
+		}, {
+			"id": 1,
+			"display_name": "Front"
+		}]
+	}, {
+		"display_name": "Horizon Lock",
+		"id": 165,
+		"options": [{
+			"id": 1,
+			"display_name": "On"
+		}, {
+			"id": 0,
+			"display_name": "Off"
+		}]
+	}, {
+		"display_name": "Horizon Lock",
+		"id": 166,
+		"options": [{
+			"id": 1,
+			"display_name": "On"
+		}, {
+			"id": 0,
+			"display_name": "Off"
+		}]
+	}, {
+		"display_name": "HindSight",
+		"id": 167,
+		"options": [{
+			"id": 2,
+			"display_name": "15 Seconds"
+		}, {
+			"id": 3,
+			"display_name": "30 Seconds"
+		}, {
+			"id": 4,
+			"display_name": "Off"
+		}]
+	}, {
+		"display_name": "Scheduled Capture",
+		"id": 168,
+		"options": [{
+			"id": 0,
+			"display_name": "Off"
+		}]
+	}, {
+		"display_name": "Mods",
+		"id": 169,
+		"options": [{
+			"id": 1,
+			"display_name": "Standard Mic"
+		}, {
+			"id": 2,
+			"display_name": "Standard Mic+"
+		}, {
+			"id": 3,
+			"display_name": "Powered Mic"
+		}, {
+			"id": 4,
+			"display_name": "Powered Mic+"
+		}, {
+			"id": 5,
+			"display_name": "Line In"
+		}]
+	}],
+	"filters": [{
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15, 13, 16, 18, 19, 21, 20, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 165,
+			"opt_ids": [0, 1]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [16, 18, 19, 21, 20]
+		}],
+		"blacklist": [{
+			"setting_id": 121,
+			"opt_ids": [0, 2, 3, 4, 7, 8]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [16, 18, 19, 21, 20, 25]
+		}],
+		"blacklist": [{
+			"setting_id": 2,
+			"opt_ids": [1, 4, 6, 9, 18, 25, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15, 13, 24, 16, 18, 19, 21, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 30,
+			"opt_ids": [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15, 24, 16, 18, 19, 21, 20, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 5,
+			"opt_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15, 13, 24, 19, 21, 20, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 122,
+			"opt_ids": [19, 100, 101, 102]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15, 13, 18, 24, 19, 21, 20, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 146,
+			"opt_ids": [0, 1, 2, 3, 4, 5]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15, 13, 24, 16, 18, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 123,
+			"opt_ids": [19, 100, 101, 102]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 13, 15, 24, 16, 18, 25]
+		}],
+		"blacklist": [{
+			"setting_id": 76,
+			"opt_ids": [0, 1, 2, 3, 4, 5]
+		}, {
+			"setting_id": 37,
+			"opt_ids": [0, 1, 2, 3, 4, 5]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 2,
+			"ids": [6, 18, 25]
+		}],
+		"blacklist": [{
+			"setting_id": 135,
+			"opt_ids": [2]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 2,
+			"ids": [100]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 1, 2, 10, 13]
+		}, {
+			"setting_id": 121,
+			"opt_ids": [3]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 2,
+			"ids": [100]
+		}, {
+			"setting_id": 3,
+			"ids": [5, 6]
+		}],
+		"blacklist": [{
+			"setting_id": 135,
+			"opt_ids": [2]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"setting_id": 2,
+			"ids": [100]
+		}, {
+			"setting_id": 3,
+			"ids": [8, 9, 10]
+		}],
+		"blacklist": [{
+			"setting_id": 135,
+			"opt_ids": [100]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 2,
+			"ids": [25]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 1, 2, 5, 6, 10, 13]
+		}, {
+			"setting_id": 121,
+			"opt_ids": [3]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 2,
+			"ids": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 13]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 2,
+			"ids": [1]
+		}, {
+			"setting_id": 3,
+			"ids": [1, 2]
+		}],
+		"blacklist": [{
+			"setting_id": 121,
+			"opt_ids": [3]
+		}, {
+			"setting_id": 135,
+			"opt_ids": [2]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"setting_id": 2,
+			"ids": [1]
+		}, {
+			"setting_id": 3,
+			"ids": [8, 9, 10]
+		}, {
+			"setting_id": 121,
+			"ids": [3]
+		}],
+		"blacklist": [{
+			"setting_id": 135,
+			"opt_ids": [2]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"setting_id": 2,
+			"ids": [1]
+		}, {
+			"setting_id": 3,
+			"ids": [8, 9, 10]
+		}, {
+			"setting_id": 121,
+			"ids": [0, 2, 4, 7, 8]
+		}],
+		"blacklist": [{
+			"setting_id": 135,
+			"opt_ids": [100]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 2,
+			"ids": [1]
+		}, {
+			"setting_id": 3,
+			"ids": [5, 6]
+		}, {
+			"setting_id": 121,
+			"ids": [4]
+		}],
+		"blacklist": []
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15]
+		}, {
+			"setting_id": 2,
+			"ids": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 1, 2, 5, 6, 10, 13]
+		}, {
+			"setting_id": 121,
+			"opt_ids": [4]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15]
+		}, {
+			"setting_id": 2,
+			"ids": [1]
+		}, {
+			"setting_id": 3,
+			"ids": [8, 9]
+		}],
+		"blacklist": [{
+			"setting_id": 6,
+			"opt_ids": [0]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 85,
+			"values": [1]
+		}, {
+			"setting_id": 2,
+			"ids": [1]
+		}, {
+			"setting_id": 3,
+			"ids": [5, 6]
+		}],
+		"blacklist": [{
+			"setting_id": 148,
+			"opt_ids": [0, 1]
+		}, {
+			"setting_id": 135,
+			"opt_ids": [0, 2, 3, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 2,
+			"ids": [18]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 1, 2, 8, 9, 10, 13]
+		}, {
+			"setting_id": 135,
+			"opt_ids": [2]
+		}, {
+			"setting_id": 121,
+			"opt_ids": [3]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"setting_id": 2,
+			"ids": [4]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [8, 9, 10]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"setting_id": 2,
+			"ids": [4]
+		}, {
+			"setting_id": 3,
+			"ids": [1, 2]
+		}, {
+			"setting_id": 121,
+			"ids": [3]
+		}],
+		"blacklist": [{
+			"setting_id": 135,
+			"opt_ids": [2]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"setting_id": 2,
+			"ids": [4]
+		}, {
+			"setting_id": 3,
+			"ids": [1, 2]
+		}, {
+			"setting_id": 121,
+			"ids": [0, 2, 4, 7, 8]
+		}],
+		"blacklist": [{
+			"setting_id": 135,
+			"opt_ids": [100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"setting_id": 2,
+			"ids": [4]
+		}, {
+			"setting_id": 3,
+			"ids": [0, 13]
+		}],
+		"blacklist": [{
+			"setting_id": 135,
+			"opt_ids": [2]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"setting_id": 2,
+			"ids": [4]
+		}, {
+			"setting_id": 3,
+			"ids": [0, 13]
+		}],
+		"blacklist": [{
+			"setting_id": 121,
+			"opt_ids": [3]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [1]
+		}, {
+			"setting_id": 2,
+			"ids": [4]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 1, 2, 13]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 85,
+			"values": [1]
+		}, {
+			"setting_id": 2,
+			"ids": [4]
+		}, {
+			"setting_id": 3,
+			"ids": [0, 5, 6, 8, 9, 10, 13]
+		}],
+		"blacklist": [{
+			"setting_id": 148,
+			"opt_ids": [0, 1]
+		}, {
+			"setting_id": 135,
+			"opt_ids": [0, 2, 3, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"setting_id": 2,
+			"ids": [6]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 8, 9, 10, 13]
+		}, {
+			"setting_id": 121,
+			"opt_ids": [3, 7]
+		}, {
+			"setting_id": 135,
+			"opt_ids": [2]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [1]
+		}, {
+			"setting_id": 2,
+			"ids": [6]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 1, 2, 8, 9, 10, 13]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 85,
+			"values": [1]
+		}, {
+			"setting_id": 2,
+			"ids": [6]
+		}, {
+			"setting_id": 3,
+			"ids": [0, 1, 2, 8, 9, 10, 13]
+		}],
+		"blacklist": [{
+			"setting_id": 148,
+			"opt_ids": [0, 1]
+		}, {
+			"setting_id": 135,
+			"opt_ids": [0, 2, 3, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"setting_id": 2,
+			"ids": [9]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [10]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"setting_id": 2,
+			"ids": [9]
+		}, {
+			"setting_id": 3,
+			"ids": [0, 13]
+		}],
+		"blacklist": [{
+			"setting_id": 121,
+			"opt_ids": [3]
+		}, {
+			"setting_id": 135,
+			"opt_ids": [2]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"setting_id": 2,
+			"ids": [9]
+		}, {
+			"setting_id": 3,
+			"ids": [1, 2, 8, 9, 10]
+		}, {
+			"setting_id": 121,
+			"ids": [3]
+		}],
+		"blacklist": [{
+			"setting_id": 135,
+			"opt_ids": [2]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"setting_id": 2,
+			"ids": [9]
+		}, {
+			"setting_id": 3,
+			"ids": [1, 2, 8, 9, 10]
+		}, {
+			"setting_id": 121,
+			"ids": [0, 2, 4, 7, 8]
+		}],
+		"blacklist": [{
+			"setting_id": 135,
+			"opt_ids": [100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [1]
+		}, {
+			"status_id": 89,
+			"values": [12]
+		}, {
+			"setting_id": 2,
+			"ids": [9]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 13]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15]
+		}, {
+			"setting_id": 2,
+			"ids": [9]
+		}, {
+			"setting_id": 3,
+			"ids": [1, 2]
+		}],
+		"blacklist": [{
+			"setting_id": 6,
+			"opt_ids": [0]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15]
+		}, {
+			"setting_id": 2,
+			"ids": [9]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 8, 9, 10, 13]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 85,
+			"values": [1]
+		}, {
+			"setting_id": 2,
+			"ids": [9]
+		}, {
+			"setting_id": 3,
+			"ids": [1, 2, 5, 6, 8, 9, 10]
+		}],
+		"blacklist": [{
+			"setting_id": 148,
+			"opt_ids": [0, 1]
+		}, {
+			"setting_id": 135,
+			"opt_ids": [0, 2, 3, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15]
+		}],
+		"blacklist": [{
+			"setting_id": 129,
+			"opt_ids": [3, 13, 102, 105, 106]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [3, 13, 102, 105, 106]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [3, 13, 102, 105, 106]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [3, 13, 102, 105, 106]
+		}, {
+			"setting_id": 164,
+			"opt_ids": [1, 2, 100]
+		}, {
+			"setting_id": 156,
+			"opt_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 100]
+		}, {
+			"setting_id": 121,
+			"opt_ids": [2, 8]
+		}, {
+			"setting_id": 2,
+			"opt_ids": [4, 6, 18, 25, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 13, 24, 16, 18, 19, 21, 20, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 6,
+			"opt_ids": [0, 1, 2, 3, 4]
+		}, {
+			"setting_id": 129,
+			"opt_ids": [109]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [109]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [109]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [109]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [13, 24, 16, 18, 19, 21, 20, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 148,
+			"opt_ids": [0, 1]
+		}, {
+			"setting_id": 135,
+			"opt_ids": [0, 2, 3, 100]
+		}, {
+			"setting_id": 3,
+			"opt_ids": [0, 1, 2, 5, 6, 8, 9, 10, 13]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15, 13, 24, 16, 18, 19, 21, 20, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 167,
+			"opt_ids": [2, 3, 4]
+		}, {
+			"setting_id": 129,
+			"opt_ids": [105]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [105]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [105]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [105]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 167,
+			"ids": [2, 3]
+		}],
+		"blacklist": [{
+			"setting_id": 105,
+			"opt_ids": [0, 1, 2]
+		}, {
+			"setting_id": 139,
+			"opt_ids": [0, 1, 2, 3]
+		}, {
+			"setting_id": 129,
+			"opt_ids": [18]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [18]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [18]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [18]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15, 13, 24, 16, 18, 19, 21, 20, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 145,
+			"opt_ids": [0, 3, 4, 5, 6, 7, 8, 11, 12, 13, 16, 17, 18, 21, 22, 23, 24, 25, 28, 29, 30, 31]
+		}, {
+			"setting_id": 139,
+			"opt_ids": [0, 1, 2, 3]
+		}, {
+			"setting_id": 129,
+			"opt_ids": [18]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [18]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [18]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [18]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15, 16, 18, 19, 20, 21, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 156,
+			"opt_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15, 13, 16, 18, 19, 21, 20, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 149,
+			"opt_ids": [0, 2, 4]
+		}, {
+			"setting_id": 129,
+			"opt_ids": [100]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [100]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [100]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15, 16, 18, 19, 21, 20, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 13,
+			"opt_ids": [0, 1, 2, 3, 4, 7, 8]
+		}, {
+			"setting_id": 102,
+			"opt_ids": [0, 1, 2, 3, 4, 7, 8]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [13, 24, 16, 18, 19, 21, 20, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 129,
+			"opt_ids": [3, 12]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [3, 12]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [3, 12]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [3, 12]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15, 16, 18, 19, 20, 21, 24, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 124,
+			"opt_ids": [1, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15, 16, 18, 19, 20, 21, 24, 25]
+		}],
+		"blacklist": [{
+			"setting_id": 129,
+			"opt_ids": [7]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [7]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [7]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [7]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15, 16, 18, 19, 25]
+		}],
+		"blacklist": [{
+			"setting_id": 129,
+			"opt_ids": [102]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [102]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [102]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [102]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15]
+		}],
+		"blacklist": [{
+			"setting_id": 114,
+			"opt_ids": [0, 1]
+		}, {
+			"setting_id": 116,
+			"opt_ids": [0, 1, 2]
+		}, {
+			"setting_id": 118,
+			"opt_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}, {
+			"setting_id": 117,
+			"opt_ids": [0, 1, 2]
+		}, {
+			"setting_id": 115,
+			"opt_ids": [0, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12]
+		}, {
+			"setting_id": 129,
+			"opt_ids": [5, 10, 11, 19]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [5, 10, 11, 19]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [5, 10, 11, 19]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [5, 10, 11, 19]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 24, 16, 18, 19, 25]
+		}],
+		"blacklist": [{
+			"setting_id": 129,
+			"opt_ids": [13, 109]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [13, 109]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [13, 109]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [13, 109]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15, 13, 24, 19, 20]
+		}],
+		"blacklist": [{
+			"setting_id": 129,
+			"opt_ids": [6]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [6]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [6]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [6]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15, 13, 24, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 129,
+			"opt_ids": [17]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [17]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [17]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [17]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 145,
+			"ids": [3, 4, 5, 6, 7, 8, 11, 12, 13, 16, 17, 18, 21, 22, 23, 24, 25, 28, 29, 30, 31]
+		}],
+		"blacklist": [{
+			"setting_id": 118,
+			"opt_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"ids": [0]
+		}],
+		"blacklist": [{
+			"setting_id": 145,
+			"opt_ids": [3, 4, 5, 6, 7, 8, 11, 12, 13, 16, 17, 21, 25, 28, 29, 30]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"ids": [13]
+		}],
+		"blacklist": [{
+			"setting_id": 145,
+			"opt_ids": [3, 4, 5, 6, 7, 8, 11, 12, 13, 16, 18, 22, 23, 24, 25, 31]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"ids": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 145,
+			"opt_ids": [3, 4, 5, 6, 7, 8, 11, 12, 16, 17, 21, 25, 28, 29, 30, 31]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"ids": [2]
+		}],
+		"blacklist": [{
+			"setting_id": 145,
+			"opt_ids": [3, 4, 5, 6, 7, 8, 11, 13, 16, 18, 22, 23, 24, 25, 30, 31]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"ids": [5]
+		}],
+		"blacklist": [{
+			"setting_id": 145,
+			"opt_ids": [3, 4, 5, 6, 7, 11, 12, 16, 17, 21, 24, 25, 28, 29, 30, 31]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"ids": [6]
+		}],
+		"blacklist": [{
+			"setting_id": 145,
+			"opt_ids": [3, 4, 5, 6, 8, 11, 13, 16, 18, 22, 23, 24, 25, 29, 30, 31]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"ids": [8]
+		}],
+		"blacklist": [{
+			"setting_id": 145,
+			"opt_ids": [3, 4, 6, 7, 11, 12, 16, 17, 21, 23, 24, 25, 28, 29, 30, 31]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"ids": [9]
+		}],
+		"blacklist": [{
+			"setting_id": 145,
+			"opt_ids": [3, 5, 6, 8, 11, 13, 16, 18, 22, 23, 24, 25, 28, 29, 30, 31]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 3,
+			"ids": [10]
+		}],
+		"blacklist": [{
+			"setting_id": 145,
+			"opt_ids": [4, 5, 7, 8, 12, 13, 17, 18, 21, 22, 23, 24, 28, 29, 30, 31]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 134,
+			"ids": [2]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [2, 6, 9, 13]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 134,
+			"ids": [3]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 1, 5, 8]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 121,
+			"ids": [3]
+		}],
+		"blacklist": [{
+			"setting_id": 135,
+			"opt_ids": [2]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 135,
+			"ids": [0]
+		}],
+		"blacklist": [{
+			"setting_id": 121,
+			"opt_ids": [8]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 148,
+			"ids": [0]
+		}],
+		"blacklist": [{
+			"setting_id": 165,
+			"opt_ids": [0, 1]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [13, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 1, 2, 5, 6, 8, 9, 10, 13]
+		}, {
+			"setting_id": 121,
+			"opt_ids": [3]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 121,
+			"ids": [2]
+		}],
+		"blacklist": [{
+			"setting_id": 135,
+			"opt_ids": [2, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [25]
+		}],
+		"blacklist": [{
+			"setting_id": 121,
+			"opt_ids": [2, 3, 4, 7, 8]
+		}, {
+			"setting_id": 129,
+			"opt_ids": [105]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [105]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [105]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [105]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15]
+		}],
+		"blacklist": [{
+			"setting_id": 144,
+			"opt_ids": [13, 16, 18, 19, 20, 21, 24, 25, 26]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 125,
+			"ids": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 122,
+			"opt_ids": [19, 100, 101, 102]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15, 13, 24, 19, 21, 20, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 125,
+			"opt_ids": [0, 1, 2, 3]
+		}, {
+			"setting_id": 75,
+			"opt_ids": [0, 1, 2, 3, 4, 5]
+		}, {
+			"setting_id": 24,
+			"opt_ids": [0, 1, 2, 3, 4, 5]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 125,
+			"ids": [2, 3]
+		}],
+		"blacklist": [{
+			"setting_id": 75,
+			"opt_ids": [0, 1, 2, 3, 4, 5]
+		}, {
+			"setting_id": 24,
+			"opt_ids": [0, 1, 2, 3, 4, 5]
+		}, {
+			"setting_id": 146,
+			"opt_ids": [0, 1, 2, 3, 4, 5]
+		}, {
+			"setting_id": 118,
+			"opt_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}, {
+			"setting_id": 116,
+			"opt_ids": [1, 2]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [18]
+		}],
+		"blacklist": [{
+			"setting_id": 125,
+			"opt_ids": [2, 3]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [18]
+		}, {
+			"setting_id": 125,
+			"ids": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 19,
+			"opt_ids": [1]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [26]
+		}, {
+			"setting_id": 31,
+			"ids": [1, 2, 3, 4, 5, 6]
+		}],
+		"blacklist": [{
+			"setting_id": 115,
+			"opt_ids": [0]
+		}, {
+			"setting_id": 118,
+			"opt_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}, {
+			"setting_id": 129,
+			"opt_ids": [11]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [11]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [11]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [11]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [16, 18, 19, 25]
+		}],
+		"blacklist": [{
+			"setting_id": 144,
+			"opt_ids": [12, 13, 15, 20, 21, 24, 26]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15, 13, 24, 16, 19, 21, 20, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 19,
+			"opt_ids": [0, 1, 2, 3, 4, 5, 6]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15, 13, 24, 16, 18, 19, 20, 25]
+		}],
+		"blacklist": [{
+			"setting_id": 32,
+			"opt_ids": [4, 5, 10, 15, 20, 30, 100, 120, 300, 1800, 3600, 3601]
+		}, {
+			"setting_id": 31,
+			"opt_ids": [0, 1, 2, 3, 4, 5, 6]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15, 13, 24, 16, 18, 19, 25]
+		}],
+		"blacklist": [{
+			"setting_id": 157,
+			"opt_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [18]
+		}, {
+			"setting_id": 19,
+			"ids": [1, 2, 3, 4, 5, 6]
+		}],
+		"blacklist": [{
+			"setting_id": 118,
+			"opt_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [18]
+		}, {
+			"setting_id": 19,
+			"ids": [0]
+		}],
+		"blacklist": [{
+			"setting_id": 24,
+			"opt_ids": [4, 5]
+		}, {
+			"setting_id": 75,
+			"opt_ids": [4, 5]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [18]
+		}, {
+			"setting_id": 19,
+			"ids": [6]
+		}],
+		"blacklist": [{
+			"setting_id": 24,
+			"opt_ids": [5]
+		}, {
+			"setting_id": 75,
+			"opt_ids": [5]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [21, 26]
+		}, {
+			"setting_id": 31,
+			"ids": [1, 2, 3, 4, 5, 6]
+		}],
+		"blacklist": [{
+			"setting_id": 118,
+			"opt_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [21, 26]
+		}, {
+			"setting_id": 31,
+			"ids": [0]
+		}],
+		"blacklist": [{
+			"setting_id": 37,
+			"opt_ids": [4, 5]
+		}, {
+			"setting_id": 76,
+			"opt_ids": [4, 5]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [21, 26]
+		}, {
+			"setting_id": 31,
+			"ids": [6]
+		}],
+		"blacklist": [{
+			"setting_id": 37,
+			"opt_ids": [5]
+		}, {
+			"setting_id": 76,
+			"opt_ids": [5]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15, 13, 24, 19, 21, 20, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 166,
+			"opt_ids": [0, 1]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [24]
+		}, {
+			"setting_id": 2,
+			"ids": [1, 18]
+		}],
+		"blacklist": [{
+			"setting_id": 155,
+			"opt_ids": [101]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [13, 24]
+		}, {
+			"setting_id": 2,
+			"ids": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 121,
+			"opt_ids": [3]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [26]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 1, 2, 5, 6, 8, 9, 10, 13]
+		}, {
+			"setting_id": 2,
+			"opt_ids": [4, 25, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"status_id": 89,
+			"values": [13, 24]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 1, 2, 5, 6, 8, 9, 10, 13]
+		}, {
+			"setting_id": 2,
+			"opt_ids": [4, 25, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [24]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 1, 2, 5, 6, 8, 9, 10, 13]
+		}, {
+			"setting_id": 121,
+			"opt_ids": [3, 7]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 103,
+			"values": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 155,
+			"opt_ids": [100, 101]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15, 13, 16, 18, 19, 21, 20, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 153,
+			"opt_ids": [1, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15, 13, 16, 18, 19, 21, 20, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 111,
+			"opt_ids": [0, 1, 7, 8, 9, 10]
+		}, {
+			"setting_id": 155,
+			"opt_ids": [100, 101]
+		}, {
+			"setting_id": 129,
+			"opt_ids": [21, 103]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [21, 103]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [21, 103]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [21, 103]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 126,
+			"ids": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 123,
+			"opt_ids": [19, 100, 101, 102]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15, 16, 18, 19, 24, 25]
+		}],
+		"blacklist": [{
+			"setting_id": 128,
+			"opt_ids": [13, 20, 21, 26]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [13, 20]
+		}],
+		"blacklist": [{
+			"setting_id": 128,
+			"opt_ids": [21, 26]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [21, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 128,
+			"opt_ids": [13, 20]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 13, 15, 16, 18, 19, 20, 21, 24, 25]
+		}],
+		"blacklist": [{
+			"setting_id": 160,
+			"opt_ids": [0, 1]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [19]
+		}, {
+			"setting_id": 126,
+			"ids": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 147,
+			"opt_ids": [7, 8, 9, 14, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [20]
+		}, {
+			"setting_id": 126,
+			"ids": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 30,
+			"opt_ids": [108, 109, 110]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [21]
+		}, {
+			"setting_id": 31,
+			"ids": [1, 2, 3, 4, 5, 6]
+		}],
+		"blacklist": [{
+			"setting_id": 115,
+			"opt_ids": [0]
+		}, {
+			"setting_id": 118,
+			"opt_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}, {
+			"setting_id": 129,
+			"opt_ids": [11]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [11]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [11]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [11]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [20]
+		}],
+		"blacklist": [{
+			"setting_id": 125,
+			"opt_ids": [1, 2, 3]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 31,
+			"ids": [6]
+		}],
+		"blacklist": [{
+			"setting_id": 32,
+			"opt_ids": [4, 5, 10, 15, 20, 30]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 31,
+			"ids": [5]
+		}],
+		"blacklist": [{
+			"setting_id": 32,
+			"opt_ids": [4, 5, 10, 15, 20]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 31,
+			"ids": [4]
+		}],
+		"blacklist": [{
+			"setting_id": 32,
+			"opt_ids": [4, 5, 10, 15]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 31,
+			"ids": [3]
+		}],
+		"blacklist": [{
+			"setting_id": 32,
+			"opt_ids": [4, 5, 10]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 31,
+			"ids": [2]
+		}],
+		"blacklist": [{
+			"setting_id": 32,
+			"opt_ids": [4, 5]
+		}]
+	}, {
+		"activated_by": [{
+			"setting_id": 31,
+			"ids": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 32,
+			"opt_ids": [4]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [21]
+		}, {
+			"setting_id": 31,
+			"ids": [0]
+		}],
+		"blacklist": [{
+			"setting_id": 37,
+			"opt_ids": [4, 5]
+		}, {
+			"setting_id": 76,
+			"opt_ids": [4, 5]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [21]
+		}, {
+			"setting_id": 31,
+			"ids": [6]
+		}],
+		"blacklist": [{
+			"setting_id": 37,
+			"opt_ids": [5]
+		}, {
+			"setting_id": 76,
+			"opt_ids": [5]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15]
+		}],
+		"blacklist": [{
+			"setting_id": 129,
+			"opt_ids": [14, 15]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [14, 15]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [14, 15]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [14, 15]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15, 13, 24, 16, 18, 21, 20, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 147,
+			"opt_ids": [0, 1, 2, 4, 7, 8, 9, 14, 100]
+		}, {
+			"setting_id": 129,
+			"opt_ids": [8]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [8]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [8]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [8]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [12, 15, 13, 24, 16, 18, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 126,
+			"opt_ids": [0, 1]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [13, 20, 21, 24, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 144,
+			"opt_ids": [12, 15, 16, 18, 19, 25]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 65,
+			"values": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 145,
+			"opt_ids": [0, 3, 4, 5, 6, 7, 8, 11, 12, 13, 16, 17, 18, 21, 22, 23, 24, 25, 28, 29, 30, 31]
+		}, {
+			"setting_id": 19,
+			"opt_ids": [1, 2, 3, 4, 5, 6]
+		}, {
+			"setting_id": 146,
+			"opt_ids": [0, 1, 2, 3, 4, 5]
+		}, {
+			"setting_id": 31,
+			"opt_ids": [1, 2, 3, 4, 5, 6]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 65,
+			"values": [2]
+		}],
+		"blacklist": [{
+			"setting_id": 13,
+			"opt_ids": [0, 1, 2, 3, 4, 7, 8]
+		}, {
+			"setting_id": 102,
+			"opt_ids": [0, 1, 2, 3, 4, 7, 8]
+		}, {
+			"setting_id": 145,
+			"opt_ids": [0, 3, 4, 5, 6, 7, 8, 11, 12, 13, 16, 17, 18, 21, 22, 23, 24, 25, 28, 29, 30, 31]
+		}, {
+			"setting_id": 24,
+			"opt_ids": [0, 1, 2, 3, 4, 5]
+		}, {
+			"setting_id": 75,
+			"opt_ids": [0, 1, 2, 3, 4, 5]
+		}, {
+			"setting_id": 146,
+			"opt_ids": [0, 1, 2, 3, 4, 5]
+		}, {
+			"setting_id": 19,
+			"opt_ids": [1, 2, 3, 4, 5, 6]
+		}, {
+			"setting_id": 37,
+			"opt_ids": [0, 1, 2, 3, 4, 5]
+		}, {
+			"setting_id": 76,
+			"opt_ids": [0, 1, 2, 3, 4, 5]
+		}, {
+			"setting_id": 31,
+			"opt_ids": [1, 2, 3, 4, 5, 6]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 102,
+			"values": [0]
+		}],
+		"blacklist": [{
+			"setting_id": 164,
+			"opt_ids": [1, 2, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 102,
+			"values": [3]
+		}],
+		"blacklist": [{
+			"setting_id": 164,
+			"opt_ids": [1, 2, 100]
+		}, {
+			"setting_id": 149,
+			"opt_ids": [0, 2, 4]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 110,
+			"values": [5]
+		}],
+		"blacklist": [{
+			"setting_id": 154,
+			"opt_ids": [0, 2, 3]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15, 13, 16, 18, 19, 21, 20, 24, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 164,
+			"opt_ids": [1, 2, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 89,
+			"values": [15, 13, 16, 18, 19, 21, 20, 24, 25, 26]
+		}],
+		"blacklist": [{
+			"setting_id": 129,
+			"opt_ids": [106]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [106]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [106]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [106]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 74,
+			"values": [0]
+		}, {
+			"status_id": 102,
+			"values": [0, 2]
+		}],
+		"blacklist": [{
+			"setting_id": 169,
+			"opt_ids": [1, 2, 3, 4, 5]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 74,
+			"values": [2, 3]
+		}],
+		"blacklist": [{
+			"setting_id": 164,
+			"opt_ids": [1, 2, 100]
+		}, {
+			"setting_id": 149,
+			"opt_ids": [0, 2, 4]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}],
+		"blacklist": [{
+			"setting_id": 166,
+			"opt_ids": [0, 1]
+		}, {
+			"setting_id": 165,
+			"opt_ids": [0, 1]
+		}, {
+			"setting_id": 121,
+			"opt_ids": [7]
+		}, {
+			"setting_id": 122,
+			"opt_ids": [100]
+		}, {
+			"setting_id": 123,
+			"opt_ids": [100]
+		}, {
+			"setting_id": 148,
+			"opt_ids": [0, 1]
+		}, {
+			"setting_id": 129,
+			"opt_ids": [107]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [107]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [107]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [107]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 121,
+			"opt_ids": [2, 3, 8]
+		}, {
+			"setting_id": 122,
+			"opt_ids": [19, 102]
+		}, {
+			"setting_id": 123,
+			"opt_ids": [19]
+		}, {
+			"setting_id": 2,
+			"opt_ids": [1, 18, 25, 100]
+		}, {
+			"setting_id": 135,
+			"opt_ids": [0, 2, 3, 100]
+		}, {
+			"setting_id": 125,
+			"opt_ids": [0, 1, 2, 3]
+		}, {
+			"setting_id": 155,
+			"opt_ids": [100, 101]
+		}, {
+			"setting_id": 153,
+			"opt_ids": [1, 100]
+		}, {
+			"setting_id": 129,
+			"opt_ids": [12, 17, 103]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [12, 17, 103]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [12, 17, 103]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [12, 17, 103]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [1]
+		}, {
+			"status_id": 89,
+			"values": [24]
+		}],
+		"blacklist": [{
+			"setting_id": 149,
+			"opt_ids": [0, 2, 4]
+		}, {
+			"setting_id": 129,
+			"opt_ids": [100]
+		}, {
+			"setting_id": 130,
+			"opt_ids": [100]
+		}, {
+			"setting_id": 131,
+			"opt_ids": [100]
+		}, {
+			"setting_id": 132,
+			"opt_ids": [100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 108,
+			"values": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 167,
+			"opt_ids": [2, 3, 4]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 109,
+			"values": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 168,
+			"opt_ids": [0]
+		}]
+	}],
+	"commands": [{
+		"key": "GPCAMERA_SHUTTER",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_MODE",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_POWER_ID",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_FWUPDATE_DOWNLOAD_FILE",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_FWUPDATE_DOWNLOAD_START",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_FWUPDATE_DOWNLOAD_DONE",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_FWUPDATE_DOWNLOAD_CANCEL",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_FACTORY_RESET",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SLEEP",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_USE_CURRENT_WIRELESS_REMOTE_ID",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_CANCEL_PAIR_WIRELESS_REMOTE_ID",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_CANCEL_PAIR_WIRELESS_ID",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SET_DATE_AND_TIME_ID",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_DELETE_LAST_FILE_ID",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_DELETE_ALL_FILES_ID",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_DELETE_FILE_ID",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_DELETE_FILE_GROUP",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_DELETE_FILE_LIST",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_LOCATE_ID",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_NETWORK_NAME_ID",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_AP_CONTROL",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_INFO_VERSION_ID",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_NETWORK_VERSION_ID",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_BATTERY_LEVEL_ID",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SDCARD_CAPACITY_ID",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_TAG_MOMENT",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_RC_PAIR",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SSID_SCAN",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SSID_LIST",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SSID_SELECT",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SSID_DELETE",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SSID_SAVE",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_ANALYTICS_FILE_GET",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_ANALYTICS_FILE_CLEAR",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_MEDIA_METADATA",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_INFO",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_PREVIEW_ENABLED",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_PREVIEW",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_CHANGE_SETTING",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_GENERIC",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SENSOR_PAIRING_AVAILABLE",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_MEDIA_LIST",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_GET_WIFI_CONFIG",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SET_WIFI_CONFIG_V2",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_MEDIA_LIST_V4",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_DELETE_FILE_ID_V3",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SESSION_LIST",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_MEDIA_METADATA_V4",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_MEDIA_METADATA_V5",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_MEDIA_GET_GLOBAL_GPMF",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_EXPOSURE_SELECT_SET",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_EXPOSURE_SELECT_360_SET",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_EXPOSURE_SELECT_RESET",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_PREVIEW_V3",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_HILIGHT_ADD_VIDEO_PLAYBACK_MOMENT",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_HILIGHT_REMOVE_VIDEO_PLAYBACK_MOMENT",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_HILIGHT_ADD_PHOTO_MOMENT",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_HILIGHT_REMOVE_PHOTO_MOMENT",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_WIRELESS_PAIRING_COMPLETE",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_WIRELESS_SELECT_BAND",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_NETWORK_GET_CAPABILITIES",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_NETWORK_START_AP_SCAN",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_NETWORK_GET_AP_LIST",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_NETWORK_CONNECT_EXISTING_AP",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_NETWORK_CONNECT_NEW_AP",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_NETWORK_DELETE_AP",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_CROSS_CLIENT_GET_CLIENT_ID",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_CROSS_CLIENT_SET_AUTH_CODE",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_CROSS_CLIENT_GET_ASSOCIATION_STATE",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_CROSS_CLIENT_SET_ASSOCIATION_STATE",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_MEDIA_OFFLOAD_ENABLE",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_MEDIA_OFFLOAD_GET_STATUS",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_MEDIA_SELECTIVE_OFFLOAD",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_ANALYTICS_SET_CLIENT_INFO",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SDCARD_GET_ID",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_MOBILE_OFFLOAD_NEW_MEDIA_FLAG_CLEAR",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_MOBILE_OFFLOAD_GET_STATE",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_MOBILE_OFFLOAD_START",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_MOBILE_OFFLOAD_POWER_ON_START",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_MOBILE_OFFLOAD_STOP",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_APP_POWER_ON_START",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_MEDIA_GET_AUDIO_TRACK",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_MEDIA_GET_TELEMETRY_TRACK",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_LIVE_STREAM_SETUP",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_SECURE_LIVE_STREAM_SETUP",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_TURBO_MODE_ENABLE",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SET_MODE",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SYSTEM_LOG_CLEAR",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SYSTEM_LOG_PREPARE",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SYSTEM_LOG_LIST",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SET_PRESET",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_ONSCREEN_SHORTCUTS_RESET",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_DIGITAL_ZOOM_SET",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_FIRMWARE_UPDATE_V2",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_NETWORK_RELEASE",
+		"network_types": ["ble"]
+	}, {
+		"key": "GPCAMERA_PROTUNE_RESET_TO_DEFAULT",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_TIMEWARP_SPEED_RAMP",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_TIMEWARP_SPEED_RAMP_ACTIVE",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_CREATE_PRESET",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SET_PRESET_ORDER",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_REMOVE_PRESET",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_RESET_PRESET",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_WEBCAM",
+		"network_types": ["wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SET_IN_CONTEXTUAL_MENU",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_SET_CAMERA_CONTROL_STATUS",
+		"network_types": ["ble", "wifi", "usb"]
+	}, {
+		"key": "GPCAMERA_OPENGOPRO_VERSION",
+		"network_types": ["ble", "wifi", "usb"]
+	}],
+	"status": {
+		"groups": [{
+			"group": "app",
+			"fields": [{
+				"id": 75,
+				"name": "digital_zoom"
+			}, {
+				"id": 89,
+				"name": "current_mode"
+			}, {
+				"id": 90,
+				"name": "protune_default"
+			}, {
+				"id": 93,
+				"name": "active_video_presets"
+			}, {
+				"id": 94,
+				"name": "active_photo_presets"
+			}, {
+				"id": 95,
+				"name": "active_timelapse_presets"
+			}, {
+				"id": 96,
+				"name": "active_presets_group"
+			}, {
+				"id": 97,
+				"name": "active_preset"
+			}, {
+				"id": 98,
+				"name": "preset_modified"
+			}, {
+				"id": 101,
+				"name": "capture_delay_active"
+			}, {
+				"id": 107,
+				"name": "scheduled_preset"
+			}, {
+				"id": 108,
+				"name": "scheduled_enabled"
+			}, {
+				"id": 115,
+				"name": "usb_connected"
+			}]
+		}, {
+			"group": "broadcast",
+			"fields": [{
+				"id": 14,
+				"name": "broadcast_progress_counter"
+			}]
+		}, {
+			"group": "fwupdate",
+			"fields": [{
+				"id": 41,
+				"name": "ota_status"
+			}, {
+				"id": 42,
+				"name": "download_cancel_request_pending"
+			}]
+		}, {
+			"group": "liveview",
+			"fields": [{
+				"id": 65,
+				"name": "exposure_select_type"
+			}, {
+				"id": 66,
+				"name": "exposure_select_x"
+			}, {
+				"id": 67,
+				"name": "exposure_select_y"
+			}]
+		}, {
+			"group": "multi_shot",
+			"fields": [{
+				"id": 49,
+				"name": "multi_shot_count_down"
+			}]
+		}, {
+			"group": "photo",
+			"fields": []
+		}, {
+			"group": "setup",
+			"fields": [{
+				"id": 40,
+				"name": "date_time"
+			}]
+		}, {
+			"group": "storage",
+			"fields": [{
+				"id": 33,
+				"name": "sd_status"
+			}, {
+				"id": 34,
+				"name": "remaining_photos"
+			}, {
+				"id": 35,
+				"name": "remaining_video_time"
+			}, {
+				"id": 36,
+				"name": "num_group_photos"
+			}, {
+				"id": 37,
+				"name": "num_group_videos"
+			}, {
+				"id": 38,
+				"name": "num_total_photos"
+			}, {
+				"id": 39,
+				"name": "num_total_videos"
+			}, {
+				"id": 54,
+				"name": "remaining_space"
+			}, {
+				"id": 58,
+				"name": "num_hilights"
+			}, {
+				"id": 59,
+				"name": "last_hilight_time_msec"
+			}, {
+				"id": 64,
+				"name": "remaining_timelapse_time"
+			}, {
+				"id": 99,
+				"name": "remaining_live_bursts"
+			}, {
+				"id": 100,
+				"name": "num_total_live_bursts"
+			}]
+		}, {
+			"group": "stream",
+			"fields": [{
+				"id": 32,
+				"name": "enable"
+			}, {
+				"id": 55,
+				"name": "supported"
+			}]
+		}, {
+			"group": "system",
+			"fields": [{
+				"id": 1,
+				"name": "internal_battery_present"
+			}, {
+				"id": 2,
+				"name": "internal_battery_level"
+			}, {
+				"id": 3,
+				"name": "external_battery_present"
+			}, {
+				"id": 4,
+				"name": "external_battery_level"
+			}, {
+				"id": 6,
+				"name": "system_hot"
+			}, {
+				"id": 8,
+				"name": "system_busy"
+			}, {
+				"id": 9,
+				"name": "quick_capture_active"
+			}, {
+				"id": 10,
+				"name": "encoding_active"
+			}, {
+				"id": 11,
+				"name": "lcd_lock_active"
+			}, {
+				"id": 45,
+				"name": "camera_locate_active"
+			}, {
+				"id": 57,
+				"name": "current_time_msec"
+			}, {
+				"id": 60,
+				"name": "next_poll_msec"
+			}, {
+				"id": 61,
+				"name": "analytics_ready"
+			}, {
+				"id": 62,
+				"name": "analytics_size"
+			}, {
+				"id": 63,
+				"name": "in_contextual_menu"
+			}, {
+				"id": 68,
+				"name": "gps_status"
+			}, {
+				"id": 70,
+				"name": "internal_battery_percentage"
+			}, {
+				"id": 74,
+				"name": "acc_mic_status"
+			}, {
+				"id": 77,
+				"name": "digital_zoom_active"
+			}, {
+				"id": 78,
+				"name": "mobile_friendly_video"
+			}, {
+				"id": 79,
+				"name": "first_time_use"
+			}, {
+				"id": 82,
+				"name": "system_ready"
+			}, {
+				"id": 83,
+				"name": "batt_okay_for_ota"
+			}, {
+				"id": 85,
+				"name": "video_low_temp_alert"
+			}, {
+				"id": 86,
+				"name": "actual_orientation"
+			}, {
+				"id": 91,
+				"name": "logs_ready"
+			}, {
+				"id": 102,
+				"name": "media_mod_mic_status"
+			}, {
+				"id": 103,
+				"name": "timewarp_speed_ramp_active"
+			}, {
+				"id": 104,
+				"name": "linux_core_active"
+			}, {
+				"id": 105,
+				"name": "camera_lens_type"
+			}, {
+				"id": 109,
+				"name": "creating_preset"
+			}, {
+				"id": 110,
+				"name": "media_mod_status"
+			}, {
+				"id": 111,
+				"name": "sd_rating_check_error"
+			}, {
+				"id": 112,
+				"name": "sd_write_speed_error"
+			}, {
+				"id": 113,
+				"name": "turbo_transfer"
+			}, {
+				"id": 114,
+				"name": "camera_control_status"
+			}]
+		}, {
+			"group": "video",
+			"fields": [{
+				"id": 13,
+				"name": "video_progress_counter"
+			}, {
+				"id": 88,
+				"name": "zoom_while_encoding"
+			}, {
+				"id": 106,
+				"name": "video_hindsight_capture_active"
+			}]
+		}, {
+			"group": "wireless",
+			"fields": [{
+				"id": 17,
+				"name": "enable"
+			}, {
+				"id": 19,
+				"levels": ["pair_status"],
+				"name": "state"
+			}, {
+				"id": 20,
+				"levels": ["pair_status"],
+				"name": "type"
+			}, {
+				"id": 21,
+				"levels": ["pair_status"],
+				"name": "pair_time"
+			}, {
+				"id": 22,
+				"levels": ["scan_status"],
+				"name": "state"
+			}, {
+				"id": 23,
+				"levels": ["scan_status"],
+				"name": "scan_time_msec"
+			}, {
+				"id": 24,
+				"name": "provision_status"
+			}, {
+				"id": 26,
+				"name": "remote_control_version"
+			}, {
+				"id": 27,
+				"name": "remote_control_connected"
+			}, {
+				"id": 28,
+				"name": "pairing"
+			}, {
+				"id": 29,
+				"name": "wlan_ssid"
+			}, {
+				"id": 30,
+				"name": "ap_ssid"
+			}, {
+				"id": 31,
+				"name": "app_count"
+			}, {
+				"id": 56,
+				"name": "wifi_bars"
+			}, {
+				"id": 69,
+				"name": "ap_state"
+			}, {
+				"id": 76,
+				"name": "wireless_band"
+			}, {
+				"id": 81,
+				"name": "band_5GHz_avail"
+			}]
+		}]
+	},
+	"display_hints_categories": [{
+		"key": "GPCAMERA_CATEGORY_MODE",
+		"groups": ["GPCAMERA_GROUP_MODE", "GPCAMERA_GROUP_PROTUNE", "GPCAMERA_GROUP_SHORTCUTS", "GPCAMERA_GROUP_MANAGE_PRESET"]
+	}, {
+		"key": "GPCAMERA_CATEGORY_GENERAL",
+		"groups": ["GPCAMERA_GROUP_SETUP", "GPCAMERA_GROUP_DELETE_ID", "GPCAMERA_GROUP_CAMERA_INFO", "GPCAMERA_GROUP_CAMERA_STATUS"]
+	}, {
+		"key": "GPCAMERA_CATEGORY_PRESET_CREATION",
+		"groups": ["GPCAMERA_GROUP_PRESET_MODE_SELECTION", "GPCAMERA_GROUP_MODE", "GPCAMERA_GROUP_PROTUNE", "GPCAMERA_GROUP_ONSCREEN_SHORTCUTS"]
+	}],
+	"display_hints": [{
+		"key": "GPCAMERA_GROUP_MODE",
+		"display_name": "Mode Settings",
+		"settings": [{
+			"setting_id": 2,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 3,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 121,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 122,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 123,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 30,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 32,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 5,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 111,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 155,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 128,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 147,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 6,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 19,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 125,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 126,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 31,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 148,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 135,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 156,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 157,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 168,
+			"widget_type": "child",
+			"precedence": 1
+		}, {
+			"setting_id": 105,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 165,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 166,
+			"widget_type": "select",
+			"precedence": 1
+		}],
+		"commands": []
+	}, {
+		"key": "GPCAMERA_GROUP_PROTUNE",
+		"display_name": "Protune",
+		"settings": [{
+			"setting_id": 146,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 124,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 160,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 145,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 118,
+			"widget_type": "slider",
+			"precedence": 1
+		}, {
+			"setting_id": 102,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 13,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 75,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 24,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 76,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 37,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 115,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 117,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 116,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 139,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 149,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 164,
+			"widget_type": "select",
+			"precedence": 1
+		}],
+		"commands": [{
+			"command_key": "GPCAMERA_PROTUNE_RESET_TO_DEFAULT",
+			"display_name": "Reset Protune",
+			"widget_type": "button",
+			"precedence": 1
+		}]
+	}, {
+		"key": "GPCAMERA_GROUP_SHORTCUTS",
+		"display_name": "Shortcuts",
+		"settings": [{
+			"setting_id": 129,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 130,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 131,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 132,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 153,
+			"widget_type": "select",
+			"precedence": 1
+		}],
+		"commands": [{
+			"command_key": "GPCAMERA_ONSCREEN_SHORTCUTS_RESET",
+			"display_name": "Shortcuts Reset",
+			"widget_type": "button",
+			"precedence": 1
+		}]
+	}, {
+		"key": "GPCAMERA_GROUP_MANAGE_PRESET",
+		"display_name": "Manage Preset",
+		"settings": [],
+		"commands": [{
+			"command_key": "GPCAMERA_RESET_PRESET",
+			"display_name": "Restore Preset",
+			"widget_type": "button",
+			"precedence": 1
+		}, {
+			"command_key": "GPCAMERA_REMOVE_PRESET",
+			"display_name": "Delete Preset",
+			"widget_type": "button",
+			"precedence": 1
+		}]
+	}, {
+		"key": "GPCAMERA_GROUP_SETUP",
+		"display_name": "Setup",
+		"settings": [{
+			"setting_id": 86,
+			"widget_type": "toggle",
+			"precedence": 1
+		}, {
+			"setting_id": 85,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 87,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 91,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 54,
+			"widget_type": "toggle",
+			"precedence": 1
+		}, {
+			"setting_id": 161,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 59,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 159,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 158,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 154,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 103,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 88,
+			"widget_type": "slider",
+			"precedence": 1
+		}, {
+			"setting_id": 112,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 83,
+			"widget_type": "toggle",
+			"precedence": 1
+		}, {
+			"setting_id": 84,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 134,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 106,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 169,
+			"widget_type": "select",
+			"precedence": 1
+		}],
+		"commands": [{
+			"command_key": "GPCAMERA_SET_DATE_AND_TIME_ID",
+			"display_name": "Set Date and Time",
+			"widget_type": "button",
+			"precedence": 1
+		}]
+	}, {
+		"key": "GPCAMERA_GROUP_DELETE_ID",
+		"display_name": "Delete",
+		"settings": [],
+		"commands": [{
+			"command_key": "GPCAMERA_DELETE_LAST_FILE_ID",
+			"display_name": "Delete Last File",
+			"widget_type": "button",
+			"precedence": 1
+		}, {
+			"command_key": "GPCAMERA_DELETE_ALL_FILES_ID",
+			"display_name": "Delete All Files from SD Card",
+			"widget_type": "button",
+			"precedence": 1
+		}]
+	}, {
+		"key": "GPCAMERA_GROUP_CAMERA_INFO",
+		"display_name": "Camera Info",
+		"settings": [],
+		"commands": [{
+			"command_key": "GPCAMERA_INFO_VERSION_ID",
+			"display_name": "Version",
+			"widget_type": "readonly",
+			"precedence": 1
+		}, {
+			"command_key": "GPCAMERA_LOCATE_ID",
+			"display_name": "Locate Camera",
+			"widget_type": "toggle",
+			"precedence": 1
+		}]
+	}, {
+		"key": "GPCAMERA_GROUP_CAMERA_STATUS",
+		"display_name": "Camera Status",
+		"settings": [],
+		"commands": [{
+			"command_key": "GPCAMERA_BATTERY_LEVEL_ID",
+			"display_name": "Battery Level",
+			"widget_type": "readonly",
+			"precedence": 1
+		}, {
+			"command_key": "GPCAMERA_SDCARD_CAPACITY_ID",
+			"display_name": "SD Card Capacity",
+			"widget_type": "child",
+			"precedence": 1
+		}]
+	}, {
+		"key": "GPCAMERA_GROUP_PRESET_MODE_SELECTION",
+		"display_name": "MODE",
+		"settings": [{
+			"setting_id": 144,
+			"widget_type": "select",
+			"precedence": 1
+		}],
+		"commands": []
+	}],
+	"info": {
+		"model_number": 57,
+		"model_name": "HERO10 Black",
+		"firmware_version": "H21.01.01.09.42",
+		"serial_number": "REDACTED",
+		"board_type": "0x05",
+		"ap_mac": "REDACTED",
+		"ap_ssid": "REDACTED",
+		"ap_has_default_credentials": "0",
+		"git_sha1": "6c8c852179842f410673905004a7cfb6702425e8",
+		"capabilities": "16",
+		"lens_count": "1",
+		"update_required": "0",
+		"required_networks": [],
+		"http_keepalive": 1
+	}
+}

@@ -14,6 +14,7 @@
 -   [GoPro Fusion](https://github.com/KonradIT/goprowifihack/blob/master/Fusion1/README.md)
 -   [GoPro MAX](https://github.com/KonradIT/goprowifihack/blob/master/MAX/README.md)
 -   [GoPro HERO9](https://github.com/KonradIT/goprowifihack/blob/master/HERO9/README.md)
+-   [GoPro HERO10](https://github.com/KonradIT/goprowifihack/blob/master/HERO10/README.md)
 
 _A note on HERO8:_ For GoPro Connect (Webcam Mode), use Hero9 commands; For other commands, use Hero7 commands.
 
