@@ -1,5 +1,5 @@
 {
-	"version": 2,
+	"version": 6,
 	"schema_version": 6,
 	"modes": [{
 		"id": 12,
@@ -714,16 +714,6 @@
 			"display_name": "100"
 		}]
 	}, {
-		"display_name": "Audio Protune",
-		"id": 79,
-		"options": [{
-			"id": 1,
-			"display_name": "ON"
-		}, {
-			"id": 0,
-			"display_name": "OFF"
-		}]
-	}, {
 		"display_name": "GPS",
 		"id": 83,
 		"options": [{
@@ -1217,6 +1207,12 @@
 			"id": 13,
 			"display_name": "Interval"
 		}, {
+			"id": 8,
+			"display_name": "Burst Rate"
+		}, {
+			"id": 6,
+			"display_name": "Shutter"
+		}, {
 			"id": 17,
 			"display_name": "Output"
 		}, {
@@ -1238,9 +1234,6 @@
 			"id": 105,
 			"display_name": "HindSight"
 		}, {
-			"id": 8,
-			"display_name": "Burst Rate"
-		}, {
 			"id": 20,
 			"display_name": "Timer"
 		}, {
@@ -1249,9 +1242,6 @@
 		}, {
 			"id": 7,
 			"display_name": "Bit Rate"
-		}, {
-			"id": 6,
-			"display_name": "Shutter"
 		}, {
 			"id": 11,
 			"display_name": "EV Comp"
@@ -1274,11 +1264,11 @@
 			"id": 18,
 			"display_name": "Raw Audio"
 		}, {
-			"id": 106,
-			"display_name": "Media Mod"
-		}, {
 			"id": 100,
 			"display_name": "Wind"
+		}, {
+			"id": 106,
+			"display_name": "Media Mod"
 		}, {
 			"id": 107,
 			"display_name": "Horizon Lock"
@@ -1302,6 +1292,12 @@
 			"id": 13,
 			"display_name": "Interval"
 		}, {
+			"id": 8,
+			"display_name": "Burst Rate"
+		}, {
+			"id": 6,
+			"display_name": "Shutter"
+		}, {
 			"id": 17,
 			"display_name": "Output"
 		}, {
@@ -1323,9 +1319,6 @@
 			"id": 105,
 			"display_name": "HindSight"
 		}, {
-			"id": 8,
-			"display_name": "Burst Rate"
-		}, {
 			"id": 20,
 			"display_name": "Timer"
 		}, {
@@ -1334,9 +1327,6 @@
 		}, {
 			"id": 7,
 			"display_name": "Bit Rate"
-		}, {
-			"id": 6,
-			"display_name": "Shutter"
 		}, {
 			"id": 11,
 			"display_name": "EV Comp"
@@ -1359,11 +1349,11 @@
 			"id": 18,
 			"display_name": "Raw Audio"
 		}, {
-			"id": 106,
-			"display_name": "Media Mod"
-		}, {
 			"id": 100,
 			"display_name": "Wind"
+		}, {
+			"id": 106,
+			"display_name": "Media Mod"
 		}, {
 			"id": 107,
 			"display_name": "Horizon Lock"
@@ -1387,6 +1377,12 @@
 			"id": 13,
 			"display_name": "Interval"
 		}, {
+			"id": 8,
+			"display_name": "Burst Rate"
+		}, {
+			"id": 6,
+			"display_name": "Shutter"
+		}, {
 			"id": 17,
 			"display_name": "Output"
 		}, {
@@ -1408,9 +1404,6 @@
 			"id": 105,
 			"display_name": "HindSight"
 		}, {
-			"id": 8,
-			"display_name": "Burst Rate"
-		}, {
 			"id": 20,
 			"display_name": "Timer"
 		}, {
@@ -1419,9 +1412,6 @@
 		}, {
 			"id": 7,
 			"display_name": "Bit Rate"
-		}, {
-			"id": 6,
-			"display_name": "Shutter"
 		}, {
 			"id": 11,
 			"display_name": "EV Comp"
@@ -1444,11 +1434,11 @@
 			"id": 18,
 			"display_name": "Raw Audio"
 		}, {
-			"id": 106,
-			"display_name": "Media Mod"
-		}, {
 			"id": 100,
 			"display_name": "Wind"
+		}, {
+			"id": 106,
+			"display_name": "Media Mod"
 		}, {
 			"id": 107,
 			"display_name": "Horizon Lock"
@@ -1472,6 +1462,12 @@
 			"id": 13,
 			"display_name": "Interval"
 		}, {
+			"id": 8,
+			"display_name": "Burst Rate"
+		}, {
+			"id": 6,
+			"display_name": "Shutter"
+		}, {
 			"id": 17,
 			"display_name": "Output"
 		}, {
@@ -1493,9 +1489,6 @@
 			"id": 105,
 			"display_name": "HindSight"
 		}, {
-			"id": 8,
-			"display_name": "Burst Rate"
-		}, {
 			"id": 20,
 			"display_name": "Timer"
 		}, {
@@ -1504,9 +1497,6 @@
 		}, {
 			"id": 7,
 			"display_name": "Bit Rate"
-		}, {
-			"id": 6,
-			"display_name": "Shutter"
 		}, {
 			"id": 11,
 			"display_name": "EV Comp"
@@ -1529,11 +1519,11 @@
 			"id": 18,
 			"display_name": "Raw Audio"
 		}, {
-			"id": 106,
-			"display_name": "Media Mod"
-		}, {
 			"id": 100,
 			"display_name": "Wind"
+		}, {
+			"id": 106,
+			"display_name": "Media Mod"
 		}, {
 			"id": 107,
 			"display_name": "Horizon Lock"
@@ -1744,8 +1734,8 @@
 		"display_name": "Max HyperSmooth",
 		"id": 148,
 		"options": [{
-			"id": 1,
-			"display_name": "On"
+			"id": 100,
+			"display_name": "Standard"
 		}, {
 			"id": 0,
 			"display_name": "Off"
@@ -1935,6 +1925,26 @@
 			"display_name": "Last Used Time Lapse"
 		}]
 	}, {
+		"display_name": "Max Lens Mod Enable",
+		"id": 162,
+		"options": [{
+			"id": 0,
+			"display_name": "OFF"
+		}, {
+			"id": 1,
+			"display_name": "ON"
+		}]
+	}, {
+		"display_name": "Max Lens Mod",
+		"id": 163,
+		"options": [{
+			"id": 0,
+			"display_name": "OFF"
+		}, {
+			"id": 1,
+			"display_name": "ON"
+		}]
+	}, {
 		"display_name": "Media Mod",
 		"id": 164,
 		"options": [{
@@ -2005,6 +2015,19 @@
 		}, {
 			"id": 5,
 			"display_name": "Line In"
+		}]
+	}, {
+		"display_name": "Video Performance Modes",
+		"id": 173,
+		"options": [{
+			"id": 0,
+			"display_name": "Maximum Video Performance"
+		}, {
+			"id": 1,
+			"display_name": "Extended Battery"
+		}, {
+			"id": 2,
+			"display_name": "Tripod / Stationary Video"
 		}]
 	}],
 	"filters": [{
@@ -2107,10 +2130,7 @@
 		}],
 		"blacklist": [{
 			"setting_id": 3,
-			"opt_ids": [0, 1, 2, 10, 13]
-		}, {
-			"setting_id": 121,
-			"opt_ids": [3]
+			"opt_ids": [0, 1, 2, 13]
 		}]
 	}, {
 		"activated_by": [{
@@ -2129,15 +2149,60 @@
 			"status_id": 105,
 			"values": [0]
 		}, {
+			"setting_id": 173,
+			"ids": [1]
+		}, {
+			"status_id": 89,
+			"values": [12]
+		}, {
+			"setting_id": 2,
+			"ids": [100]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 1, 2, 5, 6, 13]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"setting_id": 173,
+			"ids": [1]
+		}, {
+			"status_id": 89,
+			"values": [12]
+		}, {
 			"setting_id": 2,
 			"ids": [100]
 		}, {
 			"setting_id": 3,
-			"ids": [8, 9, 10]
+			"ids": [8, 9]
 		}],
 		"blacklist": [{
 			"setting_id": 135,
-			"opt_ids": [100]
+			"opt_ids": [2]
+		}, {
+			"setting_id": 121,
+			"opt_ids": [3]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"setting_id": 173,
+			"ids": [2]
+		}, {
+			"status_id": 89,
+			"values": [12]
+		}, {
+			"setting_id": 2,
+			"ids": [100]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 1, 2, 10, 13]
 		}]
 	}, {
 		"activated_by": [{
@@ -2146,7 +2211,7 @@
 		}],
 		"blacklist": [{
 			"setting_id": 3,
-			"opt_ids": [0, 1, 2, 5, 6, 10, 13]
+			"opt_ids": [0, 1, 2, 5, 6, 13]
 		}, {
 			"setting_id": 121,
 			"opt_ids": [3]
@@ -2180,16 +2245,40 @@
 			"status_id": 105,
 			"values": [0]
 		}, {
+			"status_id": 89,
+			"values": [12]
+		}, {
+			"setting_id": 173,
+			"ids": [1]
+		}, {
+			"setting_id": 2,
+			"ids": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [1, 2]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"status_id": 89,
+			"values": [12]
+		}, {
+			"setting_id": 173,
+			"ids": [1]
+		}, {
 			"setting_id": 2,
 			"ids": [1]
 		}, {
 			"setting_id": 3,
-			"ids": [8, 9, 10]
-		}, {
-			"setting_id": 121,
-			"ids": [3]
+			"ids": [5, 6]
 		}],
 		"blacklist": [{
+			"setting_id": 121,
+			"opt_ids": [3]
+		}, {
 			"setting_id": 135,
 			"opt_ids": [2]
 		}]
@@ -2198,31 +2287,19 @@
 			"status_id": 105,
 			"values": [0]
 		}, {
+			"status_id": 89,
+			"values": [12]
+		}, {
+			"setting_id": 173,
+			"ids": [2]
+		}, {
 			"setting_id": 2,
 			"ids": [1]
-		}, {
-			"setting_id": 3,
-			"ids": [8, 9, 10]
-		}, {
-			"setting_id": 121,
-			"ids": [0, 2, 4, 7, 8]
 		}],
 		"blacklist": [{
-			"setting_id": 135,
-			"opt_ids": [100]
-		}]
-	}, {
-		"activated_by": [{
-			"setting_id": 2,
-			"ids": [1]
-		}, {
 			"setting_id": 3,
-			"ids": [5, 6]
-		}, {
-			"setting_id": 121,
-			"ids": [4]
-		}],
-		"blacklist": []
+			"opt_ids": [0, 10, 13]
+		}]
 	}, {
 		"activated_by": [{
 			"status_id": 89,
@@ -2266,7 +2343,7 @@
 		}],
 		"blacklist": [{
 			"setting_id": 148,
-			"opt_ids": [0, 1]
+			"opt_ids": [0, 100]
 		}, {
 			"setting_id": 135,
 			"opt_ids": [0, 2, 3, 100]
@@ -2278,13 +2355,31 @@
 		}],
 		"blacklist": [{
 			"setting_id": 3,
-			"opt_ids": [0, 1, 2, 8, 9, 10, 13]
+			"opt_ids": [0, 1, 2, 13]
 		}, {
 			"setting_id": 135,
 			"opt_ids": [2]
 		}, {
 			"setting_id": 121,
 			"opt_ids": [3]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 85,
+			"values": [1]
+		}, {
+			"setting_id": 2,
+			"ids": [18]
+		}, {
+			"setting_id": 3,
+			"ids": [8, 9, 10]
+		}],
+		"blacklist": [{
+			"setting_id": 148,
+			"opt_ids": [0, 100]
+		}, {
+			"setting_id": 135,
+			"opt_ids": [0, 2, 3, 100]
 		}]
 	}, {
 		"activated_by": [{
@@ -2310,25 +2405,7 @@
 			"ids": [1, 2]
 		}, {
 			"setting_id": 121,
-			"ids": [3]
-		}],
-		"blacklist": [{
-			"setting_id": 135,
-			"opt_ids": [2]
-		}]
-	}, {
-		"activated_by": [{
-			"status_id": 105,
-			"values": [0]
-		}, {
-			"setting_id": 2,
-			"ids": [4]
-		}, {
-			"setting_id": 3,
-			"ids": [1, 2]
-		}, {
-			"setting_id": 121,
-			"ids": [0, 2, 4, 7, 8]
+			"ids": [0, 4, 8]
 		}],
 		"blacklist": [{
 			"setting_id": 135,
@@ -2348,6 +2425,9 @@
 		"blacklist": [{
 			"setting_id": 135,
 			"opt_ids": [2]
+		}, {
+			"setting_id": 121,
+			"opt_ids": [3]
 		}]
 	}, {
 		"activated_by": [{
@@ -2378,6 +2458,24 @@
 		}]
 	}, {
 		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"status_id": 89,
+			"values": [12]
+		}, {
+			"setting_id": 173,
+			"ids": [1]
+		}, {
+			"setting_id": 2,
+			"ids": [4]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 1, 2, 8, 9, 10, 13]
+		}]
+	}, {
+		"activated_by": [{
 			"status_id": 85,
 			"values": [1]
 		}, {
@@ -2389,7 +2487,7 @@
 		}],
 		"blacklist": [{
 			"setting_id": 148,
-			"opt_ids": [0, 1]
+			"opt_ids": [0, 100]
 		}, {
 			"setting_id": 135,
 			"opt_ids": [0, 2, 3, 100]
@@ -2422,6 +2520,24 @@
 		}],
 		"blacklist": [{
 			"setting_id": 3,
+			"opt_ids": [0, 1, 2, 13]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"status_id": 89,
+			"values": [12]
+		}, {
+			"setting_id": 173,
+			"ids": [1]
+		}, {
+			"setting_id": 2,
+			"ids": [6]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
 			"opt_ids": [0, 1, 2, 8, 9, 10, 13]
 		}]
 	}, {
@@ -2437,22 +2553,10 @@
 		}],
 		"blacklist": [{
 			"setting_id": 148,
-			"opt_ids": [0, 1]
+			"opt_ids": [0, 100]
 		}, {
 			"setting_id": 135,
 			"opt_ids": [0, 2, 3, 100]
-		}]
-	}, {
-		"activated_by": [{
-			"status_id": 105,
-			"values": [0]
-		}, {
-			"setting_id": 2,
-			"ids": [9]
-		}],
-		"blacklist": [{
-			"setting_id": 3,
-			"opt_ids": [10]
 		}]
 	}, {
 		"activated_by": [{
@@ -2484,25 +2588,7 @@
 			"ids": [1, 2, 8, 9, 10]
 		}, {
 			"setting_id": 121,
-			"ids": [3]
-		}],
-		"blacklist": [{
-			"setting_id": 135,
-			"opt_ids": [2]
-		}]
-	}, {
-		"activated_by": [{
-			"status_id": 105,
-			"values": [0]
-		}, {
-			"setting_id": 2,
-			"ids": [9]
-		}, {
-			"setting_id": 3,
-			"ids": [1, 2, 8, 9, 10]
-		}, {
-			"setting_id": 121,
-			"ids": [0, 2, 4, 7, 8]
+			"ids": [0, 4, 8]
 		}],
 		"blacklist": [{
 			"setting_id": 135,
@@ -2515,6 +2601,24 @@
 		}, {
 			"status_id": 89,
 			"values": [12]
+		}, {
+			"setting_id": 2,
+			"ids": [9]
+		}],
+		"blacklist": [{
+			"setting_id": 3,
+			"opt_ids": [0, 1, 2, 13]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"status_id": 89,
+			"values": [12]
+		}, {
+			"setting_id": 173,
+			"ids": [1]
 		}, {
 			"setting_id": 2,
 			"ids": [9]
@@ -2563,10 +2667,34 @@
 		}],
 		"blacklist": [{
 			"setting_id": 148,
-			"opt_ids": [0, 1]
+			"opt_ids": [0, 100]
 		}, {
 			"setting_id": 135,
 			"opt_ids": [0, 2, 3, 100]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [1]
+		}, {
+			"setting_id": 2,
+			"ids": [6]
+		}],
+		"blacklist": [{
+			"setting_id": 121,
+			"opt_ids": [4]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [1]
+		}, {
+			"setting_id": 2,
+			"ids": [4]
+		}],
+		"blacklist": [{
+			"setting_id": 121,
+			"opt_ids": [4]
 		}]
 	}, {
 		"activated_by": [{
@@ -2621,12 +2749,48 @@
 		}]
 	}, {
 		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"status_id": 89,
+			"values": [12]
+		}, {
+			"setting_id": 173,
+			"ids": [1]
+		}],
+		"blacklist": [{
+			"setting_id": 2,
+			"opt_ids": [18, 25]
+		}]
+	}, {
+		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
+			"status_id": 89,
+			"values": [12]
+		}, {
+			"setting_id": 173,
+			"ids": [2]
+		}],
+		"blacklist": [{
+			"setting_id": 121,
+			"opt_ids": [2, 3, 4, 7, 8]
+		}, {
+			"setting_id": 2,
+			"opt_ids": [4, 6, 9, 18, 25]
+		}, {
+			"setting_id": 135,
+			"opt_ids": [0, 2, 3, 100]
+		}]
+	}, {
+		"activated_by": [{
 			"status_id": 89,
 			"values": [13, 24, 16, 18, 19, 21, 20, 25, 26]
 		}],
 		"blacklist": [{
 			"setting_id": 148,
-			"opt_ids": [0, 1]
+			"opt_ids": [0, 100]
 		}, {
 			"setting_id": 135,
 			"opt_ids": [0, 2, 3, 100]
@@ -3309,18 +3473,6 @@
 	}, {
 		"activated_by": [{
 			"status_id": 89,
-			"values": [24]
-		}, {
-			"setting_id": 2,
-			"ids": [1, 18]
-		}],
-		"blacklist": [{
-			"setting_id": 155,
-			"opt_ids": [101]
-		}]
-	}, {
-		"activated_by": [{
-			"status_id": 89,
 			"values": [13, 24]
 		}, {
 			"setting_id": 2,
@@ -3359,6 +3511,9 @@
 		}]
 	}, {
 		"activated_by": [{
+			"status_id": 105,
+			"values": [0]
+		}, {
 			"status_id": 89,
 			"values": [24]
 		}],
@@ -3794,6 +3949,15 @@
 		}]
 	}, {
 		"activated_by": [{
+			"setting_id": 163,
+			"ids": [0]
+		}],
+		"blacklist": [{
+			"setting_id": 162,
+			"opt_ids": [0, 1]
+		}]
+	}, {
+		"activated_by": [{
 			"status_id": 105,
 			"values": [0]
 		}],
@@ -3814,7 +3978,7 @@
 			"opt_ids": [100]
 		}, {
 			"setting_id": 148,
-			"opt_ids": [0, 1]
+			"opt_ids": [0, 100]
 		}, {
 			"setting_id": 129,
 			"opt_ids": [107]
@@ -3859,16 +4023,16 @@
 			"opt_ids": [1, 100]
 		}, {
 			"setting_id": 129,
-			"opt_ids": [12, 17, 103]
+			"opt_ids": [1, 12, 17, 103]
 		}, {
 			"setting_id": 130,
-			"opt_ids": [12, 17, 103]
+			"opt_ids": [1, 12, 17, 103]
 		}, {
 			"setting_id": 131,
-			"opt_ids": [12, 17, 103]
+			"opt_ids": [1, 12, 17, 103]
 		}, {
 			"setting_id": 132,
-			"opt_ids": [12, 17, 103]
+			"opt_ids": [1, 12, 17, 103]
 		}]
 	}, {
 		"activated_by": [{
@@ -4229,6 +4393,9 @@
 		"key": "GPCAMERA_SET_CAMERA_CONTROL_STATUS",
 		"network_types": ["ble", "wifi", "usb"]
 	}, {
+		"key": "GPCAMERA_SET_WIRED_USB_CONTROL",
+		"network_types": ["wifi", "usb"]
+	}, {
 		"key": "GPCAMERA_OPENGOPRO_VERSION",
 		"network_types": ["ble", "wifi", "usb"]
 	}],
@@ -4311,12 +4478,6 @@
 		}, {
 			"group": "photo",
 			"fields": []
-		}, {
-			"group": "setup",
-			"fields": [{
-				"id": 40,
-				"name": "date_time"
-			}]
 		}, {
 			"group": "storage",
 			"fields": [{
@@ -4401,9 +4562,6 @@
 				"id": 45,
 				"name": "camera_locate_active"
 			}, {
-				"id": 57,
-				"name": "current_time_msec"
-			}, {
 				"id": 60,
 				"name": "next_poll_msec"
 			}, {
@@ -4478,6 +4636,9 @@
 			}, {
 				"id": 114,
 				"name": "camera_control_status"
+			}, {
+				"id": 116,
+				"name": "allow_control_over_usb"
 			}]
 		}, {
 			"group": "video",
@@ -4862,7 +5023,19 @@
 			"widget_type": "select",
 			"precedence": 1
 		}, {
+			"setting_id": 163,
+			"widget_type": "toggle",
+			"precedence": 1
+		}, {
+			"setting_id": 162,
+			"widget_type": "toggle",
+			"precedence": 1
+		}, {
 			"setting_id": 169,
+			"widget_type": "select",
+			"precedence": 1
+		}, {
+			"setting_id": 173,
 			"widget_type": "select",
 			"precedence": 1
 		}],
@@ -4930,13 +5103,13 @@
 	"info": {
 		"model_number": 57,
 		"model_name": "HERO10 Black",
-		"firmware_version": "H21.01.01.09.42",
+		"firmware_version": "H21.01.01.40.00",
 		"serial_number": "REDACTED",
 		"board_type": "0x05",
 		"ap_mac": "REDACTED",
 		"ap_ssid": "REDACTED",
 		"ap_has_default_credentials": "0",
-		"git_sha1": "6c8c852179842f410673905004a7cfb6702425e8",
+		"git_sha1": "3511165e3d4f0b7dae2e3a8a5d108645716dc8d5",
 		"capabilities": "16",
 		"lens_count": "1",
 		"update_required": "0",
