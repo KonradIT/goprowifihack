@@ -17,6 +17,9 @@ Start recording/taking a photo works (see: https://twitter.com/konrad_it/status/
 - Wide FOV: http://172.XX.XXX.51/gp/gpWebcam/SETTINGS?fov=0
 - Linear FOV: http://172.XX.XXX.51/gp/gpWebcam/SETTINGS?fov=4
 - Narrow FOV: http://172.XX.XXX.51/gp/gpWebcam/SETTINGS?fov=6
+- 1 Mbps Bitrate: http://172.XX.XXX.51/gp/gpWebcam/SETTINGS?bitrate=1000000
+- 2 Mbps Bitrate: http://172.XX.XXX.51/gp/gpWebcam/SETTINGS?bitrate=2000000
+- 5 Mbps Bitrate: http://172.XX.XXX.51/gp/gpWebcam/SETTINGS?bitrate=5000000
 
 ## Media browsing:
 
