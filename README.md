@@ -2,6 +2,10 @@
 
 **The unofficial API for GoPro cameras (The WiFi enabled models)**
 
+This repository won't be updated regularly, and users are encouraged to switch to [OpenGoPro](https://gopro.github.io/OpenGoPro)
+
+[Read why](https://medium.com/@konrad_it/sunsetting-my-unofficial-gopro-wireless-hacking-effort-a06a03c7fc1c)
+
 ## Choose the GoPro:
 
 -   [GoPro HERO2 w/ WiFi BacPac](https://github.com/KonradIT/goprowifihack/blob/master/HERO2/README.md)
@@ -15,6 +19,7 @@
 -   [GoPro MAX](https://github.com/KonradIT/goprowifihack/blob/master/MAX/README.md)
 -   [GoPro HERO9](https://github.com/KonradIT/goprowifihack/blob/master/HERO9/README.md)
 -   [GoPro HERO10](https://github.com/KonradIT/goprowifihack/blob/master/HERO10/README.md)
+-   [GoPro HERO11](https://github.com/KonradIT/goprowifihack/blob/master/HERO11/README.md)
 
 _A note on HERO8:_ For GoPro Connect (Webcam Mode), use Hero9 commands; For other commands, use Hero7 commands.
 
@@ -37,9 +42,11 @@ But... Now they offer BLE/WiFi API documentation, tutorials and examples over at
 
 ## This vs OpenGoPro
 
-This is an effort to document the **mobile app APIs** used by GoPro, internally called gpControl APIs or Smarty APIs. OpenGoPro is somewhat limited in what endpoints are available over WiFi. Fortunately they've kept the BLE part 100% identical to what we documented over here.
+This is an effort to document the **mobile app APIs** used by GoPro, internally called gpControl APIs or Smarty APIs. OpenGoPro V2 supports all commands over WiFi and USB, making this effort largely useless these days. Fortunately they've kept the BLE part 100% identical to what we documented over here.
 
-OpenGoPro only supports the Hero9 Black (at least officially - their BLE commands are compatible with older BLE-enabled cams given the proper characteristic). This repository covers nearly a decade of GoPro camera releases.
+This repository will just be updated to cover the gpControl APIs, if they change at all between future cameras, which might reveal new features and/or support endpoints not covered by OpenGoPro. Users are encouraged to switch to the OpenGoPro spec.
+
+OpenGoPro supports Hero9 Black, Hero10 and Hero11 (at least officially - their BLE commands are compatible with older BLE-enabled cams given the proper characteristic). This repository covers nearly a decade of GoPro camera releases.
 
 This repository will get updates only if the gpControl API is kept available, if the GoPro App ceases to use gpControl and switches to OpenGoPro, what's the point?
 
