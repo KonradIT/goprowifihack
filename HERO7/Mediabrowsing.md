@@ -41,7 +41,7 @@ This returns:
 	* n is the filename
 	* cre is the creation timestamp (Unix timestamp, i.e. number of seconds since January 1, 1970)
 	* mod is the modified timestamp (Unix timestamp, i.e. number of seconds since January 1, 1970)
-	* glrv ????
+	* glrv is the size of low-resolution preview video in bytes. The preview file has the same file name as the actual vide file, but with .LRV extension
 	* ls ???? (but always seems to be -1)
 	* s is the size (in bytes), e.g. 54447740 = 54,447,740 bytes = 51.9 MB 
 
